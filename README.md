@@ -27,8 +27,15 @@ This snapshot matches `takashammy/random-tests` branch `cursor/relationship-read
 
 | File | What it is |
 | --- | --- |
+| [docs/keep-0.1-handoff.md](docs/keep-0.1-handoff.md) | Compressed 0.1 product snapshot |
+| [docs/product-brief.md](docs/product-brief.md) | Locked product brief |
 | [docs/book-content-guidelines.md](docs/book-content-guidelines.md) | Quote → layman explanation; Eastern resonance; solo practices |
 | [docs/relationship-books-250.md](docs/relationship-books-250.md) | Relationship-only canon (250 titles; ship 1–30 first) |
+| [docs/DESIGN.md](docs/DESIGN.md) | Visual lock spec (Soft Uncanny × Luminary) |
+| [docs/soft-uncanny-luminary.md](docs/soft-uncanny-luminary.md) | Locked stills and chassis notes |
+| [docs/design-directions.md](docs/design-directions.md) | Parked ranking |
+| [docs/clay-sanctuary-variations.md](docs/clay-sanctuary-variations.md) | Parked Clay Sanctuary rooms |
+| [docs/new-mixes.md](docs/new-mixes.md) | Parked unused mixes |
 | [.cursorrules](.cursorrules) | Chinese editorial: 信、达、雅, two-step translate-then-polish |
 
 ## Layout
