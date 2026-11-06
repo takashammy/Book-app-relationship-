@@ -1,16 +1,46 @@
 # Book content guidelines
 
-Use this whenever writing or rewriting Keep / Luminary-style volumes. Pair with repo `.cursorrules` for Chinese (信、达、雅; two-step translate-then-polish; 简体书评 tone).
+Required whenever writing or rewriting Keep editorial. Pair with repo `.cursorrules` for Chinese (信、达、雅; two-step translate-then-polish; 简体书评 tone). Do not skip either file.
 
 ## Highlights and extra points
 
-Each summary point starts with a **quote or key point**, then an **easy layman explanation**.
+Each summary point is two jobs, in this order:
 
-1. **Lead:** a short quote from the book, or a crisp key claim. Shown once, as the concept line.
-2. **Explain:** everyday language — what it means in a kitchen, a text thread, a walk home. No jargon unless immediately unpacked. Do **not** restate or quote the lead. The lead already said the claim; the explanation only shows it happening.
-3. **Chinese:** translate the *explanation*. Do not invent a new argument in Chinese, and do not open by repeating the lead. Follow `.cursorrules`.
+1. **Lead** (`conceptEn`) — a short quote from the book, or a crisp key claim. Shown once.
+2. **Explain** (`plainEn` / `plainCn`) — what that claim looks like in a kitchen, a text thread, a walk home.
 
-English and Chinese should be the same idea, twice.
+English and Chinese should be the same idea, twice. Chinese translates the *explanation*, then follows `.cursorrules`. Do not invent a new argument in Chinese.
+
+### 15-year-old test
+
+The explanation must land for a bright 15-year-old. Everyday words. One picture they already know (a rewritten text, a silent phone, an unwashed pan). No jargon unless the next clause unpacks it. If they would still need the lead line to know what you mean, the explanation is not done.
+
+This is not baby talk and not a textbook paraphrase. It is the claim happening to someone.
+
+### Anti-doubling (locked)
+
+The lead already said the claim. The explanation must **not** say it again.
+
+Do not:
+
+- Quote or near-quote the lead as the first sentence.
+- Paraphrase the lead, then give the example (`The book means you and they have different jobs. Rewriting a text…`).
+- Open with `The book says / This book means / 这本书说 / 这本书是说` plus the claim.
+- Let Chinese open by repeating the lead, even if the English scene is clean.
+
+Do:
+
+- Start on the scene. Show the claim without naming it.
+- Keep only what a 15-year-old can see or do: the third “you there?”, the swallowed sentence at dinner, the pan that is not about the pan.
+
+| | Lead (once) | Explanation (scene only) |
+| --- | --- | --- |
+| Wrong | Using someone as a mirror is not love. | Using someone as a mirror is not love. If they only matter when they like your photo… |
+| Right | Using someone as a mirror is not love. | If they only matter when they like your photo, you are looking at your own reflection, not at them. |
+| Wrong | Your job is how you love. Their job is how they take it. | The book means you and they have different jobs. Rewriting a text three times… |
+| Right | Your job is how you love. Their job is how they take it. | Rewriting a text three times so they won’t get mad is you trying to run their feelings. |
+
+Strip-and-keep is not enough. After cutting a doubled opener, run the 15-year-old test and, for Chinese, the full `.cursorrules` two-step. A leftover clause is not a rewrite.
 
 ## Eastern resonance
 
