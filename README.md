@@ -10,7 +10,7 @@ Vanilla HTML / CSS / JS. State lives in `localStorage` under `keep.v1`. No build
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-Open [http://127.0.0.1:8765](http://127.0.0.1:8765). Hard-refresh after CSS/JS changes (cache-bust query is `?v=0.1.5`).
+Open [http://127.0.0.1:8765](http://127.0.0.1:8765). Hard-refresh after CSS/JS changes (cache-bust query is `?v=0.1.6`).
 
 ## What’s in 0.1
 

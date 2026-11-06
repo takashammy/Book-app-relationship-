@@ -6,9 +6,9 @@ Use this whenever writing or rewriting Keep / Luminary-style volumes. Pair with 
 
 Each summary point starts with a **quote or key point**, then an **easy layman explanation**.
 
-1. **Lead:** a short quote from the book, or a crisp key claim.
-2. **Explain:** everyday language — what it means in a kitchen, a text thread, a walk home. No jargon unless immediately unpacked.
-3. **Chinese:** translate the *explanation* (and a faithful version of the quote/key point). Do not invent a new argument in Chinese. Follow `.cursorrules`.
+1. **Lead:** a short quote from the book, or a crisp key claim. Shown once, as the concept line.
+2. **Explain:** everyday language — what it means in a kitchen, a text thread, a walk home. No jargon unless immediately unpacked. Do **not** restate or quote the lead. The lead already said the claim; the explanation only shows it happening.
+3. **Chinese:** translate the *explanation*. Do not invent a new argument in Chinese, and do not open by repeating the lead. Follow `.cursorrules`.
 
 English and Chinese should be the same idea, twice.
 
