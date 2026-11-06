@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1a1528" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta
+      name="description"
+      content="A reading sanctuary for relationship and intimacy books. Editorial, bilingual, solo practice — not a dating app, not therapy."
+    />
+    <title>Keep</title>
+    <meta name="version" content="0.1.5" />
+    <link rel="manifest" href="./manifest.json?v=0.1.5" />
+    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Noto+Serif+SC:wght@400;500&family=Noto+Serif+TC:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=0.1.5" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="field" aria-hidden="true"></div>
+      <canvas id="stipple" aria-hidden="true"></canvas>
+      <div class="vignette" aria-hidden="true"></div>
+      <div class="poster">
+        <div class="frame" aria-hidden="true"></div>
+        <span class="bleed-mark tl" aria-hidden="true"></span>
+        <span class="bleed-mark tr" aria-hidden="true"></span>
+        <span class="bleed-mark bl" aria-hidden="true"></span>
+        <span class="bleed-mark br" aria-hidden="true"></span>
+        <aside class="spine" id="spine"></aside>
+        <main class="content" id="content" tabindex="-1"></main>
+      </div>
+      <nav class="dock" id="dock" aria-label="Primary"></nav>
+    </div>
+    <script src="./books.js?v=0.1.5"></script>
+    <script src="./app.js?v=0.1.5"></script>
+  </body>
+</html>

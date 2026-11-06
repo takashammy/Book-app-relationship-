@@ -1,0 +1,20 @@
+{
+  "name": "Keep",
+  "short_name": "Keep",
+  "version": "0.1",
+  "description": "A reading sanctuary for relationship and intimacy books.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1a1528",
+  "theme_color": "#1a1528",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
