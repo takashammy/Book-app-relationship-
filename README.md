@@ -10,7 +10,7 @@ Vanilla HTML / CSS / JS. State lives in `localStorage` under `keep.v1`. No build
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-Open [http://127.0.0.1:8765](http://127.0.0.1:8765). Hard-refresh after CSS/JS changes (cache-bust query is `?v=0.1.5`).
+Open [http://127.0.0.1:8765](http://127.0.0.1:8765). Hard-refresh after CSS/JS changes (cache-bust query is `?v=0.1.10`).
 
 ## What’s in 0.1
 
@@ -29,14 +29,14 @@ This snapshot matches `takashammy/random-tests` branch `cursor/relationship-read
 | --- | --- |
 | [docs/keep-0.1-handoff.md](docs/keep-0.1-handoff.md) | Compressed 0.1 product snapshot |
 | [docs/product-brief.md](docs/product-brief.md) | Locked product brief |
-| [docs/book-content-guidelines.md](docs/book-content-guidelines.md) | Quote → layman explanation; Eastern resonance; solo practices |
+| [docs/book-content-guidelines.md](docs/book-content-guidelines.md) | Lead then layman explanation (15-year-old cutoff); anti-doubling; Eastern resonance; solo practices |
 | [docs/relationship-books-250.md](docs/relationship-books-250.md) | Relationship-only canon (250 titles; ship 1–30 first) |
 | [docs/DESIGN.md](docs/DESIGN.md) | Visual lock spec (Soft Uncanny × Luminary) |
 | [docs/soft-uncanny-luminary.md](docs/soft-uncanny-luminary.md) | Locked stills and chassis notes |
 | [docs/design-directions.md](docs/design-directions.md) | Parked ranking |
 | [docs/clay-sanctuary-variations.md](docs/clay-sanctuary-variations.md) | Parked Clay Sanctuary rooms |
 | [docs/new-mixes.md](docs/new-mixes.md) | Parked unused mixes |
-| [.cursorrules](.cursorrules) | Chinese editorial: 信、达、雅, two-step translate-then-polish |
+| [.cursorrules](.cursorrules) | Chinese editorial: 信、达、雅, two-step; must pair with the guidelines |
 
 ## Layout
 

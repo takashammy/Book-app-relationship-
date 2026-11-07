@@ -473,7 +473,7 @@
         <h3>${esc(h.titleEn)}</h3>
         <p class="concept">${esc(h.conceptEn)}</p>
         <p class="plain">${esc(h.plainEn)}</p>
-        ${bilingual ? `<p class="plain cn-only">${esc(cn(h.titleCn))} · ${esc(cn(h.plainCn))}</p>` : ""}
+        ${bilingual ? `<p class="plain cn-only">${esc(cn(h.plainCn))}</p>` : ""}
       </article>`
       )
       .join("");
@@ -978,7 +978,7 @@
     if (!location.hash) setHash("reader", STATE.bookId);
     applyHash();
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("./sw.js?v=0.1.5").catch(() => {});
+      navigator.serviceWorker.register("./sw.js?v=0.1.10").catch(() => {});
     }
   }
 
