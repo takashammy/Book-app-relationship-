@@ -20,10 +20,10 @@ window.BOOKS = [
     quoteCn: { tc: "「自由，就是被別人討厭。」", sc: "“自由，就是被别人讨厌。”" },
     leadEn: "Stop using their face to decide if you are okay.",
     leadCn: { tc: "別再用對方的臉色，來判斷自己好不好。", sc: "别再用对方的脸色，来判断自己好不好。" },
-    thesisEn: "The night goes wrong when you start managing their mood instead of sitting with them. What you say and do is yours. How they take it is not. Courage is staying near someone even if they might not like you today.",
+    thesisEn: "Freedom here is being willing to be disliked — so you stop using their face to decide if you are okay. You have your job: what you say and do. They have theirs: how they take it. Spend the night managing their mood, and you are babysitting, not sitting with them.",
     thesisCn: {
-      tc: "整晚都在察言觀色，人就沒真正坐在一起。你開口、你伸手，那是你的事。對方接不接得住，是對方的事。勇氣很樸素：今天未必討人喜歡，你也還在。",
-      sc: "整晚都在察言观色，人就没真正坐在一起。你开口、你伸手，那是你的事。对方接不接得住，是对方的事。勇气很朴素：今天未必讨人喜欢，你也还在。"
+      tc: "這裡的自由，是肯被人討厭——於是不再拿對方的臉色，來判斷自己好不好。你開口、你伸手，是你的事。對方接不接得住，是對方的事。整晚去管心情，就不是相處，是看管。",
+      sc: "这里的自由，是肯被人讨厌——于是不再拿对方的脸色，来判断自己好不好。你开口、你伸手，是你的事。对方接不接得住，是对方的事。整晚去管心情，就不是相处，是看管。"
     },
     highlights: [
       {
@@ -140,10 +140,10 @@ window.BOOKS = [
     quoteCn: { tc: "「愛是一種行動，不是等來的感覺。」", sc: "“爱是一种行动，不是等来的感觉。”" },
     leadEn: "Love is not winning someone. It is care you can practice, even alone.",
     leadCn: { tc: "愛不是把人追到手。愛是照料，一個人也能練。", sc: "爱不是把人追到手。爱是照料，一个人也能练。" },
-    thesisEn: "You can learn this the way you learn a craft: care, showing up, respect, actually knowing the person. Waiting to “feel it” is like waiting to feel like a pianist before you touch the keys. A washed cup still counts. You can be single and still practice.",
+    thesisEn: "Love is something you do, not a mood that has to arrive first. Care, showing up, respect, actually knowing the person — those are the work. Waiting to “feel it” is like waiting to feel like a pianist before you touch the keys. You can be single and still practice.",
     thesisCn: {
-      tc: "愛可以像一門手藝那樣學：關心、出現、尊重、真的去了解一個人。等「感覺來了」再愛，像等自己覺得像鋼琴家了才碰琴鍵。洗好一隻杯子，也算。沒有對象的晚上，也可以先練。",
-      sc: "爱可以像一门手艺那样学：关心、出现、尊重、真的去了解一个人。等“感觉来了”再爱，像等自己觉得像钢琴家了才碰琴键。洗好一只杯子，也算。没有对象的晚上，也可以先练。"
+      tc: "愛是做出來的，不是等來的心情。照顧、到場、尊重、真去認識那個人——這些才是功課。等「感覺來了」再愛，像等自己像鋼琴家了才肯碰琴鍵。單身時，也可以先練。",
+      sc: "爱是做出来的，不是等来的心情。照顾、到场、尊重、真去认识那个人——这些才是功课。等“感觉来了”再爱，像等自己像钢琴家了才肯碰琴键。单身时，也可以先练。"
     },
     highlights: [
       {
@@ -151,10 +151,10 @@ window.BOOKS = [
         titleEn: "ART",
         titleCn: { tc: "要練", sc: "要练" },
         conceptEn: "Love is a skill. Skills get better with practice, not with waiting.",
-        plainEn: "You do not wait to “feel like a cook” before you wash the rice. A washed cup can be the first lesson.",
+        plainEn: "You do not wait to feel like a pianist before you touch the keys. Washing a cup can be the first lesson, before the warm mood arrives.",
         plainCn: {
-          tc: "不會等自己「覺得像廚師了」才去淘米。洗好一隻杯子，已經是第一課。",
-          sc: "不会等自己“觉得像厨师了”才去淘米。洗好一只杯子，已经是第一课。"
+          tc: "不必等自己像鋼琴家了才碰琴鍵。先洗一隻杯子，也可以是第一課——溫熱的心情，可以後到。",
+          sc: "不必等自己像钢琴家了才碰琴键。先洗一只杯子，也可以是第一课——温热的心情，可以后到。"
         }
       },
       {
@@ -248,10 +248,10 @@ window.BOOKS = [
     quoteCn: { tc: "「誰都需要靠近一個對自己重要的人。」", sc: "“谁都需要靠近一个对自己重要的人。”" },
     leadEn: "Your pattern is what you do when it gets quiet. It is not a diagnosis of them.",
     leadCn: { tc: "你的模式，是屋子靜下來時你會做什麼。不是給對方貼的標籤。", sc: "你的模式，是屋子静下来时你会做什么。不是给对方贴的标签。" },
-    thesisEn: "Some people text more when they get scared. Some people go quiet and say they are busy. Both are ways of dealing with getting close — not proof you are crazy, or cold. Seeing which one you do is not a charge against the person you like.",
+    thesisEn: "Wanting to be near someone is how we are built, not a private defect. When it gets quiet, some people send more texts; some people go busy. Both are ways of handling closeness. Naming which one you do is not a diagnosis of them.",
     thesisCn: {
-      tc: "有人一害怕就連發消息。有人一靠近就說自己很忙。兩樣都是靠近來了以後的辦法，不能證明你有病，或你很冷。看清自己會做哪一種，不是給對方定罪。",
-      sc: "有人一害怕就连发消息。有人一靠近就说自己很忙。两样都是靠近来了以后的办法，不能证明你有病，或你很冷。看清自己会做哪一种，不是给对方定罪。"
+      tc: "想靠近人，是身子裡的設計，不是你一個人的毛病。一靜下來，有人連發消息，有人假裝很忙。兩種都是在處理親近。看清自己是哪一種，不是給對方下診斷。",
+      sc: "想靠近人，是身子里的设计，不是你一个人的毛病。一静下来，有人连发消息，有人假装很忙。两种都是在处理亲近。看清自己是哪一种，不是给对方下诊断。"
     },
     highlights: [
       {
@@ -365,10 +365,10 @@ window.BOOKS = [
     quoteCn: { tc: "「愛情受到威脅時，人最容易激動。」", sc: "“爱情受到威胁时，人最容易激动。”" },
     leadEn: "Under the fight is a simpler question: if I reach, will you turn around?",
     leadCn: { tc: "吵架底下有一句更簡單的：我伸手，你會不會轉過來？", sc: "吵架底下有一句更简单的：我伸手，你会不会转过来？" },
-    thesisEn: "Most fights are not about the dishes. Under the yelling is a quieter question: do I still matter to you? Anger is often a messy way of asking someone to come closer. You can write the softer sentence on paper and not send it.",
+    thesisEn: "When the bond feels threatened, the body goes loud. Most fights are not about the dishes. Under the yelling is: if I reach, will you turn around? Anger is often a messy way of asking someone to come closer. You can write the softer sentence on paper and not send it.",
     thesisCn: {
-      tc: "很多架，不是因為碗沒洗。喊叫底下有一句更輕的：我對你還重要嗎？生氣，常常是笨拙地請對方靠近。那句更軟的話，可以先寫在紙上，不必發出。",
-      sc: "很多架，不是因为碗没洗。喊叫底下有一句更轻的：我对你还重要吗？生气，常常是笨拙地请对方靠近。那句更软的话，可以先写在纸上，不必发出。"
+      tc: "關係一像要斷，身體就會很大聲。多數架不是為了那盤菜。喊聲底下是：我伸手，你回不回頭？生氣常常是笨拙地在叫人靠近。軟一點的那句，可以先寫在紙上，不發出。",
+      sc: "关系一像要断，身体就会很大声。多数架不是为了那盘菜。喊声底下是：我伸手，你回不回头？生气常常是笨拙地在叫人靠近。软一点的那句，可以先写在纸上，不发出。"
     },
     highlights: [
       {
@@ -470,10 +470,10 @@ window.BOOKS = [
     quoteCn: { tc: "差在你有沒有轉過去。", sc: "差在你有没有转过去。" },
     leadEn: "Couples who last are not luckier at fighting. They answer the small asks.",
     leadCn: { tc: "能長久的兩人，不是更會吵架，是小請求來了會答應。", sc: "能长久的两人，不是更会吵架，是小请求来了会答应。" },
-    thesisEn: "A sigh, a joke, “look at this” from the other room. Turn toward it, or skip it until the house goes cold. You can practice even alone. That includes a small ask you give yourself.",
+    thesisEn: "The difference is not luck at fighting. It is whether you turn toward the small ask: a sigh, a joke, “look at this” from the other room. Catch it, and the house stays warm. Skip it enough times, and the house goes cold. You can practice even alone — including a small ask you give yourself.",
     thesisCn: {
-      tc: "一聲嘆氣、一個笑話、隔壁一句「你看這個」。轉過去接，或一次次滑過去，直到屋子冷掉。一個人也能練。包括你對自己的一次小請求。",
-      sc: "一声叹气、一个笑话、隔壁一句“你看这个”。转过去接，或一次次滑过去，直到屋子冷掉。一个人也能练。包括你对自己的一次小请求。"
+      tc: "差別不在誰更會吵。在你有沒有轉向那個小小的招呼：一聲嘆息，一句笑話，隔壁喊你看一眼。接住，家裡還暖。略過太多次，家裡就冷了。一個人也能練——包括你給自己的那個招呼。",
+      sc: "差别不在谁更会吵。在你有没有转向那个小小的招呼：一声叹息，一句笑话，隔壁喊你看一眼。接住，家里还暖。略过太多次，家里就冷了。一个人也能练——包括你给自己的那个招呼。"
     },
     highlights: [
       {
@@ -481,8 +481,11 @@ window.BOOKS = [
         titleEn: "BIDS",
         titleCn: { tc: "小請求", sc: "小请求" },
         conceptEn: "A bid is any small ask to connect. Turning toward it is how pairs last.",
-        plainEn: "The meme lands while you are mid-scroll. You turn your chair, or you keep going.",
-        plainCn: { tc: "段子彈出來時，你正在滑手機。把椅子轉過去，或繼續滑。", sc: "段子弹出来时，你正在滑手机。把椅子转过去，或继续滑。" }
+        plainEn: "A meme, a sigh, “look at this” from the other room. You look up, or you keep scrolling. That tiny turn is how the house stays warm.",
+        plainCn: {
+          tc: "一條梗圖，一聲嘆息，隔壁喊你看一眼。你抬頭，或繼續滑。家裡暖不暖，常常就在這一轉。",
+          sc: "一条梗图，一声叹息，隔壁喊你看一眼。你抬头，或继续滑。家里暖不暖，常常就在这一转。"
+        }
       },
       {
         num: "02",
@@ -584,10 +587,10 @@ window.BOOKS = [
     quoteCn: { tc: "「愛喜歡把你看完；欲望需要一點看不完。」", sc: "“爱喜欢把你看完；欲望需要一点看不完。”" },
     leadEn: "Feeling safe and feeling into someone often pull opposite ways. Both can be true.",
     leadCn: { tc: "安心，和想靠近對方，常常是反方向。兩樣可以同時有。", sc: "安心，和想靠近对方，常常是反方向。两样可以同时有。" },
-    thesisEn: "Long love wants closeness: same sofa, same toothbrush, no secrets. Wanting someone often needs a little air: a closed door, a walk alone, seeing them as a person you do not fully own. If the house is only safe, the spark can go quiet. You can practice space without dumping anyone.",
+    thesisEn: "Love wants to know everything; wanting someone often needs a little not-knowing. Same sofa, same toothbrush, no secrets — that is closeness. A closed door, a walk alone, seeing them as a person you do not own — that is air. If the house is only safe, the spark can go quiet.",
     thesisCn: {
-      tc: "長久的愛想靠近：同一張沙發，同一支牙刷，沒有秘密。想對方，卻常常需要一點空隙：關上門，自己走一圈，把對方看成你並不擁有的人。屋子裡只有安全，火就容易熄。留空隙，不是把人甩掉。",
-      sc: "长久的爱想靠近：同一张沙发，同一支牙刷，没有秘密。想对方，却常常需要一点空隙：关上门，自己走一圈，把对方看成你并不拥有的人。屋子里只有安全，火就容易熄。留空隙，不是把人甩掉。"
+      tc: "愛想把人看完；想要一個人，卻常常需要一點看不完。同一張沙發、同一支牙刷、沒有秘密——那是近。關上門、自己走一段、把對方看成你管不住的人——那是空隙。家裡若只剩安全，火花會靜下去。",
+      sc: "爱想把人看完；想要一个人，却常常需要一点看不完。同一张沙发、同一支牙刷、没有秘密——那是近。关上门、自己走一段、把对方看成你管不住的人——那是空隙。家里若只剩安全，火花会静下去。"
     },
     highlights: [
       {
@@ -695,10 +698,10 @@ window.BOOKS = [
     quoteCn: { tc: "「舒不舒服，才是標準。」", sc: "“舒不舒服，才是标准。”" },
     leadEn: "Your body has a go pedal and a brake. Context presses both.",
     leadCn: { tc: "身體有油門，也有剎車。環境會去踩這兩樣。", sc: "身体有油门，也有刹车。环境会去踩这两样。" },
-    thesisEn: "There is no one normal wanting. Some bodies go fast; some need the brake off first — less stress, a kinder room, a sense of being safe. Feeling nothing tonight does not mean you are broken; it often means the brake is still on. You can notice that alone.",
+    thesisEn: "Pleasure is the measure — not how “normal” your wanting looks. Some bodies go fast. Some need the brake off first: less stress, a kinder room, a sense of being safe. Feeling nothing tonight does not mean you are broken; it often means the brake is still on.",
     thesisCn: {
-      tc: "沒有一種「正常」的想要。有的身體油門快；有的要先松剎車——少一點壓力，房間和氣一點，覺得安全。今晚沒感覺，不代表你壞了，常常只是剎車還踩著。一個人也能先看見。",
-      sc: "没有一种“正常”的想要。有的身体油门快；有的要先松刹车——少一点压力，房间和气一点，觉得安全。今晚没感觉，不代表你坏了，常常只是刹车还踩着。一个人也能先看见。"
+      tc: "標準是舒不舒服，不是你的想要看起來正不正常。有的身體油門快。有的要先松剎車：少一點壓力，房間和氣一點，覺得安全。今晚沒感覺，不代表你壞了，常常只是剎車還踩著。",
+      sc: "标准是舒不舒服，不是你的想要看起来正不正常。有的身体油门快。有的要先松刹车：少一点压力，房间和气一点，觉得安全。今晚没感觉，不代表你坏了，常常只是刹车还踩着。"
     },
     highlights: [
       {
@@ -806,10 +809,10 @@ window.BOOKS = [
     quoteCn: { tc: "「別人做了什麼，可能惹動你，卻不是根。」", sc: "“别人做了什么，可能惹动你，却不是根。”" },
     leadEn: "Blame is a messy way of saying: I need something.",
     leadCn: { tc: "責怪，常常是說不清楚的「我需要」。", sc: "责怪，常常是说不清楚的“我需要”。" },
-    thesisEn: "Four steps: what you saw, what you feel, what you need, a small ask. Not a verdict on their personality. “You never care” is heavy; “I saw no text / I felt lonely / I need to know you’re okay / can you send one line?” is lighter. You can write the four lines without sending them.",
+    thesisEn: "What they did may set you off. It is not the whole cause of the feeling. The feeling is pointing at a need. Four steps keep it light: what you saw, what you feel, what you need, a small ask. “You never care” is a verdict. “I saw no text. I felt lonely. Can you send one line?” is doable. You can write the four lines without sending them.",
     thesisCn: {
-      tc: "四步：你看見什麼，你有什麼感覺，你需要什麼，你請求什麼。不是給對方定性。「你從不在乎」很重，「沒消息、我孤單、想知道你還好、能回我一句嗎」就輕一點。四句可以先寫，不必發出。",
-      sc: "四步：你看见什么，你有什么感觉，你需要什么，你请求什么。不是给对方定性。“你从不在乎”很重，“没消息、我孤单、想知道你还好、能回我一句吗”就轻一点。四句可以先写，不必发出。"
+      tc: "對方做了什麼，可能惹動你，卻不是難受的全部根由。難受在指向一種需要。四步會輕一些：看見什麼，有什麼感覺，需要什麼，一個小請求。「你從不在乎」是判決。「我沒等到消息。我孤單。你能回一行嗎？」才做得了。四行可以先寫，不發出。",
+      sc: "对方做了什么，可能惹动你，却不是难受的全部根由。难受在指向一种需要。四步会轻一些：看见什么，有什么感觉，需要什么，一个小请求。“你从不在乎”是判决。“我没等到消息。我孤单。你能回一行吗？”才做得了。四行可以先写，不发出。"
     },
     highlights: [
       {
@@ -914,10 +917,10 @@ window.BOOKS = [
     quoteCn: { tc: "「愛是做出來的。」", sc: "“爱是做出来的。”" },
     leadEn: "If it controls, lies, or humiliates, it is not love — even if it feels hot.",
     leadCn: { tc: "若控制、說謊、羞辱，那就不是愛——就算感覺很熱。", sc: "若控制、说谎、羞辱，那就不是爱——就算感觉很热。" },
-    thesisEn: "Love is not a mystery feeling you wait for. It is care, honesty, respect, trust, and responsibility — things you do. Romance and power can look like love and still hurt. You can check one action today, even if no one is watching.",
+    thesisEn: "Love is as love does. It is care, honesty, respect, trust, and responsibility — things you can see. A hot feeling can still control, lie, or humiliate. Check the action, not the speech. You can check one action today, even if no one is watching.",
     thesisCn: {
-      tc: "愛不是坐等一種說不清的感覺。愛是一組行動：照顧、誠實、尊重、信任、負責。浪漫和權力看起來像愛，也能傷人。今天可以檢查一件你做了的事，就算沒人看。",
-      sc: "爱不是坐等一种说不清的感觉。爱是一组行动：照顾、诚实、尊重、信任、负责。浪漫和权力看起来像爱，也能伤人。今天可以检查一件你做了的事，就算没人看。"
+      tc: "愛是做出來的。是照顧、誠實、尊重、信任、擔責——看得見的事。再熱的感覺，也可以是控制、說謊、羞辱。看行動，不看那句「我愛你」。今天就可以核對一件，不必有人圍觀。",
+      sc: "爱是做出来的。是照顾、诚实、尊重、信任、担责——看得见的事。再热的感觉，也可以是控制、说谎、羞辱。看行动，不看那句“我爱你”。今天就可以核对一件，不必有人围观。"
     },
     highlights: [
       {
@@ -1025,10 +1028,10 @@ window.BOOKS = [
     quoteCn: { tc: "「我們在關係裡出生，在關係裡受傷，也能在關係裡修好。」", sc: "“我们在关系里出生，在关系里受伤，也能在关系里修好。”" },
     leadEn: "You often pick someone who feels like home — including the old ache.",
     leadCn: { tc: "你常會選一個像家的人——連舊的疼也一起像。", sc: "你常会选一个像家的人——连旧的疼也一起像。" },
-    thesisEn: "You hope this time the story ends better, with someone who feels oddly familiar. Fights often replay a childhood scene in adult clothes. You can notice the old pattern on paper. You don’t have to make this person into your parent.",
+    thesisEn: "We are hurt in relationship, and we pick again hoping this time the story ends better. The person who feels like home often carries an old ache. Fights replay a childhood scene in adult clothes. You can notice the old pattern on paper. You don’t have to make this person into your parent.",
     thesisCn: {
-      tc: "總盼這次有更好的結尾，碰上的人卻常帶著家裡的氣味。吵架，常常是童年那一幕穿上大人衣服再演。你可以先在紙上看見舊劇本。你不必把對方變成父母。",
-      sc: "总盼这次有更好的结尾，碰上的人却常带着家里的气味。吵架，常常是童年那一幕穿上大人衣服再演。你可以先在纸上看见旧剧本。你不必把对方变成父母。"
+      tc: "人在關係裡受傷，也會再選一次，盼著這次結局不同。那個像家的人，身上常常帶著舊疼。吵架是童年的一場戲，換了成人的衣服。舊劇本可以寫在紙上。不必把眼前這個人，做成你的父母。",
+      sc: "人在关系里受伤，也会再选一次，盼着这次结局不同。那个像家的人，身上常常带着旧疼。吵架是童年的一场戏，换了成人的衣服。旧剧本可以写在纸上。不必把眼前这个人，做成你的父母。"
     },
     highlights: [
       {
@@ -1136,10 +1139,10 @@ window.BOOKS = [
     quoteCn: { tc: "「了解，是愛的另一個名字。」", sc: "“了解，是爱的另一个名字。”" },
     leadEn: "Look closely, then stay. That is the training.",
     leadCn: { tc: "看清楚，然後待著。愛是這一練。", sc: "看清楚，然后待着。爱是这一练。" },
-    thesisEn: "Love is not a mood that shows up on its own. Look at someone — or yourself — until you understand a little more, then don’t run. Kindness, being glad for them, leaving them room: all of that counts. Three breaths tonight is enough; no shrine required.",
+    thesisEn: "Understanding is love’s other name. Look at someone — or yourself — until you understand a little more, then stay. Kindness, being glad for them, leaving them room: all of that counts. Three breaths tonight is enough. No shrine required.",
     thesisCn: {
-      tc: "愛不是等來的心情。把人看清楚一點——也可以是自己——然後不要跑。善意、替對方高興、給人留空，都算這一練。今晚三次呼吸就夠，不必設神壇。",
-      sc: "爱不是等来的心情。把人看清楚一点——也可以是自己——然后不要跑。善意、替对方高兴、给人留空，都算这一练。今晚三次呼吸就够，不必设神坛。"
+      tc: "了解，是愛的另一個名字。看一個人——或看自己——直到多懂一點，然後留下。善意、為他們高興、給人留空：都算。今晚三次呼吸就夠。不必設神龕。",
+      sc: "了解，是爱的另一个名字。看一个人——或看自己——直到多懂一点，然后留下。善意、为他们高兴、给人留空：都算。今晚三次呼吸就够。不必设神龛。"
     },
     highlights: [
       {
@@ -1250,10 +1253,10 @@ window.BOOKS = [
     quoteCn: { tc: "「生氣是信號，值得聽一聽。」", sc: "“生气是信号，值得听一听。”" },
     leadEn: "Anger is information. The dance is what you do next.",
     leadCn: { tc: "生氣是信號。接下來的舞步，才是你的事。", sc: "生气是信号。接下来的舞步，才是你的事。" },
-    thesisEn: "Anger is not a personality flaw. It flags a line crossed, or a yes you didn’t mean. People taught to be nice often swallow it, then explode — or keep packing the bag while the other stays light. You cannot change their step; you can change yours, starting on paper.",
+    thesisEn: "Anger is a signal, not a personality. It flags a line crossed, or a yes you didn’t mean. People taught to be nice often swallow it, then explode — or keep packing the bag while the other stays light. You cannot change their step. You can change yours, starting on paper.",
     thesisCn: {
-      tc: "生氣不是性格缺陷。生氣是信號：有線越過了，或那句「好」不是真心的。從小聽著「要乖」長大的人，常常先忍再爆；或者自己把包收拾完，讓對方一直輕。對方的步你改不了，只能改自己的——先寫在紙上。",
-      sc: "生气不是性格缺陷。生气是信号：有线越过了，或那句“好”不是真心的。从小听着“要乖”长大的人，常常先忍再爆；或者自己把包收拾完，让对方一直轻。对方的步你改不了，只能改自己的——先写在纸上。"
+      tc: "生氣是信號，不是性格。它標出越界，或一次你並不想答應的答應。被教成要乖的人，常常先咽下去，再爆發——或一直替人收拾，讓對方一直輕。你改不了對方的步子。只能改自己的，從紙上開始。",
+      sc: "生气是信号，不是性格。它标出越界，或一次你并不想答应的答应。被教成要乖的人，常常先咽下去，再爆发——或一直替人收拾，让对方一直轻。你改不了对方的步子。只能改自己的，从纸上开始。"
     },
     highlights: [
       {
@@ -1361,10 +1364,10 @@ window.BOOKS = [
     quoteCn: { tc: "「我們是誰、會變成誰，有一部分取決於我們愛誰。」", sc: "“我们是谁、会变成谁，有一部分取决于我们爱谁。”" },
     leadEn: "Your body borrows calm — or panic — from the people you stay near.",
     leadCn: { tc: "你的身體會向身邊的人借平靜，也會借慌。", sc: "你的身体会向身边的人借平静，也会借慌。" },
-    thesisEn: "Love is not only a story you tell yourself. Sit near someone long enough and sleep, mood, even the heart’s pace start to match. Some people leave you steadier; some leave you jumpy. After one message, alone, you can already tell which.",
+    thesisEn: "Who you stay near changes who you become. Sit close long enough and sleep, mood, even the heart’s pace start to match. Some people leave you steadier; some leave you jumpy. After one message, alone, you can already tell which.",
     thesisCn: {
-      tc: "愛不只是腦子裡的故事。人一靠近，睡、心情、心跳都會跟著走。有的人讓你穩，有的人讓你跳。一條消息之後，一個人也能察覺是哪一種。",
-      sc: "爱不只是脑子里的故事。人一靠近，睡、心情、心跳都会跟着走。有的人让你稳，有的人让你跳。一条消息之后，一个人也能察觉是哪一种。"
+      tc: "你靠近誰，你會變成誰，也在其中。坐得夠近，睡眠、心情、心跳都會跟著走。有人讓你穩下來，有人讓你發緊。一條消息之後，一個人也能先分清。",
+      sc: "你靠近谁，你会变成谁，也在其中。坐得够近，睡眠、心情、心跳都会跟着走。有人让你稳下来，有人让你发紧。一条消息之后，一个人也能先分清。"
     },
     highlights: [
       {
@@ -1481,10 +1484,10 @@ window.BOOKS = [
     quoteCn: { tc: "「靠近的時候，你還得是你。」", sc: "“靠近的时候，你还得是你。”" },
     leadEn: "Wanting lasts when two people stay two people.",
     leadCn: { tc: "兩個人還是兩個人，想要才留得住。", sc: "两个人还是两个人，想要才留得住。" },
-    thesisEn: "Melting into each other feels romantic, and often kills both desire and respect. Stay yourself while you stay close. Have a preference, sit with their disappointment, don’t use them as the only proof you are okay. A small choice tonight is enough — even alone.",
+    thesisEn: "You have to hold onto yourself. Melting into each other feels romantic, and often kills both desire and respect. Stay yourself while you stay close: have a preference, sit with their disappointment, don’t use them as the only proof you are okay. A small choice tonight is enough — even alone.",
     thesisCn: {
-      tc: "融成一個人很浪漫，卻常常把想要和尊重一起融掉。靠近時，人還得是你。有自己的喜歡，受得住對方失望，也不把對方當成「我還行」的唯一證據。今晚一個小選擇就能練，一個人也行。",
-      sc: "融成一个人很浪漫，却常常把想要和尊重一起融掉。靠近时，人还得是你。有自己的喜欢，受得住对方失望，也不把对方当成“我还行”的唯一证据。今晚一个小选择就能练，一个人也行。"
+      tc: "靠近的時候，你還得是你。融成一個人很浪漫，卻常常把想要和尊重一起融掉。近，仍是兩個人：有自己的偏好，扛得住對方失望，不拿對方當自己還好的唯一證據。今晚一個小選擇就夠——一個人也能做。",
+      sc: "靠近的时候，你还得是你。融成一个人很浪漫，却常常把想要和尊重一起融掉。近，仍是两个人：有自己的偏好，扛得住对方失望，不拿对方当自己还好的唯一证据。今晚一个小选择就够——一个人也能做。"
     },
     highlights: [
       {
@@ -1595,10 +1598,10 @@ window.BOOKS = [
     quoteCn: { tc: "「從不成熟的人那裡，拿不到成熟的回應。」", sc: "“从不成熟的人那里，拿不到成熟的回应。”" },
     leadEn: "If a parent could not meet you, you may still be waiting in adult love.",
     leadCn: { tc: "若父母當年接不住你，你可能還在成人的愛裡等。", sc: "若父母当年接不住你，你可能还在成人的爱里等。" },
-    thesisEn: "Some parents cannot handle feelings — theirs or yours. Kids become extra good, extra useful, or extra invisible, then hunt for a parent inside a partner. You cannot make that parent mature. You can stop the hunt long enough to hear what you need — a journal is enough to start.",
+    thesisEn: "You cannot get a mature response from someone who cannot handle feelings — theirs or yours. Kids then become extra good, extra useful, or extra invisible, and later hunt for a parent inside a partner. You cannot make that parent mature. You can stop the hunt long enough to hear what you need.",
     thesisCn: {
-      tc: "有的父母接不住感覺——自己的，也接不住你的。孩子就練成特別乖、特別有用，或把自己藏起來；長大了，還在伴侶身上找父母。你沒辦法讓那個人成熟。先停下這場尋找，聽見自己到底要什麼——日記就夠開始。",
-      sc: "有的父母接不住感觉——自己的，也接不住你的。孩子就练成特别乖、特别有用，或把自己藏起来；长大了，还在伴侣身上找父母。你没办法让那个人成熟。先停下这场寻找，听见自己到底要什么——日记就够开始。"
+      tc: "從不成熟的人那裡，拿不到成熟的回應——他們撐不住自己的感覺，也撐不住你的。孩子於是特別乖、特別有用、特別看不見，長大了還在伴侶裡找父母。你沒法讓那個人成熟。只能先停下尋找，聽見自己到底要什麼。",
+      sc: "从不成熟的人那里，拿不到成熟的回应——他们撑不住自己的感觉，也撑不住你的。孩子于是特别乖、特别有用、特别看不见，长大了还在伴侣里找父母。你没法让那个人成熟。只能先停下寻找，听见自己到底要什么。"
     },
     highlights: [
       {
@@ -1712,10 +1715,10 @@ window.BOOKS = [
     quoteCn: { tc: "「真正的問題，是怕自己不夠好。」", sc: "“真正的问题，是怕自己不够好。”" },
     leadEn: "A lot of “relationship problems” are fear wearing a partner’s face.",
     leadCn: { tc: "很多「感情問題」，其實是害怕，戴了對方的臉。", sc: "很多“感情问题”，其实是害怕，戴了对方的脸。" },
-    thesisEn: "We learn early to hunt for approval and to reject ourselves — then we call that hunt love. Jealousy, control, and endless proving often start as fear of not being enough. The partner becomes a judge we hired. See the fear as yours, not as their verdict.",
+    thesisEn: "The real problem is the fear of not being good enough. We learn early to hunt for approval and to reject ourselves — then we call that hunt love. Jealousy, control, and endless proving often start there. The partner becomes a judge we hired. See the fear as yours, not as their verdict.",
     thesisCn: {
-      tc: "很小我們就學會討好，也學會嫌棄自己——然後把這場追趕叫做愛。妒忌、控制、一直證明自己，底下常常是：我怕我不夠。對方變成我們僱來的法官。這份怕是自己的，不是對方的判決。",
-      sc: "很小我们就学会讨好，也学会嫌弃自己——然后把这场追赶叫做爱。妒忌、控制、一直证明自己，底下常常是：我怕我不够。对方变成我们雇来的法官。这份怕是自己的，不是对方的判决。"
+      tc: "真正的問題，是怕自己不夠好。很早就學會討認可、厭自己——再把這場追逐叫做愛。妒忌、控制、沒完的證明，常常從這裡起。對方成了我們僱來的判官。看見這是自己的怕，不是對方的判決。",
+      sc: "真正的问题，是怕自己不够好。很早就学会讨认可、厌自己——再把这场追逐叫做爱。妒忌、控制、没完的证明，常常从这里起。对方成了我们雇来的判官。看见这是自己的怕，不是对方的判决。"
     },
     highlights: [
       {
@@ -1826,10 +1829,10 @@ window.BOOKS = [
     quoteCn: { tc: "「別嚇到那隻動物。」", sc: "“别吓到那只动物。”" },
     leadEn: "Two people can make a small safe country. Being right is not the flag.",
     leadCn: { tc: "兩個人可以做一個小小的安全國。正確不是國旗。", sc: "两个人可以做一个小小的安全国。正确不是国旗。" },
-    thesisEn: "Your body is an animal that checks: am I safe with you? Couples last when they protect that safety on purpose — answering, coming back, not using threat as a tool. Winning the argument can still lose the night. Two people are a small country, not a courtroom.",
+    thesisEn: "Never scare the animal in the other body. It is checking: am I safe with you? Couples last when they protect that safety on purpose — answering, coming back, not using threat as a tool. Winning the argument can still lose the night. Two people are a small country, not a courtroom.",
     thesisCn: {
-      tc: "身體像動物，會先問：跟你在一起安不安全？能過得久的兩人，會故意護著這份安全：有回音，會回來，不拿嚇唬當工具。辯贏了，晚上仍可能輸。兩人是一個小國，不是法庭。",
-      sc: "身体像动物，会先问：跟你在一起安不安全？能过得久的两人，会故意护着这份安全：有回音，会回来，不拿吓唬当工具。辩赢了，晚上仍可能输。两人是一个小国，不是法庭。"
+      tc: "別嚇到對方那隻動物。它在問：跟你在一起，我安不安全？長久的一對，是故意護住這份安全——回應、回來，不用威脅當工具。贏了理，仍可能輸掉這一夜。兩個人是一個小國，不是法庭。",
+      sc: "别吓到对方那只动物。它在问：跟你在一起，我安不安全？长久的一对，是故意护住这份安全——回应、回来，不用威胁当工具。赢了理，仍可能输掉这一夜。两个人是一个小国，不是法庭。"
     },
     highlights: [
       {
@@ -1940,10 +1943,10 @@ window.BOOKS = [
     quoteCn: { tc: "「外遇常常不是只要一個新人，是想要一個新的自己。」", sc: "“外遇常常不是只要一个新人，是想要一个新的自己。”" },
     leadEn: "Betrayal hurts. It also has a plot. Both can be true.",
     leadCn: { tc: "背叛很疼。裡頭也有情節。兩樣可以同時真。", sc: "背叛很疼。里头也有情节。两样可以同时真。" },
-    thesisEn: "An affair is not only a moral stamp: bad person, good person. It is also a story about deadness, hunger, and a self that felt gone. Naming the story is not the same as saying it was okay. Pain and meaning can sit in the same room.",
+    thesisEn: "An affair is often less about a new person than a new self. It is not only a moral stamp: bad person, good person. It is also a story about deadness, hunger, and a self that felt gone. Naming the story is not the same as saying it was okay. Pain and meaning can sit in the same room.",
     thesisCn: {
-      tc: "外遇不只是一枚章：壞人、好人。裡頭還有情節——麻木、飢餓、一個自覺沒了的人。說出情節，不等於說這件事可以。疼和緣由可以坐在同一間房。",
-      sc: "外遇不只是一枚章：坏人、好人。里头还有情节——麻木、饥饿、一个自觉没了的人。说出情节，不等于说这件事可以。疼和缘由可以坐在同一间房。"
+      tc: "外遇常常不是只要一個新人，是想要一個新的自己。不只是善惡蓋章。也是關於死寂、飢餓、和一個覺得自己消失了的人。叫出這個故事，不等於說這件事可以。疼和意義，可以坐在同一間屋裡。",
+      sc: "外遇常常不是只要一个新人，是想要一个新的自己。不只是善恶盖章。也是关于死寂、饥饿、和一个觉得自己消失了的人。叫出这个故事，不等于说这件事可以。疼和意义，可以坐在同一间屋里。"
     },
     highlights: [
       {
@@ -2048,10 +2051,10 @@ window.BOOKS = [
     quoteCn: { tc: "「愛不是蛋糕上那層糖霜，是活命的本事。」", sc: "“爱不是蛋糕上那层糖霜，是活命的本事。”" },
     leadEn: "Missing them can feel like falling. That is the bond, not drama.",
     leadCn: { tc: "想對方想得像往下掉。那是聯結，不是你小題大作。", sc: "想对方想得像往下掉。那是联结，不是你小题大作。" },
-    thesisEn: "Missing them can feel like falling. Your body keeps track of whether they are reachable — a reply, a door, a voice. Panic, protest, and shutting down are not immaturity. That is what a mammal does when the rope flickers.",
+    thesisEn: "Love is not icing. It is a survival bond: your body keeps track of whether they are reachable. Missing them can feel like falling. Panic, protest, and shutting down are not immaturity. That is what a mammal does when the rope flickers.",
     thesisCn: {
-      tc: "想對方想得像往下掉。身體在盯：這個人還夠不夠得到——一條回復、一扇門、一個聲音。驚慌、抗議、關掉自己，不是不成熟。繩子一閃，哺乳動物就會這樣。",
-      sc: "想对方想得像往下掉。身体在盯：这个人还够不够得到——一条回复、一扇门、一个声音。惊慌、抗议、关掉自己，不是不成熟。绳子一闪，哺乳动物就会这样。"
+      tc: "愛不是糖霜。是活命的紐帶：身體在追蹤對方夠不夠得著。想他們，可以像在往下掉。驚慌、抗議、關掉自己，不是不成熟。繩子一閃，哺乳動物就會這樣。",
+      sc: "爱不是糖霜。是活命的纽带：身体在追踪对方够不够得着。想他们，可以像在往下掉。惊慌、抗议、关掉自己，不是不成熟。绳子一闪，哺乳动物就会这样。"
     },
     highlights: [
       {
@@ -2159,10 +2162,10 @@ window.BOOKS = [
     quoteCn: { tc: "「我們叫愛的那件事，其實要四個名字。」", sc: "“我们叫爱的那件事，其实要四个名字。”" },
     leadEn: "Affection, friendship, romance, and charity are not the same job.",
     leadCn: { tc: "親、友、戀、願對方好——不是同一份工。", sc: "亲、友、恋、愿对方好——不是同一份工。" },
-    thesisEn: "Love is not one job. There is the warm habit of family, the side-by-side of friends, the face-to-face of lovers, and the will to want someone’s good. Trouble starts when we demand one kind do all four. A Tuesday night often needs company, not a speech.",
+    thesisEn: "We need four names, not one. There is the warm habit of family, the side-by-side of friends, the face-to-face of lovers, and the will to want someone’s good. Trouble starts when we demand one kind do all four. A Tuesday night often needs company, not a speech.",
     thesisCn: {
-      tc: "愛不是一份工。有家常的親，有並肩的友，有面對面的戀，還有願對方好的那種心意。麻煩常常來自：要一種愛幹完四份工。周二晚上要的，往往是人陪著，不是一篇演講。",
-      sc: "爱不是一份工。有家常的亲，有并肩的友，有面对面的恋，还有愿对方好的那种心意。麻烦常常来自：要一种爱干完四份工。周二晚上要的，往往是人陪着，不是一篇演讲。"
+      tc: "愛這件事，要四個名字，不是一個。有家裡那種溫熱的習慣，有朋友並肩，有情人面對面，也有願意對方好。麻煩常常是：逼一種愛做完四種的工。周二晚上要的，往往是陪伴，不是一篇演講。",
+      sc: "爱这件事，要四个名字，不是一个。有家里那种温热的习惯，有朋友并肩，有情人面对面，也有愿意对方好。麻烦常常是：逼一种爱做完四种的工。周二晚上要的，往往是陪伴，不是一篇演讲。"
     },
     highlights: [
       {
@@ -2270,10 +2273,10 @@ window.BOOKS = [
     quoteCn: { tc: "「把靈魂和身體拆成兩層，是我們自己吵出來的。」", sc: "“把灵魂和身体拆成两层，是我们自己吵出来的。”" },
     leadEn: "Your body is not a problem your mind has to manage.",
     leadCn: { tc: "身體不是腦子要去管教的麻煩。", sc: "身体不是脑子要去管教的麻烦。" },
-    thesisEn: "We often treat the mind as the boss and the body as trouble. Then wanting someone feels dirty, or like a show, or like proof. You are one creature. Wanting, walking, and washing a cup belong to the same life.",
+    thesisEn: "The split between spirit and body is a quarrel we invented. Treat the mind as boss and the body as trouble, and wanting someone starts to feel dirty, or like a show, or like proof. You are one creature. Wanting, walking, and washing a cup belong to the same life.",
     thesisCn: {
-      tc: "人常把腦子當成上司，把身體當成麻煩。想靠近就變成髒事，或變成表演，或拿來當證據。你是一隻完整的動物。想要、走路、洗杯子，同屬一條命。",
-      sc: "人常把脑子当成上司，把身体当成麻烦。想靠近就变成脏事，或变成表演，或拿来当证据。你是一只完整的动物。想要、走路、洗杯子，同属一条命。"
+      tc: "把靈魂和身體拆成兩層，是我們自己吵出來的。心當老闆、身子當麻煩，想要一個人就會覺得髒，或像表演，或像證明。你是一個活物。想要、走路、洗杯子，是同一條命。",
+      sc: "把灵魂和身体拆成两层，是我们自己吵出来的。心当老板、身子当麻烦，想要一个人就会觉得脏，或像表演，或像证明。你是一个活物。想要、走路、洗杯子，是同一条命。"
     },
     highlights: [
       {
@@ -2387,10 +2390,10 @@ window.BOOKS = [
     quoteCn: { tc: "「你可以當對的那個，或當靠近的那個。」", sc: "“你可以当对的那个，或当靠近的那个。”" },
     leadEn: "Stop the you-versus-me game. Grow a we that can hear a hard sentence.",
     leadCn: { tc: "別再玩「我對抗你」。長出一個聽得進重話的「我們」。", sc: "别再玩“我对抗你”。长出一个听得进重话的“我们”。" },
-    thesisEn: "Many pairs live in a courtroom: one person prosecuting, one defending. A grown we can tell the truth without hunting a winner. Drop the fake toughness of “I don’t need anyone,” and the fake niceness of swallowing everything. You can rewrite one sentence on paper.",
+    thesisEn: "You can be right, or you can be close. Many pairs live in a courtroom: one person prosecuting, one defending. A grown we can tell the truth without hunting a winner. Drop the fake toughness of “I don’t need anyone,” and the fake niceness of swallowing everything.",
     thesisCn: {
-      tc: "很多兩口子住在法庭裡：一個在告，一個在辯。長大的「我們」能說實話，不必獵殺贏家。放下裝酷的「我不需要人」，也放下吞掉一切的假好。你可以在紙上改一句，不必發出。",
-      sc: "很多两口子住在法庭里：一个在告，一个在辩。长大的“我们”能说实话，不必猎杀赢家。放下装酷的“我不需要人”，也放下吞掉一切的假好。你可以在纸上改一句，不必发出。"
+      tc: "你可以當對的那個，或當靠近的那個。許多一對住在法庭裡：一個起訴，一個辯護。長大的「我們」能說實話，不必獵一個贏家。放下「我不需要任何人」的假硬，也放下把什麼都咽回去的假好。",
+      sc: "你可以当对的那个，或当靠近的那个。许多一对住在法庭里：一个起诉，一个辩护。长大的“我们”能说实话，不必猎一个赢家。放下“我不需要任何人”的假硬，也放下把什么都咽回去的假好。"
     },
     highlights: [
       {
@@ -2507,10 +2510,10 @@ window.BOOKS = [
     quoteCn: { tc: "「他不是失控。他是在奪取控制。」", sc: "“他不是失控。他是在夺取控制。”" },
     leadEn: "Control is not a communication style. It is not the same thing as a fight.",
     leadCn: { tc: "控制不是溝通風格。跟吵架不是同一件事。", sc: "控制不是沟通风格。跟吵架不是同一件事。" },
-    thesisEn: "A fair fight is two people, both allowed to speak. Control is one person shrinking the other’s world: who they see, what they spend, whether they are afraid. “I only do this because I love you” can be part of that shrinking. Naming the difference is for your own map — not a diagnosis, not a plan, not a message to send.",
+    thesisEn: "He is not out of control. He is taking control. A fair fight is two people, both allowed to speak. Control is one person shrinking the other’s world: who they see, what they spend, whether they are afraid. Naming the difference is for your own map — not a diagnosis, not a plan, not a message to send.",
     thesisCn: {
-      tc: "公平的吵，是兩個人都能開口。控制是一個人把另一個人的世界縮小：見誰、花什麼、怕不怕。「我這樣是因為愛你」，也可以是這種縮小。叫出差別，是給你自己的地圖——不是診斷，不是方案，也不是要寄出的話。",
-      sc: "公平的吵，是两个人都能开口。控制是一个人把另一个人的世界缩小：见谁、花什么、怕不怕。“我这样是因为爱你”，也可以是这种缩小。叫出差别，是给你自己的地图——不是诊断，不是方案，也不是要寄出的话。"
+      tc: "他不是失控。他是在奪取控制。公平的吵，是兩個人都能開口。控制是一個人把另一個人的世界縮小：見誰、花什麼、怕不怕。叫出差別，是給你自己的地圖——不是診斷，不是方案，也不是要寄出的話。",
+      sc: "他不是失控。他是在夺取控制。公平的吵，是两个人都能开口。控制是一个人把另一个人的世界缩小：见谁、花什么、怕不怕。叫出差别，是给你自己的地图——不是诊断，不是方案，也不是要寄出的话。"
     },
     highlights: [
       {
@@ -2615,10 +2618,10 @@ window.BOOKS = [
     quoteCn: { tc: "「戀愛像餓，像渴，是身子裡的一股力。」", sc: "“恋爱像饿，像渴，是身子里的一股力。”" },
     leadEn: "Lust, crush, and settling-in are three engines. They can run out of sync.",
     leadCn: { tc: "欲、迷戀、安定下來，是三臺引擎。三臺可以不同步。", sc: "欲、迷恋、安定下来，是三台引擎。三台可以不同步。" },
-    thesisEn: "Wanting a body, a crush that fills the whole screen, and the quiet of staying — those are three different engines. They can point at different people at the same time. That mismatch is a body doing what bodies do, not a secret failure. You can name which engine was loud today without making it fate.",
+    thesisEn: "Romantic love is a drive, like hunger, like thirst. Wanting a body, a crush that fills the whole screen, and the quiet of staying — those are three different engines. They can point at different people at the same time. That mismatch is a body doing what bodies do, not a secret failure.",
     thesisCn: {
-      tc: "想靠近身體、迷戀到眼裡只剩一張臉、留下來的安靜——是三臺不同的引擎。三臺可以同時指向不同的人。對不上，是身體會做的事，不是你偷偷失敗了。你可以先說出今天哪臺最響，不必叫成命運。",
-      sc: "想靠近身体、迷恋到眼里只剩一张脸、留下来的安静——是三台不同的引擎。三台可以同时指向不同的人。对不上，是身体会做的事，不是你偷偷失败了。你可以先说出今天哪台最响，不必叫成命运。"
+      tc: "戀愛像餓，像渴，是身子裡的一股力。想要身體、滿屏的心動、留下來的安靜——是三臺不同的引擎。它們可以同時指向不同的人。對不上，是身體在做身體會做的事，不是一項秘密的失敗。",
+      sc: "恋爱像饿，像渴，是身子里的一股力。想要身体、满屏的心动、留下来的安静——是三台不同的引擎。它们可以同时指向不同的人。对不上，是身体在做身体会做的事，不是一项秘密的失败。"
     },
     highlights: [
       {
@@ -2732,10 +2735,10 @@ window.BOOKS = [
       tc: "大人的愛是五件普通事：注意、接受、感激、溫暖、放手讓對方是對方。",
       sc: "大人的爱是五件普通事：注意、接受、感激、温暖、放手让对方是对方。"
     },
-    thesisEn: "A grown person does not use a partner as a missing piece. Love here is five ordinary things: you look, you accept what is there, you notice the tea, you offer warmth, and you let them be themselves. Clinging and controlling both fail those five. You can see which one was thin today — without turning it into their quiz.",
+    thesisEn: "We do not use others to complete ourselves. We bring a self. Love here is five ordinary things: you look, you accept what is there, you notice the tea, you offer warmth, and you let them be themselves. Clinging and controlling both fail those five.",
     thesisCn: {
-      tc: "長大的人不把伴侶當缺的那一塊。愛在這裡是五件普通事：看著、接受在場的人、看見那杯茶、給出溫暖、讓對方做自己。黏和控，都過不了這五關。你可以看見今天哪一件薄了——不必變成給對方的考卷。",
-      sc: "长大的人不把伴侣当缺的那一块。爱在这里是五件普通事：看着、接受在场的人、看见那杯茶、给出温暖、让对方做自己。黏和控，都过不了这五关。你可以看见今天哪一件薄了——不必变成给对方的考卷。"
+      tc: "我們不拿別人來把自己湊齊。我們把自己帶來。愛在這裡是五件普通事：看著、接受在場的、看見那杯茶、給出溫度、讓對方是自己。抓和控，都過不了這五關。",
+      sc: "我们不拿别人来把自己凑齐。我们把自己带来。爱在这里是五件普通事：看着、接受在场的、看见那杯茶、给出温度、让对方是自己。抓和控，都过不了这五关。"
     },
     highlights: [
       {
@@ -2846,10 +2849,10 @@ window.BOOKS = [
     quoteCn: { tc: "「敏感的孩子把空氣讀得太好，以至於把自己讀丟了。」", sc: "“敏感的孩子把空气读得太好，以至于把自己读丢了。”" },
     leadEn: "The child who read every face can grow into an adult who cannot feel — and then cannot really choose.",
     leadCn: { tc: "會讀臉色的孩子，長成不能感覺的大人——然後也不能真的選人。", sc: "会读脸色的孩子，长成不能感觉的大人——然后也不能真的选人。" },
-    thesisEn: "Some children survive by becoming what the parent needed: good, bright, useful, not-too-much. The cost is a self that cannot feel its own anger or need. Grown, they may pick a partner the way they once read a parent’s face: to stay good. The empty feeling after a “successful” good-child life is often the bill.",
+    thesisEn: "The sensitive child reads the room so well that she loses herself. She becomes what the parent needed: good, bright, useful, not-too-much. Grown, she may pick a partner the way she once read a parent’s face: to stay good. The empty feeling after a “successful” good-child life is often the bill.",
     thesisCn: {
-      tc: "有的孩子靠變成父母需要的樣子活下來：乖、聰明、有用、不要太多。代價是感覺不到自己的怒和需要。長大了選人，仍可能像當年讀父母的臉色：為了繼續好。當了好孩子、表面成功之後的空，常常就是那張帳單。",
-      sc: "有的孩子靠变成父母需要的样子活下来：乖、聪明、有用、不要太多。代价是感觉不到自己的怒和需要。长大了选人，仍可能像当年读父母的脸色：为了继续好。当了好孩子、表面成功之后的空，常常就是那张账单。"
+      tc: "敏感的孩子把空氣讀得太好，以至於把自己讀丟了。她變成父母需要的樣子：乖、亮、有用、不要太多。長大了，選伴侶還像讀父母的臉：為了繼續當好人。「成功」的好孩子生涯後面那陣空，常常就是帳單。",
+      sc: "敏感的孩子把空气读得太好，以至于把自己读丢了。她变成父母需要的样子：乖、亮、有用、不要太多。长大了，选伴侣还像读父母的脸：为了继续当好人。“成功”的好孩子生涯后面那阵空，常常就是账单。"
     },
     highlights: [
       {
@@ -2963,10 +2966,10 @@ window.BOOKS = [
     quoteCn: { tc: "「甘え是想被動地被愛——靠在別人的好意裡歇一會兒。」", sc: "“甘え是想被动地被爱——靠在别人的好意里歇一会儿。”" },
     leadEn: "Sweet dependence is a kind of trust: you lean because you believe they will hold.",
     leadCn: { tc: "甜的依賴是一種信任：你敢靠過去，是因為相信對方會託住。", sc: "甜的依赖是一种信任：你敢靠过去，是因为相信对方会托住。" },
-    thesisEn: "Amae (甘え) is the wish to be a little spoiled — to rest in someone’s goodwill, to be allowed to be soft. It is a kind of trust, not automatically shame. The danger is when the lean is refused, or when it becomes a demand that the other person never have a self. You can write one lean you trusted this week, or one you swallowed as shame.",
+    thesisEn: "Amae is the wish to rest in someone’s goodwill — to be allowed to be soft. It is a kind of trust, not automatically shame. The danger is when the lean is refused, or when it becomes a demand that the other person never have a self. You can write one lean you trusted this week, or one you swallowed as shame.",
     thesisCn: {
-      tc: "甘え——一種甜的依賴——是想讓人寵一點：靠在別人的好意裡，讓自己軟一軟。這是一種信任，不自動丟臉。危險是這點軟靠過去，對方冷冷地推開；或你要求對方永遠沒有自己。寫一次你這周靠過去的，或一次你當羞咽回去的。",
-      sc: "甘え——一种甜的依赖——是想让人宠一点：靠在别人的好意里，让自己软一软。这是一种信任，不自动丢脸。危险是这点软靠过去，对方冷冷地推开；或你要求对方永远没有自己。写一次你这周靠过去的，或一次你当羞咽回去的。"
+      tc: "甘え是想靠在別人的好意裡歇一會兒——讓自己軟一軟。這是一種信任，不自動丟臉。危險是這點軟靠過去，對方冷冷推開；或你要求對方永遠沒有自己。寫一次你這周靠過去的，或一次你當羞咽回去的。",
+      sc: "甘え是想靠在别人的好意里歇一会儿——让自己软一软。这是一种信任，不自动丢脸。危险是这点软靠过去，对方冷冷推开；或你要求对方永远没有自己。写一次你这周靠过去的，或一次你当羞咽回去的。"
     },
     highlights: [
       {
@@ -3080,10 +3083,10 @@ window.BOOKS = [
     quoteCn: { tc: "「家裡若沒有『我』，愛就會變成控制、討好，或消失。」", sc: "“家里若没有‘我’，爱就会变成控制、讨好，或消失。”" },
     leadEn: "The first home writes the script. Adult love often just recites it.",
     leadCn: { tc: "第一個家寫劇本。成人的愛常常只是背稿。", sc: "第一个家写剧本。成人的爱常常只是背稿。" },
-    thesisEn: "The first home — 原生家庭 — scripts how you love, fight, and disappear. If that house had no room for a self, adult love repeats the same moves: trying too hard to please, exploding, or going blank. Seeing the script is not putting your parents on trial. It is noticing you are still reciting.",
+    thesisEn: "If there is no “I” in the house, love becomes control, pleasing, or disappearing. The first home — 原生家庭 — scripts how you love and fight. If that house had no room for a self, adult love repeats the same moves. Seeing the script is not putting your parents on trial. It is noticing you are still reciting.",
     thesisCn: {
-      tc: "第一個家——原生家庭——會寫你怎麼愛、怎麼吵、怎麼消失。屋子裡若沒有「我」的空，成人的靠近就重複同一套：過度配合、爆發、或空白。看見劇本，不是把父母押上被告席。是發現自己還在背。",
-      sc: "第一个家——原生家庭——会写你怎么爱、怎么吵、怎么消失。屋子里若没有“我”的空，成人的靠近就重复同一套：过度配合、爆发、或空白。看见剧本，不是把父母押上被告席。是发现自己还在背。"
+      tc: "家裡若沒有「我」，愛就會變成控制、討好，或消失。第一個家——原生家庭——寫下你怎麼愛、怎麼吵。那房子若容不下自己，成人的愛就會重複同一套。看見劇本，不是把父母送上庭。是發覺自己還在背詞。",
+      sc: "家里若没有“我”，爱就会变成控制、讨好，或消失。第一个家——原生家庭——写下你怎么爱、怎么吵。那房子若容不下自己，成人的爱就会重复同一套。看见剧本，不是把父母送上庭。是发觉自己还在背词。"
     },
     highlights: [
       {
@@ -3200,10 +3203,10 @@ window.BOOKS = [
     quoteCn: { tc: "「走出去的人想往前。被傷的人需要往回看。」", sc: "“走出去的人想往前。被伤的人需要往回看。”" },
     leadEn: "Rebuilding is possible. It is not a rewind. The two sides have different jobs.",
     leadCn: { tc: "可以重建。不是倒帶。兩邊的功課不一樣。", sc: "可以重建。不是倒带。两边的功课不一样。" },
-    thesisEn: "Rebuilding is possible. It is not a rewind: the hurt partner cannot skip looking back, and the one who strayed cannot skip truth. Forgiveness, if it comes, is late and specific — not a speech to rush so dinner can happen. Leaving is also a life, not a fail mark.",
+    thesisEn: "The one who strayed wants the future. The hurt one is still in the discovery day. Rebuilding is possible. It is not a rewind. Forgiveness, if it comes, is late and specific — not a speech to rush so dinner can happen. Leaving is also a life, not a fail mark.",
     thesisCn: {
-      tc: "可以重建。不是倒帶：受傷的人跳不過往回看，走出去的人跳不過實話。原諒若來，又晚又具體——不是趕著讓晚飯上桌的那篇演講。走也是一條命，不算失敗。",
-      sc: "可以重建。不是倒带：受伤的人跳不过往回看，走出去的人跳不过实话。原谅若来，又晚又具体——不是赶着让晚饭上桌的那篇演讲。走也是一条命，不算失败。"
+      tc: "走出去的人想往前。被傷的人還停在發現的那一天。可以重建。不是倒帶。原諒若來，又晚又具體——不是趕著讓晚飯上桌的那篇演講。走也是一條命，不算失敗。",
+      sc: "走出去的人想往前。被伤的人还停在发现的那一天。可以重建。不是倒带。原谅若来，又晚又具体——不是赶着让晚饭上桌的那篇演讲。走也是一条命，不算失败。"
     },
     highlights: [
       {
@@ -3314,10 +3317,10 @@ window.BOOKS = [
     quoteCn: { tc: "「人說的愛，不是同一種話。」", sc: "“人说的爱，不是同一种话。”" },
     leadEn: "The five names are nicknames for ordinary care. They are not a law, and not a scorecard.",
     leadCn: { tc: "五個名字是給普通照料起的綽號。不是法律，也不是記分牌。", sc: "五个名字是给普通照料起的绰号。不是法律，也不是记分牌。" },
-    thesisEn: "People show care in different ordinary ways: a kind sentence, an afternoon, a dumpling, a ride, a hand. You might be offering a language they cannot hear, and hearing one you do not speak. The five names help a miss get seen. Using them as a quiz, a weapon, or a stamp on someone’s personality is the part that hurts.",
+    thesisEn: "People speak different love languages. Care shows up as a kind sentence, an afternoon, a dumpling, a ride, a hand. You might be offering a language they cannot hear, and hearing one you do not speak. The five names help a miss get seen. Using them as a quiz or a weapon is the part that hurts.",
     thesisCn: {
-      tc: "人用很普通的方式表示在乎：一句好話、一個下午、一隻餃子、送到車站、一隻手。你給的語言對方也許聽不見，你聽見的又不是你會說的。五個名字能讓人看見一次錯過。拿來當考卷、當武器、或給對方人格蓋章，才是傷人的那一面。",
-      sc: "人用很普通的方式表示在乎：一句好话、一个下午、一只饺子、送到车站、一只手。你给的语言对方也许听不见，你听见的又不是你会说的。五个名字能让人看见一次错过。拿来当考卷、当武器、或给对方人格盖章，才是伤人的那一面。"
+      tc: "人說的愛，不是同一種話。在乎可以是一句好話、一個下午、一隻餃子、送到車站、一隻手。你給的語言對方也許聽不見，你聽見的又不是你會說的。五個名字能讓人看見一次錯過。拿來當考卷或武器，才是傷人的那一面。",
+      sc: "人说的爱，不是同一种话。在乎可以是一句好话、一个下午、一只饺子、送到车站、一只手。你给的语言对方也许听不见，你听见的又不是你会说的。五个名字能让人看见一次错过。拿来当考卷或武器，才是伤人的那一面。"
     },
     highlights: [
       {
