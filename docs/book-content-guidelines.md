@@ -7,15 +7,15 @@ Required whenever writing or rewriting Keep editorial. Pair with repo `.cursorru
 Each summary point is two jobs, in this order:
 
 1. **Lead** (`conceptEn`) — a short quote from the book, or a crisp key claim. Shown once.
-2. **Explain** (`plainEn` / `plainCn`) — what that claim looks like in a kitchen, a text thread, a walk home.
+2. **Explain** (`plainEn` / `plainCn`) — the same idea in **layman English a 15-year-old would understand**.
 
 English and Chinese should be the same idea, twice. Chinese translates the *explanation*, then follows `.cursorrules`. Do not invent a new argument in Chinese.
 
 ### 15-year-old test
 
-The explanation must land for a bright 15-year-old. Everyday words. One picture they already know (a rewritten text, a silent phone, an unwashed pan). No jargon unless the next clause unpacks it. If they would still need the lead line to know what you mean, the explanation is not done.
+The explanation must land for a bright 15-year-old. Layman English. Everyday words. No jargon unless the next clause unpacks it. If they would still need the lead line to know what you mean, the explanation is not done.
 
-This is not baby talk and not a textbook paraphrase. It is the claim happening to someone.
+This is not baby talk and not a textbook paraphrase.
 
 ### Anti-doubling (locked)
 
@@ -24,16 +24,15 @@ The lead already said the claim. The explanation must **not** say it again.
 Do not:
 
 - Quote or near-quote the lead as the first sentence.
-- Paraphrase the lead, then give the example (`The book means you and they have different jobs. Rewriting a text…`).
+- Paraphrase the lead, then add an example (`The book means you and they have different jobs. Rewriting a text…`).
 - Open with `The book says / This book means / 这本书说 / 这本书是说` plus the claim.
-- Let Chinese open by repeating the lead, even if the English scene is clean.
+- Let Chinese open by repeating the lead, even if the English is clean.
 
 Do:
 
-- Start on the scene. Show the claim without naming it.
-- Keep only what a 15-year-old can see or do: the third “you there?”, the swallowed sentence at dinner, the pan that is not about the pan.
+- Unpack the claim in layman English. Do not restate it.
 
-| | Lead (once) | Explanation (scene only) |
+| | Lead (once) | Explanation (layman, not a restatement) |
 | --- | --- | --- |
 | Wrong | Using someone as a mirror is not love. | Using someone as a mirror is not love. If they only matter when they like your photo… |
 | Right | Using someone as a mirror is not love. | If they only matter when they like your photo, you are looking at your own reflection, not at them. |

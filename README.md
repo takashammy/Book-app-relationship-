@@ -29,7 +29,7 @@ This snapshot matches `takashammy/random-tests` branch `cursor/relationship-read
 | --- | --- |
 | [docs/keep-0.1-handoff.md](docs/keep-0.1-handoff.md) | Compressed 0.1 product snapshot |
 | [docs/product-brief.md](docs/product-brief.md) | Locked product brief |
-| [docs/book-content-guidelines.md](docs/book-content-guidelines.md) | Lead then 15-year-old scene; anti-doubling; Eastern resonance; solo practices |
+| [docs/book-content-guidelines.md](docs/book-content-guidelines.md) | Lead then layman explanation (15-year-old cutoff); anti-doubling; Eastern resonance; solo practices |
 | [docs/relationship-books-250.md](docs/relationship-books-250.md) | Relationship-only canon (250 titles; ship 1–30 first) |
 | [docs/DESIGN.md](docs/DESIGN.md) | Visual lock spec (Soft Uncanny × Luminary) |
 | [docs/soft-uncanny-luminary.md](docs/soft-uncanny-luminary.md) | Locked stills and chassis notes |
