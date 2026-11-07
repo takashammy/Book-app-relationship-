@@ -30,7 +30,7 @@ window.BOOKS = [
         num: "01",
         titleEn: "TASKS",
         titleCn: { tc: "各做各的", sc: "各做各的" },
-        conceptEn: "Your job is how you love. Their job is how they take it.",
+        conceptEn: "You don't get to run how they feel. You only get what you say and do.",
         plainEn: "You rewrite the text three times so they won’t get mad. Their face when they read it is still not yours to run.",
         plainCn: {
           tc: "一條消息改了三遍，只為對方別生氣。屏幕那頭開不開心，輪不到你代管。",
@@ -41,7 +41,7 @@ window.BOOKS = [
         num: "02",
         titleEn: "COMMUNITY",
         titleCn: { tc: "並排", sc: "并排" },
-        conceptEn: "Being close means standing next to someone, not climbing inside them.",
+        conceptEn: "Close means standing next to them, not living inside their head.",
         plainEn: "You walk home side by side, and the silence is still two separate minds. Dinner can be shared without you rearranging what they think.",
         plainCn: {
           tc: "並肩走回家，沉默裡仍是兩個人的腦子。晚飯可以一起吃，不必替對方把想法改好。",
@@ -52,7 +52,7 @@ window.BOOKS = [
         num: "03",
         titleEn: "THIS MOMENT",
         titleCn: { tc: "此刻", sc: "此刻" },
-        conceptEn: "How you act today is a choice. Last night’s fight does not get to run tonight.",
+        conceptEn: "Tonight is a new choice. Last night's fight does not get to drive.",
         plainEn: "The argument from yesterday is still in your chest. Tonight you can still pass the salt in a normal voice.",
         plainCn: { tc: "昨晚的架還壓在胸口。今晚遞鹽，仍可以用平常的聲音。", sc: "昨晚的架还压在胸口。今晚递盐，仍可以用平常的声音。" }
       }
@@ -60,9 +60,9 @@ window.BOOKS = [
     extraHighlights: [
       {
         num: "04",
-        titleEn: "Inferiority as movement",
-        titleCn: { tc: "不完美也可以往前", sc: "不完美也可以往前" },
-        conceptEn: "Feeling “not enough” can push you to grow. It should not be a vote on whether you are lovable.",
+        titleEn: "NOT A VOTE",
+        titleCn: { tc: "不是投票", sc: "不是投票" },
+        conceptEn: "Feeling behind can make you try harder. It should not decide if you are allowed to be liked.",
         plainEn: "You can practice saying the hard sentence more clearly. That is different from needing “you’re enough” before you can fall asleep.",
         plainCn: {
           tc: "想把那句難話說清楚，可以練。可每天睡前都要聽一遍「你夠好了」，是另一件事。",
@@ -71,9 +71,9 @@ window.BOOKS = [
       },
       {
         num: "05",
-        titleEn: "Horizontal pairing",
-        titleCn: { tc: "不要當評委", sc: "不要当评委" },
-        conceptEn: "Praise and blame are both scoreboards. Closeness does not need a grade.",
+        titleEn: "NO GRADES",
+        titleCn: { tc: "不要分數", sc: "不要分数" },
+        conceptEn: "Praise and blame are both report cards. Sitting next to someone does not need a grade.",
         plainEn: "If you only feel close when they call you a good boyfriend or girlfriend, you are waiting for a mark. The person next to you is not a report card.",
         plainCn: {
           tc: "只有聽到一句「你真好」才覺得近，你等的是分數。身邊坐著的，不是一張成績單。",
@@ -84,7 +84,7 @@ window.BOOKS = [
         num: "06",
         titleEn: "The leash of being liked",
         titleCn: { tc: "為了被喜歡", sc: "为了被喜欢" },
-        conceptEn: "If you drop yourself to stay liked, you are not really there.",
+        conceptEn: "If you drop yourself to stay liked, you are not really in the room.",
         plainEn: "You swallow “that hurt” so dinner stays nice. The person at the table is then a performance, not you.",
         plainCn: {
           tc: "為了晚飯好看，把「這讓我難受」咽回去。桌上坐著的，已不是你，是一場表演。",
@@ -93,9 +93,9 @@ window.BOOKS = [
       },
       {
         num: "07",
-        titleEn: "Contribution over performance",
-        titleCn: { tc: "給出，不是表演", sc: "给出，不是表演" },
-        conceptEn: "Bring something real. Don’t audition to be picked again.",
+        titleEn: "GIVE, DON'T AUDITION",
+        titleCn: { tc: "給出，不是試鏡", sc: "给出，不是试镜" },
+        conceptEn: "Bring something real. Don't audition to be picked again.",
         plainEn: "You wash the pan. The extra-wide smile so they will choose you again is a tryout.",
         plainCn: {
           tc: "把鍋洗了，是真的給出。只想看起來好愛，好讓人再選你一次，是試鏡。",
@@ -172,7 +172,7 @@ window.BOOKS = [
         num: "03",
         titleEn: "FAITH",
         titleCn: { tc: "先做", sc: "先做" },
-        conceptEn: "Show up before the mood arrives.",
+        conceptEn: "Show up before the warm mood arrives.",
         plainEn: "The message can go out while you are still putting on your shoes. The walk to the door can happen on a flat afternoon.",
         plainCn: {
           tc: "鞋還沒穿好，那句消息也可以先發出去。送到門口，可以是一個平淡的下午。",
@@ -193,7 +193,7 @@ window.BOOKS = [
         num: "05",
         titleEn: "Responsibility as response",
         titleCn: { tc: "回應，不是接管", sc: "回应，不是接管" },
-        conceptEn: "Being responsible means you answer. It does not mean you take over.",
+        conceptEn: "Answering is care. Taking over their whole night is not.",
         plainEn: "They look tired, so you make toast. You do not take over their whole night.",
         plainCn: { tc: "人累了，去烤片麵包。不是把整晚都管起來。", sc: "人累了，去烤片面包。不是把整晚都管起来。" }
       },
@@ -201,7 +201,7 @@ window.BOOKS = [
         num: "06",
         titleEn: "Respect as otherness",
         titleCn: { tc: "對方是另一個人", sc: "对方是另一个人" },
-        conceptEn: "Respect means they get to be themselves, not a character in your story.",
+        conceptEn: "Respect means they get to be themselves, not a character you wrote.",
         plainEn: "They pick the playlist and sleep late. You leave the morning as theirs.",
         plainCn: { tc: "歌單由對方選，早晨也可以晚起。你不去改這個上午。", sc: "歌单由对方选，早晨也可以晚起。你不去改这个上午。" }
       },
@@ -258,7 +258,7 @@ window.BOOKS = [
         num: "01",
         titleEn: "PROTEST",
         titleCn: { tc: "多發消息", sc: "多发消息" },
-        conceptEn: "The extra texts mean: come back, I can’t feel you.",
+        conceptEn: "The extra texts mean: come back, I can't feel you.",
         plainEn: "The third “you there?” at eleven at night is checking they still exist. It is a scared reach, not proof you are “too much.”",
         plainCn: {
           tc: "晚上十一點，那句「在嗎」發到第三遍，是在確認人還在。受驚後伸手，不是「你太多了」的證據。",
@@ -280,7 +280,7 @@ window.BOOKS = [
         num: "03",
         titleEn: "SECURE",
         titleCn: { tc: "穩一點", sc: "稳一点" },
-        conceptEn: "Feeling safer is built in small repeats. It is not a personality you are born with.",
+        conceptEn: "Feeling safer is built in small repeats. You are not born with it.",
         plainEn: "The phone stays silent, and you can still do the dishes. That wait is something you practice, not a medal you were born wearing.",
         plainCn: {
           tc: "手機一直靜著，你仍可以把碗洗完。這份等，是練來的，不是出生自帶的獎章。",
@@ -291,9 +291,9 @@ window.BOOKS = [
     extraHighlights: [
       {
         num: "04",
-        titleEn: "Activating strategies",
-        titleCn: { tc: "把人拉回來的辦法", sc: "把人拉回来的办法" },
-        conceptEn: "Checking, rereading, studying their “ok.” — all ways of pulling someone closer.",
+        titleEn: "PULLING",
+        titleCn: { tc: "往近拉", sc: "往近拉" },
+        conceptEn: "Checking, rereading, studying their “ok” — all ways of pulling someone closer.",
         plainEn: "You stare at a one-word reply and reread it for hidden weather. That is a reach, not a personality named “too much.”",
         plainCn: {
           tc: "一個字的回覆，翻來覆去看，想找出天氣。那是伸手，不是名叫「太多」的毛病。",
@@ -302,9 +302,9 @@ window.BOOKS = [
       },
       {
         num: "05",
-        titleEn: "Deactivating strategies",
-        titleCn: { tc: "把自己關掉", sc: "把自己关掉" },
-        conceptEn: "Listing their flaws, hiding what you need, diving into work — ways to want less.",
+        titleEn: "BACKING OFF",
+        titleCn: { tc: "往後退", sc: "往后退" },
+        conceptEn: "Listing their flaws, hiding what you need, diving into work — ways of wanting less.",
         plainEn: "After a good night you list their flaws, or bury yourself in homework, so the wanting will shrink. Going numb is a costume; you can be independent and still want someone.",
         plainCn: {
           tc: "一晚好過之後，開始數對方的缺點，或把自己埋進作業，好讓想念變小。真獨立也可以想人，讓自己麻木只是裝的。",
@@ -324,9 +324,9 @@ window.BOOKS = [
       },
       {
         num: "07",
-        titleEn: "The unavailable room",
-        titleCn: { tc: "怎麼夠都夠不著", sc: "怎么够都够不着" },
-        conceptEn: "You cannot love someone into being available. That is information, not a challenge.",
+        titleEn: "NOT A TEST",
+        titleCn: { tc: "不是考題", sc: "不是考题" },
+        conceptEn: "You cannot love someone into answering. Their silence is information, not a test.",
         plainEn: "Their silence sits there. Chasing harder will not turn it into a yes.",
         plainCn: { tc: "對方不回，是一件事實。追得更狠，也不會變成答應。", sc: "对方不回，是一件事实。追得更狠，也不会变成答应。" }
       }
@@ -375,7 +375,7 @@ window.BOOKS = [
         num: "01",
         titleEn: "RAW SPOTS",
         titleCn: { tc: "舊傷", sc: "旧伤" },
-        conceptEn: "An old hurt can show up in a new fight, wearing today’s clothes.",
+        conceptEn: "An old hurt can show up in a new fight, wearing today's clothes.",
         plainEn: "The explosion is about an unwashed pan. The volume is often old fear, not the pan.",
         plainCn: { tc: "為一口沒洗的鍋大喊。音量常常是舊的害怕，鍋只是一件衣服。", sc: "为一口没洗的锅大喊。音量常常是旧的害怕，锅只是一件衣服。" }
       },
@@ -383,7 +383,7 @@ window.BOOKS = [
         num: "02",
         titleEn: "THE LOOP",
         titleCn: { tc: "一追一躲", sc: "一追一躲" },
-        conceptEn: "The loop is the problem — not the person stuck in it.",
+        conceptEn: "The chase-and-shut-the-door loop is the problem — not which person is “bad.”",
         plainEn: "One person chases, the other shuts the door. That night’s job is a step in the dance, not a verdict on who is the bad one.",
         plainCn: { tc: "一個人追，一個人把門關上。那晚的角色是舞步，不是在判誰壞。", sc: "一个人追，一个人把门关上。那晚的角色是舞步，不是在判谁坏。" }
       },
@@ -391,7 +391,7 @@ window.BOOKS = [
         num: "03",
         titleEn: "HOLD",
         titleCn: { tc: "接住", sc: "接住" },
-        conceptEn: "Repair is simple in the body: I see you. I’m here. You can land.",
+        conceptEn: "Repair can be a hand and “I'm here.” It does not have to be a winning speech.",
         plainEn: "A hand on a shoulder, or “I’m here,” said without trying to win. That is a hold, not a speech.",
         plainCn: { tc: "手放在肩上，或一句不求贏的「我在」。這是抱住，不是把架辯贏。", sc: "手放在肩上，或一句不求赢的“我在”。这是抱住，不是把架辩赢。" }
       }
@@ -409,12 +409,9 @@ window.BOOKS = [
         num: "05",
         titleEn: "Forgiving from safety",
         titleCn: { tc: "先安全，再原諒", sc: "先安全，再原谅" },
-        conceptEn: "Forgiveness is not acting nice. You need a floor first.",
-        plainEn: "You send a sweet text while your body still feels unsafe. That is a costume, not a repair.",
-        plainCn: {
-          tc: "身體還覺得不安全，卻硬發出一條溫柔的消息。那是戲服，不是修好。",
-          sc: "身体还觉得不安全，却硬发出一条温柔的消息。那是戏服，不是修好。"
-        }
+        conceptEn: "A sweet text from a scared body is a costume, not repair. You need a floor first.",
+        plainEn: "You type something sweet while your hands are still shaking. The floor is not there yet.",
+        plainCn: { sc: "手还在抖，却打出一句温柔的。地还没铺好。", tc: "手還在抖，卻打出一句溫柔的。地還沒鋪好。" }
       },
       {
         num: "06",
@@ -431,7 +428,7 @@ window.BOOKS = [
         num: "07",
         titleEn: "Ordinary Tuesdays",
         titleCn: { tc: "普通的星期二", sc: "普通的星期二" },
-        conceptEn: "The bond is kept on boring Tuesdays, not in a big speech.",
+        conceptEn: "The pair is kept on boring Tuesdays, not in a big speech.",
         plainEn: "Tuesday night: a small “I’m here,” while the kettle boils. No speech required.",
         plainCn: { tc: "星期二晚上，水壺響著，一句小小的「我在」。不必演講。", sc: "星期二晚上，水壶响着，一句小小的“我在”。不必演讲。" }
       }
@@ -478,14 +475,11 @@ window.BOOKS = [
     highlights: [
       {
         num: "01",
-        titleEn: "BIDS",
-        titleCn: { tc: "小請求", sc: "小请求" },
-        conceptEn: "A bid is any small ask to connect. Turning toward it is how pairs last.",
-        plainEn: "A meme, a sigh, “look at this” from the other room. You look up, or you keep scrolling. That tiny turn is how the house stays warm.",
-        plainCn: {
-          tc: "一條梗圖，一聲嘆息，隔壁喊你看一眼。你抬頭，或繼續滑。家裡暖不暖，常常就在這一轉。",
-          sc: "一条梗图，一声叹息，隔壁喊你看一眼。你抬头，或继续滑。家里暖不暖，常常就在这一转。"
-        }
+        titleEn: "LOOK UP",
+        titleCn: { tc: "抬頭", sc: "抬头" },
+        conceptEn: "The small “hey, look” matters more than the big talk. Looking up is how pairs last.",
+        plainEn: "A meme lands while you scroll. You turn your chair, or you don't.",
+        plainCn: { tc: "一條梗圖彈出來，你還在滑。你轉過椅子，或者不轉。", sc: "一条梗图弹出来，你还在滑。你转过椅子，或者不转。" }
       },
       {
         num: "02",
@@ -500,8 +494,8 @@ window.BOOKS = [
       },
       {
         num: "03",
-        titleEn: "HORSEMEN",
-        titleCn: { tc: "四種傷人話", sc: "四种伤人话" },
+        titleEn: "FOUR HABITS",
+        titleCn: { tc: "四種習慣", sc: "四种习惯" },
         conceptEn: "Four habits wreck a house: picking, looking down, defending, shutting the door.",
         plainEn: "You hear your own voice go sharp, or you walk into the bedroom and close the door. Catch the move without deciding “this is who I am.”",
         plainCn: {
@@ -513,8 +507,8 @@ window.BOOKS = [
     extraHighlights: [
       {
         num: "04",
-        titleEn: "Softened startup",
-        titleCn: { tc: "開頭軟一點", sc: "开头软一点" },
+        titleEn: "HOW IT STARTS",
+        titleCn: { tc: "怎麼開口", sc: "怎么开口" },
         conceptEn: "How a complaint starts often decides if anyone can hear it.",
         plainEn: "“You always leave the lights on” closes ears. “I feel tired. I need the lights off” leaves a door open.",
         plainCn: {
@@ -526,7 +520,7 @@ window.BOOKS = [
         num: "05",
         titleEn: "Repair attempts",
         titleCn: { tc: "喊停重來", sc: "喊停重来" },
-        conceptEn: "A joke, a touch, “can we start over?” — that’s a skill, not luck.",
+        conceptEn: "A joke, a touch, “can we start over?” — that's a skill, not luck.",
         plainEn: "A joke in the middle of a fight, or a kinder line to yourself after a harsh one. That is a restart, not a life sentence.",
         plainCn: {
           tc: "吵到一半開個玩笑，或剛罵過自己以後換一句輕一點的。那是重新開始，不是判終身。",
@@ -535,21 +529,21 @@ window.BOOKS = [
       },
       {
         num: "06",
-        titleEn: "Accepting influence",
-        titleCn: { tc: "肯聽一點", sc: "肯听一点" },
+        titleEn: "BEND A LITTLE",
+        titleCn: { tc: "讓一點", sc: "让一点" },
         conceptEn: "Letting someone change your mind a little is also turning toward them.",
         plainEn: "The show they want, the long way home, five more minutes — you don’t disappear. You bend a little.",
         plainCn: { tc: "看哪部片、走遠路、再多五分鐘。你還是你，只是彎了一點。", sc: "看哪部片、走远路、再多五分钟。你还是你，只是弯了一点。" }
       },
       {
         num: "07",
-        titleEn: "Shared meaning",
-        titleCn: { tc: "我們的小習慣", sc: "我们的小习惯" },
-        conceptEn: "Two people make a tiny culture: habits, roles, a story of “what we are.”",
-        plainEn: "The same lamp, the same cup, the same song. “This is ours,” even in a small habit.",
+        titleEn: "THIS IS OURS",
+        titleCn: { tc: "這是我們的", sc: "这是我们的" },
+        conceptEn: "Two people make a tiny world: the lamp, the song, the story of “this is us.”",
+        plainEn: "The same cup, the same song, even a small habit. You can still say this is ours.",
         plainCn: {
-          tc: "同一盞燈，同一隻杯子，同一首歌。哪怕只是一個小習慣，也可以說「這是我們的」。",
-          sc: "同一盏灯，同一只杯子，同一首歌。哪怕只是一个小习惯，也可以说“这是我们的”。"
+          sc: "同一只杯子，同一首歌，哪怕只是一个小习惯。仍可以说这是我们的。",
+          tc: "同一隻杯子，同一首歌，哪怕只是一個小習慣。仍可以說這是我們的。"
         }
       }
     ],
@@ -608,7 +602,7 @@ window.BOOKS = [
         num: "02",
         titleEn: "OTHER",
         titleCn: { tc: "對方是別人", sc: "对方是别人" },
-        conceptEn: "Desire likes the person you cannot fully manage.",
+        conceptEn: "Wanting likes the person you cannot fully manage.",
         plainEn: "You rewrite their whole evening so it fits yours. They stop being a surprise and become furniture you already know.",
         plainCn: {
           tc: "把對方整晚都改成你的行程。人就不再讓你意外，成了你已經熟識的家具。",
@@ -618,21 +612,21 @@ window.BOOKS = [
       {
         num: "03",
         titleEn: "PLAY",
-        titleCn: { tc: "當玩", sc: "当玩" },
-        conceptEn: "Erotic life needs play. A checklist is not play.",
-        plainEn: "A calendar alert that says “be romantic at 9” is a checklist. A known song in the kitchen leaves room to not be useful.",
+        titleCn: { tc: "玩", sc: "玩" },
+        conceptEn: "Wanting needs play. A calendar alert to “be romantic” is not play.",
+        plainEn: "A known song in the kitchen leaves room to not be useful. Nine o'clock on a calendar does not.",
         plainCn: {
-          tc: "日曆彈出「九點要浪漫」，那是清單。廚房裡一首兩人都熟的歌，更接近：有一點不必有用。",
-          sc: "日历弹出“九点要浪漫”，那是清单。厨房里一首两人都熟的歌，更接近：有一点不必有用。"
+          sc: "厨房里一首两人都熟的歌，还有一点不必有用。日历上的九点，没有。",
+          tc: "廚房裡一首兩人都熟的歌，還有一點不必有用。日曆上的九點，沒有。"
         }
       }
     ],
     extraHighlights: [
       {
         num: "04",
-        titleEn: "The village in one person",
-        titleCn: { tc: "一個人當全村", sc: "一个人当全村" },
-        conceptEn: "One partner cannot be best friend, parent, lover, and entertainment all day.",
+        titleEn: "ONE PERSON, WHOLE TOWN",
+        titleCn: { tc: "一個人當一座城", sc: "一个人当一座城" },
+        conceptEn: "One person cannot be best friend, parent, lover, and entertainment all day.",
         plainEn: "Saturday afternoon, and you are bored of the one person in the apartment. You asked them to be a whole town.",
         plainCn: { tc: "星期六下午，對著屋子裡這一個人覺得無聊。你要對方當整座城。", sc: "星期六下午，对着屋子里这一个人觉得无聊。你要对方当整座城。" }
       },
@@ -656,7 +650,7 @@ window.BOOKS = [
         num: "07",
         titleEn: "Space without exile",
         titleCn: { tc: "留空，不是趕走", sc: "留空，不是赶走" },
-        conceptEn: "A closed door can be care. A slammed door is a different story.",
+        conceptEn: "A closed door can be care. A slammed door is sending someone away.",
         plainEn: "You take ten minutes in the other room, then come back. Banging the door as you leave is sending someone away.",
         plainCn: { tc: "到另一間房待十分鐘，再回來。摔上門離去，是把人趕走。", sc: "到另一间房待十分钟，再回来。摔上门离去，是把人赶走。" }
       }
@@ -708,7 +702,7 @@ window.BOOKS = [
         num: "01",
         titleEn: "PEDALS",
         titleCn: { tc: "兩隻腳", sc: "两只脚" },
-        conceptEn: "Wanting is two systems: what turns you on, and what turns you off.",
+        conceptEn: "Wanting has a go pedal and a stop pedal. The room presses both.",
         plainEn: "A kind text can press go; a fight, a messy bed, or being watched can press stop. Both pedals are machinery, not a moral score.",
         plainCn: {
           tc: "一句溫柔的消息可能踩油門；剛吵過、床很亂、有人盯著看，可能踩剎車。兩隻踏板都是機器，不是品德打分。",
@@ -757,11 +751,11 @@ window.BOOKS = [
       },
       {
         num: "06",
-        titleEn: "Spectatoring",
-        titleCn: { tc: "別當觀眾", sc: "别当观众" },
-        conceptEn: "Watching yourself from the ceiling turns the brake on.",
-        plainEn: "You ask “do I look okay?” from somewhere near the ceiling. You are then in the audience, not in the room.",
-        plainCn: { tc: "人跑到天花板附近，問「我好看嗎」。那就成了觀眾，不在房間裡。", sc: "人跑到天花板附近，问“我好看吗”。那就成了观众，不在房间里。" }
+        titleEn: "FROM THE CEILING",
+        titleCn: { tc: "從天花板上看", sc: "从天花板上看" },
+        conceptEn: "Watching yourself from the ceiling turns the stop pedal on.",
+        plainEn: "You ask “do I look okay?” from somewhere above the bed. You are then in the audience, not in the room.",
+        plainCn: { sc: "人跑到床上方，问“我好看吗”。那就成了观众，不在房间里。", tc: "人跑到床上方，問「我好看嗎」。那就成了觀眾，不在房間裡。" }
       },
       {
         num: "07",
@@ -817,9 +811,9 @@ window.BOOKS = [
     highlights: [
       {
         num: "01",
-        titleEn: "SEE",
-        titleCn: { tc: "看見", sc: "看见" },
-        conceptEn: "Start with a camera, not a courtroom.",
+        titleEn: "CAMERA",
+        titleCn: { tc: "像鏡頭", sc: "像镜头" },
+        conceptEn: "Say what a camera would see. Don't start with a verdict.",
         plainEn: "“The dishes are in the sink” is a fact. “You’re lazy” is a story you glued on top.",
         plainCn: { tc: "「碗在水槽裡」是事實。「你懶」是後來貼上去的故事。", sc: "“碗在水槽里”是事实。“你懒”是后来贴上去的故事。" }
       },
@@ -873,9 +867,9 @@ window.BOOKS = [
       },
       {
         num: "07",
-        titleEn: "Self-talk counts",
-        titleCn: { tc: "對自己也算", sc: "对自己也算" },
-        conceptEn: "The four steps work on the voice in your head too.",
+        titleEn: "THE VOICE IN YOUR HEAD",
+        titleCn: { tc: "對自己那句", sc: "对自己那句" },
+        conceptEn: "The same four steps work on the voice in your head too.",
         plainEn: "“I’m the worst” is a verdict. “I forgot. I feel ashamed. I need rest.” is the same event, without the courtroom.",
         plainCn: {
           tc: "「我最糟」是判決。「我忘了。我慚愧。我需要休息。」是同一件事，只是沒有法庭。",
@@ -964,7 +958,7 @@ window.BOOKS = [
         num: "05",
         titleEn: "Community, not just a pair",
         titleCn: { tc: "不只兩個人", sc: "不只两个人" },
-        conceptEn: "Love also lives in friendship and how we treat strangers at the table.",
+        conceptEn: "Love also lives in friendship and how we treat people at the table.",
         plainEn: "Romance looks fine, and at the table you still gossip about a friend. That is a small un-love.",
         plainCn: {
           tc: "戀愛看起來很好，飯桌上卻還在講一個朋友的閒話。那也是小小的不愛。",
@@ -1038,7 +1032,7 @@ window.BOOKS = [
         num: "01",
         titleEn: "OLD FACE",
         titleCn: { tc: "舊的臉", sc: "旧的脸" },
-        conceptEn: "Attraction often has a childhood echo.",
+        conceptEn: "The person who feels like home often carries an old ache.",
         plainEn: "They go quiet, and it feels like a parent going quiet. An old feeling just walked into a new kitchen.",
         plainCn: { tc: "對方突然不說話，像當年家裡有人不說話。舊感覺走進了新廚房。", sc: "对方突然不说话，像当年家里有人不说话。旧感觉走进了新厨房。" }
       },
@@ -1068,10 +1062,10 @@ window.BOOKS = [
         titleEn: "The power struggle",
         titleCn: { tc: "拉鋸", sc: "拉锯" },
         conceptEn: "After the crush fades, you may fight to make them into the missing parent.",
-        plainEn: "The crush fades, and you hear yourself: “if they really loved me they would…” That is often an old wish, not a fair adult ask.",
+        plainEn: "You hear yourself: “if they really loved me they would…” That is often an old wish, not a fair adult ask.",
         plainCn: {
-          tc: "心動淡了，你聽見自己說「如果真愛我就會……」。那常常是舊願望，不是公平的大人請求。",
-          sc: "心动淡了，你听见自己说“如果真爱我就会……”。那常常是旧愿望，不是公平的大人请求。"
+          sc: "你听见自己说“如果真爱我就会……”。那常常是旧愿望，不是公平的大人请求。",
+          tc: "你聽見自己說「如果真愛我就會……」。那常常是舊願望，不是公平的大人請求。"
         }
       },
       {
@@ -1149,7 +1143,7 @@ window.BOOKS = [
         num: "01",
         titleEn: "LOOK",
         titleCn: { tc: "看清楚", sc: "看清楚" },
-        conceptEn: "If you don’t understand, you can’t really love yet — you can only grab.",
+        conceptEn: "If you don't understand, you can't really love yet — you can only grab.",
         plainEn: "They say they’re tired, and you already have three tips. Let the sentence finish — the pan can wait.",
         plainCn: { tc: "對方說累了，你已經備好三條建議。先讓那句話說完，鍋可以後洗。", sc: "对方说累了，你已经备好三条建议。先让那句话说完，锅可以后洗。" }
       },
@@ -1192,7 +1186,7 @@ window.BOOKS = [
         num: "05",
         titleEn: "Joy in their joy",
         titleCn: { tc: "替對方高興", sc: "替对方高兴" },
-        conceptEn: "Love includes being glad they have a good day that isn’t yours.",
+        conceptEn: "Love includes being glad they have a good day that isn't yours.",
         plainEn: "They got the internship. For one minute, let the kitchen be about that — don’t steal the subject back.",
         plainCn: {
           tc: "對方拿到實習了。這一分鐘，廚房裡先說這件事——先別把話頭搶回自己。",
@@ -1201,9 +1195,9 @@ window.BOOKS = [
       },
       {
         num: "06",
-        titleEn: "Interbeing",
-        titleCn: { tc: "不是孤島", sc: "不是孤岛" },
-        conceptEn: "You are not a closed box. How you treat them leaks into how you sleep.",
+        titleEn: "IT LEAKS",
+        titleCn: { tc: "會漏過來", sc: "会漏过来" },
+        conceptEn: "How you treat them leaks into how you sleep.",
         plainEn: "You sent the sharp text at ten. At eleven your shoulders are still up, and sleep will not come.",
         plainCn: { tc: "十點那句狠話發出去了。十一點肩還聳著，覺也來不了。", sc: "十点那句狠话发出去了。十一点肩还耸着，觉也来不了。" }
       },
@@ -1293,8 +1287,8 @@ window.BOOKS = [
     extraHighlights: [
       {
         num: "04",
-        titleEn: "Over-functioning",
-        titleCn: { tc: "扛太多", sc: "扛太多" },
+        titleEn: "THEIR BAG",
+        titleCn: { tc: "替人收拾", sc: "替人收拾" },
         conceptEn: "Doing their jobs for them can look like love and still keep the dance stuck.",
         plainEn: "You pack their bag again so they won’t be late. They stay light, you stay heavy, tomorrow looks the same.",
         plainCn: {
@@ -1304,8 +1298,8 @@ window.BOOKS = [
       },
       {
         num: "05",
-        titleEn: "De-selfing",
-        titleCn: { tc: "把自己刪掉", sc: "把自己删掉" },
+        titleEn: "THINNER ON THE COUCH",
+        titleCn: { tc: "沙發上變薄", sc: "沙发上变薄" },
         conceptEn: "Nice that costs you a self is not peace.",
         plainEn: "Sunday they pick a movie you hate, and you say “sure” so the weather stays nice. The person on the couch is already thinner.",
         plainCn: {
@@ -1317,7 +1311,7 @@ window.BOOKS = [
         num: "06",
         titleEn: "Anger at the right person",
         titleCn: { tc: "別發錯人", sc: "别发错人" },
-        conceptEn: "Sometimes the fight at home is about a boss, a parent, a shame you didn’t name.",
+        conceptEn: "Sometimes the fight at home is about a boss, a parent, a shame you didn't name.",
         plainEn: "The unwashed pan is a costume. The heat is still at the office, or at your mother’s table.",
         plainCn: { tc: "沒洗的鍋是戲服。火還在公司，或在母親的飯桌上。", sc: "没洗的锅是戏服。火还在公司，或在母亲的饭桌上。" }
       },
@@ -1325,7 +1319,7 @@ window.BOOKS = [
         num: "07",
         titleEn: "Slow change",
         titleCn: { tc: "慢一點改", sc: "慢一点改" },
-        conceptEn: "A new step feels rude at first because the old dance was the family’s weather.",
+        conceptEn: "A new step feels rude at first because the old dance was the family's weather.",
         plainEn: "You let their bag sit unpacked and your stomach drops. Awkward is the new weather, not proof you are cruel.",
         plainCn: { tc: "你沒替對方收拾包，胃往下沉。彆扭是新天氣，不是你狠。", sc: "你没替对方收拾包，胃往下沉。别扭是新天气，不是你狠。" }
       }
@@ -1372,13 +1366,13 @@ window.BOOKS = [
     highlights: [
       {
         num: "01",
-        titleEn: "MATCH",
-        titleCn: { tc: "跟著走", sc: "跟着走" },
-        conceptEn: "We catch each other’s nervous systems, like yawns.",
+        titleEn: "LIKE A YAWN",
+        titleCn: { tc: "像打哈欠", sc: "像打哈欠" },
+        conceptEn: "Calm and panic jump from one body to the other, like a yawn.",
         plainEn: "After a tense call, your shoulders stay up in the kitchen. After a calm one, they drop before you hang up.",
         plainCn: {
-          tc: "一通緊的電話打完，廚房裡肩還聳著。一通穩的，沒掛斷肩就掉下來了。",
-          sc: "一通紧的电话打完，厨房里肩还耸着。一通稳的，没挂断肩就掉下来了。"
+          tc: "一通緊的電話之後，肩膀在廚房還抬著。一通穩的，還沒掛斷，肩已經落下來。",
+          sc: "一通紧的电话之后，肩膀在厨房还抬着。一通稳的，还没挂断，肩已经落下来。"
         }
       },
       {
@@ -1396,11 +1390,11 @@ window.BOOKS = [
         num: "03",
         titleEn: "REWRITE",
         titleCn: { tc: "慢慢改", sc: "慢慢改" },
-        conceptEn: "Old wiring changes through new repeats, not one insight.",
+        conceptEn: "Old habits change through new repeats, not one big insight.",
         plainEn: "One kind evening will not redo the house you grew up in. Ten ordinary goodnights start to.",
         plainCn: {
-          tc: "一晚溫柔，改不了你長大的那棟房子。十次普通的晚安，才會開始改。",
-          sc: "一晚温柔，改不了你长大的那栋房子。十次普通的晚安，才会开始改。"
+          tc: "一個好心的晚上，改不了你長大的那棟房子。十個平常的晚安，才開始改。",
+          sc: "一个好心的晚上，改不了你长大的那栋房子。十个平常的晚安，才开始改。"
         }
       }
     ],
@@ -1429,9 +1423,9 @@ window.BOOKS = [
       },
       {
         num: "06",
-        titleEn: "Alone still counts",
-        titleCn: { tc: "一個人也算", sc: "一个人也算" },
-        conceptEn: "Regulation can start with your own body: breath, warmth, a slower room.",
+        titleEn: "YOUR OWN BODY FIRST",
+        titleCn: { tc: "先安自己", sc: "先安自己" },
+        conceptEn: "You can slow your own body first: breath, a warmer room, a lower lamp.",
         plainEn: "Blanket, lamp one notch lower, three breaths before you answer. The doorway does not need a second person yet.",
         plainCn: {
           tc: "毯子、燈再暗一格、回消息前先呼吸三次。門口不必先站著第二個人。",
@@ -1442,7 +1436,7 @@ window.BOOKS = [
         num: "07",
         titleEn: "Love revises",
         titleCn: { tc: "愛會改人", sc: "爱会改人" },
-        conceptEn: "Stay near someone long enough and you both change — for better or worse.",
+        conceptEn: "Stay near someone long enough and both of you change — for better or worse.",
         plainEn: "A month of sleeping near them: do you drop off faster, or lie there with the jaw locked? That is the house, written in the body.",
         plainCn: {
           tc: "靠近一個月，睡得是更快，還是牙關咬著熬？這棟房子，寫在身體裡。",
@@ -1492,28 +1486,28 @@ window.BOOKS = [
     highlights: [
       {
         num: "01",
-        titleEn: "TWO",
-        titleCn: { tc: "兩個", sc: "两个" },
-        conceptEn: "Fusion looks like closeness. It is two people disappearing.",
+        titleEn: "TWO PEOPLE",
+        titleCn: { tc: "兩個人", sc: "两个人" },
+        conceptEn: "Always melting into them looks like closeness. Two people disappear.",
         plainEn: "You order what they order so the table stays quiet. Peace, paid for with a missing self.",
         plainCn: { tc: "為了桌上不吵，你永遠點對方那份。和平是拿消失的自己買的。", sc: "为了桌上不吵，你永远点对方那份。和平是拿消失的自己买的。" }
       },
       {
         num: "02",
-        titleEn: "HOLD",
-        titleCn: { tc: "穩住自己", sc: "稳住自己" },
-        conceptEn: "Self-validated intimacy: I can be close and still know I’m okay.",
+        titleEn: "STILL OKAY",
+        titleCn: { tc: "仍然可以", sc: "仍然可以" },
+        conceptEn: "You can sit next to them and still be okay without their stamp.",
         plainEn: "The reply is two hours late. You are still okay in the kitchen — the late text does not get to cast you as the villain.",
         plainCn: {
-          tc: "消息晚了兩小時。你在廚房裡，人還可以——晚回的字，不必把你寫成自己故事裡的壞人。",
-          sc: "消息晚了两小时。你在厨房里，人还可以——晚回的字，不必把你写成自己故事里的坏人。"
+          tc: "回信晚了兩小時。你在廚房裡仍可以好好的——晚到的消息，不能把你寫成反派。",
+          sc: "回信晚了两小时。你在厨房里仍可以好好的——晚到的消息，不能把你写成反派。"
         }
       },
       {
         num: "03",
         titleEn: "WANT",
         titleCn: { tc: "還想要", sc: "还想要" },
-        conceptEn: "Desire needs an other — someone who is not your mirror.",
+        conceptEn: "Wanting needs someone who is not your mirror.",
         plainEn: "You liked the movie; they didn’t — two people are still in the room. Fold your taste to keep the peace, and there is no one left to want.",
         plainCn: {
           tc: "你喜歡這部電影，對方不喜歡——房間裡才還是兩個人。為了和平先收起口味，別人沒了，想要也沒了對象。",
@@ -1524,8 +1518,8 @@ window.BOOKS = [
     extraHighlights: [
       {
         num: "04",
-        titleEn: "Other-validated trap",
-        titleCn: { tc: "等他們說你行", sc: "等他们说你行" },
+        titleEn: "THEIR STAMP",
+        titleCn: { tc: "對方蓋章", sc: "对方盖章" },
         conceptEn: "If you only feel real when they approve, closeness will always feel like a test.",
         plainEn: "They didn’t like your haircut. The head in the mirror still has to be yours.",
         plainCn: { tc: "對方不喜歡你的新頭髮。鏡子裡這顆頭，仍得是你的。", sc: "对方不喜欢你的新头发。镜子里这颗头，仍得是你的。" }
@@ -1534,7 +1528,7 @@ window.BOOKS = [
         num: "05",
         titleEn: "Hug till relaxed",
         titleCn: { tc: "抱到自己鬆", sc: "抱到自己松" },
-        conceptEn: "Stay in contact until your body stops bracing — including with yourself.",
+        conceptEn: "Stay in the hug — or a hand on your own chest — until the body unclenches.",
         plainEn: "Count to thirty in the hug before you let go. If you are alone, keep a hand on your chest until the jaw drops.",
         plainCn: {
           tc: "抱著先數到三十，再鬆手。若只有自己，把手放在胸口，直到牙關鬆開。",
@@ -1545,7 +1539,7 @@ window.BOOKS = [
         num: "06",
         titleEn: "Eyes open",
         titleCn: { tc: "睜眼", sc: "睁眼" },
-        conceptEn: "Intimacy is staying present, not going away inside the moment.",
+        conceptEn: "Intimacy is staying in the moment, not going blank behind the eyes.",
         plainEn: "Look at the person in front of you — or you in the mirror — while the kettle boils. Going blank behind the eyes is a performance with the lights off.",
         plainCn: {
           tc: "水壺響著的時候，看著面前這個人——也可以是鏡子裡的你。眼睛還在，人已退場，是內裡關了燈在演戲。",
@@ -1606,11 +1600,11 @@ window.BOOKS = [
     highlights: [
       {
         num: "01",
-        titleEn: "WAIT",
-        titleCn: { tc: "還在等", sc: "还在等" },
-        conceptEn: "Emotional loneliness is having a family and still feeling unseen.",
-        plainEn: "A full dinner table can feel empty if no one asks how you are. You were there, and you were also alone.",
-        plainCn: { tc: "一桌人吃飯，沒人問你怎麼樣，也會空。你在，你也是一個人。", sc: "一桌人吃饭，没人问你怎么样，也会空。你在，你也是一个人。" }
+        titleEn: "UNSEEN AT THE TABLE",
+        titleCn: { tc: "桌上卻看不見", sc: "桌上却看不见" },
+        conceptEn: "You can have a full dinner table and still feel unseen.",
+        plainEn: "Plates moving, everyone talking, no one asks how you are. You were there, and you were also alone.",
+        plainCn: { sc: "盘子在转，人人在说话，没人问你怎么样。你在，你也是一个人。", tc: "盤子在轉，人人在說話，沒人問你怎麼樣。你在，你也是一個人。" }
       },
       {
         num: "02",
@@ -1638,8 +1632,8 @@ window.BOOKS = [
     extraHighlights: [
       {
         num: "04",
-        titleEn: "Internalizers",
-        titleCn: { tc: "往內收", sc: "往内收" },
+        titleEn: "IF I AM BETTER",
+        titleCn: { tc: "如果我更好", sc: "如果我更好" },
         conceptEn: "Some kids decide: if I am better, they will finally be kind.",
         plainEn: "You rewrite the text until you sound easy. Clear would have been one draft; small took six.",
         plainCn: {
@@ -1660,8 +1654,8 @@ window.BOOKS = [
       },
       {
         num: "06",
-        titleEn: "Relatedness, not enmeshment",
-        titleCn: { tc: "靠近，不綁死", sc: "靠近，不绑死" },
+        titleEn: "A DOOR",
+        titleCn: { tc: "一扇門", sc: "一扇门" },
         conceptEn: "You can love a parent and still keep a door.",
         plainEn: "A shorter visit, a shorter call, a true “I can’t talk now.” Hanging up is not a crime.",
         plainCn: {
@@ -1671,8 +1665,8 @@ window.BOOKS = [
       },
       {
         num: "07",
-        titleEn: "Reparent the night",
-        titleCn: { tc: "今晚自己帶", sc: "今晚自己带" },
+        titleEn: "FEED YOURSELF",
+        titleCn: { tc: "先餵自己", sc: "先喂自己" },
         conceptEn: "Give yourself the ordinary care that was missing: food, sleep, a kind voice.",
         plainEn: "Toast, a set bedtime, a kind sentence in the notes app. That is filling in what the first home skipped — not a pep talk.",
         plainCn: {
@@ -1725,7 +1719,7 @@ window.BOOKS = [
         num: "01",
         titleEn: "ENOUGH",
         titleCn: { tc: "夠不夠", sc: "够不够" },
-        conceptEn: "Self-rejection will use any partner as proof.",
+        conceptEn: "The “I'm nothing” voice will use any partner as proof.",
         plainEn: "They take an hour to reply, and the mind says “see, I’m nothing.” That voice was in the house before they were — old fear, not today’s evidence.",
         plainCn: {
           tc: "對方一小時沒回，腦子說「看吧，我什麼都不是」。這聲音在對方出現以前就有——是舊的怕，不是今天的證據。",
@@ -1760,7 +1754,7 @@ window.BOOKS = [
         num: "04",
         titleEn: "The domestic story",
         titleCn: { tc: "家裡那套話", sc: "家里那套话" },
-        conceptEn: "Old house rules still run the kitchen: don’t need, don’t cry, be useful.",
+        conceptEn: "Old house rules still run the kitchen: don't need, don't cry, be useful.",
         plainEn: "Eleven p.m., you want to cry into the sink and you rinse a glass instead. The old house is still giving orders.",
         plainCn: { tc: "夜裡十一點，你想對著水槽哭，卻去衝一隻杯子。舊房子仍在發令。", sc: "夜里十一点，你想对着水槽哭，却去冲一只杯子。旧房子仍在发令。" }
       },
@@ -1787,7 +1781,7 @@ window.BOOKS = [
         num: "07",
         titleEn: "Practice is ordinary",
         titleCn: { tc: "修行是日常", sc: "修行是日常" },
-        conceptEn: "Mastery here is not a mountain. It is catching the fear once.",
+        conceptEn: "The work is catching the “I'm not enough” sentence once — not climbing a mountain.",
         plainEn: "“I’m not enough” pops up while you wait for a reply. Name it as fear, the way you name spam, then put the phone down.",
         plainCn: {
           tc: "等回復時，那句「我不夠」冒出來。把這句看成怕，像認出垃圾郵件，然後把手機放下。",
@@ -1839,7 +1833,7 @@ window.BOOKS = [
         num: "01",
         titleEn: "BUBBLE",
         titleCn: { tc: "雙人罩", sc: "双人罩" },
-        conceptEn: "The pair comes first: we protect us, then we solve the thing.",
+        conceptEn: "Protect the two of you first. Then argue about the dishes.",
         plainEn: "If one of you just felt dumped, the dishes can wait. Get back into the same room before you argue about the sink.",
         plainCn: {
           tc: "若剛才有人覺得沒人要了，碗可以後說。先回到同一間廚房，再吵那盆碗。",
@@ -1850,7 +1844,7 @@ window.BOOKS = [
         num: "02",
         titleEn: "ANIMAL",
         titleCn: { tc: "別嚇唬", sc: "别吓唬" },
-        conceptEn: "Threats, silence-as-weapon, and slamming doors scare the body, not just the mind.",
+        conceptEn: "Threats, silence used as a weapon, and slamming doors scare the body, not just the mind.",
         plainEn: "“Fine, maybe we should break up” over the dishes is a fire alarm. The animal hears danger; underneath is often: I felt far.",
         plainCn: {
           tc: "為了碗說「那分手啊」，等於火警。動物聽見的是危險；底下常常是：我覺得遠了。",
@@ -1869,9 +1863,9 @@ window.BOOKS = [
     extraHighlights: [
       {
         num: "04",
-        titleEn: "Owners, not tenants",
-        titleCn: { tc: "當主人，別當房客", sc: "当主人，别当房客" },
-        conceptEn: "Treat the pair as yours to keep, not a hotel you can trash.",
+        titleEn: "NOT A HOTEL",
+        titleCn: { tc: "不是旅館", sc: "不是旅馆" },
+        conceptEn: "Treat the pair as a home you keep, not a hotel you can trash.",
         plainEn: "You show up only when you feel like it, then leave the mess. That is visiting, not living there.",
         plainCn: { tc: "只在心情好時出現，把亂攤子留下就走。那是作客，不是在住。", sc: "只在心情好时出现，把乱摊子留下就走。那是作客，不是在住。" }
       },
@@ -1890,7 +1884,7 @@ window.BOOKS = [
         num: "06",
         titleEn: "Night watch",
         titleCn: { tc: "夜裡也護著", sc: "夜里也护着" },
-        conceptEn: "The animal sleeps better when the other side of the bed is an ally.",
+        conceptEn: "The body sleeps better when the other side of the bed is an ally.",
         plainEn: "Before the light goes off: “We’re okay tonight.” The body can take that into sleep; “I told you so” it cannot.",
         plainCn: {
           tc: "關燈前說一句：「今晚我們還好。」身體能帶著這句話去睡，帶不走「我早說了」。",
@@ -1899,8 +1893,8 @@ window.BOOKS = [
       },
       {
         num: "07",
-        titleEn: "Purpose over pride",
-        titleCn: { tc: "目的大過面子", sc: "目的大过面子" },
+        titleEn: "RIGHT OR CLOSE",
+        titleCn: { tc: "要對還是要近", sc: "要对还是要近" },
         conceptEn: "Ask: do I want to be correct, or do I want us to feel safe enough to sleep?",
         plainEn: "“I told you so” wins the dishes and scares the animal. Under it is often: I want you close.",
         plainCn: { tc: "「我早說了」贏了碗，嚇到了動物。底下常常是：我想你近一點。", sc: "“我早说了”赢了碗，吓到了动物。底下常常是：我想你近一点。" }
@@ -1983,9 +1977,9 @@ window.BOOKS = [
     extraHighlights: [
       {
         num: "04",
-        titleEn: "Honesty after",
-        titleCn: { tc: "之後的老實", sc: "之后的老实" },
-        conceptEn: "Secrecy was part of the injury. Drip-truth is another cut.",
+        titleEn: "DRIPPING TRUTH",
+        titleCn: { tc: "一點一點的實話", sc: "一点一点的实话" },
+        conceptEn: "Hiding was part of the hurt. Dripping the truth out later is another cut.",
         plainEn: "Hiding was not a side dish. A little truth on Thursday, when it would hurt most, is another cut — not honesty.",
         plainCn: {
           tc: "隱瞞不是配菜。周四最疼的時候再漏一點真話，是另一刀，不是老實。",
@@ -1994,17 +1988,17 @@ window.BOOKS = [
       },
       {
         num: "05",
-        titleEn: "Desire that went missing",
-        titleCn: { tc: "消失的想要", sc: "消失的想要" },
-        conceptEn: "A dead room can be part of the plot without being an excuse.",
-        plainEn: "Something went dull before anyone else entered the story. Dull is a clue, not a license.",
-        plainCn: { tc: "第三者出現以前，就有東西變淡了。淡是線索，不是執照。", sc: "第三者出现以前，就有东西变淡了。淡是线索，不是执照。" }
+        titleEn: "THE DULL ROOM",
+        titleCn: { tc: "發悶的房間", sc: "发闷的房间" },
+        conceptEn: "The room can go dull before anyone else walks in. Dull is a clue, not a free pass.",
+        plainEn: "Something went quiet in the house first. Quiet is a clue, not a license.",
+        plainCn: { sc: "屋子里先有东西静下去。静是线索，不是执照。", tc: "屋子裡先有東西靜下去。靜是線索，不是執照。" }
       },
       {
         num: "06",
         titleEn: "The marriage that follows",
         titleCn: { tc: "後面那樁", sc: "后面那桩" },
-        conceptEn: "You don’t get the old pair back. You get a different one, or none.",
+        conceptEn: "You don't get the old pair back. You get a different one, or none.",
         plainEn: "You cannot press play on last spring. If there is a later pair, it will need more talk, more air, more truth than the one that broke.",
         plainCn: {
           tc: "去年春天回不去了。若還有後面那一對，會需要比破裂的那對更多說話、更多空隙、更多實話。",
@@ -2015,7 +2009,7 @@ window.BOOKS = [
         num: "07",
         titleEn: "Curiosity is not softness",
         titleCn: { tc: "好奇不是軟弱", sc: "好奇不是软弱" },
-        conceptEn: "Asking “what was this about?” is how adults stay with reality.",
+        conceptEn: "Asking “what was this about?” is how adults stay with what happened.",
         plainEn: "“What did I hope to feel?” is not going easy on anyone. It is refusing the cartoon.",
         plainCn: { tc: "「我想感覺到什麼」——不是對誰手軟。是拒絕漫畫。", sc: "“我想感觉到什么”——不是对谁手软。是拒绝漫画。" }
       }
@@ -2061,7 +2055,7 @@ window.BOOKS = [
         num: "01",
         titleEn: "WIRED",
         titleCn: { tc: "本來就會", sc: "本来就会" },
-        conceptEn: "Needing a person is a design, not a defect.",
+        conceptEn: "Needing a person is how we are built, not a defect.",
         plainEn: "You check the phone because your body wants to know they exist. That is not proof you are “too much.”",
         plainCn: { tc: "你看手機，是身體想確認人還在。這不是「你太黏」的證據。", sc: "你看手机，是身体想确认人还在。这不是“你太黏”的证据。" }
       },
@@ -2069,7 +2063,7 @@ window.BOOKS = [
         num: "02",
         titleEn: "PANIC",
         titleCn: { tc: "像掉下去", sc: "像掉下去" },
-        conceptEn: "Separation can feel like danger because, to the body, it is.",
+        conceptEn: "Being apart can feel like danger because, to the body, it is.",
         plainEn: "A cold reply can hit like a missed step on the stairs. The drop is real in the body — not you being extra.",
         plainCn: {
           tc: "一條冷冷的回覆，像樓梯少一級。那一掉，身體裡是真的——不是你小題大作。",
@@ -2080,7 +2074,7 @@ window.BOOKS = [
         num: "03",
         titleEn: "SAFE",
         titleCn: { tc: "夠得到", sc: "够得到" },
-        conceptEn: "A secure bond is: I can reach you, and you will answer.",
+        conceptEn: "Safe means: I can reach you, and you will answer.",
         plainEn: "The third text sits unread; tonight the phone is a brick. That is why the chest goes tight.",
         plainCn: { tc: "第三條消息還沒人點開，今晚手機像一塊磚。胸口因此發緊。", sc: "第三条消息还没人点开，今晚手机像一块砖。胸口因此发紧。" }
       }
@@ -2098,7 +2092,7 @@ window.BOOKS = [
         num: "05",
         titleEn: "Shutdown is also fear",
         titleCn: { tc: "關掉也是怕", sc: "关掉也是怕" },
-        conceptEn: "Going numb protects a scared animal, then starves the bond.",
+        conceptEn: "Going numb protects a scared body, then nobody can reach.",
         plainEn: "Blankness is not “I don’t care.” The animal got scared and slammed the door from inside — and then nobody can reach.",
         plainCn: {
           tc: "當機不是「我不在乎」。裡頭的動物怕了，從裡面把門摔上——然後誰也夠不著。",
@@ -2109,7 +2103,7 @@ window.BOOKS = [
         num: "06",
         titleEn: "New wiring",
         titleCn: { tc: "新線路", sc: "新线路" },
-        conceptEn: "Repeated safe answers slowly teach the body a different future.",
+        conceptEn: "Kept promises, over and over, teach the body a different future.",
         plainEn: "“I’ll call at nine,” and you do. One kept time teaches the body more than a long apology.",
         plainCn: {
           tc: "你說九點打，就九點打。守住的一個鐘點，比一篇道歉演講更能讓身體學會。",
@@ -2118,9 +2112,9 @@ window.BOOKS = [
       },
       {
         num: "07",
-        titleEn: "Science, not romance novel",
-        titleCn: { tc: "不是言情，是活命", sc: "不是言情，是活命" },
-        conceptEn: "The point is not destiny. It is a body that needs a reachable other.",
+        titleEn: "NOT FATE",
+        titleCn: { tc: "不是命運", sc: "不是命运" },
+        conceptEn: "The point is not fate. It is a body that needs someone it can reach.",
         plainEn: "A hand on the table, waiting to see if anyone turns. That is the blunter question — not fate.",
         plainCn: {
           tc: "手擱在桌上，等著看有沒有人轉過來。這才是更硬的一句——不是命運。",
@@ -2170,20 +2164,17 @@ window.BOOKS = [
     highlights: [
       {
         num: "01",
-        titleEn: "STORGE",
-        titleCn: { tc: "家常", sc: "家常" },
-        conceptEn: "Affection is the love of the familiar — the person who is just there.",
-        plainEn: "The same mug, the same joke. Call that boring, and you are asking Tuesday to be a crush.",
-        plainCn: {
-          tc: "同一隻杯子，同一句笑話。若嫌這沒意思，就是在要求星期二去當迷戀。",
-          sc: "同一只杯子，同一句笑话。若嫌这没意思，就是在要求星期二去当迷恋。"
-        }
+        titleEn: "JUST THERE",
+        titleCn: { tc: "就在那兒", sc: "就在那儿" },
+        conceptEn: "One kind of love is the person who is just there — same mug, same joke.",
+        plainEn: "Call that Tuesday boring, and you are asking it to be a crush.",
+        plainCn: { sc: "把这样的周二叫做无聊，就是在要求它变成心动。", tc: "把這樣的周二叫做無聊，就是在要求它變成心動。" }
       },
       {
         num: "02",
-        titleEn: "PHILIA",
+        titleEn: "SIDE BY SIDE",
         titleCn: { tc: "並肩", sc: "并肩" },
-        conceptEn: "Friendship looks at the same thing together, not only at each other.",
+        conceptEn: "Friends look at the same thing together, not only at each other.",
         plainEn: "You both watch the same dog on the walk home. Forcing that hour into a date confuses two jobs.",
         plainCn: {
           tc: "走回家的路上，兩人看同一隻狗。硬把這一小時變成約會，是兩份工搞混了。",
@@ -2192,30 +2183,33 @@ window.BOOKS = [
       },
       {
         num: "03",
-        titleEn: "EROS / AGAPE",
-        titleCn: { tc: "戀，與願你好", sc: "恋，与愿你好" },
-        conceptEn: "Romance wants the person. Charity wants their good — even when the feeling is quiet.",
+        titleEn: "TWO WANTS",
+        titleCn: { tc: "兩種想要", sc: "两种想要" },
+        conceptEn: "Romance wants the person. Another kind of love wants them to be okay, even when the feeling is quiet.",
         plainEn: "They look tired and you still want a kiss. Wanting the kiss, and wanting them to get the sleep, are two different sentences.",
         plainCn: {
-          tc: "對方看著累了，你仍想要一個吻。想要這個吻，和想要對方去睡覺，不是同一句話。",
-          sc: "对方看着累了，你仍想要一个吻。想要这个吻，和想要对方去睡觉，不是同一句话。"
+          tc: "他們看著累，你仍想親吻。想要那個吻，和想讓他們睡夠，是兩句話。",
+          sc: "他们看着累，你仍想亲吻。想要那个吻，和想让他们睡够，是两句话。"
         }
       }
     ],
     extraHighlights: [
       {
         num: "04",
-        titleEn: "Don’t make a god of one",
-        titleCn: { tc: "別把一種愛供起來", sc: "别把一种爱供起来" },
-        conceptEn: "Eros alone will eat the furniture. Affection alone can smother.",
-        plainEn: "If romance is the only food, ordinary Tuesdays starve. If the same mug is the only food, nobody gets to be wanted.",
-        plainCn: { tc: "只供戀，普通星期二會餓。只供同一隻杯子，就再沒有人想要誰。", sc: "只供恋，普通星期二会饿。只供同一只杯子，就再没有人想要谁。" }
+        titleEn: "DON'T PICK ONLY ONE",
+        titleCn: { tc: "別只餵一種", sc: "别只喂一种" },
+        conceptEn: "If you only feed romance, Tuesday starves. If you only feed the same-mug love, nobody gets wanted.",
+        plainEn: "If every night has to feel like a crush, ordinary hours starve. If nobody is ever wanted, the mug is all that's left.",
+        plainCn: {
+          sc: "若每晚都要像心动，平常的钟点就会饿。若再也没有人被想要，就只剩那只杯子。",
+          tc: "若每晚都要像心動，平常的鐘點就會餓。若再也沒有人被想要，就只剩那隻杯子。"
+        }
       },
       {
         num: "05",
-        titleEn: "Need-love and gift-love",
-        titleCn: { tc: "需要的愛，給出的愛", sc: "需要的爱，给出的爱" },
-        conceptEn: "Some love says “I need you.” Some says “I offer this.” Both are human.",
+        titleEn: "NEED AND GIVE",
+        titleCn: { tc: "需要和給出", sc: "需要和给出" },
+        conceptEn: "Some love says “I need you.” Some says “I brought this.” Both are human.",
         plainEn: "Asking for a ride is human. Pretending you never need one is a costume — and so is only ever giving the ride.",
         plainCn: {
           tc: "開口請人載一程，是人。假裝從不需要，是戲服；永遠只載人、從不開口，是另一件。",
@@ -2281,11 +2275,11 @@ window.BOOKS = [
     highlights: [
       {
         num: "01",
-        titleEn: "ONE",
-        titleCn: { tc: "一隻", sc: "一只" },
-        conceptEn: "You are not a soul riding a machine.",
+        titleEn: "ONE CREATURE",
+        titleCn: { tc: "一個活物", sc: "一个活物" },
+        conceptEn: "Your body is you. It is not a bike your mind has to ride.",
         plainEn: "Bite an apple. The sweetness is already in your mouth — not in an upstairs office that has to approve it.",
-        plainCn: { tc: "咬一口蘋果。甜就在嘴裡——不必上樓去請腦子批准。", sc: "咬一口苹果。甜就在嘴里——不必上楼去请脑子批准。" }
+        plainCn: { tc: "咬一口蘋果。甜已經在嘴裡——不必上樓去請一個辦公室批准。", sc: "咬一口苹果。甜已经在嘴里——不必上楼去请一个办公室批准。" }
       },
       {
         num: "02",
@@ -2302,7 +2296,7 @@ window.BOOKS = [
         num: "03",
         titleEn: "FLOW",
         titleCn: { tc: "別硬推", sc: "别硬推" },
-        conceptEn: "Forcing desire is like forcing a river with a lecture.",
+        conceptEn: "Forcing desire is like lecturing a river into moving.",
         plainEn: "A kitchen talk about why nothing is happening tonight will not make it happen. Warm soup, a lamp, sleep — let the evening be an evening.",
         plainCn: {
           tc: "今晚怎麼沒動靜，拿到廚房來開會，也不會讓動靜出現。熱湯、一盞燈、睡覺——讓晚上是晚上。",
@@ -2315,7 +2309,7 @@ window.BOOKS = [
         num: "04",
         titleEn: "Roles are costumes",
         titleCn: { tc: "角色是戲服", sc: "角色是戏服" },
-        conceptEn: "“Man” and “woman” as rigid scripts make pairing into theater.",
+        conceptEn: "Rigid “how a boy/girl should be” turns pairing into a play.",
         plainEn: "“I shouldn’t need this” is often a line someone handed you. Needing a hug is still a person’s fact, not a role you failed.",
         plainCn: {
           tc: "「我不該需要這個」，常常是別人塞來的臺詞。想要一個擁抱，仍是一個人的事實，不是演砸的角色。",
@@ -2326,7 +2320,7 @@ window.BOOKS = [
         num: "05",
         titleEn: "Nature is not a backdrop",
         titleCn: { tc: "自然不是布景", sc: "自然不是布景" },
-        conceptEn: "The body is the same world as weather, food, and sleep.",
+        conceptEn: "Your body is in the same world as weather, food, and sleep.",
         plainEn: "Open the window. Cold air, the pan, your own tired feet — that is the same world you later sit close in.",
         plainCn: {
           tc: "打開窗。冷空氣、鍋、自己發酸的腳——後來靠近的人，也在這個世界裡。",
@@ -2337,7 +2331,7 @@ window.BOOKS = [
         num: "06",
         titleEn: "Trying too hard",
         titleCn: { tc: "太用力", sc: "太用力" },
-        conceptEn: "The more you watch yourself be “good at intimacy,” the further you go from it.",
+        conceptEn: "The more you watch yourself be “good at closeness,” the further you go from it.",
         plainEn: "If you are scoring yourself while you hold them, you are already in the stands. Hands washing a cup, with no score, is closer.",
         plainCn: {
           tc: "抱著人還在給自己打分，人已經坐到看臺上了。手在洗碗、不打分，更近。",
@@ -2346,9 +2340,9 @@ window.BOOKS = [
       },
       {
         num: "07",
-        titleEn: "East as a hint, not a costume",
-        titleCn: { tc: "東方是提示，不是戲服", sc: "东方是提示，不是戏服" },
-        conceptEn: "Watts is borrowing a sense: stop exiling the body. He is not asking you to play monk.",
+        titleEn: "NOT A COSTUME",
+        titleCn: { tc: "不是戲服", sc: "不是戏服" },
+        conceptEn: "You don't have to play monk. An unhurried shower is already the hint.",
         plainEn: "No incense required. An unhurried shower is enough: the you in the water is the same you who will walk to the kitchen.",
         plainCn: {
           tc: "不必燒香。一次不趕的洗澡就夠：水裡的你，和走進廚房的你，是同一個人。",
@@ -2446,7 +2440,7 @@ window.BOOKS = [
         num: "05",
         titleEn: "The one-down stance",
         titleCn: { tc: "把自己踩低", sc: "把自己踩低" },
-        conceptEn: "Collapsing into “it’s all my fault” is also not a we.",
+        conceptEn: "Collapsing into “it's all my fault” is also not a we.",
         plainEn: "Five apologies just to make the kitchen go quiet is disappearing. A we can still say: I did this, you did that.",
         plainCn: {
           tc: "道五次歉，只為讓廚房安靜下來，是消失。我們仍可以說：我做了這個，你做了那個。",
@@ -2544,14 +2538,11 @@ window.BOOKS = [
     extraHighlights: [
       {
         num: "04",
-        titleEn: "Not your communication homework",
-        titleCn: { tc: "不是你的溝通作業", sc: "不是你的沟通作业" },
-        conceptEn: "You cannot NVC someone out of entitlement.",
-        plainEn: "Gentler “I feel” sentences will not teach a person who likes running you to stop. Their character is not your homework.",
-        plainCn: {
-          tc: "把句子改成「我感覺」，教不會一個喜歡管你的人去不管。對方的人品不是你的功課。",
-          sc: "把句子改成“我感觉”，教不会一个喜欢管你的人去不管。对方的人品不是你的功课。"
-        }
+        titleEn: "NOT YOUR HOMEWORK",
+        titleCn: { tc: "不是你的功課", sc: "不是你的功课" },
+        conceptEn: "Gentler wording will not teach a person who likes control to stop liking it.",
+        plainEn: "You can say it more softly. A person who likes running you will still like running you.",
+        plainCn: { sc: "话可以说得更软。喜欢管你的人，还是喜欢管你。", tc: "話可以說得更軟。喜歡管你的人，還是喜歡管你。" }
       },
       {
         num: "05",
@@ -2576,7 +2567,7 @@ window.BOOKS = [
         num: "07",
         titleEn: "Words for you, not a campaign",
         titleCn: { tc: "詞給你，不是戰役", sc: "词给你，不是战役" },
-        conceptEn: "Clarity is for your own map. This page is not a message to them.",
+        conceptEn: "The word is for your own map. This page is not a message to send.",
         plainEn: "Write “control” on paper, for you. This page is not a speech to send, not a campaign, not a plan.",
         plainCn: {
           tc: "把「控制」寫在紙上，寫給你自己。這一頁不是要寄出的話，不是討伐，也不是方案。",
@@ -2626,20 +2617,20 @@ window.BOOKS = [
     highlights: [
       {
         num: "01",
-        titleEn: "THREE",
-        titleCn: { tc: "三臺引擎", sc: "三台引擎" },
-        conceptEn: "Lust, attraction, and attachment are different jobs in the same mammal.",
-        plainEn: "You can want someone’s body and not want to build a life. You can skip lunch over a crush and still not want to stay.",
+        titleEn: "THREE WANTS",
+        titleCn: { tc: "三種想要", sc: "三种想要" },
+        conceptEn: "Wanting a body, a crush, and wanting to stay are three different wants. They can disagree.",
+        plainEn: "You can want someone's body and not want to build a life. You can skip lunch over a crush and still not want to stay.",
         plainCn: {
-          tc: "可以想靠近一個人的身體，卻不想一起過日子。可以迷戀到午飯也忘了，仍不想留下來。",
-          sc: "可以想靠近一个人的身体，却不想一起过日子。可以迷恋到午饭也忘了，仍不想留下来。"
+          tc: "可以想要一個人的身體，卻不想一起過日子。可以為心動到忘了吃飯，仍不想留下來。",
+          sc: "可以想要一个人的身体，却不想一起过日子。可以为心动到忘了吃饭，仍不想留下来。"
         }
       },
       {
         num: "02",
         titleEn: "CRUSH",
         titleCn: { tc: "世界變窄", sc: "世界变窄" },
-        conceptEn: "Attraction is a focus system. It makes one person the whole screen.",
+        conceptEn: "A crush makes one person the whole screen. It is bad at telling the future.",
         plainEn: "One face on replay, lunch forgotten. A crush is bad at telling the future.",
         plainCn: { tc: "腦子重放一張臉，午飯也忘了。迷戀看不了明天。", sc: "脑子重放一张脸，午饭也忘了。迷恋看不了明天。" }
       },
@@ -2647,12 +2638,9 @@ window.BOOKS = [
         num: "03",
         titleEn: "STAY",
         titleCn: { tc: "留下來", sc: "留下来" },
-        conceptEn: "Attachment is the calm of a familiar person, not the fireworks of the crush.",
-        plainEn: "The quiet of “they’re here” is not the same as fireworks. If you wait for fireworks to prove this is real, you will miss how staying actually feels.",
-        plainCn: {
-          tc: "「人在」的安靜，跟煙火不是一回事。若等煙火來證明這是真的，你會看漏留下來真正的感覺。",
-          sc: "“人在”的安静，跟烟火不是一回事。若等烟火来证明这是真的，你会看漏留下来真正的感觉。"
-        }
+        conceptEn: "The quiet of “they're here” is not the same as fireworks.",
+        plainEn: "If you wait for fireworks to prove this is real, you will miss how staying actually feels.",
+        plainCn: { sc: "若等烟火来证明这是真的，你会看漏留下来真正的感觉。", tc: "若等煙火來證明這是真的，你會看漏留下來真正的感覺。" }
       }
     ],
     extraHighlights: [
@@ -2660,7 +2648,7 @@ window.BOOKS = [
         num: "04",
         titleEn: "Out of sync",
         titleCn: { tc: "對不齊", sc: "对不齐" },
-        conceptEn: "The three systems can point at different people at the same time.",
+        conceptEn: "The three wants can point at different people at the same time.",
         plainEn: "Settled with one person, crush on another, body wanting a third — messy, and possible. It is not a curse written only for you.",
         plainCn: {
           tc: "跟一個人安定、迷戀另一個、身體想靠近第三個——亂，也做得到。不是只寫給你的詛咒。",
@@ -2669,9 +2657,9 @@ window.BOOKS = [
       },
       {
         num: "05",
-        titleEn: "Across cultures",
-        titleCn: { tc: "不只一種文化", sc: "不只一种文化" },
-        conceptEn: "Pair-bonding shows up in many places. The poems change. The engines rhyme.",
+        titleEn: "SAME WANTS, DIFFERENT POEMS",
+        titleCn: { tc: "想要一樣，詩不同", sc: "想要一样，诗不同" },
+        conceptEn: "Different countries, different weddings — people still want a body, still crush, still want to stay.",
         plainEn: "Grandparents in one country, a couple on a bus in another. Still someone wants a body, still someone can’t eat, still someone wants to stay.",
         plainCn: {
           tc: "一個家裡的祖父母，另一輛公交上的兩人。仍有人想靠近身體，仍有人吃不下，仍有人想留下來。",
@@ -2682,19 +2670,19 @@ window.BOOKS = [
         num: "06",
         titleEn: "Not a verdict on character",
         titleCn: { tc: "不是人格判決", sc: "不是人格判决" },
-        conceptEn: "A cooling crush is a system shifting, not proof you chose wrong.",
+        conceptEn: "When the crush cools, that is a want shifting, not proof you chose wrong.",
         plainEn: "Fireworks fade, and “they’re here” gets louder. That is not a moral fail called “falling out of love.”",
         plainCn: { tc: "煙火淡了，「人在」變響。那不是叫做「不愛了」的人品問題。", sc: "烟火淡了，“人在”变响。那不是叫做“不爱了”的人品问题。" }
       },
       {
         num: "07",
-        titleEn: "Science, still a person",
-        titleCn: { tc: "科學，仍是人", sc: "科学，仍是人" },
-        conceptEn: "A map of drives does not turn you into a machine with no say.",
-        plainEn: "Knowing the engines exist does not mean you must follow every one. You can tell which one is talking before you call it fate.",
+        titleEn: "YOU STILL GET A SAY",
+        titleCn: { tc: "你仍有選擇", sc: "你仍有选择" },
+        conceptEn: "Knowing the three wants exist does not mean you have to follow every one.",
+        plainEn: "You can tell which want is talking before you call it fate. You do not have to follow every one.",
         plainCn: {
-          tc: "知道有這三臺引擎，不必跟著每一臺走。叫成命運以前，可以先聽清是哪臺在講話。",
-          sc: "知道有这三台引擎，不必跟着每一台走。叫成命运以前，可以先听清是哪台在讲话。"
+          tc: "可以先分清是哪一種想要在說話，再把它叫做命運。不必每一種都跟著走。",
+          sc: "可以先分清是哪一种想要在说话，再把它叫做命运。不必每一种都跟着走。"
         }
       }
     ],
@@ -2754,17 +2742,17 @@ window.BOOKS = [
       },
       {
         num: "02",
-        titleEn: "ACCEPT / ALLOW",
-        titleCn: { tc: "接受，放手", sc: "接受，放手" },
-        conceptEn: "Acceptance is not approval of harm. Allowing is not erasing yourself.",
-        plainEn: "They are slower in the morning — that can stay; cruelty cannot. They get to be themselves, and you still get to be you.",
-        plainCn: { tc: "早晨比較慢，可以留下；殘忍，不行。對方做自己，你也仍是你。", sc: "早晨比较慢，可以留下；残忍，不行。对方做自己，你也仍是你。" }
+        titleEn: "ACCEPT, DON'T ERASE",
+        titleCn: { tc: "接受，不是抹掉自己", sc: "接受，不是抹掉自己" },
+        conceptEn: "Accepting they are slow in the morning is not accepting cruelty. You still get to be you.",
+        plainEn: "They take longer to wake up — that can stay. Cruelty cannot. You still get to be you.",
+        plainCn: { sc: "他们醒得慢——可以留下。残忍，不行。你也仍是你。", tc: "他們醒得慢——可以留下。殘忍，不行。你也仍是你。" }
       },
       {
         num: "03",
         titleEn: "A WHOLE SELF",
         titleCn: { tc: "帶自己來", sc: "带自己来" },
-        conceptEn: "An adult brings a self. A child-in-love borrows one.",
+        conceptEn: "A grown person brings a self. They do not use a partner as a missing piece.",
         plainEn: "“Complete me” turns them into a spare part. Two people who already have a self can still want each other.",
         plainCn: {
           tc: "「把我湊齊」把對方變成零件。兩個已經有自己的人，仍可以想要對方。",
@@ -2785,7 +2773,7 @@ window.BOOKS = [
         num: "05",
         titleEn: "Affection",
         titleCn: { tc: "溫暖", sc: "温暖" },
-        conceptEn: "Affection is warmth that doesn’t have to be a deal.",
+        conceptEn: "Affection is warmth that doesn't have to be a deal.",
         plainEn: "A hand, a kind voice, a joke — given without “now you owe me.” If warmth is always a trade, it is a contract.",
         plainCn: {
           tc: "一隻手、一句不狠的話、一個笑話——不必附帶「那你欠我」。溫暖若總是交易，就是合同。",
@@ -2794,20 +2782,20 @@ window.BOOKS = [
       },
       {
         num: "06",
-        titleEn: "Mindfulness, not a pose",
-        titleCn: { tc: "在，不是擺拍", sc: "在，不是摆拍" },
-        conceptEn: "The Buddhist flavor here is ordinary presence, not a costume of calm.",
+        titleEn: "LOOK, DON'T POSE",
+        titleCn: { tc: "看，不是擺姿勢", sc: "看，不是摆姿势" },
+        conceptEn: "Looking at what is happening is the practice. Posing as the wise one is another way of leaving the room.",
         plainEn: "Look at what is happening — in you, in them. Posing as the wise one is another way of not being in the room.",
         plainCn: {
-          tc: "看正在發生的：你裡頭的，對方裡頭的。擺出智者樣，是另一種不在場。",
-          sc: "看正在发生的：你里头的，对方里头的。摆出智者样，是另一种不在场。"
+          tc: "看著正在發生的——在你身上，在對方身上。擺出智者的樣子，是另一種不在場。",
+          sc: "看着正在发生的——在你身上，在对方身上。摆出智者的样子，是另一种不在场。"
         }
       },
       {
         num: "07",
         titleEn: "Grief is adult too",
         titleCn: { tc: "難過也算長大", sc: "难过也算长大" },
-        conceptEn: "Adults let loss be loss. They don’t force a silver lining to look grown.",
+        conceptEn: "Adults let loss be loss. They don't force a silver lining to look grown.",
         plainEn: "When a pair ends or a hope ends, sadness without a pep talk is allowed. Cheerfulness on command is a child trying to keep the house calm.",
         plainCn: {
           tc: "一段完了，或一個盼望完了，允許難過，不必打氣。命令自己樂觀，是小孩在維持家裡的天氣。",
@@ -2857,25 +2845,19 @@ window.BOOKS = [
     highlights: [
       {
         num: "01",
-        titleEn: "TUNED",
-        titleCn: { tc: "讀空氣", sc: "读空气" },
-        conceptEn: "The gift is reading the room too well. The loss is you.",
-        plainEn: "You knew which face would make a parent smile, and you wore only that. The weather inside you never got a turn.",
-        plainCn: {
-          tc: "你知道哪張臉能讓父母笑，就只戴那一張。你裡頭的天氣，從來沒輪到過。",
-          sc: "你知道哪张脸能让父母笑，就只戴那一张。你里头的天气，从来没轮到过。"
-        }
+        titleEn: "TOO WELL TUNED",
+        titleCn: { tc: "讀得太好", sc: "读得太好" },
+        conceptEn: "The kid who always knew how to make a parent smile often grew up not knowing what they feel.",
+        plainEn: "You wore only the face that kept the house smiling. The weather inside you never got a turn.",
+        plainCn: { sc: "你只戴能让家里笑的那张脸。你里头的天气，从来没轮到过。", tc: "你只戴能讓家裡笑的那張臉。你裡頭的天氣，從來沒輪到過。" }
       },
       {
         num: "02",
-        titleEn: "FALSE",
-        titleCn: { tc: "假自己", sc: "假自己" },
-        conceptEn: "The false self is the good child who never got to have a true one.",
-        plainEn: "Adults who cannot tell what they feel were often too busy feeling for someone else. Numbness is a light turned down, not a personality.",
-        plainCn: {
-          tc: "說不出自己感覺的大人，常常當年忙著替別人感覺。麻不是性格，是燈調暗了。",
-          sc: "说不出自己感觉的大人，常常当年忙着替别人感觉。麻不是性格，是灯调暗了。"
-        }
+        titleEn: "THE GOOD ACT",
+        titleCn: { tc: "乖的那套", sc: "乖的那套" },
+        conceptEn: "The “good child” can grow up unable to tell what they feel.",
+        plainEn: "Numbness is a light turned down, not a personality. Someone else was using your feelings for years.",
+        plainCn: { sc: "麻木是灯被拧暗了，不是性格。有人借用你的感觉，用了很多年。", tc: "麻木是燈被擰暗了，不是性格。有人借用你的感覺，用了很多年。" }
       },
       {
         num: "03",
@@ -2894,22 +2876,19 @@ window.BOOKS = [
         num: "04",
         titleEn: "Depression as receipt",
         titleCn: { tc: "空是收據", sc: "空是收据" },
-        conceptEn: "Depression can be the reward for being good: the true self was never fed.",
-        plainEn: "The empty feeling after a “successful” good-child life is not ingratitude. Someone behind the performance never got fed.",
-        plainCn: {
-          tc: "當了好孩子、表面成功之後的空，不是不知足。表演後面那個人，從來沒吃飽。",
-          sc: "当了好孩子、表面成功之后的空，不是不知足。表演后面那个人，从来没吃饱。"
-        }
+        conceptEn: "The empty feeling after a “successful” good-child life is often the bill.",
+        plainEn: "Everyone said you turned out well. At night the kitchen still feels hollow. The good act got fed; you didn't.",
+        plainCn: { tc: "人人都說你出息了。夜裡廚房仍空。乖的那套被餵飽了；你沒有。", sc: "人人都说你出息了。夜里厨房仍空。乖的那套被喂饱了；你没有。" }
       },
       {
         num: "05",
-        titleEn: "The parent’s need",
-        titleCn: { tc: "父母的需要", sc: "父母的需要" },
-        conceptEn: "The child was used to regulate the parent. That is the wound, not “they did their best” as a full stop.",
+        titleEn: "THEIR CALM, YOUR COST",
+        titleCn: { tc: "他們的平靜，你的帳", sc: "他们的平静，你的账" },
+        conceptEn: "The child was used to keep the parent calm. “They did their best” does not erase that.",
         plainEn: "You were the lamp that kept the house calm. Both can be true: they were overwhelmed, and you paid.",
         plainCn: {
-          tc: "你曾是讓屋子安靜的那盞燈。兩句可以同時真：父母自己也撐不住，你付了帳。",
-          sc: "你曾是让屋子安静的那盏灯。两句可以同时真：父母自己也撑不住，你付了账。"
+          tc: "你曾是家裡那盞讓人安心的燈。兩件事可以同時真：他們撐不住，帳記在你身上。",
+          sc: "你曾是家里那盏让人安心的灯。两件事可以同时真：他们撑不住，账记在你身上。"
         }
       },
       {
@@ -2974,20 +2953,20 @@ window.BOOKS = [
     highlights: [
       {
         num: "01",
-        titleEn: "LEAN",
-        titleCn: { tc: "靠過去", sc: "靠过去" },
-        conceptEn: "Amae is leaning because you trust the other will hold.",
-        plainEn: "Asking for a later wakeup, or a softer tone, without a speech — that is a bet that goodwill is real. It is not automatically “too much.”",
+        titleEn: "A SOFT ASK",
+        titleCn: { tc: "軟的請求", sc: "软的请求" },
+        conceptEn: "Asking for a later wakeup without a speech is trust, not being extra.",
+        plainEn: "“Can we wake up a little later?” — no speech, no apology. That is a bet their kindness is real.",
         plainCn: {
-          tc: "不多作解釋，要晚一點起，或軟一點的語氣——是賭對方的好意是真的。不自動等於「太多」。",
-          sc: "不多作解释，要晚一点起，或软一点的语气——是赌对方的好意是真的。不自动等于“太多”。"
+          tc: "「能不能晚一點起？」——不多作解釋，也不道歉。那是賭對方的好意是真的。",
+          sc: "“能不能晚一点起？”——不多作解释，也不道歉。那是赌对方的好意是真的。"
         }
       },
       {
         num: "02",
         titleEn: "NOT SHAME",
         titleCn: { tc: "不必先羞", sc: "不必先羞" },
-        conceptEn: "Independence-as-pride can make ordinary leaning look like failure.",
+        conceptEn: "Pride in “I never need anyone” can make ordinary leaning look like failure.",
         plainEn: "Needing a little extra kindness can feel like a leak. Sweet dependence can be the opposite: proof this bond can hold a soft weight.",
         plainCn: {
           tc: "多要一點好，可以覺得像漏水。甜的依賴也可以相反：證明這根繩扛得住一點軟的重量。",
@@ -2996,9 +2975,9 @@ window.BOOKS = [
       },
       {
         num: "03",
-        titleEn: "PRESUME",
-        titleCn: { tc: "預支好意", sc: "预支好意" },
-        conceptEn: "Amae presumes on kindness. That can be intimacy. It can also be a trap.",
+        titleEn: "COUNTING ON KINDNESS",
+        titleCn: { tc: "把好意當必然", sc: "把好意当必然" },
+        conceptEn: "Counting on their kindness can be closeness. It can also erase their chance to say no.",
         plainEn: "Leaving your wet towel because of course they will pick it up — that erases their no. Asking once, and surviving a no, is still a lean.",
         plainCn: {
           tc: "溼毛巾留下，認定對方當然會收——把「不」擦掉了。問一次，扛得住一個「不」，仍是靠過去。",
@@ -3011,18 +2990,15 @@ window.BOOKS = [
         num: "04",
         titleEn: "Public and private",
         titleCn: { tc: "外面一套，裡面一套", sc: "外面一套，里面一套" },
-        conceptEn: "Amae often lives in the inner circle. Outside, the face is firmer.",
-        plainEn: "Soft at home, formal at the door — that split is not always fake. It can be where leaning is allowed, and where it is not.",
-        plainCn: {
-          tc: "家裡軟、門口硬——不總是裝出來的。可以是：這裡允許靠，那裡不允許。",
-          sc: "家里软、门口硬——不总是装出来的。可以是：这里允许靠，那里不允许。"
-        }
+        conceptEn: "Soft at home, firmer at the door — that split can be where leaning is allowed, and where it is not.",
+        plainEn: "Inside the house you can be soft. At the door you stand up straighter. That is not always fake.",
+        plainCn: { sc: "进了门可以软。到了门口就挺直。不总是装出来的。", tc: "進了門可以軟。到了門口就挺直。不總是裝出來的。" }
       },
       {
         num: "05",
-        titleEn: "When amae is refused",
-        titleCn: { tc: "靠過去被拒", sc: "靠过去被拒" },
-        conceptEn: "A refused lean can feel like annihilation, not a small no.",
+        titleEn: "WHEN THE LEAN IS REFUSED",
+        titleCn: { tc: "靠過去被推開", sc: "靠过去被推开" },
+        conceptEn: "When a lean is refused, it can feel like the floor moved — not a small no.",
         plainEn: "You asked to be a little spoiled, and the answer was cold. The floor can feel like it moved — that size of hurt is not “overreacting.”",
         plainCn: {
           tc: "你要人寵一點，得到的是冷冷的一句。地板可以像移了——疼成這樣，不是「反應過度」。",
@@ -3031,24 +3007,21 @@ window.BOOKS = [
       },
       {
         num: "06",
-        titleEn: "Translation",
-        titleCn: { tc: "翻譯不全", sc: "翻译不全" },
-        conceptEn: "Attachment, need, spoiling — English only partly covers amae.",
-        plainEn: "If you only hear “clingy,” you miss the trust; if you only hear “cute,” you miss the risk. 甘え is trying to hold both.",
-        plainCn: {
-          tc: "只聽見「黏」，會漏掉信任；只聽見「可愛」，會漏掉風險。甘え想把兩面都裝下。",
-          sc: "只听见“黏”，会漏掉信任；只听见“可爱”，会漏掉风险。甘え想把两面都装下。"
-        }
+        titleEn: "CLINGY IS TOO SMALL A WORD",
+        titleCn: { tc: "黏人這個詞太小", sc: "黏人这个词太小" },
+        conceptEn: "English words like clingy or cute only cover part of this. Both the trust and the risk are real.",
+        plainEn: "If you only hear “clingy,” you miss the trust. If you only hear “cute,” you miss the risk.",
+        plainCn: { tc: "只聽見「黏人」，就漏掉了信任。只聽見「可愛」，就漏掉了風險。", sc: "只听见“黏人”，就漏掉了信任。只听见“可爱”，就漏掉了风险。" }
       },
       {
         num: "07",
-        titleEn: "Two selves in the lean",
-        titleCn: { tc: "靠的時候仍是兩人", sc: "靠的时候仍是两人" },
-        conceptEn: "Healthy amae still leaves the other a person, not a mattress with no edges.",
-        plainEn: "Leaning and still seeing they have their own morning — that is intimacy. Leaning that requires they have no edges is swallowing.",
+        titleEn: "LEAVE THEM A MORNING",
+        titleCn: { tc: "留給對方一個早晨", sc: "留给对方一个早晨" },
+        conceptEn: "You can lean and still leave them a morning of their own.",
+        plainEn: "Ask for the later wakeup, and still notice they have their own morning. A lean that needs them to have no edges swallows them.",
         plainCn: {
-          tc: "靠過去，仍看見對方有自己的早晨——那是親密。靠到要求對方沒有邊緣，是吞。",
-          sc: "靠过去，仍看见对方有自己的早晨——那是亲密。靠到要求对方没有边缘，是吞。"
+          sc: "可以要求晚一点起，仍看见对方有自己的早晨。靠到对方不能有边界，是把人吞掉。",
+          tc: "可以要求晚一點起，仍看見對方有自己的早晨。靠到對方不能有邊界，是把人吞掉。"
         }
       }
     ],
@@ -3104,7 +3077,7 @@ window.BOOKS = [
         num: "02",
         titleEn: "SCRIPT",
         titleCn: { tc: "背稿", sc: "背稿" },
-        conceptEn: "You don’t fall in love at random. You recast the old play.",
+        conceptEn: "You don't fall in love at random. You recast the old play.",
         plainEn: "The partner who feels “like home” may feel like the first kitchen — including the hurt. New person, old lines.",
         plainCn: {
           tc: "覺得「像家」的人，可能真的像第一個廚房——連傷也像。新人，舊詞。",
@@ -3126,14 +3099,11 @@ window.BOOKS = [
     extraHighlights: [
       {
         num: "04",
-        titleEn: "The good child, Chinese edition",
-        titleCn: { tc: "中國的好孩子", sc: "中国的好孩子" },
-        conceptEn: "Filial performance can be a self-erasure with better manners.",
-        plainEn: "Grades, face, “don’t make trouble” — the good child’s manners. The self got postponed, then the new kitchen pays the bill.",
-        plainCn: {
-          tc: "成績、面子、「別惹事」——好孩子的禮貌。自己往後放了，新廚房來付帳。",
-          sc: "成绩、面子、“别惹事”——好孩子的礼貌。自己往后放了，新厨房来付账。"
-        }
+        titleEn: "GOOD MANNERS, NO SELF",
+        titleCn: { tc: "禮貌很好，自己沒有", sc: "礼貌很好，自己没有" },
+        conceptEn: "Grades, face, “don't make trouble” can erase you with better manners.",
+        plainEn: "The good child's manners postponed the self. The new kitchen pays the bill.",
+        plainCn: { sc: "好孩子的礼貌，把自己往后放了。新厨房来付账。", tc: "好孩子的禮貌，把自己往後放了。新廚房來付帳。" }
       },
       {
         num: "05",
@@ -3224,7 +3194,7 @@ window.BOOKS = [
         num: "02",
         titleEn: "TRUTH",
         titleCn: { tc: "實話", sc: "实话" },
-        conceptEn: "Rebuilding needs enough truth to stand on. Not a weaponized dump. Not a fog.",
+        conceptEn: "Rebuilding needs enough truth to stand on. Not a dump. Not a fog.",
         plainEn: "A little truth, then a door closed — the floor keeps moving. One person is trying to find the ground; the other is trying to be done.",
         plainCn: {
           tc: "漏一點真話，然後把門關上——地板還在動。一個人在找地，另一個人想結束。",
@@ -3235,7 +3205,7 @@ window.BOOKS = [
         num: "03",
         titleEn: "NOT THE OLD HOUSE",
         titleCn: { tc: "不是舊屋", sc: "不是旧屋" },
-        conceptEn: "You don’t get the old pair back. You get a different one, or none.",
+        conceptEn: "You don't get the old pair back. You get a different one, or none.",
         plainEn: "“I want us like before” is grief talking — before included the secret. A later pair, if it exists, is a new house, not a restored photo.",
         plainCn: {
           tc: "「我想我們像從前」是哀在說話——從前裡有秘密。若還有後面那一對，是新房子，不是修過的照片。",
@@ -3270,7 +3240,7 @@ window.BOOKS = [
         num: "06",
         titleEn: "Forgiveness is late",
         titleCn: { tc: "原諒來得晚", sc: "原谅来得晚" },
-        conceptEn: "Forgiveness is not a switch for the household’s comfort.",
+        conceptEn: "Forgiveness is not a switch for the household's comfort.",
         plainEn: "A forced “I forgive you” so dinner can happen is a costume. If forgiveness comes, it is after enough safety and enough truth — and it may not come.",
         plainCn: {
           tc: "為了晚飯能擺上桌而趕出來的「我原諒你」，是戲服。原諒若來，是夠安全、夠實話之後——也可能不來。",
@@ -3327,7 +3297,7 @@ window.BOOKS = [
         num: "01",
         titleEn: "FIVE NAMES",
         titleCn: { tc: "五個綽號", sc: "五个绰号" },
-        conceptEn: "Words, time, gifts, acts, touch — nicknames for how care is sent and received.",
+        conceptEn: "Words, time, gifts, help, touch — nicknames for how care is sent and received.",
         plainEn: "A compliment, an afternoon, a dumpling, a ride to the station, a hand. Those are ordinary ways people mean “you matter.”",
         plainCn: {
           tc: "一句好話、一個下午、一隻餃子、送到車站、一隻手。都是很普通的「你重要」。",
@@ -3347,9 +3317,9 @@ window.BOOKS = [
       },
       {
         num: "03",
-        titleEn: "NOT A LAW",
-        titleCn: { tc: "不是法律", sc: "不是法律" },
-        conceptEn: "People are not one language. The five are a sketch, not a passport stamp.",
+        titleEn: "A SKETCH, NOT A STAMP",
+        titleCn: { tc: "速寫，不是蓋章", sc: "速写，不是盖章" },
+        conceptEn: "People are not one language. The five names are a sketch, not a stamp on someone's personality.",
         plainEn: "You can want touch and words. You can change by season — “what’s your language?” is not a personality exam.",
         plainCn: {
           tc: "可以既要觸碰也要話。可以隨季節變——「你是哪一種」不是人格考試。",
@@ -3362,31 +3332,25 @@ window.BOOKS = [
         num: "04",
         titleEn: "Weaponized quiz",
         titleCn: { tc: "考卷當武器", sc: "考卷当武器" },
-        conceptEn: "“That’s not my language” can become a refusal to care.",
+        conceptEn: "“That's not my language” can become a refusal to care.",
         plainEn: "I don’t do dishes, and the five names are the excuse. Nicknames are for seeing, not for dodging.",
         plainCn: { tc: "我不洗碗，五個名字成了藉口。綽號是為了看見，不是為了躲。", sc: "我不洗碗，五个名字成了借口。绰号是为了看见，不是为了躲。" }
       },
       {
         num: "05",
-        titleEn: "Pastor origin",
-        titleCn: { tc: "從講道來", sc: "从讲道来" },
-        conceptEn: "The book comes from a church office, not a lab. Read it as folk wisdom with a frame.",
-        plainEn: "These five names were written in a certain house: a married pair, duty, God in the next room. You can still use “time” and “touch” without moving into that house.",
-        plainCn: {
-          tc: "這五個名字出自某種屋子：一對夫妻、一份責任、隔壁房間裡的神。你仍可以用「時間」和「觸碰」，不必搬進那座屋子。",
-          sc: "这五个名字出自某种屋子：一对夫妻、一份责任、隔壁房间里的神。你仍可以用“时间”和“触碰”，不必搬进那座屋子。"
-        }
+        titleEn: "NICKNAMES, NOT A LAB",
+        titleCn: { tc: "綽號，不是實驗室", sc: "绰号，不是实验室" },
+        conceptEn: "The five names are nicknames, not a lab finding and not church homework.",
+        plainEn: "You can still use “time” and “touch” without moving into the whole house those names came from.",
+        plainCn: { tc: "仍可以用「時間」和「觸碰」，不必搬進這兩個詞原來的那棟房子。", sc: "仍可以用“时间”和“触碰”，不必搬进这两个词原来的那栋房子。" }
       },
       {
         num: "06",
-        titleEn: "Already in the language",
-        titleCn: { tc: "話已經在用", sc: "话已经在用" },
-        conceptEn: "Readers already talk this way. That is why the book stuck.",
-        plainEn: "“You never spend time with me” was here before the five names. The complaint got a nickname — that is why people still speak it.",
-        plainCn: {
-          tc: "「你從不陪我」在五個名字以前就有。這句抱怨後來有了綽號——人們還在說，是因為綽號好用。",
-          sc: "“你从不陪我”在五个名字以前就有。这句抱怨后来有了绰号——人们还在说，是因为绰号好用。"
-        }
+        titleEn: "THE COMPLAINT WAS ALREADY HERE",
+        titleCn: { tc: "抱怨本來就在", sc: "抱怨本来就在" },
+        conceptEn: "People already said “you never spend time with me.” The book just gave the complaint a nickname.",
+        plainEn: "The complaint got a nickname — that is why people still speak it.",
+        plainCn: { sc: "这句抱怨后来有了绰号——人们还在说，是因为绰号好用。", tc: "這句抱怨後來有了綽號——人們還在說，是因為綽號好用。" }
       },
       {
         num: "07",
