@@ -1025,7 +1025,7 @@
       }, 200);
     });
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("./sw.js?v=0.1.12").catch(() => {});
+      navigator.serviceWorker.register("./sw.js?v=0.1.13").catch(() => {});
     }
   }
 

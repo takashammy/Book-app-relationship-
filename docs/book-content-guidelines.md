@@ -2,48 +2,64 @@
 
 Required whenever writing or rewriting Keep editorial. Pair with repo `.cursorrules` for Chinese (信、达、雅; two-step translate-then-polish; 简体书评 tone). Do not skip either file.
 
-## Highlights and extra points
+## What each book is
 
-Each summary point is two jobs, in this order:
+Three jobs, in this order:
 
-1. **Lead** (`conceptEn`) — a short quote from the book, or a crisp key claim. Shown once.
-2. **Explain** (`plainEn` / `plainCn`) — the same idea in **layman English a 15-year-old would understand**.
+1. **Thesis** (`thesisEn` / `thesisCn`) — the book’s **core theory** in plain English. What the book is arguing. Not a restatement of the pull-quote. Not a mood. Not a metaphor.
+2. **Points** — keep **3 highlights + 4 extras**. Each point is a close paraphrase of a key line (a verbatim quote is welcome; a close paraphrase is enough — do not invent a slogan and call it a quote).
+3. **Explain** (`plainEn` / `plainCn`) — what that line means **in this book**, so a smart **12-year-old** who has not read it could tell a friend.
 
-English and Chinese should be the same idea, twice. Chinese translates the *explanation*, then follows `.cursorrules`. Do not invent a new argument in Chinese.
+Chinese translates the *explanation*, then follows `.cursorrules`. Do not invent a new argument in Chinese.
 
-### 15-year-old test
+## 12-year-old gloss (locked)
 
-The explanation must land for a bright 15-year-old. Layman English. Everyday words. No jargon unless the next clause unpacks it. If they would still need the lead line to know what you mean, the explanation is not done.
+The explanation is a **gloss**, not a picture.
 
-This is not baby talk and not a textbook paraphrase.
+1. **First sentence (required):** the meaning in simpler words. This is not doubling. Doubling is repeating the lead’s wording. A plainer statement of the same idea is the job.
+2. **Second sentence (optional):** only if it is a situation **this book is actually about** (an affair book: finding out, lying, staying or leaving). If you have to invent a cute parallel, stop. One sentence of meaning is enough.
+3. **Cover test:** hide the lead. Read only the explanation. A 12-year-old should know what the line meant. If they still need a decoder ring, it fails.
 
-### Anti-doubling (locked)
+This is not baby talk. Short words. Direct. No punchline that has to be solved.
 
-The lead already said the claim. The explanation must **not** say it again.
+## No invented images (locked)
+
+Do **not** invent an image, scene, prize, costume, tool, weather, or “everyday picture” to make the idea feel young. Kitchen was one version of this mistake. Gold stars, report cards, costumes, bills, volume knobs, weather, furniture-as-people, walk-home montages, and the same trick with a new prop are the same mistake.
 
 Do not:
 
+- Explain with a trophy or score (*gold star for staying*, *collecting a mark*, *the bill came due*).
+- Explain with dress-up (*forgiveness is a costume*, *power wearing care’s clothes*).
+- Explain with a gadget or climate (*volume*, *forecast*, *pedals*, *tired animal*, *lightning*).
+- Explain with a montage that is not in the book (*walk home*, *rewrite the text three times*, *Dad’s shoes in the hall*) unless that situation is what the book is actually describing.
+- Keep a metaphor because it sounds literary or “12.”
+
+If the **book itself** uses an image (Fromm’s mirror, Chapman’s languages, Wu’s 剧本), you may use that image, once, and still gloss it in plain words. Do not add a second invented image on top.
+
+Strip-and-keep is not a rewrite. After cutting an invented image, write the meaning. Do not leave a hole, and do not replace the image with a new one.
+
+## Anti-doubling (locked)
+
+The lead already showed the line. The explanation must **not**:
+
 - Quote or near-quote the lead as the first sentence.
-- Paraphrase the lead, then add an example (`The book means you and they have different jobs. Rewriting a text…`).
 - Open with `The book says / This book means / 这本书说 / 这本书是说` plus the claim.
-- Let Chinese open by repeating the lead, even if the English is clean.
 
-Do:
+The explanation **must**:
 
-- Unpack the claim in layman English. Do not restate it.
+- Say the idea more plainly. That is the gloss.
 
-| | Lead (once) | Explanation (layman, not a restatement) |
+| | Lead (once) | Explanation |
 | --- | --- | --- |
+| Wrong | Rebuilding is one path. Leaving is another. | Friends may want a gold star for staying. You still get a life — even if you walk out. |
+| Wrong | Rebuilding is one path. Leaving is another. | Rebuilding is one path. Leaving is another. Friends may… |
+| Right | Rebuilding is one path. Leaving is another. | Some people treat staying together as the only good ending. You can also leave and still have a full life. Neither choice makes you the better person. |
 | Wrong | Using someone as a mirror is not love. | Using someone as a mirror is not love. If they only matter when they like your photo… |
-| Right | Using someone as a mirror is not love. | If they only matter when they like your photo, you are looking at your own reflection, not at them. |
-| Wrong | Your job is how you love. Their job is how they take it. | The book means you and they have different jobs. Rewriting a text three times… |
-| Right | Your job is how you love. Their job is how they take it. | Rewriting a text three times so they won’t get mad is you trying to run their feelings. |
-
-Strip-and-keep is not enough. After cutting a doubled opener, run the 15-year-old test and, for Chinese, the full `.cursorrules` two-step. A leftover clause is not a rewrite.
+| Right | Using someone as a mirror is not love. | If they only count when they like you back, you are not seeing them. You are using them to feel good about yourself. |
 
 ## Eastern resonance
 
-Does **not** have to be classical Chinese. Contemporary Chinese, modern essays, or living practice texts are fine if they truly resonate. Classical sources remain welcome when they fit. Commentary should connect the Western point to that text in warm, intimate editorial voice.
+Does **not** have to be classical Chinese. Contemporary Chinese, modern essays, or living practice texts are fine if they truly resonate. Classical sources remain welcome when they fit. Commentary should connect the Western point to that text in warm, intimate editorial voice — still a gloss, not a new invented picture.
 
 ## Behavior practice
 
