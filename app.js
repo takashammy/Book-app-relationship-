@@ -2,7 +2,7 @@
 (function () {
   const VERSION = "0.1";
   const STORAGE = "keep.v1";
-  const BOOKS = window.BOOKS;
+  const BOOKS = Array.isArray(window.BOOKS) ? window.BOOKS : [];
   const ICONS = {
     read: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h7.5A3.5 3.5 0 0 1 15 9v10.5H7.5A3.5 3.5 0 0 0 4 16V5.5z"/><path d="M20 5.5h-7.5A3.5 3.5 0 0 0 9 9v10.5h7.5A3.5 3.5 0 0 1 20 16V5.5z"/></svg>',
     library: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4.5h9.2a2.3 2.3 0 0 1 2.3 2.3V20l-5.4-2.4L6.7 20V6.8A2.3 2.3 0 0 1 9 4.5"/></svg>',
@@ -71,9 +71,10 @@
 
   const defaultState = () => {
     const now = new Date();
+    const daily = dailyBook();
     return {
       view: "reader",
-      bookId: dailyBook().id,
+      bookId: daily ? daily.id : "",
       bilingual: true,
       script: "tc",
       membership: "free",
@@ -138,7 +139,7 @@
   }
 
   function dailyBook() {
-    return BOOKS.find((b) => b.isDailyFree) || BOOKS[0];
+    return BOOKS.find((b) => b.isDailyFree) || BOOKS[0] || null;
   }
 
   function bookById(id) {
@@ -288,6 +289,7 @@
     canvas.width = Math.floor(w * dpr);
     canvas.height = Math.floor(h * dpr);
     const ctx = canvas.getContext("2d");
+    if (!ctx) return;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, w, h);
 
@@ -345,7 +347,12 @@
   function setHash(view, bookId) {
     let h = "#/" + view;
     if (view === "reader" && bookId) h += "/" + bookId;
-    if (location.hash !== h) history.replaceState(null, "", h);
+    if (location.hash === h) return;
+    try {
+      history.replaceState(null, "", h);
+    } catch {
+      location.hash = h;
+    }
   }
 
   function go(view, bookId) {
@@ -354,9 +361,9 @@
     if (bookId) STATE.bookId = bookId;
     if (view === "reader") {
       const book = bookById(STATE.bookId);
-      if (!canRead(book)) {
+      if (!book || !canRead(book)) {
         STATE.view = "library";
-        STATE.gateId = book.id;
+        STATE.gateId = book ? book.id : null;
         setHash("library");
         save();
         render();
@@ -389,6 +396,11 @@
 
   function renderSpine() {
     const el = document.getElementById("spine");
+    if (!el) return;
+    if (!BOOKS.length) {
+      el.innerHTML = "";
+      return;
+    }
     const t = ui();
     const catCn = STATE.script === "sc" ? "类别" : "類別";
     if (STATE.view === "reader") {
@@ -417,6 +429,7 @@
   function renderDock() {
     const t = ui();
     const dock = document.getElementById("dock");
+    if (!dock) return;
     const tabs = [
       ["reader", "read", t.read],
       ["library", "library", t.library],
@@ -437,6 +450,11 @@
 
   function renderContent() {
     const root = document.getElementById("content");
+    if (!root) return;
+    if (!BOOKS.length) {
+      root.innerHTML = `<p class="disclaimer">Keep could not load the library.</p>`;
+      return;
+    }
     if (STATE.view === "reader") root.innerHTML = readerHTML();
     else if (STATE.view === "library") root.innerHTML = libraryHTML();
     else if (STATE.view === "favourites") root.innerHTML = favouritesHTML();
@@ -446,6 +464,7 @@
 
   function readerHTML() {
     const book = bookById(STATE.bookId);
+    if (!book) return `<p class="disclaimer">This title is missing from the library.</p>`;
     const t = ui();
     const bilingual = STATE.bilingual;
     const d = todayIso();
@@ -473,7 +492,7 @@
         <h3>${esc(h.titleEn)}</h3>
         <p class="concept">${esc(h.conceptEn)}</p>
         <p class="plain">${esc(h.plainEn)}</p>
-        ${bilingual ? `<p class="plain cn-only">${esc(cn(h.titleCn))} · ${esc(cn(h.plainCn))}</p>` : ""}
+        ${bilingual ? `<p class="plain cn-only">${esc(cn(h.plainCn))}</p>` : ""}
       </article>`
       )
       .join("");
@@ -829,6 +848,7 @@
     }
     if (el.hasAttribute("data-practice")) {
       const book = bookById(STATE.bookId);
+      if (!book) return;
       const d = todayIso();
       const cur = logFor(d, book.id);
       const next = !cur.practice;
@@ -960,25 +980,52 @@
     STATE.view = view;
     if (bookId) STATE.bookId = bookId;
     if (view === "reader" && !canRead(bookById(STATE.bookId))) {
-      STATE.bookId = dailyBook().id;
+      const daily = dailyBook();
+      if (daily) STATE.bookId = daily.id;
     }
     render();
   }
 
   function init() {
-    paintStipple();
+    const app = document.getElementById("app");
+    if (app) {
+      app.addEventListener("click", onAppClick);
+      app.addEventListener("input", onAppInput);
+    }
+    window.addEventListener("hashchange", applyHash);
+    try {
+      if (!location.hash) setHash("reader", STATE.bookId);
+    } catch {
+      /* sandboxed preview */
+    }
+    try {
+      applyHash();
+    } catch (err) {
+      console.error(err);
+      renderDock();
+      const root = document.getElementById("content");
+      if (root) root.innerHTML = `<p class="disclaimer">Keep could not open the day’s read.</p>`;
+    }
+    requestAnimationFrame(() => {
+      try {
+        paintStipple();
+      } catch {
+        /* canvas unavailable */
+      }
+    });
     let resizeTimer;
     window.addEventListener("resize", () => {
       clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(paintStipple, 200);
+      resizeTimer = setTimeout(() => {
+        try {
+          paintStipple();
+        } catch {
+          /* canvas unavailable */
+        }
+      }, 200);
     });
-    document.getElementById("app").addEventListener("click", onAppClick);
-    document.getElementById("app").addEventListener("input", onAppInput);
-    window.addEventListener("hashchange", applyHash);
-    if (!location.hash) setHash("reader", STATE.bookId);
-    applyHash();
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("./sw.js?v=0.1.5").catch(() => {});
+      navigator.serviceWorker.register("./sw.js?v=0.1.14").catch(() => {});
     }
   }
 
