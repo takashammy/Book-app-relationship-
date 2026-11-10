@@ -43,6 +43,7 @@ Strip-and-keep is not a rewrite. After cutting an invented image, write the mean
 The lead already showed the line. The explanation must **not**:
 
 - Quote or near-quote the lead as the first sentence.
+- Start with the same first four words as the lead (if it could have been the lead, it fails).
 - Open with `The book says / This book means / 这本书说 / 这本书是说` plus the claim.
 
 The explanation **must**:
