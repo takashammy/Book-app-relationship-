@@ -1,6 +1,6 @@
-/* Keep 0.1 — Luminary chassis, Soft Uncanny skin. Local-state prototype. */
+/* Keep 0.2 — Luminary chassis, Soft Uncanny skin. Local-state prototype. */
 (function () {
-  const VERSION = "0.1";
+  const VERSION = "0.2.0";
   const STORAGE = "keep.v1";
   const BOOKS = Array.isArray(window.BOOKS) ? window.BOOKS : [];
   const ICONS = {
@@ -99,6 +99,13 @@
       if (!raw) return defaultState();
       const next = Object.assign(defaultState(), JSON.parse(raw));
       if (!Array.isArray(next.saved)) next.saved = [];
+      if (!BOOKS.some((b) => b.id === next.bookId)) {
+        const daily = dailyBook();
+        next.bookId = daily ? daily.id : "";
+      }
+      if (next.filter !== "ALL" && !BOOKS.some((b) => b.categoryFilter === next.filter)) {
+        next.filter = "ALL";
+      }
       return next;
     } catch {
       return defaultState();
@@ -138,12 +145,28 @@
       .replace(/"/g, "&quot;");
   }
 
+  function hashString(s) {
+    let h = 0;
+    for (let i = 0; i < s.length; i++) h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
+    return Math.abs(h);
+  }
+
   function dailyBook() {
-    return BOOKS.find((b) => b.isDailyFree) || BOOKS[0] || null;
+    if (!BOOKS.length) return null;
+    return BOOKS[hashString(todayIso()) % BOOKS.length];
+  }
+
+  function isTodaysDaily(book) {
+    const daily = dailyBook();
+    return !!(book && daily && book.id === daily.id);
   }
 
   function bookById(id) {
-    return BOOKS.find((b) => b.id === id) || dailyBook();
+    return BOOKS.find((b) => b.id === id) || null;
+  }
+
+  function resolveBook(id) {
+    return bookById(id) || dailyBook();
   }
 
   function isoDate(d) {
@@ -183,7 +206,7 @@
 
   function canRead(book) {
     if (!book) return false;
-    if (STATE.membership === "pro" || book.isDailyFree) return true;
+    if (STATE.membership === "pro" || isTodaysDaily(book)) return true;
     return recentReadIds(FREE_REREAD).includes(book.id);
   }
 
@@ -249,12 +272,26 @@
     return { books: bookRead.size, practices: bookPracticed.size, rows };
   }
 
+  const CATEGORY_ORDER = [
+    "ATTACHMENT & BONDING SCIENCE",
+    "COMMUNICATION, CONFLICT & REPAIR",
+    "SEX, DESIRE & EROTICISM",
+    "BOUNDARIES, CODEPENDENCY & SELFHOOD",
+    "TRAUMA, INNER CHILD & EMOTIONAL SAFETY",
+    "LONG-TERM PARTNERSHIP & MARRIAGE",
+    "INFIDELITY, TRUST & BETRAYAL RECOVERY",
+    "HEARTBREAK, GRIEF & LETTING GO",
+    "DATING, CHOICE & MODERN ROMANCE",
+    "PHILOSOPHY, SOCIOLOGY & SPIRITUALITY OF LOVE"
+  ];
+
   function categories() {
-    const set = [];
-    BOOKS.forEach((b) => {
-      if (!set.includes(b.categoryFilter)) set.push(b.categoryFilter);
+    const present = new Set(BOOKS.map((b) => b.categoryFilter).filter(Boolean));
+    const ordered = CATEGORY_ORDER.filter((c) => present.has(c));
+    present.forEach((c) => {
+      if (!ordered.includes(c)) ordered.push(c);
     });
-    return set;
+    return ordered;
   }
 
   function filteredBooks() {
@@ -360,7 +397,8 @@
     STATE.gateId = null;
     if (bookId) STATE.bookId = bookId;
     if (view === "reader") {
-      const book = bookById(STATE.bookId);
+      const book = resolveBook(STATE.bookId);
+      if (book) STATE.bookId = book.id;
       if (!book || !canRead(book)) {
         STATE.view = "library";
         STATE.gateId = book ? book.id : null;
@@ -404,7 +442,11 @@
     const t = ui();
     const catCn = STATE.script === "sc" ? "类别" : "類別";
     if (STATE.view === "reader") {
-      const book = bookById(STATE.bookId);
+      const book = resolveBook(STATE.bookId);
+      if (!book) {
+        el.innerHTML = "";
+        return;
+      }
       el.innerHTML = `
         ${spinePair(book.durationEn, cn(book.durationCn))}
         <span class="spine-rule"></span>
@@ -463,15 +505,17 @@
   }
 
   function readerHTML() {
-    const book = bookById(STATE.bookId);
+    const book = resolveBook(STATE.bookId);
     if (!book) return `<p class="disclaimer">This title is missing from the library.</p>`;
+    if (STATE.bookId !== book.id) STATE.bookId = book.id;
     const t = ui();
     const bilingual = STATE.bilingual;
     const d = todayIso();
     const log = logFor(d, book.id);
     const extra = STATE.extraOpen;
+    const topLabel = isTodaysDaily(book) ? "DAILY READ" : book.topLabelEn || "ARCHIVE EDITION";
 
-    const highlights = book.highlights
+    const highlights = (book.highlights || [])
       .map(
         (h) => `
       <article class="principle">
@@ -484,7 +528,7 @@
       )
       .join("");
 
-    const extras = book.extraHighlights
+    const extras = (book.extraHighlights || [])
       .map(
         (h) => `
       <article class="principle">
@@ -501,7 +545,7 @@
     return `
       <header class="row-top">
         <div class="pills">
-          <span class="pill">${esc(book.topLabelEn)} <span class="sep">|</span> ${esc(book.categoryEn)}</span>
+          <span class="pill">${esc(topLabel)} <span class="sep">|</span> ${esc(book.categoryEn)}</span>
         </div>
         <button type="button" class="heart" data-save="${esc(book.id)}" aria-pressed="${saved ? "true" : "false"}" aria-label="${esc(saved ? t.saved : t.save)}">${ICONS.fav}</button>
       </header>
@@ -567,9 +611,16 @@
     const cats = categories();
     const chipLabel = {
       ALL: t.all,
-      "SELF IN RELATION": "Self",
-      "ATTACHMENT & BONDING": "Attachment",
-      "MARRIAGE & PARTNERSHIP": "Marriage"
+      "ATTACHMENT & BONDING SCIENCE": "Attachment",
+      "COMMUNICATION, CONFLICT & REPAIR": "Communication",
+      "SEX, DESIRE & EROTICISM": "Desire",
+      "BOUNDARIES, CODEPENDENCY & SELFHOOD": "Boundaries",
+      "TRAUMA, INNER CHILD & EMOTIONAL SAFETY": "Trauma",
+      "LONG-TERM PARTNERSHIP & MARRIAGE": "Long-term",
+      "INFIDELITY, TRUST & BETRAYAL RECOVERY": "Infidelity",
+      "HEARTBREAK, GRIEF & LETTING GO": "Heartbreak",
+      "DATING, CHOICE & MODERN ROMANCE": "Dating",
+      "PHILOSOPHY, SOCIOLOGY & SPIRITUALITY OF LOVE": "Philosophy"
     };
     const chips = [`ALL`, ...cats]
       .map((c) => {
@@ -696,6 +747,7 @@
     const books = entries
       .map(([id, log]) => {
         const b = bookById(id);
+        if (!b) return "";
         const status = log.practice ? t.statusPractice : log.read ? t.statusRead : t.statusNoted;
         const note =
           log.note && log.note.trim()
@@ -747,6 +799,7 @@
       ? `<ul class="week-list">${ids
           .map((id) => {
             const b = bookById(id);
+            if (!b) return "";
             const locked = !canRead(b);
             return `<li>
           <button type="button" class="week-open" data-open="${esc(id)}">
@@ -847,7 +900,7 @@
       return;
     }
     if (el.hasAttribute("data-practice")) {
-      const book = bookById(STATE.bookId);
+      const book = resolveBook(STATE.bookId);
       if (!book) return;
       const d = todayIso();
       const cur = logFor(d, book.id);
@@ -957,7 +1010,7 @@
       ids.forEach((id) => {
         const log = day[id];
         const b = bookById(id);
-        lines.push(`### ${b.titleFlatEn}`);
+        lines.push(`### ${b ? b.titleFlatEn : id}`);
         lines.push(`- Read: ${log.read ? "yes" : "no"}`);
         lines.push(`- Practice: ${log.practice ? "yes" : "no"}`);
         if (log.note && log.note.trim()) {
@@ -979,9 +1032,13 @@
     const { view, bookId } = parseHash();
     STATE.view = view;
     if (bookId) STATE.bookId = bookId;
-    if (view === "reader" && !canRead(bookById(STATE.bookId))) {
-      const daily = dailyBook();
-      if (daily) STATE.bookId = daily.id;
+    if (view === "reader") {
+      const book = resolveBook(STATE.bookId);
+      if (book) STATE.bookId = book.id;
+      if (!book || !canRead(book)) {
+        const daily = dailyBook();
+        if (daily) STATE.bookId = daily.id;
+      }
     }
     render();
   }
@@ -1025,7 +1082,7 @@
       }, 200);
     });
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("./sw.js?v=0.1.14").catch(() => {});
+      navigator.serviceWorker.register("./sw.js?v=0.2.0").catch(() => {});
     }
   }
 
