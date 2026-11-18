@@ -10,13 +10,13 @@ Vanilla HTML / CSS / JS. State lives in `localStorage` under `keep.v1`. No build
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-Open [http://127.0.0.1:8765](http://127.0.0.1:8765). Hard-refresh after CSS/JS changes (cache-bust query is `?v=0.2.0`).
+Open [http://127.0.0.1:8765](http://127.0.0.1:8765). Hard-refresh after CSS/JS changes (cache-bust query is `?v=0.2.4`).
 
 ## What’s in 0.2
 
 - **Dock (English only):** Read, Library, Favourites, Calendar, You
 - **Read:** one daily title, hashed from the calendar date (same book all day, a new one the next day). The pill reads `DAILY READ` for that title; every other volume stays `ARCHIVE EDITION`
-- **Library:** 10 volumes, one from each canonical category. Extra reading is points `04`–`08`
+- **Library:** catalog lives in `books.js` (`window.BOOKS`). Extra reading is points `04`–`08`
 - **Membership:** local toggle. Free = today’s daily read + last 7 titles by recency; the rest of the shelf is Pro
 - **Editorial:** bilingual EN + 繁/简. Chrome stays English. Follow only the live SOP in `docs/`
 - **Visual:** Soft Uncanny (Surrealism × Pointillism) on Luminary’s poster chassis — type and grain only, no photos or object illustrations

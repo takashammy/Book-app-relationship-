@@ -1,6 +1,6 @@
 /* Keep 0.2 — Luminary chassis, Soft Uncanny skin. Local-state prototype. */
 (function () {
-  const VERSION = "0.2.0";
+  const VERSION = "0.2.4";
   const STORAGE = "keep.v1";
   const BOOKS = Array.isArray(window.BOOKS) ? window.BOOKS : [];
   const ICONS = {
@@ -49,6 +49,7 @@
     emptyDay: "Nothing logged.",
     weeklyEmpty: "Nothing logged this week yet.",
     noBooks: "No books found",
+    emptyShelf: "The shelf is empty.",
     noSaved: "No saved books yet.",
     save: "Save",
     saved: "Saved",
@@ -399,15 +400,18 @@
     if (view === "reader") {
       const book = resolveBook(STATE.bookId);
       if (book) STATE.bookId = book.id;
-      if (!book || !canRead(book)) {
+      if (!book) {
+        setHash("reader");
+      } else if (!canRead(book)) {
         STATE.view = "library";
-        STATE.gateId = book ? book.id : null;
+        STATE.gateId = book.id;
         setHash("library");
         save();
         render();
         return;
+      } else {
+        setHash("reader", STATE.bookId);
       }
-      setHash("reader", STATE.bookId);
     } else {
       setHash(view === "profile" ? "profile" : view);
     }
@@ -493,10 +497,6 @@
   function renderContent() {
     const root = document.getElementById("content");
     if (!root) return;
-    if (!BOOKS.length) {
-      root.innerHTML = `<p class="disclaimer">Keep could not load the library.</p>`;
-      return;
-    }
     if (STATE.view === "reader") root.innerHTML = readerHTML();
     else if (STATE.view === "library") root.innerHTML = libraryHTML();
     else if (STATE.view === "favourites") root.innerHTML = favouritesHTML();
@@ -506,7 +506,10 @@
 
   function readerHTML() {
     const book = resolveBook(STATE.bookId);
-    if (!book) return `<p class="disclaimer">This title is missing from the library.</p>`;
+    if (!book) {
+      return `<header class="row-top"><div class="pills"><span class="pill">Read</span></div></header>
+        <p class="disclaimer">${esc(ui().emptyShelf)}</p>`;
+    }
     if (STATE.bookId !== book.id) STATE.bookId = book.id;
     const t = ui();
     const bilingual = STATE.bilingual;
@@ -1082,7 +1085,7 @@
       }, 200);
     });
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("./sw.js?v=0.2.0").catch(() => {});
+      navigator.serviceWorker.register("./sw.js?v=0.2.4").catch(() => {});
     }
   }
 

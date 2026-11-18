@@ -1,1187 +1,3703 @@
-/* Keep 0.2 — 8-point editorial. Follow docs/love_relationships_intimacy_editorial_style_guide.md only. */
+/* Keep catalog. Follow docs/love_relationships_intimacy_editorial_style_guide.md only. */
 window.BOOKS = [
   {
-    isDailyFree: false,
-    topLabelEn: "ARCHIVE EDITION",
-    topLabelCn: { tc: "典藏書目", sc: "典藏书目" },
-    categoryFilter: "ATTACHMENT & BONDING SCIENCE",
-    categoryEn: "ATTACHMENT & BONDING SCIENCE",
-    categoryCn: { tc: "依附理論與親密連結 /", sc: "依恋理论与亲密连接 /" },
-    id: "attached",
-    durationEn: "DURATION: 6 MIN",
-    durationCn: { tc: "時間：6分鐘", sc: "时间：6分钟" },
-    themeEn: "THEME: SECURE BASE",
-    themeCn: { tc: "主題：安全基地", sc: "主题：安全基地" },
-    titleLinesEn: ["ATTACHED", "THE NEW SCIENCE"],
-    titleFlatEn: "Attached",
-    titleCn: { tc: "依附", sc: "依恋" },
-    authorLine: "Amir Levine & Rachel Heller (2010)",
-    quoteEn: "“Your attachment needs are legitimate. You shouldn’t feel ashamed for depending on the person you are closest to.”",
-    quoteCn: { tc: "“你的依附需求是正當的。依賴最親近的人，不該讓你覺得羞愧。”", sc: "“你的依恋需求是正当的。依赖最亲近的人，不该让你觉得羞愧。”" },
-    leadEn: "The quiet between two people is not a verdict on your worth; it is a pattern you can learn to read.",
-    leadCn: { tc: "兩人之間的沉默，不是對你價值的判決，而是一套可以讀懂的依附節奏。", sc: "两人之间的沉默，不是对你价值的判决，而是一套可以读懂的依恋节奏。" },
-    thesisEn: "We often treat closeness as a personality contest: too much, too little, too needy. Psychiatrists Amir Levine and Rachel Heller show that adult love runs on attachment systems—secure, anxious, avoidant—that fire when a bond feels uncertain. Protest, withdrawal, and the chase are not moral failures; they are the nervous system asking, Are you still there? Naming the pattern lets partners build a secure base instead of auditioning for one.",
-    thesisCn: {
-      tc: "我們常把親密當成性格比賽：太多、太少、太黏。精神科醫師阿米爾·萊文與瑞秋·海勒指出，成人愛情由依附系統驅動——安全型、焦慮型、逃避型——一旦連結顯得不確定，系統就會啟動。抗議、退縮與追逐不是道德失敗，而是神經系統在問：你還在嗎？叫出這套模式，伴侶才能一起建造安全基地，而不是互相試鏡。",
-      sc: "我们常把亲密当成性格比赛：太多、太少、太黏。精神科医师阿米尔·莱文与瑞秋·海勒指出，成人爱情由依恋系统驱动——安全型、焦虑型、回避型——一旦连接显得不确定，系统就会启动。抗议、退缩与追逐不是道德失败，而是神经系统在问：你还在吗？叫出这套模式，伴侣才能一起建造安全基地，而不是互相试镜。"
+    "id": "attached",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
     },
-    highlights: [
+    "categoryFilter": "ATTACHMENT & BONDING SCIENCE",
+    "categoryEn": "ATTACHMENT & BONDING SCIENCE",
+    "categoryCn": {
+      "tc": "依附理論與親密連結 /",
+      "sc": "依恋理论与亲密连接 /"
+    },
+    "durationEn": "DURATION: 6 MIN",
+    "durationCn": {
+      "tc": "時間：6分鐘",
+      "sc": "时间：6分钟"
+    },
+    "themeEn": "THEME: SECURE BASE",
+    "themeCn": {
+      "tc": "主題：安全基地",
+      "sc": "主题：安全基地"
+    },
+    "titleLinesEn": [
+      "ATTACHED",
+      "BONDING SCIENCE"
+    ],
+    "titleFlatEn": "Attached",
+    "titleCn": {
+      "tc": "依附",
+      "sc": "依恋"
+    },
+    "authorLine": "Amir Levine & Rachel Heller (2010)",
+    "quoteEn": "“The need to be in a close relationship is embedded in our genes.”",
+    "quoteCn": {
+      "tc": "“建立親密關係的需求，早已深深烙印在我們的基因裡。”",
+      "sc": "“建立亲密关系的需求，早已深深烙印在我们的基因里。”"
+    },
+    "leadEn": "Romantic dependency is not a personal flaw to outgrow, but an evolutionary survival mechanism wired into the human brain.",
+    "leadCn": {
+      "tc": "渴望親密依賴並非有待克服的人格缺陷，而是刻在人類大腦中的演化生存機制。",
+      "sc": "渴望亲密依赖并非有待克服的人格缺陷，而是刻在人类大脑中的演化生存机制。"
+    },
+    "thesisEn": "Modern culture often glorifies radical self-sufficiency, treating emotional reliance as weakness. Amir Levine and Rachel Heller draw on attachment theory to show that adults mirror infants in how they seek closeness, dividing largely into secure, anxious, and avoidant styles. When partners understand these biological wiring patterns, they stop pathologizing their needs. Instead, they build a secure base that fosters genuine autonomy alongside deep intimacy.",
+    "thesisCn": {
+      "tc": "現代文化常推崇極致的獨立自主，將情感依賴視為軟弱。作者借鏡依附理論指出，成年人在親密關係中同樣分為安全型、焦慮型與逃避型。當伴侶看清這些源自生理本能的互動模式，便能停止將正常需求病理化，進而建立穩固的安全基地，在深度連結中保有真正的自主。",
+      "sc": "现代文化常推崇极致的独立自主，将情感依赖视为软弱。作者借鉴依恋理论指出，成年人在亲密关系中同样分为安全型、焦虑型与回避型。当伴侣看清这些源自生理本能的互动模式，便能停止将正常需求病理化，进而在深度连接中建立稳固的安全基地，保有真正的自主。"
+    },
+    "highlights": [
       {
-        num: "01",
-        titleEn: "Three Styles, One Longing",
-        titleCn: { tc: "三種依附，同一種渴望", sc: "三种依恋，同一种渴望" },
-        conceptEn: "Levine and Heller translate Bowlby into adult dating: secure partners reach and soothe; anxious partners protest distance; avoidant partners deactivate closeness to stay intact.",
-        plainEn: "Plain Explanation: Think of a smoke alarm. Anxious systems go off at the first wisp of quiet; avoidant systems pull the battery so the house stays still; secure systems check the kitchen, then come back to bed.",
-        plainCn: {
-          tc: "白話解析：想像煙霧警報。焦慮型在第一絲安靜時就響；逃避型乾脆拔掉電池，好讓屋子維持原狀；安全型會去廚房看一眼，再回到床上。",
-          sc: "白话解析：想像烟雾警报。焦虑型在第一丝安静时就响；回避型干脆拔掉电池，好让屋子维持原状；安全型会去厨房看一眼，再回到床上。"
+        "num": "01",
+        "titleEn": "The Dependency Paradox",
+        "titleCn": {
+          "tc": "依賴悖論",
+          "sc": "依赖悖论"
+        },
+        "conceptEn": "When people feel reliably supported by a partner, they take greater risks and explore the world more boldly; true independence grows out of dependable emotional shelter rather than isolation.",
+        "plainEn": "Plain Explanation: Think of a secure relationship like a well-anchored harbor; knowing you have a safe dock to return to is precisely what gives you the nerve to sail into open water.",
+        "plainCn": {
+          "tc": "白話解析：把安穩的關係想像成一座避風港，正因為知道隨時有安全的碼頭可回，你才敢放膽駛向未知的遠洋。",
+          "sc": "白话解析：把安稳的关系想象成一座避风港，正因为知道随时有安全的码头可回，你才敢放胆驶向未知的远洋。"
         }
       },
       {
-        num: "02",
-        titleEn: "Protest Is a Bid, Not a Scene",
-        titleCn: { tc: "抗議是呼喚，不是鬧劇", sc: "抗议是呼唤，不是闹剧" },
-        conceptEn: "Anxious protest—extra texts, a sharp tone, checking the read receipt—is the attachment system trying to restore proximity when it cannot feel the other person.",
-        plainEn: "Plain Explanation: The extra messages are not proof you are 'too much.' They are the body knocking on a door it is not sure is still locked from the inside.",
-        plainCn: { tc: "白話解析：多發的那些消息，不是證明你「太多」。那是身體在敲門，不確定門是否仍從裡面鎖著。", sc: "白话解析：多发的那些消息，不是证明你“太多”。那是身体在敲门，不确定门是否仍从里面锁着。" }
+        "num": "02",
+        "titleEn": "The Hyper-Vigilant Alarm",
+        "titleCn": {
+          "tc": "過度靈敏的警報器",
+          "sc": "过度灵敏的警报器"
+        },
+        "conceptEn": "Individuals with an anxious attachment system detect subtle shifts in tone or reply speed as signs of impending abandonment, triggering protest behaviors to force reassurance.",
+        "plainEn": "Plain Explanation: Your attachment system is acting like a smoke alarm that shrieks every time you make toast—it is trying to save your life, even when nothing is actually burning.",
+        "plainCn": {
+          "tc": "白話解析：你的依附系統就像一個只要烤吐司就會尖叫的煙霧警報器——就算家裡根本沒失火，它也拼命響鈴想救你的命。",
+          "sc": "白话解析：你的依恋系统就像一个只要烤吐司就会尖叫的烟雾警报器——就算家里根本没失火，它也拼命响铃想救你的命。"
+        }
       },
       {
-        num: "03",
-        titleEn: "The Thermostat and the Window",
-        titleCn: { tc: "恆溫器與窗戶", sc: "恒温器与窗户" },
-        conceptEn: "Anxious-avoidant pairings lock into a loop: one turns up contact because they feel cold, the other opens distance because they feel suffocated, until both are exhausted.",
-        plainEn: "Plain Explanation: One person turns up the thermostat because they feel cold while the other opens the window because they feel suffocated—leaving both exhausted until they name the pattern.",
-        plainCn: {
-          tc: "白話解析：一個人把暖氣調高，因為覺得冷；另一個人打開窗，因為覺得悶——直到兩人叫出這套循環，才不會一起耗盡。",
-          sc: "白话解析：一个人把暖气调高，因为觉得冷；另一个人打开窗，因为觉得闷——直到两人叫出这套循环，才不会一起耗尽。"
+        "num": "03",
+        "titleEn": "Deactivating Strategies",
+        "titleCn": {
+          "tc": "去活化策略",
+          "sc": "去活化策略"
+        },
+        "conceptEn": "Avoidant partners equate intimacy with a loss of freedom, unconsciously deploying mental distancing tactics—such as focusing on a partner's flaws or pining for an elusive ex—whenever closeness deepens.",
+        "plainEn": "Plain Explanation: Whenever the room gets warm with affection, you instinctively crack open a window to let in cold air so you will not feel trapped.",
+        "plainCn": {
+          "tc": "白話解析：每當房間裡因為愛意而變得溫暖，你就會本能地推開一扇窗放進冷風，好讓自己不至於覺得受困。",
+          "sc": "白话解析：每当房间里因为爱意而变得温暖，你就会本能地推开一扇窗放进冷风，好让自己不至于觉得受困。"
         }
       }
     ],
-    extraHighlights: [
+    "extraHighlights": [
       {
-        num: "04",
-        titleEn: "A Secure Base Is Built in Repeats",
-        titleCn: { tc: "安全基地是重複堆出來的", sc: "安全基地是重复堆出来的" },
-        conceptEn: "Security is not a trait you are issued at birth; it is earned in small, kept promises that teach the body the other person remains reachable.",
-        plainEn: "Plain Explanation: A ship with a sturdy anchor in a safe harbor can sail much farther than a boat that never trusts the dock. One kept 'I'll call at nine' does more than a speech about loyalty.",
-        plainCn: {
-          tc: "白話解析：船錨在港灣裡夠穩，才敢航得更遠。一句守住的「九點打給你」，比一篇關於忠誠的演說更有用。",
-          sc: "白话解析：船锚在港湾里够稳，才敢航得更远。一句守住的“九点打给你”，比一篇关于忠诚的演说更有用。"
+        "num": "04",
+        "titleEn": "The Anxious-Avoidant Trap",
+        "titleCn": {
+          "tc": "焦慮與逃避的追逃迴圈",
+          "sc": "焦虑与回避的追逃循环"
+        },
+        "conceptEn": "Anxious pursuers and avoidant withdrawers often magnetize toward each other because their worst fears confirm each other's expectations, mistaking nervous-system turbulence for passion.",
+        "plainEn": "Plain Explanation: One person cranks up the thermostat while the other opens the freezer door; both end up exhausted, mistaking the draft for chemistry.",
+        "plainCn": {
+          "tc": "白話解析：一個人拼命調高暖氣，另一個人卻打開冰箱門；兩個人都精疲力竭，還誤以為這陣冷熱交加的氣流就是火花。",
+          "sc": "白话解析：一个人拼命调高暖气，另一个人却打开冰箱门；两个人都精疲力竭，还误以为这阵冷热交加的气流就是火花。"
         }
       },
       {
-        num: "05",
-        titleEn: "Deactivating Is Not Indifference",
-        titleCn: { tc: "去活化不是冷漠", sc: "去活化不是冷漠" },
-        conceptEn: "Avoidant deactivating strategies—work, flaws-lists, sudden coolness after a good night—are attempts to turn the volume of need down, not proof that love never existed.",
-        plainEn: "Plain Explanation: After a close evening, pulling away can mean: this is getting warm enough that I need air so I can stay. The window is not always a goodbye.",
-        plainCn: { tc: "白話解析：親近過的晚上之後往後退，可能是：夠暖了，我需要一點空氣才能留下。開窗，不總是再見。", sc: "白话解析：亲近过的晚上之后往后退，可能是：够暖了，我需要一点空气才能留下。开窗，不总是再见。" }
+        "num": "05",
+        "titleEn": "The Secure Buffer Effect",
+        "titleCn": {
+          "tc": "安全型的緩衝效應",
+          "sc": "安全型的缓冲效应"
+        },
+        "conceptEn": "Secure individuals neither play power games nor punish vulnerability; their steady responsiveness gradually calms an insecure partner's nervous system over time.",
+        "plainEn": "Plain Explanation: Pairing with someone secure is like stepping onto a steady pier after weeks on a pitching boat—your sea legs slowly quiet down.",
+        "plainCn": {
+          "tc": "白話解析：與安全型的人相處，就像在顛簸的小船上待了幾週後終於踏上穩固的碼頭——你緊繃的雙腿會慢慢放鬆下來。",
+          "sc": "白话解析：与安全型的人相处，就像在颠簸的小船上待了几周后终于踏上稳固的码头——你紧绷的双腿会慢慢放松下来。"
+        }
       },
       {
-        num: "06",
-        titleEn: "One Clean Sentence, Then Wait",
-        titleCn: { tc: "一句清楚的話，然後等", sc: "一句清楚的话，然后等" },
-        conceptEn: "Effective communication in this book is specific and bounded: name the need, give the other person room to answer, and treat silence as information rather than a test to pass by chasing.",
-        plainEn: "Plain Explanation: Say one clear sentence about what you need, then put the phone down. A long voice note is usually more panic, not more clarity.",
-        plainCn: { tc: "白話解析：把需要說成一句清楚的話，然後把手機放下。很長的語音，多半是更慌，不是更清楚。", sc: "白话解析：把需要说成一句清楚的话，然后把手机放下。很长的语音，多半是更慌，不是更清楚。" }
+        "num": "06",
+        "titleEn": "Effective Communication Over Protest",
+        "titleCn": {
+          "tc": "用有效溝通取代抗議",
+          "sc": "用有效沟通取代抗议"
+        },
+        "conceptEn": "Stating emotional needs plainly and without blame allows partners to respond directly, whereas veiled threats, scorekeeping, or silent treatment obscure the real vulnerability underneath.",
+        "plainEn": "Plain Explanation: Instead of slamming the kitchen cabinets to signal you are hungry, you simply say what you would like to eat.",
+        "plainCn": {
+          "tc": "白話解析：與其用力甩廚房櫃門來暗示自己餓了，不如直接開口說出你想吃什麼。",
+          "sc": "白话解析：与其用力甩厨房柜门来暗示自己饿了，不如直接开口说出你想吃什么。"
+        }
       },
       {
-        num: "07",
-        titleEn: "You Cannot Love Someone Into Answering",
-        titleCn: { tc: "你沒辦法用愛把人催成回覆", sc: "你没办法用爱把人催成回复" },
-        conceptEn: "An avoidant partner's distance will not convert into security because you care harder; compatibility includes whether both people can tolerate the closeness the other requires.",
-        plainEn: "Plain Explanation: Loving harder will not force a reply. Silence already tells you something. It is not a quiz you pass by sending three more messages.",
-        plainCn: { tc: "白話解析：愛得更用力，催不出回覆。沉默本身已經在說話。再發三條，過不了這關。", sc: "白话解析：爱得更用力，催不出回复。沉默本身已经在说话。再发三条，过不了这关。" }
+        "num": "07",
+        "titleEn": "Small Bids Reveal the Pattern",
+        "titleCn": {
+          "tc": "小事看出依附節奏",
+          "sc": "小事看出依恋节奏"
+        },
+        "conceptEn": "In early dating, how someone handles small bids for reassurance reveals their core attachment orientation far more reliably than grand romantic gestures.",
+        "plainEn": "Plain Explanation: You test a roof's reliability during an ordinary afternoon drizzle, not by admiring the paint color on a sunny day.",
+        "plainCn": {
+          "tc": "白話解析：檢驗屋頂靠不靠譜，得看它在午後細雨時會不會漏水，而不是在晴天欣賞它的油漆顏色。",
+          "sc": "白话解析：检验屋顶靠不靠谱，得看它在午后细雨时会不会漏水，而不是在晴天欣赏它的油漆颜色。"
+        }
       },
       {
-        num: "08",
-        titleEn: "Earned Security Is a Practice",
-        titleCn: { tc: "後天安全是一種練習", sc: "后天安全是一种练习" },
-        conceptEn: "People can move toward earned security—not by finding a perfect type, but by choosing partners who can repair, and by soothing their own system enough to stay in the conversation.",
-        plainEn: "Plain Explanation: You do not have to be born calm about silence. You practice: the wait happens, you breathe, you come back without a courtroom speech.",
-        plainCn: {
-          tc: "白話解析：沒有人生來就能安然面對沉默。你練習：等待發生了，你呼吸，再回來，不必帶著法庭上的演說。",
-          sc: "白话解析：没有人生来就能安然面对沉默。你练习：等待发生了，你呼吸，再回来，不必带着法庭上的演说。"
+        "num": "08",
+        "titleEn": "Earned Security",
+        "titleCn": {
+          "tc": "後天習得的安全感",
+          "sc": "后天习得的安全感"
+        },
+        "conceptEn": "Attachment styles are stable habits rather than permanent sentences; through self-awareness and deliberate partner selection, anxious or avoidant adults can rewire toward security.",
+        "plainEn": "Plain Explanation: Even if you learned to drive on icy roads, you can gradually stop gripping the steering wheel with white knuckles once you reach dry pavement.",
+        "plainCn": {
+          "tc": "白話解析：就算你當初是在結冰路面上學開車的，一旦駛上乾燥平坦的柏油路，你也能慢慢鬆開緊握方向盤到發白的雙手。",
+          "sc": "白话解析：就算你当初是在结冰路面上学开车的，一旦驶上干燥平坦的柏油路，你也能慢慢松开紧握方向盘到发白的双手。"
         }
       }
     ],
-    easternResonance: {
-      quote: { tc: "「泉涸，魚相與處於陸，相呴以溼，相濡以沫，不如相忘於江湖。」", sc: "“泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。”" },
-      source: { tc: "——《莊子·大宗師》", sc: "——《庄子·大宗师》" },
-      commentary: {
-        tc: "莊子這句常被誤讀成冷淡。其實是：乾涸裡互相餵沫，是求生；真正的安穩，是兩條魚都還能游在水裡。依附理論要的安全基地，不是把對方含在口裡不放，而是兩人都有水可游，仍游向彼此。",
-        sc: "庄子这句常被误读成冷淡。其实是：干涸里互相喂沫，是求生；真正的安稳，是两条鱼都还能游在水里。依恋理论要的安全基地，不是把对方含在嘴里不放，而是两人都有水可游，仍游向彼此。"
+    "easternResonance": {
+      "quote": {
+        "tc": "「泉涸，魚相與處於陸，相呴以濕，相濡以沫，不如相忘於江湖。」",
+        "sc": "“泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。”"
+      },
+      "source": {
+        "tc": "—— 《莊子·大宗師》",
+        "sc": "—— 《庄子·大宗师》"
+      },
+      "commentary": {
+        "tc": "莊子提醒我們，在乾涸水窪裡緊緊依偎只是求生恐慌，而非豐盈的愛。真正的安全基地正如同寬廣的江湖，伴侶共享同一片滋養彼此的水域，卻不必因恐懼失去而窒息捆綁，各自都能自在悠游。",
+        "sc": "庄子提醒我们，在干涸水洼里紧紧依偎只是求生恐慌，而非丰盈的爱。真正的安全基地正如同宽广的江湖，伴侣共享同一片滋养彼此的水域，却不必因恐惧失去而窒息捆绑，各自都能自在悠游。"
       }
     },
-    actionPromptEn: "Today, notice one moment you reached (a text, a sigh, a check) or one moment you pulled away. Write one sentence naming the need underneath. Don't send it.",
-    actionPromptCn: {
-      tc: "今天留意一次你伸手（一則訊息、一聲嘆息、看了一眼已讀），或一次你後退。寫下一句話，點出底下的需要。不要發出。",
-      sc: "今天留意一次你伸手（一则讯息、一声叹息、看了一眼已读），或一次你后退。写下一句话，点出底下的需要。不要发出。"
+    "actionPromptEn": "Spend 10 minutes today recalling one recent moment of relationship tension—whether with a partner, close friend, or past flame—and write down the unguarded need beneath your reaction in a single, blame-free sentence starting with “I feel safest when...”",
+    "actionPromptCn": {
+      "tc": "今天花10分鐘回想一次近期在親密關係、摯友或過往戀情中的緊繃時刻，用一句不帶指責的話寫下你反應背後的真實需求，以「當……的時候，我會覺得最安心」開頭。",
+      "sc": "今天花10分钟回想一次近期在亲密关系、挚友或过往恋情中的紧绷时刻，用一句不带指责的话写下你反应背后的真实需求，以“当……的时候，我会觉得最安心”开头。"
     }
   },
   {
-    id: "seven-principles-making-marriage-work",
-    isDailyFree: false,
-    topLabelEn: "ARCHIVE EDITION",
-    topLabelCn: { tc: "典藏書目", sc: "典藏书目" },
-    categoryFilter: "COMMUNICATION, CONFLICT & REPAIR",
-    categoryEn: "COMMUNICATION, CONFLICT & REPAIR",
-    categoryCn: { tc: "溝通藝術、衝突與修復 /", sc: "沟通艺术、冲突与修复 /" },
-    durationEn: "DURATION: 6 MIN",
-    durationCn: { tc: "時間：6分鐘", sc: "时间：6分钟" },
-    themeEn: "THEME: EMOTIONAL BIDS",
-    themeCn: { tc: "主題：情感投遞與修復", sc: "主题：情感投递与修复" },
-    titleLinesEn: ["SEVEN PRINCIPLES", "FOR MARRIAGE"],
-    titleFlatEn: "The Seven Principles for Making Marriage Work",
-    titleCn: { tc: "幸福的婚姻", sc: "幸福的婚姻" },
-    authorLine: "John M. Gottman & Nan Silver (1999)",
-    quoteEn: "“Happily married couples aren’t smarter, richer, or more psychologically astute than others. They have simply mastered the art of turning toward each other.”",
-    quoteCn: { tc: "“幸福的伴侶並非比別人更聰明或更富有；他們只是掌握了在日常小事中『轉向彼此』的溫柔習慣。”", sc: "“幸福的伴侣并非比别人更聪明或更富有；他们只是掌握了在日常小事中‘转向彼此’的温柔习惯。”" },
-    leadEn: "Lasting love is decided in the smallest, most unguarded moments of an ordinary evening.",
-    leadCn: { tc: "長久的愛，往往決定於平凡夜晚裡那些最微小、最不設防的回應瞬間。", sc: "长久的爱，往往决定于平凡夜晚里那些最微小、最不设防的回应瞬间。" },
-    thesisEn: "We often imagine that love is tested in dramatic crises, yet forty years of observation in John Gottman's 'Love Lab' prove that the fate of a partnership is quietly decided in ordinary Tuesday evenings. When your partner looks up from a book to share a passing thought, they are offering a tender 'bid for connection', softly asking whether you are still emotionally reachable. Met with unhurried warmth and timely conflict repair, these micro-moments build an unshakeable house of trust.",
-    thesisCn: {
-      tc: "我們常以為愛情考驗的是驚心動魄的大風浪，但約翰·高特曼長達四十年的「愛情實驗室」研究證實，伴侶關係的命運其實決定於平凡日常的微小瞬間。當伴侶抬起頭與你分享窗外的一隻鳥或一絲擔憂，那其實是一次溫柔的「情感投遞」，輕聲確認你是否仍在身邊。每一次放下手機的溫暖回應與爭執後的及時修復，都在築起信任的基石。",
-      sc: "我们常以为爱情考验的是惊心动魄的大风浪，但约翰·戈特曼长达四十年的“爱情实验室”研究证实，伴侣关系的命运其实决定于平凡日常的微小瞬间。当伴侣抬起头与你分享窗外的一只鸟或一丝担忧，那其实是一次温柔的“情感投递”，轻声确认你是否仍在身边。每一次放下手机的温暖回应与争执后的及时修复，都在筑起信任的基石。"
+    "id": "seven-principles-making-marriage-work",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
     },
-    highlights: [
+    "categoryFilter": "COMMUNICATION, CONFLICT & REPAIR",
+    "categoryEn": "COMMUNICATION, CONFLICT & REPAIR",
+    "categoryCn": {
+      "tc": "溝通藝術、衝突與修復 /",
+      "sc": "沟通艺术、冲突与修复 /"
+    },
+    "durationEn": "DURATION: 6 MIN",
+    "durationCn": {
+      "tc": "時間：6分鐘",
+      "sc": "时间：6分钟"
+    },
+    "themeEn": "THEME: EMOTIONAL BIDS",
+    "themeCn": {
+      "tc": "主題：情感投遞與修復",
+      "sc": "主题：情感投递与修复"
+    },
+    "titleLinesEn": [
+      "THE SEVEN PRINCIPLES",
+      "FOR MAKING MARRIAGE WORK"
+    ],
+    "titleFlatEn": "The Seven Principles for Making Marriage Work",
+    "titleCn": {
+      "tc": "幸福的婚姻",
+      "sc": "幸福的婚姻"
+    },
+    "authorLine": "John M. Gottman & Nan Silver (1999)",
+    "quoteEn": "“Happily married couples are not genetically blessed; they have acquired a habit set that keeps negative affect down and positive affect up.”",
+    "quoteCn": {
+      "tc": "“美滿的婚姻並非基因的恩賜；他們掌握了一套能抑制負面情感、提高正面情感的習慣組合。”",
+      "sc": "“美满的婚姻并非基因的恩赐；他们掌握了一套能抑制负面情感、提高正面情感的习惯组合。”"
+    },
+    "leadEn": "John Gottman reveals how everyday micro-interactions and emotional bids determine the long-term survival of a relationship.",
+    "leadCn": {
+      "tc": "約翰・高特曼揭示了日常微小互動與情感投遞如何決定一段關係的長久存續。",
+      "sc": "约翰・戈特曼揭示了日常微小互动与情感投递如何决定一段关系的长久存续。"
+    },
+    "thesisEn": "Based on decades of groundbreaking observation in his University of Washington Love Lab, John Gottman discovered that relationship longevity is forged in ordinary Tuesday moments rather than grand romantic gestures. They found that lasting partnerships depend on how couples respond to small requests for connection, known as emotional bids. By decoding these verbal and non-verbal cues, partners build an emotional bank account that safeguards intimacy against inevitable conflicts.",
+    "thesisCn": {
+      "tc": "約翰・高特曼基於華盛頓大學「愛情實驗室」數十年的開創性觀察發現，婚姻的長久往往取決於平凡週二的微小互動，而非盛大的浪漫姿態。他們發現，持久的伴侶關係取決於夫妻雙方如何回應被稱為情感投遞的微小連結請求。透過解碼這些言語與非言語線索，雙方建立了一個能抵禦衝突的情感儲蓄帳戶。",
+      "sc": "约翰・戈特曼基于华盛顿大学“爱情实验室”数十年的开创性观察发现，婚姻的长久往往取决于平凡周二的微小互动，而非盛大的浪漫姿态。他们发现，持久的伴侣关系取决于夫妻双方如何回应被称为情感投递的微小连接请求。通过解码这些言语与非语言线索，双方建立了一个能抵御冲突的情感储蓄账户。"
+    },
+    "highlights": [
       {
-        num: "01",
-        titleEn: "Turning Toward Emotional Bids",
-        titleCn: { tc: "轉向彼此的「情感投遞」", sc: "转向彼此的“情感投递”" },
-        conceptEn: "In thriving couples, partners turn toward each other's small remarks and invitations 86% of the time, compared to just 33% in couples who eventually part.",
-        plainEn: "Plain Explanation: Every time you set down your phone and meet your partner's eyes when they speak, you make a quiet deposit into your emotional savings account.",
-        plainCn: {
-          tc: "白話解析：當伴侶隨口分享生活瑣事時，放下手機、微笑看著對方的眼睛回應，就像在彼此的情感帳戶裡存入一筆溫暖的儲蓄。",
-          sc: "白话解析：当伴侣随口分享生活琐事时，放下手机、微笑看着对方的眼睛回应，就像在彼此的情感账户里存入一笔温暖的储蓄。"
+        "num": "01",
+        "titleEn": "Enhance Your Love Maps",
+        "titleCn": {
+          "tc": "建立愛情地圖",
+          "sc": "建立爱情地图"
+        },
+        "conceptEn": "They maintain a richly detailed cognitive map of their partner's inner world, keeping updated on their everyday stresses, dreams, and friends.",
+        "plainEn": "Plain Explanation: It is like keeping an old map updated so you never get lost as your partner changes over time.",
+        "plainCn": {
+          "tc": "白話解析：就像隨時更新老舊的地圖，確保伴侶心境隨時間轉變時，你絕不會迷失方向。",
+          "sc": "白话解析：就像随时更新老旧的地图，确保伴侣心境随时间转变时，你绝不会迷失方向。"
         }
       },
       {
-        num: "02",
-        titleEn: "Disarming the Four Horsemen",
-        titleCn: { tc: "化解關係末日的「四騎士」", sc: "化解关系末日的“四骑士”" },
-        conceptEn: "Criticism, Contempt, Defensiveness, and Stonewalling erode love from within—with Contempt (eye-rolling, sarcasm, moral superiority) acting as sulfuric acid to intimacy.",
-        plainEn: "Plain Explanation: Replace character attacks ('You are so selfish') with gentle, specific needs ('I feel overwhelmed tonight and would love your help with dinner').",
-        plainCn: {
-          tc: "白話解析：批評、鄙視、防衛與冷戰是侵蝕婚姻的四騎士。將「你總是這麼自私」的人格攻擊，替換為「今晚我有點累，很希望你能陪我一起收碗盤」的溫和表達。",
-          sc: "白话解析：批评、鄙视、防卫与冷战是侵蚀婚姻的四骑士。将“你总是这么自私”的人格攻击，替换为“今晚我有点累，很希望你能陪我一起收碗盘”的温和表达。"
+        "num": "02",
+        "titleEn": "Nurture Fondness and Admiration",
+        "titleCn": {
+          "tc": "培植喜愛與讚賞",
+          "sc": "培植喜爱与赞赏"
+        },
+        "conceptEn": "We actively cultivate a culture of appreciation, deliberately reminding ourselves of our partner's positive traits and shared history.",
+        "plainEn": "Plain Explanation: This functions like a savings account where frequent small deposits of genuine praise prevent future emotional bankruptcy.",
+        "plainCn": {
+          "tc": "白話解析：這就像一個儲蓄帳戶，頻繁地存入真誠的讚美，能防止未來的感情破產。",
+          "sc": "白话解析：这就像一个储蓄账户，频繁地存入真诚的赞美，能防止未来的感情破产。"
         }
       },
       {
-        num: "03",
-        titleEn: "The Magic 5:1 Ratio & Repair Attempts",
-        titleCn: { tc: "五比一黃金比例與「修復嘗試」", sc: "五比一黄金比例与“修复尝试”" },
-        conceptEn: "Stable relationships maintain at least five positive interactions for every negative one, and know how to offer and receive small olive branches mid-argument.",
-        plainEn: "Plain Explanation: A gentle touch, a self-deprecating smile, or saying 'Let's start over—you matter more to me than winning this point' acts as an emergency brake during a fight.",
-        plainCn: {
-          tc: "白話解析：幸福伴侶也會有爭執，但他們懂得在火氣上升時遞出橄欖枝——一句「剛才我語氣太急了，我們重來好嗎」，就是防止爭吵失控的安全煞車。",
-          sc: "白话解析：幸福伴侣也会有争执，但他们懂得在火气上升时递出橄榄枝——一句“刚才我语气太急了，我们重来好吗”，就是防止争吵失控的安全刹车。"
+        "num": "03",
+        "titleEn": "Turn Toward Instead of Away",
+        "titleCn": {
+          "tc": "朝向彼此而不是避開",
+          "sc": "朝向彼此而不是避开"
+        },
+        "conceptEn": "They respond to daily bids for attention, affection, or support by engaging rather than ignoring or turning away.",
+        "plainEn": "Plain Explanation: It is like putting the phone down when your partner speaks, signaling that they matter more than distractions.",
+        "plainCn": {
+          "tc": "白話解析：就像在伴侶開口時放下手機，向對方傳遞「你比周遭干擾更重要」的訊號。",
+          "sc": "白话解析：就像在伴侣开口时放下手机，向对方传递“你比周遭干扰更重要”的信号。"
         }
       }
     ],
-    extraHighlights: [
+    "extraHighlights": [
       {
-        num: "04",
-        titleEn: "Updating Your Partner’s Love Map",
-        titleCn: { tc: "持續更新伴侶內心的「愛情地圖」", sc: "持续更新伴侣内心的“爱情地图”" },
-        conceptEn: "People evolve across seasons; knowing your partner's current worries, secret hopes, and inner world keeps friendship alive.",
-        plainEn: "Plain Explanation: Don't rely on a map of who your partner was five years ago—keep asking open-ended questions as if you are still discovering them.",
-        plainCn: {
-          tc: "白話解析：人的內心世界每一年都在變化。別拿著五年前的舊地圖看身邊的人，經常好奇地問問他最近最在意什麼、最嚮往什麼。",
-          sc: "白话解析：人的内心世界每一年都在变化。别拿着五年前的旧地图看身边的人，经常好奇地问问他最近最在意什么、最向往什么。"
+        "num": "04",
+        "titleEn": "Let Your Partner Influence You",
+        "titleCn": {
+          "tc": "讓伴侶影響你",
+          "sc": "让伴侣影响你"
+        },
+        "conceptEn": "We share power and decision-making by honoring our partner's feelings and perspective during disagreements.",
+        "plainEn": "Plain Explanation: This acts like an olive branch, showing flexibility rather than digging in rigidly to win an argument.",
+        "plainCn": {
+          "tc": "白話解析：這就像遞出橄欖枝，展現包容與彈性，而不是僵化地非要爭個輸贏不可。",
+          "sc": "白话解析：这就像递出橄榄枝，展现包容与弹性，而不是僵化地非要争个输赢不可。"
         }
       },
       {
-        num: "05",
-        titleEn: "Softening the Start-Up",
-        titleCn: { tc: "溫和開場決定對話的結局", sc: "温和开场决定对话的结局" },
-        conceptEn: "96% of the time, you can predict how a 15-minute conflict conversation will end simply by listening to the tone of the first three minutes.",
-        plainEn: "Plain Explanation: Starting a difficult talk with a flamethrower guarantees your partner will put up a steel shield before hearing a word.",
-        plainCn: {
-          tc: "白話解析：百分之九十六的爭論結局，在開口的前三分鐘就已註定。卸下興師問罪的語氣，用「我感到……」溫和開場，對方才聽得見你的真心。",
-          sc: "白话解析：百分之九十六的争论结局，在开口的前三分钟就已注定。卸下兴师问罪的语气，用“我感到……”温和开场，对方才听得见你的真心。"
+        "num": "05",
+        "titleEn": "Solve Your Solvable Problems",
+        "titleCn": {
+          "tc": "解決可解開的問題",
+          "sc": "解决可解开的问题"
+        },
+        "conceptEn": "They use soft startups and effective repair attempts to de-escalate tension before minor grievances turn into full-scale fights.",
+        "plainEn": "Plain Explanation: It works like an emergency brake that stops a speeding car before it crashes into a wall.",
+        "plainCn": {
+          "tc": "白話解析：它就像汽車的緊急煞車，能在車子撞牆前及時停下，避免小摩擦升級成大衝突。",
+          "sc": "白话解析：它就像汽车的紧急煞车，能在车子撞墙前及时停下，避免小摩擦升级成大冲突。"
         }
       },
       {
-        num: "06",
-        titleEn: "69% of Problems Are Perpetual (Dialogue Over Gridlock)",
-        titleCn: { tc: "接納近七成差異是「無解但可共處」的", sc: "接纳近七成差异是“无解但可共处”的" },
-        conceptEn: "Over two-thirds of marital conflicts stem from lasting temperament differences (e.g., spender vs. saver, neat vs. relaxed) that are managed through humor and empathy rather than 'solved'.",
-        plainEn: "Plain Explanation: Choosing a life partner is choosing a particular set of recurring differences you are willing to navigate with affection.",
-        plainCn: {
-          tc: "白話解析：伴侶間近七成的分歧源於天生的性格差異，永遠無法徹底「改造解決」。學會帶著幽默感與理解與差異共處，才不會陷入死結。",
-          sc: "白话解析：伴侣间近七成的分歧源于天生的性格差异，永远无法彻底“改造解决”。学会带着幽默感与理解与差异共处，才不会陷入死结。"
+        "num": "06",
+        "titleEn": "Overcome Gridlock",
+        "titleCn": {
+          "tc": "突破僵局",
+          "sc": "突破僵局"
+        },
+        "conceptEn": "We uncover the hidden dreams and core values underlying perpetual problems so we can move from stalemate to mutual understanding.",
+        "plainEn": "Plain Explanation: It is like looking beneath the surface waves to find the solid anchor holding a ship in place.",
+        "plainCn": {
+          "tc": "白話解析：這就像潛入水面之下，尋找那枚將大船穩固錨定在海底的核心價值之錨。",
+          "sc": "白话解析：这就像潜入水面之下，寻找那枚将大船稳固锚定在海底的核心价值之锚。"
         }
       },
       {
-        num: "07",
-        titleEn: "Physiological Soothing (The 20-Minute Reset)",
-        titleCn: { tc: "生理淹沒時的「二十分鐘冷靜期」", sc: "生理淹没时的“二十分钟冷静期”" },
-        conceptEn: "Once your heart rate crosses 100 BPM in an argument, adrenaline floods the body and rational empathy shuts down completely.",
-        plainEn: "Plain Explanation: Calling a 20-minute time-out—while promising when you will return to talk—saves you from saying words you cannot take back.",
-        plainCn: {
-          tc: "白話解析：當爭吵中心跳超過每分鐘一百下，腎上腺素會讓大腦失去同理能力。此時溫和說一句「我們先休息二十分鐘再回來談」，是最成熟的保護。",
-          sc: "白话解析：当争吵中心跳超过每分钟一百下，肾上腺素会让大脑失去同理能力。此时温和说一句“我们先休息二十分钟再回来谈”，是最成熟的保护。"
+        "num": "07",
+        "titleEn": "Create Shared Meaning",
+        "titleCn": {
+          "tc": "創造共同意義",
+          "sc": "创造共同意义"
+        },
+        "conceptEn": "They build an inner life together rich in rituals, shared goals, and mutual roles that deepen their spiritual and emotional bond.",
+        "plainEn": "Plain Explanation: This acts like the invisible glue holding a community together through shared traditions and sacred stories.",
+        "plainCn": {
+          "tc": "白話解析：這就像將共同的傳統與珍貴的回憶化為看不見的黏著劑，將彼此緊密結合。",
+          "sc": "白话解析：这就像将共同的传统与珍贵的回忆化为看不见的黏着剂，将彼此紧密结合。"
         }
       },
       {
-        num: "08",
-        titleEn: "Honoring Hidden Dreams Within Gridlock",
-        titleCn: { tc: "看見固執背後珍視的「人生夢想」", sc: "看见固执背后珍视的“人生梦想”" },
-        conceptEn: "Whenever a partner refuses to budge on a recurring issue, there is almost always an unvoiced core value or childhood longing underneath their stubbornness.",
-        plainEn: "Plain Explanation: Arguing over a budget is rarely about dollars—one person is dreaming of security while the other is dreaming of adventure.",
-        plainCn: {
-          tc: "白話解析：所有看似死不退讓的僵局背後，往往都藏著一個未被聽見的生命渴望（例如對安全感或自由的嚮往）。聽懂那份渴望，對立便化為並肩。",
-          sc: "白话解析：所有看似死不退让的僵局背后，往往都藏着一个未被听见的生命渴望（例如对安全感或自由的向往）。听懂那份渴望，对立便化为并肩。"
+        "num": "08",
+        "titleEn": "Master Emotional Flooding",
+        "titleCn": {
+          "tc": "克服情緒過載",
+          "sc": "克服情绪过载"
+        },
+        "conceptEn": "We recognize physiological overload during arguments and take a twenty-minute pause to calm our nervous systems.",
+        "plainEn": "Plain Explanation: It functions like a circuit breaker that cuts off power before an electrical surge fries the system.",
+        "plainCn": {
+          "tc": "白話解析：這就像電路的自動斷電保護器，在電流過載燒毀系統前暫時切斷電源。",
+          "sc": "白话解析：这就像电路的自动断电保护器，在电流过载烧毁系统前暂时切断电源。"
         }
       }
     ],
-    easternResonance: {
-      quote: { tc: "「布衣菜飯，可樂終身，不必作遠遊計也……人生得一知己，於日常瑣碎中相視而笑，便是人間至味。」", sc: "“布衣菜饭，可乐终身，不必作远游计也……人生得一知己，于日常琐碎中相视而笑，便是人间至味。”" },
-      source: { tc: "—— 沈復《浮生六記 · 閨房記樂》（清代古典散文名篇）", sc: "—— 沈复《浮生六记 · 闺房记乐》（清代古典散文名篇）" },
-      commentary: {
-        tc: "沈復與芸娘在《浮生六記》中留下的千古深情，並非建立在顯赫家世或驚天動地的傳奇上，而是體現在賞月、插花、分食一碟臭豆腐的瑣碎回應與相知裡。這正是高特曼所說：婚姻的幸福不在遠方，而在日常每一次溫柔的「轉向彼此」。",
-        sc: "沈复与芸娘在《浮生六记》中留下的千古深情，并非建立在显赫家世或惊天动地的传奇上，而是体现在赏月、插花、分食一碟臭豆腐的琐碎回应与相知里。这正是戈特曼所说：婚姻的幸福不在远方，而在日常每一次温柔的“转向彼此”。"
+    "easternResonance": {
+      "quote": {
+        "tc": "「布衣菜飯，可樂終身，相視而笑，莫逆於心。」",
+        "sc": "“布衣菜饭，可乐终身，相视而笑，莫逆于心。”"
+      },
+      "source": {
+        "tc": "—— 沈復《浮生六記 · 閨房記樂》",
+        "sc": "—— 沈复《浮生六记 · 闺房记乐》"
+      },
+      "commentary": {
+        "tc": "沈復與陳芸在清貧的日常中經營情意，將柴米油鹽化作無數次心領神會的靈魂交會。這與高特曼所說的「微小情感投遞」不謀而合——婚姻的深度往往藏在平凡日常的相視一笑之中。",
+        "sc": "沈复与陈芸在清贫的日常中经营情意，将柴米油盐化作无数次心领神会的灵魂交会。这与戈特曼所说的“微小情感投递”不谋而合——婚姻的深度往往藏在平凡日常的相视一笑之中。"
       }
     },
-    actionPromptEn: "Catch the very next small 'emotional bid' from someone you love today—set down your screen completely, turn your body toward them, and respond with curious warmth.",
-    actionPromptCn: {
-      tc: "今天當身邊珍視的人向你隨口分享一件小事時，刻意放下手機、轉過身看著對方的眼睛，給予一個溫暖而好奇的回應。",
-      sc: "今天当身边珍视的人向你随口分享一件小事时，刻意放下手机、转过身看着对方的眼睛，给予一个温暖而好奇的回应。"
+    "actionPromptEn": "Notice one tiny emotional bid your partner makes today and choose to turn toward them immediately.",
+    "actionPromptCn": {
+      "tc": "留意今天伴侶向你發出的某個微小情感投遞，並選擇立刻朝向對方給予回應。",
+      "sc": "留意今天伴侣向你发出的某个微小情感投递，并选择立刻朝向对方给予回应。"
     }
   },
   {
-    id: "mating-in-captivity",
-    isDailyFree: false,
-    topLabelEn: "ARCHIVE EDITION",
-    topLabelCn: { tc: "典藏書目", sc: "典藏书目" },
-    categoryFilter: "SEX, DESIRE & EROTICISM",
-    categoryEn: "SEX, DESIRE & EROTICISM",
-    categoryCn: { tc: "性愛、慾望與情慾美學 /", sc: "性爱、欲望与情欲美学 /" },
-    durationEn: "DURATION: 5 MIN",
-    durationCn: { tc: "時間：5分鐘", sc: "时间：5分钟" },
-    themeEn: "THEME: EROTIC SPACE",
-    themeCn: { tc: "主題：親密與距離的張力", sc: "主题：亲密与距离的张力" },
-    titleLinesEn: ["MATING IN", "CAPTIVITY"],
-    titleFlatEn: "Mating in Captivity",
-    titleCn: { tc: "情慾之網", sc: "亲密关系的悖论" },
-    authorLine: "Esther Perel (2006)",
-    quoteEn: "“Fire needs air. Desire needs space.”",
-    quoteCn: { tc: "“火焰需要空氣才能燃燒；慾望也需要空間才能呼吸。”", sc: "“火焰需要空气才能燃烧；欲望也需要空间才能呼吸。”" },
-    leadEn: "Love enjoys knowing everything about you; desire needs mystery and a bridge left to cross.",
-    leadCn: { tc: "愛渴望熟悉與安穩的庇護，而慾望卻需要神祕感與一座尚待跨越的橋。", sc: "爱渴望熟悉与安稳的庇护，而欲望却需要神秘感与一座尚待跨越的桥。" },
-    thesisEn: "We ask one person today to give us what an entire village once provided: grounding security and transcendent mystery, domestic comfort and erotic edge. Psychotherapist Esther Perel reveals why the very habits that make good love—closeness, predictability, and egalitarian caretaking—often suffocate desire. Sustaining passion in long-term commitment requires honoring separateness, cultivating erotic intelligence, and daring to see our partner in their own element.",
-    thesisCn: {
-      tc: "我們常要求同一個伴侶同時給予「絕對的安全感」與「令人心跳加速的激情」，卻忽略了兩者底層邏輯的衝突。心理治療師艾絲特·佩瑞爾指出，維繫溫馨家庭的熟悉、平等與過度照顧，往往會在無意間抽乾情慾所需的氧氣。長久關係中的渴望，源於尊重彼此的獨立空間，在親密中保留適度的神祕與距離。",
-      sc: "我们常要求同一个伴侣同时给予“绝对的安全感”与“令人心跳加速的激情”，却忽略了两者底层逻辑的冲突。心理治疗师埃丝特·佩瑞尔指出，维系温馨家庭的熟悉、平等与过度照顾，往往会在无意间抽干情欲所需的氧气。长久关系中的渴望，源于尊重彼此的独立空间，在亲密中保留适度的神秘与距离。"
+    "id": "mating-in-captivity",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
     },
-    highlights: [
+    "categoryFilter": "SEX, DESIRE & EROTICISM",
+    "categoryEn": "SEX, DESIRE & EROTICISM",
+    "categoryCn": {
+      "tc": "性愛、慾望與情慾美學 /",
+      "sc": "性爱、欲望与情欲美学 /"
+    },
+    "durationEn": "DURATION: 5 MIN",
+    "durationCn": {
+      "tc": "時間：5分鐘",
+      "sc": "时间：5分钟"
+    },
+    "themeEn": "THEME: EROTIC SPACE",
+    "themeCn": {
+      "tc": "主題：親密與距離的張力",
+      "sc": "主题：亲密与距离的张力"
+    },
+    "titleLinesEn": [
+      "MATING IN",
+      "CAPTIVITY"
+    ],
+    "titleFlatEn": "Mating in Captivity",
+    "titleCn": {
+      "tc": "情慾之網",
+      "sc": "亲密关系的悖论"
+    },
+    "authorLine": "Esther Perel (2006)",
+    "quoteEn": "“Fire needs air. Desire needs space.”",
+    "quoteCn": {
+      "tc": "“火焰需要空氣。慾望需要空間。”",
+      "sc": "“火焰需要空气。欲望需要空间。”"
+    },
+    "leadEn": "Esther Perel challenges the modern assumption that domestic safety naturally breeds sexual passion.",
+    "leadCn": {
+      "tc": "艾絲特·佩瑞爾挑戰了現代人認為居家安全自然能孕育性愛激情的迷思。",
+      "sc": "埃丝特·佩瑞尔挑战了现代人认为居家安全自然能孕育性爱激情的迷思。"
+    },
+    "thesisEn": "In Mating in Captivity, Esther Perel argues that the very intimacy, security, and predictability we seek in long-term relationships often extinguish erotic desire. Security requires knowing someone completely, whereas desire thrives on mystery, otherness, and the gap between two people. By examining how domesticity eclipses eros, Perel offers a framework to bridge the chasm between love and sexual longing, showing that passion requires us to reclaim our individual autonomy rather than dissolving entirely into our partners.",
+    "thesisCn": {
+      "tc": "艾絲特·佩瑞爾在書中主張，我們在長期關係中尋求的親密、安全與可預測性，往往會扼殺情慾。安全感需要徹底了解對方，而慾望則靠著神祕感、他者性以及兩人之間的距離蓬勃發展。透過檢視居家生活如何掩蓋情慾，佩瑞爾提供了一個架構，用以彌合愛與性渴望之間的鴻溝，並指出激情要求我們重新找回個體自主性，而不是完全融解於伴侶之中。",
+      "sc": "埃丝特·佩瑞尔在书中主张，我们在长期关系中寻求的亲密、安全与可预测性，往往会扼杀情欲。安全感需要彻底了解对方，而欲望则靠着神秘感、他者性以及两人之间的距离蓬勃发展。透过检视居家生活如何掩盖情欲，佩瑞尔提供了一个架构，用以弥合爱与性渴望之间的鸿沟，并指出激情要求我们重新找回个体自主性，而不是完全融解于伴侣之中。"
+    },
+    "highlights": [
       {
-        num: "01",
-        titleEn: "The Oxygen Between Closeness and Distance",
-        titleCn: { tc: "親密與距離之間的氧氣", sc: "亲密与距离之间的氧气" },
-        conceptEn: "Love seeks to shorten distance and weave two lives into one safe refuge, whereas erotic desire thrives in the space between two distinct selves.",
-        plainEn: "Plain Explanation: You cannot long for a place you have never left; if you fuse so completely that there is zero gap between you, there is no bridge left for desire to cross.",
-        plainCn: {
-          tc: "白話解析：你無法思念一個你從未離開過的地方。如果兩個人黏合得毫無縫隙，彼此之間就失去了那座讓渴望得以跨越的橋樑。",
-          sc: "白话解析：你无法思念一个你从未离开过的地方。如果两个人黏合得毫无缝隙，彼此之间就失去了那座让渴望得以跨越的桥梁。"
+        "num": "01",
+        "titleEn": "Closeness vs Distance",
+        "titleCn": {
+          "tc": "親密與距離的張力",
+          "sc": "亲密与距离的张力"
+        },
+        "conceptEn": "Intimacy relies on drawing close to share worlds, while eros requires stepping back to appreciate the other as an independent entity. Without distance, desire starves.",
+        "plainEn": "Plain Explanation: Distance acts as the oxygen feeding the flame; close proximity without breathing room smothers it.",
+        "plainCn": {
+          "tc": "白話解析：距離就像是餵養火焰的氧氣；沒有喘息空間的過度緊密會將其窒息。",
+          "sc": "白话解析：距离就像是喂养火焰的氧气；没有喘息空间的过度紧密会将其窒息。"
         }
       },
       {
-        num: "02",
-        titleEn: "When Caretaking Eclipses Eroticism",
-        titleCn: { tc: "當「撫育式照顧」掩蓋了情慾", sc: "当“抚育式照顾”掩盖了情欲" },
-        conceptEn: "Feeling responsible for a partner as if they were a fragile dependent triggers protective affection, which is the natural antidote to sexual arousal.",
-        plainEn: "Plain Explanation: Worrying whether your partner remembered their umbrella or feeling like their parent in the kitchen makes it nearly impossible to want them in the bedroom.",
-        plainCn: {
-          tc: "白話解析：當你在生活裡像照顧孩子般替伴侶操心一切，這種「父母式的保護欲」雖然溫暖，卻會瞬間熄滅臥室裡對等碰撞的火花。",
-          sc: "白话解析：当你在生活里像照顾孩子般替伴侣操心一切，这种“父母式的保护欲”虽然温暖，却会瞬间熄灭卧室里对等碰撞的火花。"
+        "num": "02",
+        "titleEn": "Caretaking Eclipses Eros",
+        "titleCn": {
+          "tc": "照顧掩蓋了情慾",
+          "sc": "照顾掩盖了情欲"
+        },
+        "conceptEn": "When partners assume parental or caretaking roles for each other, it breeds safety and dependency at the expense of sexual charge. It is hard to desire someone you have to manage.",
+        "plainEn": "Plain Explanation: The umbrella-parent in the kitchen kills the lover in the bedroom.",
+        "plainCn": {
+          "tc": "白話解析：廚房裡照顧起居的「傘式家長」，殺死了臥室裡的情人。",
+          "sc": "白话解析：厨房里照顾起居的“伞式家长”，杀死了卧室里的情人。"
         }
       },
       {
-        num: "03",
-        titleEn: "Seeing Your Partner in Their Own Radiance",
-        titleCn: { tc: "看見伴侶在獨立世界裡發光的模樣", sc: "看见伴侣在独立世界里发光的模样" },
-        conceptEn: "Desire is often reignited not when your partner is staring dutifully at you across the sofa, but when you witness them absorbed, confident, and autonomous in their own craft or social world.",
-        plainEn: "Plain Explanation: Watching the person you love command a room, play music, or laugh freely at a distance reminds you that they are a whole universe you do not own.",
-        plainCn: {
-          tc: "白話解析：吸引力往往不是在沙發上大眼瞪小眼時產生的，而是當你遠遠看著伴侶專注投入熱愛的事物、散發自信光芒時，突然意識到他依然是個迷人而獨立的個體。",
-          sc: "白话解析：吸引力往往不是在沙发上大眼瞪小眼时产生的，而是当你远远看着伴侣专注投入热爱的事物、散发自信光芒时，突然意识到他依然是个迷人而独立的个体。"
+        "num": "03",
+        "titleEn": "Partner in Own Radiance",
+        "titleCn": {
+          "tc": "欣賞伴侶的光芒",
+          "sc": "欣赏伴侣的光芒"
+        },
+        "conceptEn": "Desire reignites when we witness our partner operating independently, absorbed in their own passions and competence outside our shared orbit.",
+        "plainEn": "Plain Explanation: Seeing your partner shine on their own stage makes them suddenly look like an alluring stranger again.",
+        "plainCn": {
+          "tc": "白話解析：看見伴侶在自己的舞台上發光，會讓他們瞬間重新變成一個迷人的陌生人。",
+          "sc": "白话解析：看见伴侣在自己的舞台上发光，会让他们瞬间重新变成一个迷人的陌生人。"
         }
       }
     ],
-    extraHighlights: [
+    "extraHighlights": [
       {
-        num: "04",
-        titleEn: "The Trap of Over-Domesticated Democracy",
-        titleCn: { tc: "過度禮貌與政治正確的臥室陷阱", sc: "过度礼貌与政治正确的卧室陷阱" },
-        conceptEn: "Fairness, negotiation, and careful politeness are virtues in running a household, yet eroticism requires playfulness, surrender, and unguarded intensity.",
-        plainEn: "Plain Explanation: Bringing committee-meeting politeness into bed drains the play and spontaneity out of physical intimacy.",
-        plainCn: {
-          tc: "白話解析：家務分工需要講求絕對公平與禮貌協商，但若把開會般的拘謹帶進臥室，情慾就會失去遊戲般的張力與自由。",
-          sc: "白话解析：家务分工需要讲求绝对公平与礼貌协商，但若把开会般的拘谨带进卧室，情欲就会失去游戏般的张力与自由。"
+        "num": "04",
+        "titleEn": "Over-Polite Bedroom",
+        "titleCn": {
+          "tc": "過分禮貌的臥室",
+          "sc": "过分礼貌的卧室"
+        },
+        "conceptEn": "Couples often sanitize their interactions to avoid conflict, creating a domestic politeness that suppresses raw, untamed erotic expression.",
+        "plainEn": "Plain Explanation: Running marriage like a committee meeting leaves no room for wild desire.",
+        "plainCn": {
+          "tc": "白話解析：把婚姻開得像一場委員會會議，就容不下狂野奔放的慾望。",
+          "sc": "白话解析：把婚姻开得像一场委员会会议，就容不下狂野奔放的欲望。"
         }
       },
       {
-        num: "05",
-        titleEn: "Intimacy Through Shared Play and Imagination",
-        titleCn: { tc: "以想像力與遊戲感超越機械技巧", sc: "以想象力与游戏感超越机械技巧" },
-        conceptEn: "Erotic intelligence is not a catalog of physical positions; it is the poetic capacity to bring curiosity, novelty, and playful presence to a familiar body.",
-        plainEn: "Plain Explanation: Real novelty isn't seeking a new partner; it is bringing new eyes to the partner beside you.",
-        plainCn: {
-          tc: "白話解析：情慾智慧不在於花俏的身體技巧，而在於心智的想像力——真正的探險不是不斷換新伴侶，而是帶著全新的眼光重新認識身邊的人。",
-          sc: "白话解析：情欲智慧不在于花哨的身体技巧，而在于心智的想象力——真正的探险不是不断换新伴侣，而是带着全新的眼光重新认识身边的人。"
+        "num": "05",
+        "titleEn": "Play and Imagination",
+        "titleCn": {
+          "tc": "遊戲與想像力",
+          "sc": "游戏与想象力"
+        },
+        "conceptEn": "Eroticism is not purely biological; it is a theater of the mind fueled by fantasy, transgression, and playful pretense.",
+        "plainEn": "Plain Explanation: Erotic life requires a bridge of imagination to step away from paying bills at 10:55.",
+        "plainCn": {
+          "tc": "白話解析：情慾生活需要一座想像力的橋樑，好讓人從晚上十點五十五分還在算帳的現實中抽離。",
+          "sc": "白话解析：情欲生活需要一座想象力的桥梁，好让人从晚上十点五十五分还在算账的现实中抽离。"
         }
       },
       {
-        num: "06",
-        titleEn: "The Third Shadow of Parenthood",
-        titleCn: { tc: "育兒期後找回「戀人身分」", sc: "育儿期后找回“恋人身份”" },
-        conceptEn: "When couples become 'Mom and Dad' exclusively, all sensual energy is channeled into the children, leaving the erotic bond starved of private adult space.",
-        plainEn: "Plain Explanation: Locking the bedroom door and protecting adult-only evenings isn't selfish—it protects the foundation the whole family rests on.",
-        plainCn: {
-          tc: "白話解析：當伴侶徹底退化為「孩子的爸與孩子的媽」，兩人的戀人連結就會乾涸。守護專屬大人的私密時光，才是給家庭最穩固的根基。",
-          sc: "白话解析：当伴侣彻底退化为“孩子的爸与孩子的妈”，两人的恋人连接就会干涸。守护专属大人的私密时光，才是给家庭最稳固的根基。"
+        "num": "06",
+        "titleEn": "Parenthood and Passion",
+        "titleCn": {
+          "tc": "為人父母與激情",
+          "sc": "为人父母与激情"
+        },
+        "conceptEn": "The transition to parenthood often transforms lovers into domestic administrators, requiring conscious effort to reclaim adult erotic identity.",
+        "plainEn": "Plain Explanation: Parenting consumes all emotional bandwidth, turning the bedroom into a logistical command center.",
+        "plainCn": {
+          "tc": "白話解析：育兒消耗了所有的情感頻寬，把臥室變成了後勤指揮中心。",
+          "sc": "白话解析：育儿消耗了所有的情感频宽，把卧室变成了后勤指挥中心。"
         }
       },
       {
-        num: "07",
-        titleEn: "Owning Your Own Erotic Autonomy",
-        titleCn: { tc: "為自己的情慾活力負責", sc: "为自己的情欲活力负责" },
-        conceptEn: "Your aliveness is your own responsibility; waiting passively for your partner to make you feel desirable turns intimacy into a heavy chore.",
-        plainEn: "Plain Explanation: Turning yourself on—through movement, art, sensuality, and vital friendships—brings fresh current back into the relationship.",
-        plainCn: {
-          tc: "白話解析：不要把「點燃我生命力」的責任全推給伴侶；先在運動、美感與獨處中找回對自己身體與生活的熱愛，魅力才會自然流淌。",
-          sc: "白话解析：不要把“点燃我生命力”的责任全推给伴侣；先在运动、美感与独处中找回对自己身体与生活的热爱，魅力才会自然流淌。"
+        "num": "07",
+        "titleEn": "Erotic Autonomy",
+        "titleCn": {
+          "tc": "情慾自主性",
+          "sc": "情欲自主性"
+        },
+        "conceptEn": "True intimacy does not require total fusion. Maintaining a sovereign inner life protects the boundary necessary for longing.",
+        "plainEn": "Plain Explanation: Owning your private desires means you don't need your partner to complete every single part of your psyche.",
+        "plainCn": {
+          "tc": "白話解析：擁有個人的私密慾望，意味著你不需要伴侶來填滿你心靈的每一個角落。",
+          "sc": "白话解析：拥有个人的私密欲望，意味着你不需要伴侣来填满你心灵的每一个角落。"
         }
       },
       {
-        num: "08",
-        titleEn: "Intentional Commitment to Erotic Space",
-        titleCn: { tc: "在安穩承諾中刻意創造「留白」", sc: "在安稳承诺中刻意创造“留白”" },
-        conceptEn: "In long-term love, desire rarely strikes like random lightning; it is an intentional garden that requires privacy, anticipation, and unhurried transitions.",
-        plainEn: "Plain Explanation: You cannot jump straight from paying utility bills at 10:55 PM into deep passion at 11:00 PM—build a gentle bridge between routine and intimacy.",
-        plainCn: {
-          tc: "白話解析：沒有人能在算完帳單的下一秒立刻進入浪漫狀態。在瑣碎日常與親密時刻之間，為彼此留出卸下防備、轉換心境的溫柔過渡。",
-          sc: "白话解析：没有人能在算完账单的下一秒立刻进入浪漫状态。在琐碎日常与亲密时刻之间，为彼此留出卸下防备、转换心境的温柔过渡。"
+        "num": "08",
+        "titleEn": "Intentional Erotic Space",
+        "titleCn": {
+          "tc": "刻意經營的情慾空間",
+          "sc": "刻意经营的情欲空间"
+        },
+        "conceptEn": "Desire in long-term bonds does not happen by accident; it requires ritual, boundaries, and deliberate permission to cross into the erotic realm.",
+        "plainEn": "Plain Explanation: Creating erotic space means shutting out the outside world and intentionally stepping across the threshold.",
+        "plainCn": {
+          "tc": "白話解析：創造情慾空間意味著把外界隔絕在外，並刻意跨過通往情慾領域的門檻。",
+          "sc": "白话解析：创造情欲空间意味着把外界隔绝在外，并刻意跨过通往情欲领域的门槛。"
         }
       }
     ],
-    easternResonance: {
-      quote: {
-        tc: "「親密關係裡最美的部分，往往不是毫無縫隙的佔有，而是像中國水墨畫裡的留白——因為有那片空白，山水與雲煙才有了呼吸與想像的餘地。」",
-        sc: "“亲密关系里最美的部分，往往不是毫无缝隙的占有，而是像中国水墨画里的留白——因为有那片空白，山水与云烟才有了呼吸与想象的余地。”"
+    "easternResonance": {
+      "quote": {
+        "tc": "「孤獨不是孤立，孤獨是有一種留白。」",
+        "sc": "“孤独不是孤立，孤独是有一种留白。”"
       },
-      source: { tc: "—— 蔣勳《孤獨六講 · 情慾孤獨》（當代東方美學隨筆）", sc: "—— 蒋勋《孤独六讲 · 情欲孤独》（当代东方美学随笔）" },
-      commentary: {
-        tc: "美學家蔣勳以東方水墨的「留白」詮釋親密關係：世俗之愛常因害怕失去而試圖填滿對方的每一寸空間，最終卻讓感情窒息。這與佩瑞爾「火焰需要空氣，慾望需要空間」的心理學洞察跨越文化深深共鳴。",
-        sc: "美学家蒋勋以东方水墨的“留白”诠释亲密关系：世俗之爱常因害怕失去而试图填满对方的每一寸空间，最终却让感情窒息。这与佩瑞尔“火焰需要空气，欲望需要空间”的心理学洞察跨越文化深深共鸣。"
+      "source": {
+        "tc": "—— 蔣勳《孤獨六講 · 情慾孤獨》",
+        "sc": "—— 蒋勋《孤独六讲 · 情欲孤独》"
+      },
+      "commentary": {
+        "tc": "蔣勳以留白談情慾孤獨：畫紙填滿便無氣韻。這與佩瑞爾「火焰需要空氣」相呼應——愛可以靠近，情慾卻要在關係裡留出空隙，讓獨立的個體在距離中重新看見彼此。",
+        "sc": "蒋勋以留白谈情欲孤独：画纸填满便无气韵。这与佩瑞尔“火焰需要空气”相呼应——爱可以靠近，情欲却要在关系里留出空隙，让独立的个体在距离中重新看见彼此。"
       }
     },
-    actionPromptEn: "Step out of the 'domestic manager' role tonight: spend 20 minutes with your partner (or in your own sensual space) where talking about chores, schedules, or logistics is completely off-limits.",
-    actionPromptCn: {
-      tc: "今晚暫時卸下「家務管理者」的角色：留出二十分鐘完全不談帳單、待辦事項或瑣事，單純以好奇與欣賞的眼光重新凝視伴侶（或安頓自己的感官身心）。",
-      sc: "今晚暂时卸下“家务管理者”的角色：留出二十分钟完全不谈账单、待办事项或琐事，单纯以好奇与欣赏的眼光重新凝视伴侣（或安顿自己的感官身心）。"
+    "actionPromptEn": "Spend 20 uninterrupted minutes tonight without chores or screens, allowing space for curiosity and undirected presence with your partner (or in your own sensual space).",
+    "actionPromptCn": {
+      "tc": "今晚花費二十分鐘不受雜務或螢幕打擾：單純以好奇與在場對待伴侶（或安頓自己的感官）。",
+      "sc": "今晚花费二十分钟不受杂务或屏幕打扰：单纯以好奇与在场对待伴侣（或安顿自己的感官）。"
     }
   },
   {
-    isDailyFree: false,
-    topLabelEn: "ARCHIVE EDITION",
-    topLabelCn: { tc: "典藏書目", sc: "典藏书目" },
-    categoryFilter: "BOUNDARIES, CODEPENDENCY & SELFHOOD",
-    categoryEn: "BOUNDARIES, CODEPENDENCY & SELFHOOD",
-    categoryCn: { tc: "關係界線、共生依賴與自我 /", sc: "关系界线、共生依赖与自我 /" },
-    id: "set-boundaries-find-peace",
-    durationEn: "DURATION: 6 MIN",
-    durationCn: { tc: "時間：6分鐘", sc: "时间：6分钟" },
-    themeEn: "THEME: LIMITS",
-    themeCn: { tc: "主題：關係界線", sc: "主题：关系边界" },
-    titleLinesEn: ["SET BOUNDARIES,", "FIND PEACE"],
-    titleFlatEn: "Set Boundaries, Find Peace",
-    titleCn: { tc: "設立界線，找回平靜", sc: "设立边界，找回平静" },
-    authorLine: "Nedra Glover Tawwab (2021)",
-    quoteEn: "“Boundaries are not walls. They are the gates that let love in without letting you disappear.”",
-    quoteCn: { tc: "“界線不是牆。界線是門：讓愛進來，卻不必讓你消失。”", sc: "“边界不是墙。边界是门：让爱进来，却不必让你消失。”" },
-    leadEn: "Resentment is often a boundary you have been whispering instead of saying.",
-    leadCn: { tc: "怨恨，常常是你一直在心裡低聲說、卻沒有說出口的那條界線。", sc: "怨恨，常常是你一直在心里低声说、却没有说出口的那条边界。" },
-    thesisEn: "We treat boundaries as punishments we issue when we have finally had enough. Therapist Nedra Glover Tawwab argues the opposite: a boundary is a clear limit plus a consequence you are willing to keep, spoken early enough that love does not have to become a courtroom. Guilt will visit when you are new at this. Peace arrives later, when your yes is actually a yes.",
-    thesisCn: {
-      tc: "我們常把界線當成終於忍無可忍時的懲罰。治療師奈德拉·陶瓦卜說的正好相反：界線是清楚的限度，加上你願意守住的後果，而且要說得夠早，愛才不必變成法庭。初學時內疚會來訪。平靜來得較晚，是在你的「好」真的是「好」之後。",
-      sc: "我们常把边界当成终于忍无可忍时的惩罚。治疗师内德拉·塔瓦布说的正好相反：边界是清楚的限度，加上你愿意守住的后果，而且要说得够早，爱才不必变成法庭。初学时内疚会来访。平静来得较晚，是在你的“好”真的是“好”之后。"
+    "id": "set-boundaries-find-peace",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
     },
-    highlights: [
+    "categoryFilter": "BOUNDARIES, CODEPENDENCY & SELFHOOD",
+    "categoryEn": "BOUNDARIES, CODEPENDENCY & SELFHOOD",
+    "categoryCn": {
+      "tc": "關係界線、共生依賴與自我 /",
+      "sc": "关系界线、共生依赖与自我 /"
+    },
+    "durationEn": "DURATION: 6 MIN",
+    "durationCn": {
+      "tc": "時間：6分鐘",
+      "sc": "时间：6分钟"
+    },
+    "themeEn": "THEME: LIMITS",
+    "themeCn": {
+      "tc": "主題：界線",
+      "sc": "主题：边界"
+    },
+    "titleLinesEn": [
+      "SET BOUNDARIES,",
+      "FIND PEACE"
+    ],
+    "titleFlatEn": "Set Boundaries, Find Peace",
+    "titleCn": {
+      "tc": "設立界線，找回平靜",
+      "sc": "设立边界，找回平静"
+    },
+    "authorLine": "Nedra Glover Tawwab (2021)",
+    "quoteEn": "“Daring to set boundaries is about having the courage to love ourselves, even when we risk disappointing others.”",
+    "quoteCn": {
+      "tc": "“敢於設立界線，意味著擁有愛自己的勇氣，即使這會冒著讓別人失望的風險。”",
+      "sc": "“敢于设立边界，意味着拥有爱自己的勇气，即使这会冒着让别人失望的风险。”"
+    },
+    "leadEn": "Chronic resentment and exhaustion rarely stem from having too much to do, but from saying yes when our true capacity demands a clear no.",
+    "leadCn": {
+      "tc": "長期的怨懟與耗竭，很少來自事情太多，而是來自明明該說不的時候，仍習慣性說了好。",
+      "sc": "长期的怨怼与耗竭，很少来自事情太多，而是来自明明该说不的时候，仍习惯性说了好。"
+    },
+    "thesisEn": "Nedra Glover Tawwab argues that healthy boundaries are the essential foundation for sustainable relationships and inner calm. Rather than acting as walls to shut people out, clear limits function as an instruction manual that teaches others how to treat us safely. When we suppress our needs to keep the peace or avoid conflict, we trade short-term harmony for long-term burnout and silent hostility. Reclaiming our peace requires naming our limits plainly, tolerating the discomfort of others' reactions, and upholding our standards consistently.",
+    "thesisCn": {
+      "tc": "內德拉·格洛弗·塔瓦布指出，健康的界線是維繫長久關係與內在平靜的基石。清晰的限制並非將人拒之門外的圍牆，而是一份教導他人如何安全對待我們的使用說明書。當我們為了維持表面和氣或逃避衝突而壓抑需求時，往往是用短暫的順從換取長期的耗竭與隱性怨懟。要找回平靜，我們必須坦率說出底線、承受他人反應帶來的不適，並始終如一地守護自己的原則。",
+      "sc": "内德拉·格洛弗·塔瓦布指出，健康的边界是维系长久关系与内在平静的基石。清晰的限制并非将人拒之门外的围墙，而是一份教导他人如何安全对待我们的使用说明书。当我们为了维持表面和气或逃避冲突而压抑需求时，往往是用短暂的顺从换取长期的耗竭与隐性怨怼。要找回平静，我们必须坦率说出底线、承受他人反应带来的不适，并始终如一地守护自己的原则。"
+    },
+    "highlights": [
       {
-        num: "01",
-        titleEn: "A Limit You Will Keep",
-        titleCn: { tc: "一條你願意守住的限度", sc: "一条你愿意守住的限度" },
-        conceptEn: "Tawwab defines a boundary as what you will do, not a lecture designed to renovate the other person's personality.",
-        plainEn: "Plain Explanation: 'Please don't raise your voice' is a wish. 'If the shouting starts, I will leave the room and come back at seven' is a gate with a hinge.",
-        plainCn: {
-          tc: "白話解析：「請不要提高聲音」是願望。「如果開始喊，我會離開房間，七點再回來」才是一扇有鉸鏈的門。",
-          sc: "白话解析：“请不要提高声音”是愿望。“如果开始喊，我会离开房间，七点再回来”才是一扇有铰链的门。"
+        "num": "01",
+        "titleEn": "Resentment as a Diagnostic Signal",
+        "titleCn": {
+          "tc": "怨懟是界線失守的警報",
+          "sc": "怨怼是边界失守的警报"
+        },
+        "conceptEn": "When we feel bitter, drained, or taken advantage of, our emotions are signaling that we have allowed others to cross a limit we failed to voice. Instead of blaming people for not reading our minds, we must treat resentment as data pointing to an unstated need.",
+        "plainEn": "Plain Explanation: Feeling resentful is like a smoke alarm going off in the kitchen—it doesn't mean the house is ruined, it just tells you something is overheating and needs immediate attention.",
+        "plainCn": {
+          "tc": "白話解析：心生怨懟就像廚房裡的煙霧警報器響起——這不代表房子毀了，只是提醒你某件事已經過熱，需要立刻處理。",
+          "sc": "白话解析：心生怨怼就像厨房里的烟雾警报器响起——这不代表房子毁了，只是提醒你某件事已经过热，需要立刻处理。"
         }
       },
       {
-        num: "02",
-        titleEn: "Resentment as an Alarm",
-        titleCn: { tc: "怨恨是警報", sc: "怨恨是警报" },
-        conceptEn: "Chronic resentment, she writes, is often the delayed invoice for yeses you did not mean—caretaking that was never freely chosen.",
-        plainEn: "Plain Explanation: If you keep saying yes to Sunday plans you hate, the bill arrives as irritability by Thursday. The alarm is late, but it is still information.",
-        plainCn: { tc: "白話解析：若你不斷答應自己討厭的週日安排，帳單會在週四變成煩躁。警報來得晚，仍是信息。", sc: "白话解析：若你不断答应自己讨厌的周日安排，账单会在周四变成烦躁。警报来得晚，仍是信息。" }
+        "num": "02",
+        "titleEn": "Porous, Rigid, and Healthy Limits",
+        "titleCn": {
+          "tc": "滲透型、僵化型與健康型界線",
+          "sc": "渗透型、僵化型与健康型边界"
+        },
+        "conceptEn": "We often swing between porous boundaries, where we over-give and absorb others' problems, and rigid boundaries, where we detach completely to protect ourselves. Healthy boundaries sit in the middle, allowing us to stay connected while keeping our autonomy intact.",
+        "plainEn": "Plain Explanation: A porous boundary is a front door left wide open to strangers, a rigid one is a brick wall with no gate, and a healthy boundary is a sturdy door with a lock that you control.",
+        "plainCn": {
+          "tc": "白話解析：滲透型界線就像對陌生人敞開的大門，僵化型界線是沒有出口的磚牆，而健康的界線則是一扇裝有門鎖、由你決定何時開啟的堅固大門。",
+          "sc": "白话解析：渗透型边界就像对陌生人敞开的大门，僵化型边界是没有出口的砖墙，而健康的边界则是一扇装有门锁、由你决定何时开启的坚固大门。"
+        }
       },
       {
-        num: "03",
-        titleEn: "Guilt Is Not a Stop Sign",
-        titleCn: { tc: "內疚不是紅燈", sc: "内疚不是红灯" },
-        conceptEn: "New boundaries often produce guilt, especially in people trained to keep the peace. Guilt means you are changing a family rule, not that you have become cruel.",
-        plainEn: "Plain Explanation: The first time you do not pick up a late-night crisis call, your stomach may drop. Awkward is often the new hinge, not proof you are heartless.",
-        plainCn: { tc: "白話解析：第一次不接深夜的危機電話，胃可能往下沉。別扭，常常是新鉸鏈，不是證明你沒心。", sc: "白话解析：第一次不接深夜的危机电话，胃可能往下沉。别扭，常常是新铰链，不是证明你没心。" }
+        "num": "03",
+        "titleEn": "Communication Without Over-Explaining",
+        "titleCn": {
+          "tc": "清晰表達，無需過度解釋",
+          "sc": "清晰表达，无需过度解释"
+        },
+        "conceptEn": "When we pad a refusal with lengthy excuses or apologies, we invite others to negotiate our limits away. Effective boundary-setting relies on simple, direct statements that communicate our decision without begging for permission.",
+        "plainEn": "Plain Explanation: Giving five excuses for why you cannot attend a party hands the other person five problems to solve so you have no choice left but to go.",
+        "plainCn": {
+          "tc": "白話解析：為拒絕一場聚會找五個藉口，等於遞給對方五個可以幫你解決的難題，最後讓你無路可退只能答應。",
+          "sc": "白话解析：为拒绝一场聚会找五个借口，等于递给对方五个可以帮你解决的难题，最后让你无路可退只能答应。"
+        }
       }
     ],
-    extraHighlights: [
+    "extraHighlights": [
       {
-        num: "04",
-        titleEn: "Six Rooms of a Boundary",
-        titleCn: { tc: "界線的六個房間", sc: "边界的六个房间" },
-        conceptEn: "Physical, sexual, intellectual, emotional, material, and time boundaries are different rooms; collapsing them into one 'be nicer' request leaves the house undefended.",
-        plainEn: "Plain Explanation: Lending the car, lending the evening, and lending your nervous system are three different keys. One 'I'm easygoing' should not open every door.",
-        plainCn: {
-          tc: "白話解析：借車、借晚上、借出你的神經系統，是三把不同的鑰匙。一句「我很好說話」，不該打開每一扇門。",
-          sc: "白话解析：借车、借晚上、借出你的神经系统，是三把不同的钥匙。一句“我很好说话”，不该打开每一扇门。"
+        "num": "04",
+        "titleEn": "The Six Domains of Personal Space",
+        "titleCn": {
+          "tc": "個人空間的六大維度",
+          "sc": "个人空间的六大维度"
+        },
+        "conceptEn": "Boundaries govern far more than physical touch; they protect our emotional energy, time, intellectual beliefs, sexual autonomy, and material possessions. Neglecting even one domain creates a leak that eventually drains the rest of our well-being.",
+        "plainEn": "Plain Explanation: Think of your life as a six-room house—locking the front door does no good if you leave the back windows wide open to anyone passing by.",
+        "plainCn": {
+          "tc": "白話解析：把生活想像成一棟六個房間的房子——如果後窗對路人完全敞開，只鎖上大門並不能真正保護你。",
+          "sc": "白话解析：把生活想象成一栋六个房间的房子——如果后窗对路人完全敞开，只锁上大门并不能真正保护你。"
         }
       },
       {
-        num: "05",
-        titleEn: "Scripts Without a Trial",
-        titleCn: { tc: "不必開庭的臺詞", sc: "不必开庭的台词" },
-        conceptEn: "Tawwab offers short, repeatable scripts so you do not have to invent a closing argument each time a limit is tested.",
-        plainEn: "Plain Explanation: 'I can't take that on this week' is a complete sentence. You do not owe a character study of why their request is unreasonable.",
-        plainCn: { tc: "白話解析：「這週我接不了」已經是完整的一句。你不必再寫一篇論文，證明對方的請求不合理。", sc: "白话解析：“这周我接不了”已经是完整的一句。你不必再写一篇论文，证明对方的请求不合理。" }
-      },
-      {
-        num: "06",
-        titleEn: "Enmeshment Is Not Intimacy",
-        titleCn: { tc: "糾纏不是親密", sc: "纠缠不是亲密" },
-        conceptEn: "Codependent fusion—managing their mood so you can rest—looks like devotion and quietly erases two separate people.",
-        plainEn: "Plain Explanation: If their weather has to be sunny before you can eat, you are not close. You are holding their umbrella in a storm they have not asked you to enter.",
-        plainCn: {
-          tc: "白話解析：若對方的天氣必須放晴你才能吃飯，那不是親近。你是在一場他們並未請你進入的雨裡，替他們撐傘。",
-          sc: "白话解析：若对方的天气必须放晴你才能吃饭，那不是亲近。你是在一场他们并未请你进入的雨里，替他们撑伞。"
+        "num": "05",
+        "titleEn": "Outgrowing Codependency",
+        "titleCn": {
+          "tc": "走出共生依賴的泥淖",
+          "sc": "走出共生依赖的泥淖"
+        },
+        "conceptEn": "Codependency tricks us into believing we are responsible for fixing everyone else's crises while ignoring our own basic needs. True support allows adults to experience the natural consequences of their choices rather than rescuing them at our own expense.",
+        "plainEn": "Plain Explanation: Constantly bailing water out of someone else's boat while yours sinks doesn't make you a hero; it just means both of you end up underwater.",
+        "plainCn": {
+          "tc": "白話解析：在自己的船快沉沒時還拼命幫別人舀水，並不會讓你成為英雄，只會讓兩個人一起沉入水底。",
+          "sc": "白话解析：在自己的船快沉没时还拼命帮别人舀水，并不会让你成为英雄，只会让两个人一起沉入水底。"
         }
       },
       {
-        num: "07",
-        titleEn: "Digital and Time Limits",
-        titleCn: { tc: "數位與時間的限度", sc: "数字与时间的限度" },
-        conceptEn: "Phones, family group chats, and 'quick favors' are where modern boundaries quietly fail; availability is treated as love.",
-        plainEn: "Plain Explanation: Answering every ping by midnight trains people to treat your sleep as public property. A delayed reply can be care for the relationship you will have in the morning.",
-        plainCn: {
-          tc: "白話解析：午夜前每則都回，是在教人把你的睡眠當成公共財產。晚一點回，可以是照料明天還要相處的那對人。",
-          sc: "白话解析：午夜前每则都回，是在教人把你的睡眠当成公共财产。晚一点回，可以是照料明天还要相处的那对人。"
+        "num": "06",
+        "titleEn": "Surviving the Pushback Phase",
+        "titleCn": {
+          "tc": "挺過設立界線後的反彈期",
+          "sc": "挺过设立边界后的反弹期"
+        },
+        "conceptEn": "People who benefited from our lack of limits will often test, guilt-trip, or ignore our new rules when we first enforce them. Expecting this resistance keeps us from mistaking temporary friction for a sign that our boundary is wrong.",
+        "plainEn": "Plain Explanation: When you finally install a speed bump on a street where drivers used to race, people will honk and complain before they eventually slow down.",
+        "plainCn": {
+          "tc": "白話解析：當你終於在大家習慣飆車的路上裝設減速帶時，駕駛人剛開始一定會按喇叭抱怨，之後才會慢慢減速。",
+          "sc": "白话解析：当你终于在大家习惯飙车的路上装设减速带时，驾驶人刚开始一定会按喇叭抱怨，之后才会慢慢减速。"
         }
       },
       {
-        num: "08",
-        titleEn: "Peace After the Pushback",
-        titleCn: { tc: "推回之後的平靜", sc: "推回之后的平静" },
-        conceptEn: "People who benefited from your lack of limits will protest. The work is to keep the gate without turning the protest into a trial of your goodness.",
-        plainEn: "Plain Explanation: If they sulk because you will not cancel your Saturday, let the weather be weather. You are allowed to keep the day you already promised yourself.",
-        plainCn: { tc: "白話解析：若對方因為你不取消週六而生悶氣，讓這天氣就是天氣。你已經答應自己的那天，可以留下。", sc: "白话解析：若对方因为你不取消周六而生闷气，让这天气就是天气。你已经答应自己的那天，可以留下。" }
+        "num": "07",
+        "titleEn": "Guilt Is Not Proof of Wrongdoing",
+        "titleCn": {
+          "tc": "內疚並不等於做錯事",
+          "sc": "内疚并不等于做错事"
+        },
+        "conceptEn": "Choosing self-care after years of people-pleasing triggers a wave of guilt that feels like moral failure. We have to recognize that discomfort is simply the growing pain of breaking an old habit, not evidence that we are hurting someone.",
+        "plainEn": "Plain Explanation: Sore muscles after your first workout don't mean you are injured—they just mean you are finally using strength you haven't exercised in years.",
+        "plainCn": {
+          "tc": "白話解析：第一次重訓後的肌肉痠痛並不代表你受傷了——它只是說明你終於動用了多年未曾鍛鍊的力量。",
+          "sc": "白话解析：第一次重训后的肌肉酸痛并不代表你受伤了——它只是说明你终于动用了多年未曾锻炼的力量。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Self-Boundaries Hold the Line",
+        "titleCn": {
+          "tc": "自我界線才是真正的防線",
+          "sc": "自我边界才是真正的防线"
+        },
+        "conceptEn": "External limits collapse unless we enforce boundaries with ourselves around screen time, overworking, and keeping promises we make to our own rest. How consistently we honor our own rules teaches others whether our words carry weight.",
+        "plainEn": "Plain Explanation: You cannot expect neighbors to stay off your lawn if you are the one leaving the gate unlatched every night.",
+        "plainCn": {
+          "tc": "白話解析：如果你每天晚上都自己把院子的柵欄門敞開，就不能指望鄰居不會踩進你的草坪。",
+          "sc": "白话解析：如果你每天晚上都自己把院子的栅栏门敞开，就不能指望邻居不会踩进你的草坪。"
+        }
       }
     ],
-    easternResonance: {
-      quote: { tc: "「知止可以不殆。」", sc: "“知止可以不殆。”" },
-      source: { tc: "——《道德經》第四十四章", sc: "——《道德经》第四十四章" },
-      commentary: {
-        tc: "老子的「知止」，不是冷淡，是知道何處該停，才不致把整個人賠進去。陶瓦卜的界線，正是親密裡的知止：門開著，鉸鏈還在。愛不必填滿到窒息，才算真心。",
-        sc: "老子的“知止”，不是冷淡，是知道何处该停，才不致把整个人赔进去。塔瓦布的边界，正是亲密里的知止：门开着，铰链还在。爱不必填满到窒息，才算真心。"
+    "easternResonance": {
+      "quote": {
+        "tc": "「知足不辱，知止不殆，可以長久。」",
+        "sc": "“知足不辱，知止不殆，可以长久。”"
+      },
+      "source": {
+        "tc": "—— 《道德經》第四十四章",
+        "sc": "—— 《道德经》第四十四章"
+      },
+      "commentary": {
+        "tc": "老子提醒我們，懂得在何處停下腳步，才不會陷入耗竭與危殆。設立界線正是「知止」的實踐——唯有守住身心的分寸，人際與自我才能長久安穩。",
+        "sc": "老子提醒我们，懂得在何处停下脚步，才不会陷入耗竭与危殆。设立边界正是“知止”的实践——唯有守住身心的分寸，人际与自我才能长久安稳。"
       }
     },
-    actionPromptEn: "Write one boundary you have been resenting instead of saying. Add the consequence you will keep. Practice it once today in a low-stakes moment.",
-    actionPromptCn: { tc: "寫下一條你一直用怨恨代替說出口的界線，加上你願意守住的後果。今天在一件小事上練習一次。", sc: "写下一条你一直用怨恨代替说出口的边界，加上你愿意守住的后果。今天在一件小事上练习一次。" }
-  },
-  {
-    isDailyFree: false,
-    topLabelEn: "ARCHIVE EDITION",
-    topLabelCn: { tc: "典藏書目", sc: "典藏书目" },
-    id: "adult-children-of-emotionally-immature-parents",
-    categoryFilter: "TRAUMA, INNER CHILD & EMOTIONAL SAFETY",
-    categoryEn: "TRAUMA, INNER CHILD & EMOTIONAL SAFETY",
-    categoryCn: { tc: "創傷療癒、內在小孩與安全感 /", sc: "创伤疗愈、内在小孩与安全感 /" },
-    durationEn: "DURATION: 7 MIN",
-    durationCn: { tc: "時間：7分鐘", sc: "时间：7分钟" },
-    themeEn: "THEME: HEALING FANTASY",
-    themeCn: { tc: "主題：療癒幻想", sc: "主题：疗愈幻想" },
-    titleLinesEn: ["EMOTIONALLY", "IMMATURE PARENTS"],
-    titleFlatEn: "Adult Children of Emotionally Immature Parents",
-    titleCn: { tc: "父母情緒不成熟", sc: "父母情绪不成熟" },
-    authorLine: "Lindsay C. Gibson (2015)",
-    quoteEn: "“You can’t get a mature response from an emotionally immature person—but you can stop waiting in the doorway.”",
-    quoteCn: { tc: "“你無法從情緒不成熟的人那裡得到成熟的回應——但你可以不再等在門口。”", sc: "“你无法从情绪不成熟的人那里得到成熟的回应——但你可以不再等在门口。”" },
-    leadEn: "If a parent could not meet you, you may still be waiting for that meeting in adult love.",
-    leadCn: { tc: "若父母當年無法接住你，你可能仍在成人的愛情裡，等那一次被接住。", sc: "若父母当年无法接住你，你可能仍在成人的爱情里，等那一次被接住。" },
-    thesisEn: "We often explain a cold house as a lack of luck, not as a lack of emotional skill. Psychologist Lindsay C. Gibson names the parent who cannot tolerate feelings—theirs or yours—and the child who becomes extra good, extra useful, or extra invisible to keep the weather stable. Adult love then inherits a healing fantasy: this partner will finally see me. Relating from a grounded adult self, she argues, means grieving that fantasy without becoming as unavailable as the first home.",
-    thesisCn: {
-      tc: "我們常把冷的家解釋成運氣不好，而不是情感能力不足。心理學家林賽·吉布森點出那種無法承受感受的父母——無論是他們的還是你的——以及那個變得特別懂事、特別有用、或特別隱形的孩子，只為把家裡的天氣穩住。成人愛情於是繼承一套療癒幻想：這個人總會看見我。她說，從穩住的成人自己去愛，是哀悼這幻想，而不是變成和第一個家一樣難以靠近。",
-      sc: "我们常把冷的家解释成运气不好，而不是情感能力不足。心理学家林赛·吉布森点出那种无法承受感受的父母——无论是他们的还是你的——以及那个变得特别懂事、特别有用、或特别隐形的孩子，只为把家里的天气稳住。成人爱情于是继承一套疗愈幻想：这个人总会看见我。她说，从稳住的成人自己去爱，是哀悼这幻想，而不是变成和第一个家一样难以靠近。"
-    },
-    highlights: [
-      {
-        num: "01",
-        titleEn: "A Full House, Unseen",
-        titleCn: { tc: "滿屋人，仍未被看見", sc: "满屋人，仍未被看见" },
-        conceptEn: "Emotional immaturity is not a lack of food or tuition; it is a parent who cannot stay with a child's inner world, so the child learns to monitor the adult's face instead.",
-        plainEn: "Plain Explanation: Everyone is talking at dinner, and no one asks how you are. You were at the table, and you were also alone—that is the first lesson in disappearing.",
-        plainCn: { tc: "白話解析：飯桌上大家都在說話，沒有人問你怎麼樣。你在桌邊，你也獨自——那是關於消失的第一課。", sc: "白话解析：饭桌上大家都在说话，没有人问你怎么样。你在桌边，你也独自——那是关于消失的第一课。" }
-      },
-      {
-        num: "02",
-        titleEn: "The Healing Fantasy",
-        titleCn: { tc: "療癒幻想", sc: "疗愈幻想" },
-        conceptEn: "Gibson's healing fantasy is the private hope that a partner (or the parent, finally) will one day make the original hunger right, so you postpone your own life at their door.",
-        plainEn: "Plain Explanation: Standing on tiptoe at that door keeps you small. Treat the wish as a plan, and you wait for a hinge that may never turn.",
-        plainCn: { tc: "白話解析：踮著腳等在那扇門口，人會變小。把願望當成計劃，你就會等一扇可能永遠轉不開的鉸鏈。", sc: "白话解析：踮着脚等在那扇门口，人会变小。把愿望当成计划，你就会等一扇可能永远转不开的铰链。" }
-      },
-      {
-        num: "03",
-        titleEn: "The Good Child's Job",
-        titleCn: { tc: "好孩子的差事", sc: "好孩子的差事" },
-        conceptEn: "Internalizers keep the house calm by becoming helpers, stars, or ghosts; the cost is a delayed acquaintance with their own anger, wants, and play.",
-        plainEn: "Plain Explanation: At twenty-five you may still scan the room and fix the mood before anyone asks. That is the old job, still clocked in.",
-        plainCn: { tc: "白話解析：二十五歲，你仍可能先掃一眼房間，在誰開口之前把氣氛修好。舊差事，還在打卡。", sc: "白话解析：二十五岁，你仍可能先扫一眼房间，在谁开口之前把气氛修好。旧差事，还在打卡。" }
-      }
-    ],
-    extraHighlights: [
-      {
-        num: "04",
-        titleEn: "If I Am Better, They Will Be Kind",
-        titleCn: { tc: "若我更好，他們就會溫柔", sc: "若我更好，他们就会温柔" },
-        conceptEn: "Some children decide that perfection will purchase empathy. Adult relationships then become endless drafts of sounding easy.",
-        plainEn: "Plain Explanation: You rewrite the text until you sound unthreatening. Clear would have been one draft. Small took six.",
-        plainCn: { tc: "白話解析：你把訊息改到聽起來不具威脅。清楚，一稿就夠。變小，改了六稿。", sc: "白话解析：你把讯息改到听起来不具威胁。清楚，一稿就够。变小，改了六稿。" }
-      },
-      {
-        num: "05",
-        titleEn: "Relatedness Without Self-Erasure",
-        titleCn: { tc: "連結而不自我抹除", sc: "连接而不自我抹除" },
-        conceptEn: "Gibson distinguishes loneliness-for-connection from the fusion that abandons your inner world to keep someone nearby.",
-        plainEn: "Plain Explanation: You can keep Saturday and still sit with them. Ice is not the only alternative to doing everyone's emotional homework.",
-        plainCn: { tc: "白話解析：你可以留著週六，仍坐在他們旁邊。變成冰，不是「不替所有人做情感功課」的唯一出路。", sc: "白话解析：你可以留着周六，仍坐在他们旁边。变成冰，不是“不替所有人做情感功课”的唯一出路。" }
-      },
-      {
-        num: "06",
-        titleEn: "They May Not Grow the Insight",
-        titleCn: { tc: "他們未必會長出洞見", sc: "他们未必会长出洞见" },
-        conceptEn: "Waiting for an emotionally immature parent to develop reflective capacity keeps the adult child in a child's posture: hope as a full-time job.",
-        plainEn: "Plain Explanation: You can love a parent and still keep a shorter call. Hanging up is not a crime; it is how an adult leaves the doorway.",
-        plainCn: { tc: "白話解析：你可以愛父母，仍把電話縮短。掛斷不是罪；那是成人離開門口的方式。", sc: "白话解析：你可以爱父母，仍把电话缩短。挂断不是罪；那是成人离开门口的方式。" }
-      },
-      {
-        num: "07",
-        titleEn: "Boundaries With the First Home",
-        titleCn: { tc: "對第一個家的界線", sc: "对第一个家的边界" },
-        conceptEn: "Mature relating includes limits on access, topics, and rescue—without a courtroom verdict on whether they 'did their best.'",
-        plainEn: "Plain Explanation: Two things can both be true: they were tired and could not cope, and you paid for that calm. The boundary holds both facts.",
-        plainCn: {
-          tc: "白話解析：兩件事可以同時真：他們累了、應付不了，而那份安靜的價錢是你付的。界線同時托住這兩件事實。",
-          sc: "白话解析：两件事可以同时真：他们累了、应付不了，而那份安静的价钱是你付的。边界同时托住这两件事实。"
-        }
-      },
-      {
-        num: "08",
-        titleEn: "The Adult Self Arrives in Ordinary Care",
-        titleCn: { tc: "成人自己從普通照料裡來", sc: "成人自己从普通照料里来" },
-        conceptEn: "Recovery is not a better performance for the old audience; it is giving yourself the mirroring that was missing—food, sleep, a kind inner voice, chosen relationships.",
-        plainEn: "Plain Explanation: Food, sleep, a kind sentence to yourself tonight—that is the missing care, done now. Not a speech about whether you were worthy then.",
-        plainCn: { tc: "白話解析：今晚的飯、覺、一句對自己的好話——缺過的照料，現在做。不是一篇你當年配不配的演說。", sc: "白话解析：今晚的饭、觉、一句对自己的好话——缺过的照料，现在做。不是一篇你当年配不配的演说。" }
-      }
-    ],
-    easternResonance: {
-      quote: {
-        tc: "「我慢慢地、慢慢地了解到，所謂父女母子一場，只不過意味著，你和他的緣分就是今生今世不斷地在目送他的背影漸行漸遠。」",
-        sc: "“我慢慢地、慢慢地了解到，所谓父女母子一场，只不过意味着，你和他的缘分就是今生今世不断地在目送他的背影渐行渐远。”"
-      },
-      source: { tc: "——龍應台《目送》", sc: "——龙应台《目送》" },
-      commentary: {
-        tc: "龍應台的目送，不是追上去改路，是肯看著背影走遠。吉布森要的成人自己，也是一種目送：不再把父母修成終於能接住你的人，仍可以站在路口，路卻不必替人走。親密有時不是把人拉回來，是肯目送。",
-        sc: "龙应台的目送，不是追上去改路，是肯看着背影走远。吉布森要的成人自己，也是一种目送：不再把父母修成终于能接住你的人，仍可以站在路口，路却不必替人走。亲密有时不是把人拉回来，是肯目送。"
-      }
-    },
-    actionPromptEn: "Write one sentence you still wait to hear from a parent. Next line: I can give this to myself tonight. Then do one ordinary act of care (food, sleep, a walk) without announcing it.",
-    actionPromptCn: {
-      tc: "寫下一句你仍在等父母說的話。下一行：今晚我可以給自己。然後做一件普通的照料（吃飯、睡覺、走路），不必宣布。",
-      sc: "写下一句你仍在等父母说的话。下一行：今晚我可以给自己。然后做一件普通的照料（吃饭、睡觉、走路），不必宣布。"
+    "actionPromptEn": "Identify one recurring obligation this week that leaves you drained, and write down a single, excuse-free sentence you will use to decline or renegotiate it.",
+    "actionPromptCn": {
+      "tc": "找出本週一項讓你感到精疲力竭的例行承諾，寫下一句不帶任何藉口的話，用它來婉拒或重新協商這件事。",
+      "sc": "找出本周一项让你感到精疲力竭的例行承诺，写下一句不带任何借口的话，用它来婉拒或重新协商这件事。"
     }
   },
   {
-    isDailyFree: false,
-    topLabelEn: "ARCHIVE EDITION",
-    topLabelCn: { tc: "典藏書目", sc: "典藏书目" },
-    id: "fair-play",
-    categoryFilter: "LONG-TERM PARTNERSHIP & MARRIAGE",
-    categoryEn: "LONG-TERM PARTNERSHIP & MARRIAGE",
-    categoryCn: { tc: "長期伴侶關係與婚姻經營 /", sc: "长期伴侣关系与婚姻经营 /" },
-    durationEn: "DURATION: 6 MIN",
-    durationCn: { tc: "時間：6分鐘", sc: "时间：6分钟" },
-    themeEn: "THEME: MENTAL LOAD",
-    themeCn: { tc: "主題：家務心智負荷", sc: "主题：家务心智负荷" },
-    titleLinesEn: ["FAIR PLAY", "THE CARDS"],
-    titleFlatEn: "Fair Play",
-    titleCn: { tc: "公平遊戲", sc: "公平游戏" },
-    authorLine: "Eve Rodsky (2019)",
-    quoteEn: "“I don’t need you to help me. I need you to own it.”",
-    quoteCn: { tc: "“我不需要你來幫我。我需要你把這件事當成自己的。”", sc: "“我不需要你来帮我。我需要你把这件事当成自己的。”" },
-    leadEn: "Love gets tired when one person is the household's unpaid project manager.",
-    leadCn: { tc: "當一個人成了家裡不支薪的專案經理，愛就會累。", sc: "当一个人成了家里不支薪的项目经理，爱就会累。" },
-    thesisEn: "We praise couples for teamwork and still quietly assign the remembering to one mind. Eve Rodsky names the mental load: conception, planning, and execution of domestic life, often held by one partner while the other 'helps.' Fair Play deals the household into cards of full ownership so gratitude is not a substitute for a system. Desire, she implies, returns more easily to a house where nobody is the default manager of everyone else's socks.",
-    thesisCn: {
-      tc: "我們稱讚情侶會分工，卻仍把「記得」交給同一顆腦子。伊芙·羅德斯基點出心智負荷：家務的構思、規劃與執行，常常由一個人扛著，另一個人只是「幫忙」。《公平遊戲》把家拆成一張張完整所有權的卡片，讓感謝不必再替代制度。慾望，往往更容易回到一個沒有人預設要管所有人襪子的家。",
-      sc: "我们称赞情侣会分工，却仍把“记得”交给同一颗脑子。伊芙·罗德斯基点出心智负荷：家务的构思、规划与执行，常常由一个人扛着，另一个人只是“帮忙”。《公平游戏》把家拆成一张张完整所有权的卡片，让感谢不必再替代制度。欲望，往往更容易回到一个没有人预设要管所有人袜子的家。"
+    "id": "adult-children-of-emotionally-immature-parents",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
     },
-    highlights: [
-      {
-        num: "01",
-        titleEn: "Ownership, Not Helping",
-        titleCn: { tc: "所有權，不是幫忙", sc: "所有权，不是帮忙" },
-        conceptEn: "Rodsky's central move is to replace 'helping' with ownership: the person who holds a card conceives, plans, and finishes it without being managed.",
-        plainEn: "Plain Explanation: Asking 'How can I help?' still leaves one person as the boss of the evening. 'I have dinner' means the menu, the shop, the stove, and the sink—without a briefing.",
-        plainCn: {
-          tc: "白話解析：問「我能幫什麼」仍讓一個人當今晚的老闆。「晚餐歸我」是菜單、採買、爐火和洗碗——不必再聽一場簡報。",
-          sc: "白话解析：问“我能帮什么”仍让一个人当今晚的老板。“晚餐归我”是菜单、采购、炉火和洗碗——不必再听一场简报。"
-        }
-      },
-      {
-        num: "02",
-        titleEn: "Conception Is Invisible Labor",
-        titleCn: { tc: "構思是看不見的勞動", sc: "构思是看不见的劳动" },
-        conceptEn: "The work begins before the task: noticing the birthday, the empty milk, the permission slip. Execution without conception is still being managed.",
-        plainEn: "Plain Explanation: Taking the child to the party is not the whole card if someone else remembered the gift, the time, and the allergy. The remembering is the job.",
-        plainCn: {
-          tc: "白話解析：把孩子送到派對，若禮物、時間和過敏仍由另一個人記得，卡片就還沒交出去。記得，才是這份工。",
-          sc: "白话解析：把孩子送到派对，若礼物、时间和过敏仍由另一个人记得，卡片就还没交出去。记得，才是这份工。"
-        }
-      },
-      {
-        num: "03",
-        titleEn: "Resentment as Unpaid Overtime",
-        titleCn: { tc: "怨恨是沒有加班費的工時", sc: "怨恨是没有加班费的工时" },
-        conceptEn: "Unfair load leaks into contempt and a dead bedroom because the 'manager' is too tired to be a lover, and the 'helper' feels unappreciated for tasks they did not own.",
-        plainEn: "Plain Explanation: You cannot jump from being the family's air-traffic control at 10:55 into wanting someone at 11:00. The shift never ended.",
-        plainCn: { tc: "白話解析：沒有人能在十點五十五分還當全家的空管，十一點立刻想要靠近。這班根本沒有下班。", sc: "白话解析：没有人能在十点五十五分还当全家的空管，十一点立刻想要靠近。这班根本没有下班。" }
-      }
+    "categoryFilter": "TRAUMA, INNER CHILD & EMOTIONAL SAFETY",
+    "categoryEn": "TRAUMA, INNER CHILD & EMOTIONAL SAFETY",
+    "categoryCn": {
+      "tc": "創傷療癒、內在小孩與安全感 /",
+      "sc": "创伤疗愈、内在小孩与安全感 /"
+    },
+    "durationEn": "DURATION: 7 MIN",
+    "durationCn": {
+      "tc": "時間：7分鐘",
+      "sc": "时间：7分钟"
+    },
+    "themeEn": "THEME: HEALING FANTASY",
+    "themeCn": {
+      "tc": "主題：療癒幻想",
+      "sc": "主题：疗愈幻想"
+    },
+    "titleLinesEn": [
+      "ADULT CHILDREN OF",
+      "EMOTIONALLY IMMATURE PARENTS"
     ],
-    extraHighlights: [
+    "titleFlatEn": "Adult Children of Emotionally Immature Parents",
+    "titleCn": {
+      "tc": "情緒不成熟的父母",
+      "sc": "情绪不成熟的父母"
+    },
+    "authorLine": "Lindsay C. Gibson (2015)",
+    "quoteEn": "“Emotional loneliness comes from not having enough emotional intimacy with other people.”",
+    "quoteCn": {
+      "tc": "“情感上的孤獨，源於與他人之間缺乏足夠的情感親密。”",
+      "sc": "“情感上的孤独，源于与他人之间缺乏足够的情感亲密。”"
+    },
+    "leadEn": "Growing up with emotionally immature parents leaves an invisible ache: your physical needs may have been met, yet your inner world went largely unseen.",
+    "leadCn": {
+      "tc": "在情緒不成熟的父母身邊長大，會留下一種看不見的隱痛：身體需求或許被滿足了，內在世界卻很少被真正看見。",
+      "sc": "在情绪不成熟的父母身边长大，会留下一种看不见的隐痛：身体需求或许被满足了，内在世界却很少被真正看见。"
+    },
+    "thesisEn": "Emotionally immature parents fear genuine emotional intimacy and rely on rigid defenses, leaving their children chronically lonely even inside a seemingly intact family. To survive this emotional neglect, children create a subconscious healing fantasy and adopt compliant roles that follow them into adulthood. True recovery begins when adult children stop trying to earn warmth from those who cannot give it, observe their parents objectively, and build grounded relationships rooted in mutual emotional safety.",
+    "thesisCn": {
+      "tc": "情緒不成熟的父母往往畏懼真實的情感親密並依賴僵化的心理防禦，使孩子即便身處看似完整的家庭，也長期承受深刻的情感孤獨。為了在這種情感忽視中求生，孩子會在潛意識裡編織療癒幻想，並戴上乖巧順從的角色面具直到成年。真正的復原始於成年子女停止向無法給予愛的人索求溫暖，客觀地看清父母的局限，並在相互尊重與安全感的關係中安頓真實的自我。",
+      "sc": "情绪不成熟的父母往往畏惧真实的情感亲密并依赖僵化的心理防御，使孩子即便身处看似完整的家庭，也长期承受深刻的情感孤独。为了在这种情感忽视中求生，孩子会在潜意识里编织疗愈幻想，并戴上乖巧顺从的角色面具直到成年。真正的复原始于成年子女停止向无法给予爱的人索求温暖，客观地看清父母的局限，并在相互尊重与安全感的关系中安顿真实的自我。"
+    },
+    "highlights": [
       {
-        num: "04",
-        titleEn: "Fair Is Not Fifty-Fifty Tonight",
-        titleCn: { tc: "公平不是今晚五五分", sc: "公平不是今晚五五分" },
-        conceptEn: "Rodsky's fairness is contextual: seasons of a baby's nights, a thesis deadline, an aging parent. The system is visible cards, not a daily scoreboard.",
-        plainEn: "Plain Explanation: Some months one person holds more cards because the other is in a storm. Fair is that both can see the hand, and the storm has an end date.",
-        plainCn: {
-          tc: "白話解析：有些月份，一個人多拿幾張牌，因為另一個人在風暴裡。公平是兩人都看得見手牌，而且風暴有截止日期。",
-          sc: "白话解析：有些月份，一个人多拿几张牌，因为另一个人在风暴里。公平是两人都看得见手牌，而且风暴有截止日期。"
+        "num": "01",
+        "titleEn": "The Unseen Child",
+        "titleCn": {
+          "tc": "不被看見的孩子",
+          "sc": "不被看见的孩子"
+        },
+        "conceptEn": "Emotionally immature parents are overly focused on their own stress and self-image, leaving them unable to attune to a child's inner feelings. The child learns early that their emotional reality is inconvenient or invisible.",
+        "plainEn": "Plain Explanation: It is like living in a house full of mirrors that only reflect your parents' moods, never your own face.",
+        "plainCn": {
+          "tc": "白話解析：這就像住在一間掛滿鏡子的屋子裡，每面鏡子都只映照出父母的情緒，卻從未照見你自己的模樣。",
+          "sc": "白话解析：这就像住在一间挂满镜子的屋子里，每面镜子都只映照出父母的情绪，却从未照见你自己的模样。"
         }
       },
       {
-        num: "05",
-        titleEn: "The Sunday Meeting",
-        titleCn: { tc: "週日短會", sc: "周日短会" },
-        conceptEn: "A short, standing household meeting prevents the 11 p.m. ambush of 'we need to talk about the recycling.'",
-        plainEn: "Plain Explanation: Put the cards on the table once a week when no one is hungry. Nighttime cross-examination is how a kitchen becomes a courtroom.",
-        plainCn: { tc: "白話解析：一週一次，在誰都不餓的時候把卡片攤開。深夜盤問，是廚房變成法庭的路徑。", sc: "白话解析：一周一次，在谁都不饿的时候把卡片摊开。深夜盘问，是厨房变成法庭的路径。" }
+        "num": "02",
+        "titleEn": "The Healing Fantasy",
+        "titleCn": {
+          "tc": "療癒幻想",
+          "sc": "疗愈幻想"
+        },
+        "conceptEn": "Children invent an unconscious story that if they just behave well enough or suffer quietly enough, their parents will finally transform and offer genuine love. In adulthood, this script drives people to overgive in one-sided relationships.",
+        "plainEn": "Plain Explanation: It is like tirelessly watering a plastic plant, believing that enough patience and devotion will eventually make it bloom.",
+        "plainCn": {
+          "tc": "白話解析：這就像日復一日地為一株塑膠花澆水，深信只要付出足夠的耐心與奉獻，它終有一天會綻放。",
+          "sc": "白话解析：这就像日复一日地为一株塑料花浇水，深信只要付出足够的耐心与奉献，它终有一天会绽放。"
+        }
       },
       {
-        num: "06",
-        titleEn: "Values Under the Chore",
-        titleCn: { tc: "家務底下的價值", sc: "家务底下的价值" },
-        conceptEn: "Fights about dishes are often fights about dignity, gendered scripts, and whose time is treated as infinitely interruptible.",
-        plainEn: "Plain Explanation: Arguing over the dishwasher is rarely about porcelain. One person is asking to be seen as a peer, not as staff.",
-        plainCn: { tc: "白話解析：為洗碗機吵架，很少是為了瓷器。一個人在要求被當成同伴，而不是員工。", sc: "白话解析：为洗碗机吵架，很少是为了瓷器。一个人在要求被当成同伴，而不是员工。" }
-      },
-      {
-        num: "07",
-        titleEn: "Protect Adult-Only Space",
-        titleCn: { tc: "守護專屬大人的時間", sc: "守护专属大人的时间" },
-        conceptEn: "A pair that only coordinates logistics never returns to being lovers; Fair Play is also a bid to reclaim unstructured adult time.",
-        plainEn: "Plain Explanation: Locking twenty minutes with no talk of bills is not selfish. It is how the household's foundation gets oxygen.",
-        plainCn: { tc: "白話解析：鎖上二十分鐘不談帳單，不是自私。那是讓這個家的地基重新有氧氣。", sc: "白话解析：锁上二十分钟不谈账单，不是自私。那是让这个家的地基重新有氧气。" }
-      },
-      {
-        num: "08",
-        titleEn: "CPE: Conceive, Plan, Execute",
-        titleCn: { tc: "構思、規劃、執行", sc: "构思、规划、执行" },
-        conceptEn: "Each card requires all three stages. Splitting them ('you just do the last step') recreates the manager-helper hierarchy Rodsky is dismantling.",
-        plainEn: "Plain Explanation: If they only take the trash when you have already bagged it, they still work for you. The card includes noticing the bag is full.",
-        plainCn: { tc: "白話解析：若對方只在你已經裝袋之後才倒垃圾，他們仍在為你工作。這張卡片包括發現袋子滿了。", sc: "白话解析：若对方只在你已经装袋之后才倒垃圾，他们仍在为你工作。这张卡片包括发现袋子满了。" }
-      }
-    ],
-    easternResonance: {
-      quote: { tc: "「我們的格局不是一捆一捆紮清楚的柴，而是好像把一塊石頭丟在水面上所發生的一圈圈推出去的波紋。」", sc: "“我们的格局不是一捆一捆扎清楚的柴，而是好像把一块石头丢在水面上所发生的一圈圈推出去的波纹。”" },
-      source: { tc: "——費孝通《鄉土中國 · 差序格局》", sc: "——费孝通《乡土中国 · 差序格局》" },
-      commentary: {
-        tc: "費孝通說中國的家不是兩捆對立的柴，是丟進水裡的石頭，一圈圈波紋。羅德斯基要看見的心智負荷，正是那圈波紋落在誰身上：誰記得、誰被波及、誰被當成永遠靠近圓心的人。卡片制度，是把波紋畫出來，好讓兩人停在同一水面，而不是一人沉底。",
-        sc: "费孝通说中国的家不是两捆对立的柴，是丢进水里的石头，一圈圈波纹。罗德斯基要看见的心智负荷，正是那圈波纹落在谁身上：谁记得、谁被波及、谁被当成永远靠近圆心的人。卡片制度，是把波纹画出来，好让两人停在同一水面，而不是一人沉底。"
-      }
-    },
-    actionPromptEn: "Pick one household task you currently 'help with.' For the next week, own it completely: notice, plan, finish—without asking for instructions.",
-    actionPromptCn: { tc: "選一件你目前只是「幫忙」的家事。接下來一週完整擁有它：發現、計劃、做完——不要再問指示。", sc: "选一件你目前只是“帮忙”的家事。接下来一周完整拥有它：发现、计划、做完——不要再问指示。" }
-  },
-  {
-    isDailyFree: false,
-    topLabelEn: "ARCHIVE EDITION",
-    topLabelCn: { tc: "典藏書目", sc: "典藏书目" },
-    id: "the-state-of-affairs",
-    categoryFilter: "INFIDELITY, TRUST & BETRAYAL RECOVERY",
-    categoryEn: "INFIDELITY, TRUST & BETRAYAL RECOVERY",
-    categoryCn: { tc: "背叛修復、信任重建與忠誠 /", sc: "背叛修复、信任重建与忠诚 /" },
-    durationEn: "DURATION: 7 MIN",
-    durationCn: { tc: "時間：7分鐘", sc: "时间：7分钟" },
-    themeEn: "THEME: LONGING",
-    themeCn: { tc: "主題：渴望與背叛", sc: "主题：渴望与背叛" },
-    titleLinesEn: ["THE STATE", "OF AFFAIRS"],
-    titleFlatEn: "The State of Affairs",
-    titleCn: { tc: "外遇的真相", sc: "亲密关系的裂痕" },
-    authorLine: "Esther Perel (2017)",
-    quoteEn: "“An affair is often less about a new person than a new self.”",
-    quoteCn: { tc: "“外遇常常不只是關於一個新人，而是關於一個新的自己。”", sc: "“出轨常常不只是关于一个新人，而是关于一个新的自己。”" },
-    leadEn: "Betrayal hurts. It also has a plot. Both can be true without becoming a pardon.",
-    leadCn: { tc: "背叛會疼。它也有情節。兩者可以同時成立，卻不必成為赦免。", sc: "背叛会疼。它也有情节。两者可以同时成立，却不必成为赦免。" },
-    thesisEn: "We reach for a moral stamp—good spouse, bad spouse—and miss what the affair was doing in the house. Psychotherapist Esther Perel insists on holding two truths: the hurt is real, and infidelity is often a story about deadness, hunger, and a self that felt gone. Recovery, if it comes, is not a rewind. It is a different couple, or a dignified ending, built on enough truth to stand on.",
-    thesisCn: {
-      tc: "我們急著蓋章——好配偶、壞配偶——卻錯過外遇在家裡做了什麼。心理治療師艾絲特·佩瑞爾要我們同時握住兩件事：傷是真的，而不忠常常是關於死寂、飢渴、以及一個覺得自己消失了的人。若還能重建，那不是倒帶。那是一對不同的人，或一次有尊嚴的結束，站在夠用的實話上。",
-      sc: "我们急着盖章——好配偶、坏配偶——却错过出轨在家里做了什么。心理治疗师埃丝特·佩瑞尔要我们同时握住两件事：伤是真的，而不忠常常是关于死寂、饥渴、以及一个觉得自己消失了的人。若还能重建，那不是倒带。那是一对不同的人，或一次有尊严的结束，站在够用的实话上。"
-    },
-    highlights: [
-      {
-        num: "01",
-        titleEn: "A New Self, Not Only a New Body",
-        titleCn: { tc: "新的自己，不只是新的身體", sc: "新的自己，不只是新的身体" },
-        conceptEn: "Perel argues that many affairs are less a shopping trip for a replacement partner than an attempt to feel alive, witnessed, or unburdened of a domestic role.",
-        plainEn: "Plain Explanation: The crush may have been: I exist again. That feeling can be understood without being treated as a pass to keep lying.",
-        plainCn: { tc: "白話解析：那心動也許是：我又存在了。這感覺可以懂，卻不能當成繼續說謊的通行證。", sc: "白话解析：那心动也许是：我又存在了。这感觉可以懂，却不能当成继续说谎的通行证。" }
-      },
-      {
-        num: "02",
-        titleEn: "Secrecy Is Part of the Wound",
-        titleCn: { tc: "隱瞞本身就是傷", sc: "隐瞒本身就是伤" },
-        conceptEn: "The erotic charge of an affair often lives in the secret; dripping the truth out later is another cut, because the hurt partner is asked to live in fog.",
-        plainEn: "Plain Explanation: A direct question answered with a slice, then another slice next week, is another week of waiting in the dark. Hiding was already the hurt.",
-        plainCn: { tc: "白話解析：問得直接，答的卻是一片，下週再一片，就是又一週在暗處等。藏著，已經是傷。", sc: "白话解析：问得直接，答的却是一片，下周再一片，就是又一週在暗处等。藏着，已经是伤。" }
-      },
-      {
-        num: "03",
-        titleEn: "Two Clocks in One House",
-        titleCn: { tc: "同一屋裡的兩座鐘", sc: "同一屋里的两座钟" },
-        conceptEn: "The unfaithful partner wants tomorrow; the hurt partner is still on the day of discovery. Pushing 'move on' is a second injury.",
-        plainEn: "Plain Explanation: 'Can't we move on?' hits someone who just found out. One of you is packing for the future. The other is still in the hallway where the truth landed.",
-        plainCn: {
-          tc: "白話解析：「我們不能往前走嗎？」打在剛剛才知道的人身上。一個在為未來收拾。另一個還站在實話落地的走廊。",
-          sc: "白话解析：“我们不能往前走吗？”打在刚刚才知道的人身上。一个在为未来收拾。另一个还站在实话落地的走廊。"
+        "num": "03",
+        "titleEn": "The Good-Child Job",
+        "titleCn": {
+          "tc": "「好孩子」的差事",
+          "sc": "“好孩子”的差事"
+        },
+        "conceptEn": "To keep family peace, sensitive children take on a role-self that is endlessly accommodating, low-maintenance, and hyper-alert to parental moods. Performing this job earns praise while quietly burying the child's authentic instincts.",
+        "plainEn": "Plain Explanation: You become an unpaid emotional firefighter in your own home, constantly scanning for smoke so your parents never lose their temper.",
+        "plainCn": {
+          "tc": "白話解析：你在自己家裡成了一名無薪的情緒消防員，時刻留意任何一點火星，只為防止父母突然失控發火。",
+          "sc": "白话解析：你在自己家里成了一名无薪的情绪消防员，时刻留意任何一点火星，只为防止父母突然失控发火。"
         }
       }
     ],
-    extraHighlights: [
+    "extraHighlights": [
       {
-        num: "04",
-        titleEn: "The Old Pair Does Not Return",
-        titleCn: { tc: "舊的那對回不來", sc: "旧的那对回不来" },
-        conceptEn: "You do not get the pre-affair couple back. You get a more honest one, or none. Grief for the old story is part of the work.",
-        plainEn: "Plain Explanation: 'I want us like before' is grief talking—before included the secret. If you stay, it is a new pair, not the old one taped together.",
-        plainCn: {
-          tc: "白話解析：「我要我們像從前」是哀在說話——從前裡有秘密。若留下，是新的一對，不是舊的那對貼回去。",
-          sc: "白话解析：“我要我们像从前”是哀在说话——从前里有秘密。若留下，是新的一对，不是旧的那对贴回去。"
+        "num": "04",
+        "titleEn": "Perfection for Kindness",
+        "titleCn": {
+          "tc": "用完美換取善意",
+          "sc": "用完美换取善意"
+        },
+        "conceptEn": "When warmth is conditional, adult children often equate flawlessness with safety, believing that one mistake will trigger rejection or anger. Exhausting self-criticism becomes a shield against external disappointment.",
+        "plainEn": "Plain Explanation: It feels like walking a high tightrope without a net, convinced that a single misstep means nobody will catch you.",
+        "plainCn": {
+          "tc": "白話解析：這就像在沒有安全網的高空走鋼索，你深信只要踏錯一步，就再也沒有人會接住你。",
+          "sc": "白话解析：这就像在没有安全网的高空走钢索，你深信只要踏错一步，就再也没有人会接住你。"
         }
       },
       {
-        num: "05",
-        titleEn: "Three People, All Real",
-        titleCn: { tc: "三個人，都是真的", sc: "三个人，都是真的" },
-        conceptEn: "Flattening the third person into a cartoon, or the unfaithful partner into a monster, blocks the adult question: what was this about?",
-        plainEn: "Plain Explanation: You can refuse to flatten anyone and still say: this broke a promise. Complexity is not the same as going easy.",
-        plainCn: { tc: "白話解析：你可以拒絕把任何人壓扁，仍說：這把承諾弄破了。複雜，不是手軟。", sc: "白话解析：你可以拒绝把任何人压扁，仍说：这把承诺弄破了。复杂，不是手软。" }
+        "num": "05",
+        "titleEn": "Relatedness Without Erasure",
+        "titleCn": {
+          "tc": "連結而不抹除自我",
+          "sc": "链接而不抹除自我"
+        },
+        "conceptEn": "Healthy maturity allows you to stay in contact with family members without abandoning your own thoughts, boundaries, or reality. You stop merging with their emotional storms and observe interactions from a calm, grounded center.",
+        "plainEn": "Plain Explanation: You can stand on the shore and watch the waves crash without jumping into the water every time the tide rises.",
+        "plainCn": {
+          "tc": "白話解析：你可以安穩地站在岸邊看著浪花拍打，而不必在每次漲潮時都縱身跳進水裡。",
+          "sc": "白话解析：你可以安稳地站在岸边看着浪花拍打，而不必在每次涨潮时都纵身跳进水里。"
+        }
       },
       {
-        num: "06",
-        titleEn: "Remorse You Can See",
-        titleCn: { tc: "看得見的懊悔", sc: "看得见的懊悔" },
-        conceptEn: "Repair requires patience, truthful answers, and not treating staying as payment that buys silence.",
-        plainEn: "Plain Explanation: Staying does not count as compensation, and it does not buy 'stop talking about it.' The work is to tell the truth and wait while they catch up.",
-        plainCn: { tc: "白話解析：留下來不能當作已經補償，也買不到「別再提了」。功課是說實話，等對方慢慢趕上。", sc: "白话解析：留下来不能当作已经补偿，也买不到“别再提了”。功课是说实话，等对方慢慢赶上。" }
+        "num": "06",
+        "titleEn": "The Insight That They May Not Grow",
+        "titleCn": {
+          "tc": "看清他們未必會改變",
+          "sc": "看清他们未必会改变"
+        },
+        "conceptEn": "Accepting that emotionally immature parents lack the self-reflection required for deep change frees you from endless frustration. Grief over what they cannot give replaces the exhausting campaign to fix them.",
+        "plainEn": "Plain Explanation: It is like finally realizing a hardware store does not sell bread, so you stop standing in the aisle angry at the empty shelves.",
+        "plainCn": {
+          "tc": "白話解析：這就像終於明白五金行本來就不賣麵包，於是你不再對著空貨架生氣，也不再原地苦苦等待。",
+          "sc": "白话解析：这就像终于明白五金店本来就不卖面包，于是你不再对着空货架生气，也不再原地苦苦等待。"
+        }
       },
       {
-        num: "07",
-        titleEn: "Forgiveness Is Late, If It Comes",
-        titleCn: { tc: "原諒來得晚，若它來", sc: "原谅来得晚，若它来" },
-        conceptEn: "Forgiveness is not a switch for the household's comfort. A rushed 'I forgive you' often protects the unfaithful partner from the hurt one's timeline.",
-        plainEn: "Plain Explanation: A rushed 'I forgive you' is not the real thing. If it comes, it is after more safety and enough truth—and it may not come.",
-        plainCn: { tc: "白話解析：趕出來的「我原諒你」，不是真的那件。若它來，是更安全、實話也夠了之後——也可能不來。", sc: "白话解析：赶出来的“我原谅你”，不是真的那件。若它来，是更安全、实话也够了之后——也可能不来。" }
+        "num": "07",
+        "titleEn": "Boundaries With Your First Home",
+        "titleCn": {
+          "tc": "與原生家庭設立界線",
+          "sc": "与原生家庭设立界线"
+        },
+        "conceptEn": "Boundaries with immature parents work best through clear behavioral choices—such as limiting visit lengths or steering conversations—rather than demanding emotional apologies they cannot comprehend. Protecting your energy is an act of self-respect, not cruelty.",
+        "plainEn": "Plain Explanation: Instead of arguing with the weather, you simply bring an umbrella and decide how long you want to stand outside.",
+        "plainCn": {
+          "tc": "白話解析：與其對著壞天氣爭辯不休，不如直接帶上一把傘，並由你自己決定要在戶外待多久。",
+          "sc": "白话解析：与其对着坏天气争辩不休，不如直接带上一把伞，并由你自己决定要在户外待多久。"
+        }
       },
       {
-        num: "08",
-        titleEn: "Either Ending Is a Life",
-        titleCn: { tc: "兩種結局都是活", sc: "两种结局都是活" },
-        conceptEn: "Rebuilding is one path. Leaving is another. Perel refuses to treat staying as the only moral exam a hurt person can pass.",
-        plainEn: "Plain Explanation: Some people treat staying together as the only good ending. You can also leave and still have a full life. Neither choice makes you the better person.",
-        plainCn: {
-          tc: "白話解析：有人把留下來當成唯一的好結局。走出去，也可以是完整的一生。留下來或離開，都不讓誰更高一等。",
-          sc: "白话解析：有人把留下来当成唯一的好结局。走出去，也可以是完整的一生。留下来或离开，都不让谁更高一等。"
+        "num": "08",
+        "titleEn": "The Adult Self in Ordinary Care",
+        "titleCn": {
+          "tc": "日常關懷中的成年自我",
+          "sc": "日常关怀中的成年自我"
+        },
+        "conceptEn": "Healing becomes tangible when you gravitate toward emotionally mature people who listen with curiosity, respect your limits, and share reciprocity. In ordinary, steady care, your nervous system learns that love does not require self-abandonment.",
+        "plainEn": "Plain Explanation: After years of surviving on adrenaline, you finally sit down to a warm, unhurried meal where no one demands you pay for the table.",
+        "plainCn": {
+          "tc": "白話解析：在靠著腎上腺素撐過多年之後，你終於能安穩坐下來吃一頓熱飯，再也沒有人要求你為整張餐桌買單。",
+          "sc": "白话解析：在靠着肾上腺素撑过多年之后，你终于能安稳坐下来吃一顿热饭，再也没有人要求你为整张餐桌买单。"
         }
       }
     ],
-    easternResonance: {
-      quote: { tc: "「世鈞，我們回不去了。」", sc: "“世钧，我们回不去了。”" },
-      source: { tc: "——張愛玲《半生緣》", sc: "——张爱玲《半生缘》" },
-      commentary: {
-        tc: "回不去，是佩瑞爾這塊地板。不是不許重建，是不許把重建假裝成倒帶。新的一對若還要在，得承認舊的那對已經不是原來那對——秘密改寫過房間的空氣。張愛玲把這句話說得很短，傷卻佔滿整部書。",
-        sc: "回不去，是佩瑞尔这块地板。不是不许重建，是不许把重建假装成倒带。新的一对若还要在，得承认旧的那对已经不是原来那对——秘密改写过房间的空气。张爱玲把这句话说得很短，伤却占满整部书。"
+    "easternResonance": {
+      "quote": {
+        "tc": "「我慢慢地、慢慢地了解到，所謂父女母子一場，只不過意味著，你和他的緣分就是今生今世不斷地在目送他的背影漸行漸遠。」",
+        "sc": "“我慢慢地、慢慢地了解到，所谓父女母子一场，只不过意味着，你和他的缘分就是今生今世不断地在目送他的背影渐行渐远。”"
+      },
+      "source": {
+        "tc": "—— 龍應台《目送》",
+        "sc": "—— 龙应台《目送》"
+      },
+      "commentary": {
+        "tc": "華人文化常將「孝順」與無條件的情感順從緊密綑綁，使成年子女更難察覺原生家庭中的情感忽視。龍應台筆下「目送背影」的體悟，揭示了親緣關係中必然的分離與獨立；當我們放下拯救或改變父母的執念，允許彼此成為獨立的個體，這場温柔的目送才真正成為自我重生的起點。",
+        "sc": "华人文化常将“孝顺”与无条件的情感顺从紧密捆绑，使成年子女更难察觉原生家庭中的情感忽视。龙应台笔下“目送背影”的体悟，揭示了亲缘关系中必然的分离与独立；当我们放下拯救或改变父母的执念，允许彼此成为独立的个体，这场温柔的目送才真正成为自我重生的起点。"
       }
     },
-    actionPromptEn: "If this book is about your house: write two clocks—what you need this week, what they seem to need. If it is not, write one sentence about a secret (yours or one you carry) that thins closeness. Don't send it.",
-    actionPromptCn: {
-      tc: "若這本書說的是你家：寫下兩座鐘——你這週需要什麼，對方似乎需要什麼。若不是，寫一句你藏著、或替人藏著、正在稀釋親密的秘密。不要發出。",
-      sc: "若这本书说的是你家：写下两座钟——你这周需要什么，对方似乎需要什么。若不是，写一句你藏着、或替人藏着、正在稀释亲密的秘密。不要发出。"
+    "actionPromptEn": "Notice one moment this week where you automatically swallow your own preference to keep someone else comfortable, pause, and state what you actually need in one calm sentence.",
+    "actionPromptCn": {
+      "tc": "本週留意一個你習慣性壓抑自身喜好、只為討好他人的瞬間，先停頓一拍，然後用一句平靜的話說出你真實的想法或需要。",
+      "sc": "本周留意一个你习惯性压抑自身喜好、只为讨好他人的瞬间，先停顿一拍，然后用一句平静的话说出你真实的想法或需要。"
     }
   },
   {
-    isDailyFree: false,
-    topLabelEn: "ARCHIVE EDITION",
-    topLabelCn: { tc: "典藏書目", sc: "典藏书目" },
-    id: "how-to-fix-a-broken-heart",
-    categoryFilter: "HEARTBREAK, GRIEF & LETTING GO",
-    categoryEn: "HEARTBREAK, GRIEF & LETTING GO",
-    categoryCn: { tc: "心碎療癒、哀傷與放手 /", sc: "心碎疗愈、哀伤与放手 /" },
-    durationEn: "DURATION: 6 MIN",
-    durationCn: { tc: "時間：6分鐘", sc: "时间：6分钟" },
-    themeEn: "THEME: FIRST AID",
-    themeCn: { tc: "主題：心碎急救", sc: "主题：心碎急救" },
-    titleLinesEn: ["HOW TO FIX", "A BROKEN HEART"],
-    titleFlatEn: "How to Fix a Broken Heart",
-    titleCn: { tc: "如何修復破碎的心", sc: "如何修复破碎的心" },
-    authorLine: "Guy Winch (2018)",
-    quoteEn: "“Heartbreak is a form of grief. We need to treat it with the same seriousness we grant other losses.”",
-    quoteCn: { tc: "“心碎是一種哀傷。我們該用對待其他失落的嚴肅，來對待它。”", sc: "“心碎是一种哀伤。我们该用对待其他失落的严肃，来对待它。”" },
-    leadEn: "The body does not know this is 'only a breakup.' It is trying to find someone who is no longer a harbor.",
-    leadCn: { tc: "身體不知道這「只是分手」。它還在找一個不再是港灣的人。", sc: "身体不知道这“只是分手”。它还在找一个不再是港湾的人。" },
-    thesisEn: "We insult heartbreak by calling it drama, then wonder why we cannot work. Psychologist Guy Winch shows that romantic loss lights the same neural pathways as physical pain and addiction withdrawal. Rumination keeps reopening the wound; social media is a hand on the bruise. Emotional first aid is practical: limit contact, treat the loss as grief, and rebuild a self that is not a museum of the other person.",
-    thesisCn: {
-      tc: "我們把心碎叫成矯情，然後奇怪自己為什麼無法工作。心理學家蓋伊·溫奇指出，愛情失落點亮的神經路徑，與身體疼痛、成癮戒斷相同。反芻等於反覆揭開傷口；社群媒體是按在瘀青上的手。情感急救很具體：限制聯繫、把這次失落當成哀傷、重建一個不是對方博物館的自己。",
-      sc: "我们把心碎叫成矫情，然后奇怪自己为什么无法工作。心理学家盖伊·温奇指出，爱情失落点亮的神经路径，与身体疼痛、成瘾戒断相同。反刍等于反复揭开伤口；社交媒体是按在瘀青上的手。情感急救很具体：限制联系、把这次失落当成哀伤、重建一个不是对方博物馆的自己。"
+    "id": "marriage-a-history",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
     },
-    highlights: [
+    "categoryFilter": "LONG-TERM PARTNERSHIP & MARRIAGE",
+    "categoryEn": "LONG-TERM PARTNERSHIP & MARRIAGE",
+    "categoryCn": {
+      "tc": "長期伴侶關係與婚姻經營 /",
+      "sc": "长期伴侣关系与婚姻经营 /"
+    },
+    "durationEn": "DURATION: 7 MIN",
+    "durationCn": {
+      "tc": "時間：7分鐘",
+      "sc": "时间：7分钟"
+    },
+    "themeEn": "THEME: EXPECTATION",
+    "themeCn": {
+      "tc": "主題：期待",
+      "sc": "主题：期待"
+    },
+    "titleLinesEn": [
+      "MARRIAGE,",
+      "A HISTORY"
+    ],
+    "titleFlatEn": "Marriage, a History",
+    "titleCn": {
+      "tc": "婚姻簡史",
+      "sc": "婚姻简史"
+    },
+    "authorLine": "Stephanie Coontz (2005)",
+    "quoteEn": "“Marriage has become more optional, more fragile, and more joyful.”",
+    "quoteCn": {
+      "tc": "“婚姻變得更可選擇、更脆弱，也更快樂。”",
+      "sc": "“婚姻变得更可选择、更脆弱，也更快乐。”"
+    },
+    "leadEn": "For thousands of years, marriage served as a practical tool for survival, property, and political alliances rather than romance.",
+    "leadCn": {
+      "tc": "數千年來，婚姻是求生、財產與政治結盟的實用工具，而不是浪漫本身。",
+      "sc": "数千年来，婚姻是求生、财产与政治结盟的实用工具，而不是浪漫本身。"
+    },
+    "thesisEn": "When modern society turned marriage into an exclusive quest for emotional fulfillment and personal identity, it created a union that is freer yet far more fragile. The love-match is a recent historical experiment that asks one person to carry emotional, sexual, and social roles once shared by a whole community. Stephanie Coontz shows why egalitarian marriages can feel so brittle: we asked romance to do the work kinship and duty once did. Seeing that history does not diminish love; it restores proportion to what one partner can reasonably be.",
+    "thesisCn": {
+      "tc": "當現代社會把婚姻改寫成追尋情感圓滿與自我認同的唯一途徑，這份結合變得更自由，也更脆弱。以愛情為基礎的婚姻是一場晚近的歷史實驗，它要求單一伴侶承擔過去由整個社群分擔的情感、性與社會角色。庫恩茨提醒我們：今日婚姻之所以既平等又易碎，是因為我們把親族與義務曾經分擔的重量，全部壓在浪漫之上。",
+      "sc": "当现代社会把婚姻改写成追寻情感圆满与自我认同的唯一途径，这份结合变得更自由，也更脆弱。以爱情为基础的婚姻是一场晚近的历史实验，它要求单一伴侣承担过去由整个社群分担的情感、性与社会角色。库恩茨提醒我们：今日婚姻之所以既平等又易碎，是因为我们把亲族与义务曾经分担的重量，全部压在浪漫之上。"
+    },
+    "highlights": [
       {
-        num: "01",
-        titleEn: "Pain That Registers as Pain",
-        titleCn: { tc: "疼就是疼", sc: "疼就是疼" },
-        conceptEn: "Brain imaging, Winch notes, shows social rejection activating regions involved in physical pain; dismissing heartbreak as 'just feelings' delays care.",
-        plainEn: "Plain Explanation: A cold reply can hit like a missed step on the stairs. The drop is real. You would not tell someone with a sprained ankle to walk it off at a run.",
-        plainCn: { tc: "白話解析：一句冷的回覆，可以像樓梯踏空。那一沉是真的。你不會叫扭傷腳踝的人跑著走掉。", sc: "白话解析：一句冷的回复，可以像楼梯踏空。那一沉是真的。你不会叫扭伤脚踝的人跑着走掉。" }
+        "num": "01",
+        "titleEn": "Marriage as an Economic Merger",
+        "titleCn": {
+          "tc": "作為經濟合併的婚姻",
+          "sc": "作为经济合并的婚姻"
+        },
+        "conceptEn": "Historically, weddings united families, estates, and labor pools rather than two autonomous individuals in love.",
+        "plainEn": "Plain Explanation: In agricultural and aristocratic societies, choosing a spouse was a business decision made by parents to secure land, dowries, and reliable farm hands, leaving personal affection as a lucky bonus rather than a requirement.",
+        "plainCn": {
+          "tc": "白話解析：在農業與貴族社會中，選擇配偶是父母為了確保土地、嫁妝與勞動力而做的商業決策，個人感情只是額外的幸運，而非必要條件。",
+          "sc": "白话解析：在农业与贵族社会中，选择配偶是父母为了确保土地、嫁妆与劳动力而做的商业决策，个人感情只是额外的幸运，而非必要条件。"
+        }
       },
       {
-        num: "02",
-        titleEn: "Rumination Reopens the Cut",
-        titleCn: { tc: "反芻會把傷口再開一次", sc: "反刍会把伤口再开一次" },
-        conceptEn: "Replaying the last conversation, the last kindness, the hypothetical 'if only' keeps the attachment system searching for a person who is not coming back tonight.",
-        plainEn: "Plain Explanation: Checking their story again is pressing a bruise to confirm it still hurts. It will. You already know.",
-        plainCn: { tc: "白話解析：再看一次他們的動態，是按瘀青確認它還疼。會疼。你已經知道。", sc: "白话解析：再看一次他们的动态，是按瘀青确认它还疼。会疼。你已经知道。" }
+        "num": "02",
+        "titleEn": "Love as a Threat to Social Order",
+        "titleCn": {
+          "tc": "曾被視為威脅的愛情",
+          "sc": "曾被视为威胁的爱情"
+        },
+        "conceptEn": "Pre-modern thinkers viewed passionate romantic love as a dangerous distraction that disrupted family duty and social stability.",
+        "plainEn": "Plain Explanation: Ancient Greeks, medieval nobles, and traditional clans feared that marrying for passion would blind young people to wealth, status, and obligations, which is why true romance was often assumed to exist only outside marriage.",
+        "plainCn": {
+          "tc": "白話解析：古希臘人、中世紀貴族與傳統宗族都擔心為激情結婚會讓人忽視財富、地位與責任，因此當時人們普遍認為真正的浪漫只存在於婚姻之外。",
+          "sc": "白话解析：古希腊人、中世纪贵族与传统宗族都担心为激情结婚会让人忽视财富、地位与责任，因此当时人们普遍认为真正的浪漫只存在于婚姻之外。"
+        }
       },
       {
-        num: "03",
-        titleEn: "No Contact as a Cast",
-        titleCn: { tc: "不聯繫像打石膏", sc: "不联系像打石膏" },
-        conceptEn: "A period of no contact is not cruelty to yourself; it is a cast so the bone can knit. Intermittent crumbs restart the addiction loop.",
-        plainEn: "Plain Explanation: A broken bone does not heal if you keep testing it on the stairs. A 'just checking in' text is another test.",
-        plainCn: { tc: "白話解析：骨折的人若一直用那條腿試樓梯，骨就接不上。「只是問問」的訊息，是再試一次。", sc: "白话解析：骨折的人若一直用那条腿试楼梯，骨就接不上。“只是问问”的讯息，是再试一次。" }
+        "num": "03",
+        "titleEn": "The Rise of the Breadwinner-Homemaker Ideal",
+        "titleCn": {
+          "tc": "男主外女主內模式的興起",
+          "sc": "男主外女主内模式的兴起"
+        },
+        "conceptEn": "The Industrial Revolution separated paid work from the home, inventing the sentimental nuclear family in the nineteenth century.",
+        "plainEn": "Plain Explanation: When factories pulled men out of household production, marriage shifted from a shared economic workshop into a private emotional sanctuary where husbands earned wages and wives provided unpaid domestic care.",
+        "plainCn": {
+          "tc": "白話解析：當工廠將男性從家庭生產中抽離，婚姻便從共同勞作的經濟作坊，轉變為丈夫賺取薪資、妻子提供無償照護的私人情感避風港。",
+          "sc": "白话解析：当工厂将男性从家庭生产中抽离，婚姻便从共同劳作的经济作坊，转变为丈夫赚取薪资、妻子提供无偿照护的私人情感避风港。"
+        }
       }
     ],
-    extraHighlights: [
+    "extraHighlights": [
       {
-        num: "04",
-        titleEn: "The Museum of an Ex",
-        titleCn: { tc: "前任的博物館", sc: "前任的博物馆" },
-        conceptEn: "Idealization edits out the reasons the relationship ended and turns the person into a shrine, which makes ordinary new days look pale.",
-        plainEn: "Plain Explanation: You remember the concert and forget the nights you felt alone beside them. The shrine is a highlight reel, not a documentary.",
-        plainCn: { tc: "白話解析：你記得那場演唱會，忘了那些人在旁邊你仍孤單的夜。神龕是精華剪輯，不是紀錄片。", sc: "白话解析：你记得那场演唱会，忘了那些人在旁边你仍孤单的夜。神龛是精华剪辑，不是纪录片。" }
+        "num": "04",
+        "titleEn": "The Radical Love Revolution",
+        "titleCn": {
+          "tc": "激進的愛情革命",
+          "sc": "激进的爱情革命"
+        },
+        "conceptEn": "Enlightenment ideals of personal happiness and free choice eventually elevated romantic love to the sole valid reason to marry.",
+        "plainEn": "Plain Explanation: By the late eighteenth and nineteenth centuries, people began insisting that marrying without love was immoral, transforming a public institution regulated by church and state into a private contract based on mutual feelings.",
+        "plainCn": {
+          "tc": "白話解析：到了十八世紀末與十九世紀，人們開始認為沒有愛情的婚姻是不道德的，這將原本受教會與國家規範的公共制度，轉化為基於雙方感受的私人契約。",
+          "sc": "白话解析：到了十八世纪末与十九世纪，人们开始认为没有爱情的婚姻是不道德的，这将原本受教会与国家规范的公共制度，转化为基于双方感受的私人契约。"
+        }
       },
       {
-        num: "05",
-        titleEn: "Loss of Self, Not Only of Them",
-        titleCn: { tc: "失去的不只是他們", sc: "失去的不只是他们" },
-        conceptEn: "Heartbreak often includes the collapse of a future story and of the identity you held inside the pair; grief has to include that self.",
-        plainEn: "Plain Explanation: You are not only missing a person. You are missing the Saturday version of you that existed when they were coming over.",
-        plainCn: { tc: "白話解析：你不只在想一個人。你也在想那個「他們會過來」的週六版自己。", sc: "白话解析：你不只在想一个人。你也在想那个“他们会过来”的周六版自己。" }
+        "num": "05",
+        "titleEn": "Why the 1950s Were an Exception",
+        "titleCn": {
+          "tc": "為何一九五〇年代只是歷史特例",
+          "sc": "为何一九五〇年代只是历史特例"
+        },
+        "conceptEn": "The post-war suburban nuclear family was a brief economic anomaly rather than a timeless traditional standard.",
+        "plainEn": "Plain Explanation: Many people look back at the 1950s as the golden age of traditional marriage, yet early marriage ages and single-income prosperity were temporary products of post-war government subsidies and booming industrial wages.",
+        "plainCn": {
+          "tc": "白話解析：許多人將一九五〇年代視為傳統婚姻的黃金時代，但當時的早婚與單薪繁榮其實只是戰後政府補貼與工業薪資暴漲下的短暫產物。",
+          "sc": "白话解析：许多人将一九五〇年代视为传统婚姻的黄金时代，但当时的早婚与单薪繁荣其实只是战后政府补贴与工业薪资暴涨下的短暂产物。"
+        }
       },
       {
-        num: "06",
-        titleEn: "First Aid Is Physical",
-        titleCn: { tc: "急救也是身體的", sc: "急救也是身体的" },
-        conceptEn: "Sleep, food, walking, and fewer late-night screens are not self-help clichés here; they are how a dysregulated body comes back within reach of comfort.",
-        plainEn: "Plain Explanation: Skip meals and scroll until three, and the heartbreak gets a megaphone. A walk and an actual dinner shrink the room it occupies.",
-        plainCn: { tc: "白話解析：不吃飯滑到三點，心碎會拿到擴音器。走路、一頓真的晚餐，會讓它佔的房間小一點。", sc: "白话解析：不吃饭滑到三点，心碎会拿到扩音器。走路、一顿真的晚餐，会让它占的房间小一点。" }
+        "num": "06",
+        "titleEn": "The All-or-Nothing Expectation Trap",
+        "titleCn": {
+          "tc": "全有或全無的期待陷阱",
+          "sc": "全有或全无的期待陷阱"
+        },
+        "conceptEn": "Modern couples expect one partner to be a best friend, passionate lover, co-parent, and financial equal all at once.",
+        "plainEn": "Plain Explanation: Because we no longer rely on extended clans or rigid gender scripts to hold marriages together, any drop in emotional intimacy or sexual chemistry feels like a fatal flaw that justifies ending the relationship.",
+        "plainCn": {
+          "tc": "白話解析：由於我們不再依賴大家族或僵化的性別分工來維繫婚姻，一旦情感親密或性吸引力下降，就會被視為足以結束關係的致命缺陷。",
+          "sc": "白话解析：由于我们不再依赖大家族或僵化的性别分工来维系婚姻，一旦情感亲密或性吸引力下降，就会被视为足以结束关系的致命缺陷。"
+        }
       },
       {
-        num: "07",
-        titleEn: "Grief Is Not a Straight Road",
-        titleCn: { tc: "哀傷不是直路", sc: "哀伤不是直路" },
-        conceptEn: "Winch aligns with grief science: waves return. A good afternoon does not mean you are 'over it,' and a hard Tuesday does not mean you failed.",
-        plainEn: "Plain Explanation: Tide comes back. That does not mean you are swimming to the old harbor. It means the body is still learning they are not there.",
-        plainCn: { tc: "白話解析：潮水會回來。那不表示你在游回舊港。那表示身體還在學習：他們不在。", sc: "白话解析：潮水会回来。那不表示你在游回旧港。那表示身体还在学习：他们不在。" }
+        "num": "07",
+        "titleEn": "The Paradox of Marital Fragility",
+        "titleCn": {
+          "tc": "婚姻脆弱性的弔詭",
+          "sc": "婚姻脆弱性的悖论"
+        },
+        "conceptEn": "The very freedoms that make modern marriages more egalitarian and fulfilling also make them structurally easier to dissolve.",
+        "plainEn": "Plain Explanation: Women's economic independence and legal equality freed people from staying in abusive or loveless unions, meaning surviving marriages are happier than ever before, while unsatisfactory ones no longer endure out of sheer necessity.",
+        "plainCn": {
+          "tc": "白話解析：女性的經濟獨立與法律平等讓人們不必再忍受虐待或無愛的婚姻，這意味著維持下來的婚姻比以往更幸福，而不滿意的婚姻則不再因生存所迫而勉強湊合。",
+          "sc": "白话解析：女性的经济独立与法律平等让人们不必再忍受虐待或无爱的婚姻，这意味着维持下来的婚姻比以往更幸福，而不满意的婚姻则不再因生存所迫而勉强凑合。"
+        }
       },
       {
-        num: "08",
-        titleEn: "Love Again Without Erasing",
-        titleCn: { tc: "再愛，不必擦掉", sc: "再爱，不必擦掉" },
-        conceptEn: "Recovery is not pretending the love was a mistake. It is letting the person become someone you remember without using them as the measure of every new door.",
-        plainEn: "Plain Explanation: You can keep the good days in a drawer and still walk out. The drawer is allowed. It should not be the whole house.",
-        plainCn: { tc: "白話解析：好的日子可以放進抽屜，你仍出門。抽屜可以有。它不該是整棟房子。", sc: "白话解析：好的日子可以放进抽屉，你仍出门。抽屉可以有。它不该是整栋房子。" }
+        "num": "08",
+        "titleEn": "Sharing the Emotional Load",
+        "titleCn": {
+          "tc": "分擔情感的重量",
+          "sc": "分担情感的重量"
+        },
+        "conceptEn": "Sustainable modern partnerships thrive when couples build wider social support networks instead of isolating inside their romance.",
+        "plainEn": "Plain Explanation: Recognizing that no single partner can meet every psychological need relieves toxic pressure on a marriage, allowing couples to rely on close friends, mentors, and community ties alongside their romantic bond.",
+        "plainCn": {
+          "tc": "白話解析：認清沒有任何單一伴侶能滿足所有心理需求，可以減輕婚姻中的過度壓力，讓伴侶在浪漫關係之外，也能依靠摯友、導師與社群連結來獲得支持。",
+          "sc": "白话解析：认清没有任何单一伴侣能满足所有心理需求，可以减轻婚姻中的过度压力，让伴侣在浪漫关系之外，也能依靠挚友、导师与社群连结来获得支持。"
+        }
       }
     ],
-    easternResonance: {
-      quote: { tc: "「人生若只如初見，何事秋風悲畫扇。」", sc: "“人生若只如初见，何事秋风悲画扇。”" },
-      source: { tc: "——納蘭性德〈木蘭詞·擬古決絕詞柬友〉", sc: "——纳兰性德〈木兰词·拟古决绝词柬友〉" },
-      commentary: {
-        tc: "納蘭把「初見」寫成一種再也回不去的溫度，扇面在秋風裡變涼。溫奇要我們把這涼當成哀傷來處理，而不是當成人格失敗。初見可以珍藏；畫扇不必天天拿在手上搧那道傷。放手，是讓秋天成為秋天，不是把春天判成騙局。",
-        sc: "纳兰把“初见”写成一种再也回不去的温度，扇面在秋风里变凉。温奇要我们把这凉当成哀伤来处理，而不是当成人格失败。初见可以珍藏；画扇不必天天拿在手上扇那道伤。放手，是让秋天成为秋天，不是把春天判成骗局。"
+    "easternResonance": {
+      "quote": {
+        "tc": "「以『己』為中心，像石子一般投入水中，和別人所聯繫成的社會關係，不像團體中的分子一般大家立在一個平面上的，而是像水的波紋一般，一圈圈推出去，愈推愈遠，也愈推愈薄。」",
+        "sc": "“以‘己’为中心，像石子一般投入水中，和别人所联系成的社会关系，不像团体中的分子一般大家立在一个平面上的，而是像水的波纹一般，一圈圈推出去，愈推愈远，也愈推愈薄。”"
+      },
+      "source": {
+        "tc": "—— 費孝通《鄉土中國》〈差序格局〉",
+        "sc": "—— 费孝通《乡土中国》〈差序格局〉"
+      },
+      "commentary": {
+        "tc": "費孝通揭示傳統中國婚姻並非兩顆孤立靈魂的結合，而是家族波紋向外擴張、延續宗祧與倫理秩序的樞紐；當現代社會將這層厚重的差序網絡抽空，只剩下夫妻二人單獨承載所有情感重量時，婚姻便從穩固的結構轉變為高風險的親密實驗。",
+        "sc": "费孝通揭示传统中国婚姻并非两颗孤立灵魂的结合，而是家族波纹向外扩张、延续宗祧与伦理秩序的枢纽；当现代社会将这层厚重的差序网络抽空，只剩下夫妻二人单独承载所有情感重量时，婚姻便从稳固的结构转变为高风险的亲密实验。"
       }
     },
-    actionPromptEn: "For twenty-four hours, do not open their profile. When the urge arrives, stand up, drink water, and write one sentence about what you needed in the relationship—not what they did last.",
-    actionPromptCn: {
-      tc: "二十四小時內不打開他們的頁面。衝動來時，站起來，喝水，寫下一句你在關係裡需要的——不是他們上次做了什麼。",
-      sc: "二十四小时内不打开他们的页面。冲动来时，站起来，喝水，写下一句你在关系里需要的——不是他们上次做了什么。"
+    "actionPromptEn": "List three emotional, practical, or social needs you currently expect your partner alone to meet, and identify one friend, family member, or community space that can help share that weight this week.",
+    "actionPromptCn": {
+      "tc": "列出你目前期待伴侶獨自滿足的三項情感、生活或社交需求，並在本週找出一位朋友、家人或社群空間來共同分擔這份重量。",
+      "sc": "列出你目前期待伴侣独自满足的三项情感、生活或社交需求，并在本周找出一位朋友、家人或社群空间来共同分担这份重量。"
     }
   },
   {
-    isDailyFree: false,
-    topLabelEn: "ARCHIVE EDITION",
-    topLabelCn: { tc: "典藏書目", sc: "典藏书目" },
-    id: "how-to-not-die-alone",
-    categoryFilter: "DATING, CHOICE & MODERN ROMANCE",
-    categoryEn: "DATING, CHOICE & MODERN ROMANCE",
-    categoryCn: { tc: "約會心理、擇偶與現代親密 /", sc: "约会心理、择偶与现代亲密 /" },
-    durationEn: "DURATION: 6 MIN",
-    durationCn: { tc: "時間：6分鐘", sc: "时间：6分钟" },
-    themeEn: "THEME: THE SPARK MYTH",
-    themeCn: { tc: "主題：火花迷思", sc: "主题：火花迷思" },
-    titleLinesEn: ["HOW TO NOT", "DIE ALONE"],
-    titleFlatEn: "How to Not Die Alone",
-    titleCn: { tc: "別一個人終老", sc: "科学恋爱指南" },
-    authorLine: "Logan Ury (2021)",
-    quoteEn: "“Stop looking for the spark. Look for the person you want to build a life with.”",
-    quoteCn: { tc: "“別再只找那道火花。去找那個你願意一起過生活的人。”", sc: "“别再只找那道火花。去找那个你愿意一起过生活的人。”" },
-    leadEn: "Endless choice can feel like freedom and still leave you dating your anxiety.",
-    leadCn: { tc: "無窮的選擇可以像自由，仍讓你在跟自己的焦慮約會。", sc: "无穷的选择可以像自由，仍让你在跟自己的焦虑约会。" },
-    thesisEn: "We swipe as if the perfect person is one more profile away, then call the hesitation standards. Behavioral scientist Logan Ury names the traps: maximizing until nobody is enough, worshipping instant chemistry, and treating dating as a performance. Happier pairs, her research suggests, are often satisficers who look for kindness you can live with, not fireworks that hide a stranger. The work is on the picker, not only the profile.",
-    thesisCn: {
-      tc: "我們滑著，彷彿完美的人還在下一張名片後面，再把猶豫叫做標準。行為科學家蘿根·尤里點出陷阱：最大化到誰都不夠、膜拜瞬間化學、把約會當成表演。她的研究顯示，比較幸福的一對，常常是「夠好就選」的人：找能一起過的善意，而不是用煙火蓋住一個陌生人。要修的是挑選的那隻手，不只是簡介。",
-      sc: "我们滑着，仿佛完美的人还在下一张名片后面，再把犹豫叫做标准。行为科学家洛根·尤里点出陷阱：最大化到谁都不够、膜拜瞬间化学、把约会当成表演。她的研究显示，比较幸福的一对，常常是“够好就选”的人：找能一起过的善意，而不是用烟火盖住一个陌生人。要修的是挑选的那只手，不只是简介。"
+    "id": "the-state-of-affairs",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
     },
-    highlights: [
+    "categoryFilter": "INFIDELITY, TRUST & BETRAYAL RECOVERY",
+    "categoryEn": "INFIDELITY, TRUST & BETRAYAL RECOVERY",
+    "categoryCn": {
+      "tc": "背叛修復、信任重建與忠誠 /",
+      "sc": "背叛修复、信任重建与忠诚 /"
+    },
+    "durationEn": "DURATION: 7 MIN",
+    "durationCn": {
+      "tc": "時間：7分鐘",
+      "sc": "时间：7分钟"
+    },
+    "themeEn": "THEME: LONGING",
+    "themeCn": {
+      "tc": "主題：渴望與背叛",
+      "sc": "主题：渴望与背叛"
+    },
+    "titleLinesEn": [
+      "THE STATE",
+      "OF AFFAIRS"
+    ],
+    "titleFlatEn": "The State of Affairs",
+    "titleCn": {
+      "tc": "外遇的真相",
+      "sc": "亲密关系的裂痕"
+    },
+    "authorLine": "Esther Perel (2017)",
+    "quoteEn": "“Affairs are rarely about sex alone; they are often a desperate search for an alternate self we thought we had lost.”",
+    "quoteCn": {
+      "tc": "“外遇很少僅僅關乎性，它往往是我們在絕望中尋找那個以為早已遺失的另一個自己。”",
+      "sc": "“出轨很少仅仅关乎性，它往往是我们在绝望中寻找那个以为早已遗失的另一个自己。”"
+    },
+    "leadEn": "Infidelity shatters the foundational narrative of a relationship, yet understanding the longing behind betrayal offers couples an unexpected lens into who they have become.",
+    "leadCn": {
+      "tc": "背叛會拆掉關係的地基故事；看懂外遇底下的渴望，反而能看清兩人已經變成什麼樣的人。",
+      "sc": "背叛会拆掉关系的地基故事；看懂出轨底下的渴望，反而能看清两人已经变成什么样的人。"
+    },
+    "thesisEn": "Modern marriage expects a single partner to fulfill our deepest needs for both security and adventure, creating an impossible tension. When affairs happen, they often reflect an existential yearning for vitality rather than a simple rejection of a spouse. True recovery requires abandoning the fantasy of restoring the old marriage and instead facing the raw truth to build a completely new bond—or part with hard-won clarity.",
+    "thesisCn": {
+      "tc": "現代婚姻期待單一伴侶同時滿足安全感與冒險渴望，這種張力往往令人窒息。外遇的發生，常源於對生命活力的深層追尋，而非單純對伴侶的否定。真正的修復不在於幻想回到過去，而在於直面殘酷真相，共同建立全新的關係，或帶著清醒的認知各自轉身。",
+      "sc": "现代婚姻期待单一伴侣同时满足安全感与冒险渴望，这种张力往往令人窒息。出轨的发生，常源于对生命活力的深层追寻，而非单纯对伴侣的否定。真正的修复不在于幻想回到过去，而在于直面残酷真相，共同建立全新的关系，或带着清醒的认知各自转身。"
+    },
+    "highlights": [
       {
-        num: "01",
-        titleEn: "Maximizer Versus Satisficer",
-        titleCn: { tc: "最大化者與「夠好就選」", sc: "最大化者与“够好就选”" },
-        conceptEn: "Maximizers hunt the objectively best option and stay haunted by the unswiped; satisficers choose someone who meets their real criteria and then invest.",
-        plainEn: "Plain Explanation: Standing in the cereal aisle for twenty minutes does not get you a better breakfast. It gets you cold milk and a sense that you failed the aisle.",
-        plainCn: {
-          tc: "白話解析：在麥片貨架前站二十分鐘，換不來更好的早餐。只換來冰掉的牛奶，和一種你在貨架前失敗了的感覺。",
-          sc: "白话解析：在麦片货架前站二十分钟，换不来更好的早餐。只换来冰掉的牛奶，和一种你在货架前失败了的感觉。"
+        "num": "01",
+        "titleEn": "A New Self, Not Only a New Body",
+        "titleCn": {
+          "tc": "尋找新自我，而非僅是新肉體",
+          "sc": "寻找新自我，而非仅是新肉体"
+        },
+        "conceptEn": "When we stray, we are frequently seeking an unlived version of ourselves rather than escaping our partner. The affair becomes a mirror reflecting vitality that domestic routines have quietly dulled.",
+        "plainEn": "Plain Explanation: People often cheat not because they stop loving their spouse, but because they miss who they used to be outside daily chores and roles.",
+        "plainCn": {
+          "tc": "白話解析：人們外遇往往不是因為不愛伴侶了，而是懷念在柴米油鹽之外那個充滿活力、不被日常角色束縛的自己。",
+          "sc": "白话解析：人们出轨往往不是因为不爱伴侣了，而是怀念在柴米油盐之外那个充满活力、不被日常角色束缚的自己。"
         }
       },
       {
-        num: "02",
-        titleEn: "The Spark Is a Poor Scout",
-        titleCn: { tc: "火花是很差的偵察兵", sc: "火花是很差的侦察兵" },
-        conceptEn: "Ury's 'spark myth' warns that instant electricity often flags familiarity—including old wounds—more reliably than long-term compatibility.",
-        plainEn: "Plain Explanation: Butterflies can mean this person feels like home, including the hallway you were trying to leave. Calm on a first walk might be new, not boring.",
-        plainCn: {
-          tc: "白話解析：心動可能表示這個人像家，包括你正想離開的那條走廊。第一次散步就很安，也許是新，不是無聊。",
-          sc: "白话解析：心动可能表示这个人像家，包括你正想离开的那条走廊。第一次散步就很安，也许是新，不是无聊。"
+        "num": "02",
+        "titleEn": "Secrecy as the Deeper Wound",
+        "titleCn": {
+          "tc": "隱瞞才是更深的創傷",
+          "sc": "隐瞒才是更深的创伤"
+        },
+        "conceptEn": "While physical transgression shocks the senses, the architecture of deception erodes our sense of reality. We grieve not just the act, but the realization that our shared truth was a performance.",
+        "plainEn": "Plain Explanation: Discovering that your partner lied to your face for months hurts even more than the physical betrayal because it makes you question your own memory and judgment.",
+        "plainCn": {
+          "tc": "白話解析：發現伴侶長期對自己撒謊、隱瞞真相，往往比肉體背叛更讓人崩潰，因為這會摧毀一個人對現實與自我判斷的信任。",
+          "sc": "白话解析：发现伴侣长期对自己撒谎、隐瞒真相，往往比肉体背叛更让人崩溃，因为这会摧毁一个人对现实与自我判断的信任。"
         }
       },
       {
-        num: "03",
-        titleEn: "Abundance That Numbs",
-        titleCn: { tc: "多到失去感覺", sc: "多到失去感觉" },
-        conceptEn: "App abundance trains the brain to evaluate rather than meet, producing fatigue and a fantasy that a better match is always loading.",
-        plainEn: "Plain Explanation: A menu with two hundred dishes makes you less hungry, not more free. Close the app before dinner and talk to one actual person this week.",
-        plainCn: { tc: "白話解析：兩百道菜的菜單，讓人更不餓，不是更自由。晚餐前關掉應用，這週去跟一個真的人說話。", sc: "白话解析：两百道菜的菜单，让人更不饿，不是更自由。晚餐前关掉应用，这周去跟一个真的人说话。" }
+        "num": "03",
+        "titleEn": "Two Clocks in the Aftermath",
+        "titleCn": {
+          "tc": "創傷後的兩座時鐘",
+          "sc": "创伤后的两座时钟"
+        },
+        "conceptEn": "In the wake of discovery, partners inhabit entirely different temporal realities. The unfaithful partner longs to close the chapter; the betrayed partner remains trapped in an obsessive loop.",
+        "plainEn": "Plain Explanation: The person who cheated wants to put the past behind them quickly, while the hurt partner needs to ask endless questions before they can heal.",
+        "plainCn": {
+          "tc": "白話解析：背叛發生後，犯錯的一方總想趕快翻篇往前看，受傷的一方卻需要反覆追問細節來消化衝擊，兩人的心理時鐘完全不同步。",
+          "sc": "白话解析：背叛发生后，犯错的一方总想赶快翻篇往前看，受伤的一方却需要反复追问细节来消化冲击，两人的心理时钟完全不同步。"
+        }
       }
     ],
-    extraHighlights: [
+    "extraHighlights": [
       {
-        num: "04",
-        titleEn: "Reveal, Don't Perform",
-        titleCn: { tc: "揭示，而不是表演", sc: "揭示，而不是表演" },
-        conceptEn: "Dating as a highlight reel hides the very information you need: how they repair, how they treat waitstaff, how they sit with a quiet Tuesday.",
-        plainEn: "Plain Explanation: A perfect first-date persona is a costume. Ask one slightly real question and see whether they can sit with an unpolished answer.",
-        plainCn: {
-          tc: "白話解析：完美的第一次約會人設是戲服。問一個稍微真實的問題，看他們能不能坐在一個不打磨的答案旁邊。",
-          sc: "白话解析：完美的第一次约会人设是戏服。问一个稍微真实的问题，看他们能不能坐在一个不打磨的答案旁边。"
+        "num": "04",
+        "titleEn": "The Old Pair Does Not Return",
+        "titleCn": {
+          "tc": "舊的關係再也回不去了",
+          "sc": "旧的关系再也回不去了"
+        },
+        "conceptEn": "Couples who survive betrayal must mourn the death of their first relationship before another can take root. Attempting to return to normal only preserves the blind spots that invited the fracture.",
+        "plainEn": "Plain Explanation: Your first marriage is over once an affair is revealed; staying together means building a brand-new relationship from scratch rather than fixing the old one.",
+        "plainCn": {
+          "tc": "白話解析：一旦外遇曝光，原本那段單純的婚姻就已經結束了；選擇留下來，意味著要從零開始建立一段全新的關係，而不是修補舊夢。",
+          "sc": "白话解析：一旦出轨曝光，原本那段单纯的婚姻就已经结束了；选择留下来，意味着要从零开始建立一段全新的关系，而不是修补旧梦。"
         }
       },
       {
-        num: "05",
-        titleEn: "Disposition Over Résumé",
-        titleCn: { tc: "性情重於履歷", sc: "性情重于履历" },
-        conceptEn: "Longitudinal research Ury cites favors emotional stability and kindness over impressive but brittle traits that photograph well.",
-        plainEn: "Plain Explanation: A kind person who remembers how you take tea will still be there in February. A dazzling profile cannot sit with you in a waiting room.",
-        plainCn: { tc: "白話解析：記得你茶怎麼喝的善良，二月還在。耀眼的簡介，沒辦法在候診室陪你坐。", sc: "白话解析：记得你茶怎么喝的善良，二月还在。耀眼的简介，没办法在候诊室陪你坐。" }
+        "num": "05",
+        "titleEn": "Three People, All Real",
+        "titleCn": {
+          "tc": "三個人，皆是真實的存在",
+          "sc": "三个人，皆是真实的存在"
+        },
+        "conceptEn": "Reducing the third party to a mere villain flattens the human complexity of an affair. Every triangle involves three living individuals carrying their own vulnerabilities and desires.",
+        "plainEn": "Plain Explanation: Blaming the third person as an evil villain ignores the real human needs and choices of everyone involved in the love triangle.",
+        "plainCn": {
+          "tc": "白話解析：把第三者簡單貼上「壞人」的標籤，只會掩蓋問題的本質；三角關係裡的每個人都是有血有肉、帶著各自渴望與脆弱的真實個體。",
+          "sc": "白话解析：把第三者简单贴上“坏人”的标签，只会掩盖问题的本质；三角关系里的每个人都是有血有肉、带着各自渴望与脆弱的真实个体。"
+        }
       },
       {
-        num: "06",
-        titleEn: "Work on the Picker",
-        titleCn: { tc: "修挑選的那隻手", sc: "修挑选的那只手" },
-        conceptEn: "If you keep choosing unavailable people, the profile is not the only problem; your attraction system may be loyal to an old ache.",
-        plainEn: "Plain Explanation: If chaos feels like chemistry, a steady person can feel like a wrong aisle. Boring might be the first aisle that is actually food.",
-        plainCn: { tc: "白話解析：若亂才像化學作用，安定的人會像走錯貨架。無聊，也許是第一條真的有食物的走道。", sc: "白话解析：若乱才像化学作用，安定的人会像走错货架。无聊，也许是第一条真的有食物的走道。" }
+        "num": "06",
+        "titleEn": "Visible Remorse",
+        "titleCn": {
+          "tc": "看得見的懊悔",
+          "sc": "看得见的懊悔"
+        },
+        "conceptEn": "Healing stalls when the unfaithful partner defends their motives or minimizes the fallout out of shame. Accountability requires standing fully beside the partner's pain without excuses.",
+        "plainEn": "Plain Explanation: Saying sorry isn't enough; the partner who cheated must genuinely show they understand the pain they caused without getting defensive.",
+        "plainCn": {
+          "tc": "白話解析：光說對不起是不夠的，背叛者必須放下自我防衛與藉口，真切地看見並承接伴侶所承受的痛苦，修復才有可能開始。",
+          "sc": "白话解析：光说对不起是不够的，背叛者必须放下自我防卫与借口，真切地看见并承接伴侣所承受的痛苦，修复才有可能开始。"
+        }
       },
       {
-        num: "07",
-        titleEn: "Slow Is Data",
-        titleCn: { tc: "慢下來才有資料", sc: "慢下来才有资料" },
-        conceptEn: "Pacing intimacy lets you watch repair, not just charm. Fast fusion skips the evidence.",
-        plainEn: "Plain Explanation: Three intense weeks can feel like a novel. Six ordinary Tuesdays tell you whether they turn toward a small bid.",
-        plainCn: { tc: "白話解析：密集的三週可以像小說。六個普通的週二，才告訴你他們會不會轉向一個小小的呼喚。", sc: "白话解析：密集的三周可以像小说。六个普通的周二，才告诉你他们会不会转向一个小小的呼唤。" }
+        "num": "07",
+        "titleEn": "Forgiveness Arrives Late",
+        "titleCn": {
+          "tc": "寬恕總是姍姍來遲",
+          "sc": "宽恕总是姗姗来迟"
+        },
+        "conceptEn": "Forgiveness is not a prerequisite for beginning the work of repair; it is the quiet byproduct of sustained trust and emotional honesty.",
+        "plainEn": "Plain Explanation: You don't have to forgive your partner on day one to start healing—forgiveness usually comes much later, after months of consistent honesty.",
+        "plainCn": {
+          "tc": "白話解析：寬恕不是修復關係的前提，而是長期真誠相待後的自然結果；在悲傷被充分理解之前，強求原諒只會帶來二次傷害。",
+          "sc": "白话解析：宽恕不是修复关系的前提，而是长期真诚相待后的自然结果；在悲伤被充分理解之前，强求原谅只会带来二次伤害。"
+        }
       },
       {
-        num: "08",
-        titleEn: "Single as a Workshop",
-        titleCn: { tc: "單身是一間工房", sc: "单身是一间工房" },
-        conceptEn: "Ury's healthier singlehood is not a waiting room. It is where you practice the standards you claim you want, so you do not outsource self-worth to the next match.",
-        plainEn: "Plain Explanation: Fill a Thursday so that being chosen is a preference, not oxygen. People who already have a life date from less panic.",
-        plainCn: { tc: "白話解析：把週四過滿，讓被選中成為偏好，而不是氧氣。已經有生活的人，約會時少一點慌。", sc: "白话解析：把周四过满，让被选中成为偏好，而不是氧气。已经有生活的人，约会时少一点慌。" }
+        "num": "08",
+        "titleEn": "Either Ending Is a Life",
+        "titleCn": {
+          "tc": "無論哪種結局，都是完整的人生",
+          "sc": "无论哪种结局，都是完整的人生"
+        },
+        "conceptEn": "Cultural scripts often judge staying as weakness and leaving as failure, yet neither choice holds a monopoly on dignity.",
+        "plainEn": "Plain Explanation: Choosing to stay doesn't make you weak, and choosing to leave doesn't mean you failed; both choices can lead to a meaningful future.",
+        "plainCn": {
+          "tc": "白話解析：選擇留下不代表軟弱，選擇離開也不意味著失敗；無論是攜手重建還是各自放手，兩條路都能通往清醒而完整的人生。",
+          "sc": "白话解析：选择留下不代表软弱，选择离开也不意味着失败；无论是携手重建还是各自放手，两条路都能通往清醒而完整的人生。"
+        }
       }
     ],
-    easternResonance: {
-      quote: { tc: "「婚姻像一座圍城，城外的人想衝進去，城裡的人想逃出來。」", sc: "“婚姻像一座围城，城外的人想冲进去，城里的人想逃出来。”" },
-      source: { tc: "——錢鍾書《圍城》", sc: "——钱锺书《围城》" },
-      commentary: {
-        tc: "錢鍾書的圍城，寫的是選擇的焦慮與進去之後的幻滅。尤里要打破的「再滑一張就對了」，正是城外那份無窮菜單。科學擇偶並不冷血：先看星期二是否還能相向，再決定要不要進城——火花不是城門的鑰匙。",
-        sc: "钱锺书的围城，写的是选择的焦虑与进去之后的幻灭。尤里要打破的“再滑一张就对了”，正是城外那份无穷菜单。科学择偶并不冷血：先看星期二是否还能相向，再决定要不要进城——火花不是城门的钥匙。"
+    "easternResonance": {
+      "quote": {
+        "tc": "「世鈞，我們回不去了。」",
+        "sc": "“世钧，我们回不去了。”"
+      },
+      "source": {
+        "tc": "—— 張愛玲《半生緣》",
+        "sc": "—— 张爱玲《半生缘》"
+      },
+      "commentary": {
+        "tc": "張愛玲筆下的這句嘆息，道盡了親密關係經歷劇變後的不可逆性。正如佩瑞爾所言，外遇後的修復從不是時光倒流，而是在承認「回不去」的蒼涼之後，決定是否要在廢墟之上重新認識彼此。",
+        "sc": "张爱玲笔下的这句叹息，道尽了亲密关系经历剧变后的不可逆性。正如佩瑞尔所言，出轨后的修复从不是时光倒流，而是在承认“回不去”的苍凉之后，决定是否要在废墟之上重新认识彼此。"
       }
     },
-    actionPromptEn: "Before your next date or swipe session, write three non-negotiables that are about character (kindness, repair, reliability)—not height, job title, or spark. Keep the list in view.",
-    actionPromptCn: {
-      tc: "下一次約會或滑卡前，寫三條關於品格的底線（善意、修復、可靠）——不是身高、職稱或火花。把清單放在眼前。",
-      sc: "下一次约会或滑卡前，写三条关于品格的底线（善意、修复、可靠）——不是身高、职称或火花。把清单放在眼前。"
+    "actionPromptEn": "Identify one unspoken longing or vital part of yourself you have shelved in your current relationship, and share it honestly with your partner this week without blame. If you are single, write it down and do not send it.",
+    "actionPromptCn": {
+      "tc": "寫下一個你在現有關係中擱置已久的渴望或真實自我。若有伴侶，本週找個平靜時刻不帶指責地分享；若沒有，只寫下來，不要發出。",
+      "sc": "写下一个你在现有关系中搁置已久的渴望或真实自我。若有伴侣，本周找个平静时刻不带指责地分享；若没有，只写下来，不要发出。"
     }
   },
   {
-    isDailyFree: false,
-    topLabelEn: "ARCHIVE EDITION",
-    topLabelCn: { tc: "典藏書目", sc: "典藏书目" },
-    id: "the-art-of-loving",
-    categoryFilter: "PHILOSOPHY, SOCIOLOGY & SPIRITUALITY OF LOVE",
-    categoryEn: "PHILOSOPHY, SOCIOLOGY & SPIRITUALITY OF LOVE",
-    categoryCn: { tc: "愛的哲學、社會學與靈性 /", sc: "爱的哲学、社会学与灵性 /" },
-    durationEn: "DURATION: 7 MIN",
-    durationCn: { tc: "時間：7分鐘", sc: "时间：7分钟" },
-    themeEn: "THEME: PRACTICE",
-    themeCn: { tc: "主題：作為技藝", sc: "主题：作为技艺" },
-    titleLinesEn: ["THE ART", "OF LOVING"],
-    titleFlatEn: "The Art of Loving",
-    titleCn: { tc: "愛的藝術", sc: "爱的艺术" },
-    authorLine: "Erich Fromm (1956)",
-    quoteEn: "“Love is an activity, not a passive affect.”",
-    quoteCn: { tc: "“愛是一種行動，不是等來的感覺。”", sc: "“爱是一种行动，不是等来的感觉。”" },
-    leadEn: "Love is not winning someone. It is care you can practice, even on a Tuesday when nobody is watching.",
-    leadCn: { tc: "愛不是贏得一個人。愛是一種照料，星期二沒有人看的時候也可以練。", sc: "爱不是赢得一个人。爱是一种照料，星期二没有人看的时候也可以练。" },
-    thesisEn: "We wait to be struck by love as if it were weather, then call the waiting fate. Social philosopher Erich Fromm argues that love is an art: care, responsibility, respect, and knowledge, practiced with the discipline of a craft. Using another person as a mirror—I like you when you like me—is not love. It is hunger wearing a romantic coat. The work begins in how we attend, not in whether we have been chosen.",
-    thesisCn: {
-      tc: "我們等愛來襲，像等天氣，再把等待叫做命運。社會哲學家埃里希·弗洛姆認為愛是一種技藝：照料、責任、尊重與認識，要像手藝一樣練習。把人當鏡子——你喜歡我時我才喜歡你——不是愛。那是飢餓穿了浪漫的外套。功課從我們如何對待開始，不是從有沒有被選中開始。",
-      sc: "我们等爱来袭，像等天气，再把等待叫做命运。社会哲学家埃里希·弗洛姆认为爱是一种技艺：照料、责任、尊重与认识，要像手艺一样练习。把人当镜子——你喜欢我时我才喜欢你——不是爱。那是饥饿穿了浪漫的外套。功课从我们如何对待开始，不是从有没有被选中开始。"
+    "id": "how-to-fix-a-broken-heart",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
     },
-    highlights: [
+    "categoryFilter": "HEARTBREAK, GRIEF & LETTING GO",
+    "categoryEn": "HEARTBREAK, GRIEF & LETTING GO",
+    "categoryCn": {
+      "tc": "心碎療癒、哀傷與放手 /",
+      "sc": "心碎疗愈、哀伤与放手 /"
+    },
+    "durationEn": "DURATION: 6 MIN",
+    "durationCn": {
+      "tc": "時間：6分鐘",
+      "sc": "时间：6分钟"
+    },
+    "themeEn": "THEME: FIRST AID",
+    "themeCn": {
+      "tc": "主題：心碎急救",
+      "sc": "主题：心碎急救"
+    },
+    "titleLinesEn": [
+      "HOW TO FIX",
+      "A BROKEN HEART"
+    ],
+    "titleFlatEn": "How to Fix a Broken Heart",
+    "titleCn": {
+      "tc": "如何修復破碎的心",
+      "sc": "如何修复破碎的心"
+    },
+    "authorLine": "Guy Winch (2018)",
+    "quoteEn": "“Heartbreak is a master manipulator; it convinces us that the person who caused our pain is the only one who can relieve it.”",
+    "quoteCn": {
+      "tc": "“心碎是個高明的操縱者，它會說服我們，那個帶給我們痛苦的人，也是唯一能解除痛苦的人。”",
+      "sc": "“心碎是个高明的操纵者，它会说服我们，那个带给我们痛苦的人，也是唯一能解除痛苦的人。”"
+    },
+    "leadEn": "The body does not know this is only a breakup. It is trying to find someone who is no longer a harbor.",
+    "leadCn": {
+      "tc": "身體不知道這「只是分手」。它還在找一個不再是港灣的人。",
+      "sc": "身体不知道这“只是分手”。它还在找一个不再是港湾的人。"
+    },
+    "thesisEn": "Psychologist Guy Winch argues that heartbreak is a severe psychological injury that hijacks our cognitive clarity, mimics drug withdrawal, and distorts our memories. Because our minds instinctively work against our own recovery through obsessive rumination and idealization, simply waiting for time to pass often prolongs the suffering. True healing requires active emotional hygiene: cutting off digital contact, dismantling idealized fantasies, and deliberately rebuilding our fractured sense of identity.",
+    "thesisCn": {
+      "tc": "心理學家蓋伊·溫奇指出，心碎是一種嚴重的心理創傷，它會劫持我們的理性思考、引發如同戒斷毒癮般的神經反應，並扭曲我們對過去的記憶。由於大腦在心碎時會本能地透過反覆反芻與美化前任來阻礙自我康復，單純等待時間流逝往往只會延長痛苦。真正的療癒需要主動採取情緒急救：切斷數位聯繫、打破不切實際的幻想，並有意識地重建支離破碎的自我認同。",
+      "sc": "心理学家盖伊·温奇指出，心碎是一种严重的心理创伤，它会劫持我们的理性思考、引发如同戒断毒瘾般的神经反应，并扭曲我们对过去的记忆。由于大脑在心碎时会本能地通过反复反刍与美化前任来阻碍自我康复，单纯等待时间流逝往往只会延长痛苦。真正的疗愈需要主动采取情绪急救：切断数字联系、打破不切实际的幻想，并有意识地重建支离破碎的自我认同。"
+    },
+    "highlights": [
       {
-        num: "01",
-        titleEn: "An Art Requires Practice",
-        titleCn: { tc: "技藝需要練習", sc: "技艺需要练习" },
-        conceptEn: "Fromm's first claim is blunt: we expect to be skilled at love without practice, though we would not expect to play the piano by waiting for inspiration.",
-        plainEn: "Plain Explanation: You get better at care by doing it. Waiting until you already feel ready is how the instrument stays closed.",
-        plainCn: { tc: "白話解析：照料是做了才會好。等自己已經準備好了再開始，琴蓋就一直關著。", sc: "白话解析：照料是做了才会好。等自己已经准备好了再开始，琴盖就一直关着。" }
-      },
-      {
-        num: "02",
-        titleEn: "The Mirror Is Not the Person",
-        titleCn: { tc: "鏡子不是那個人", sc: "镜子不是那个人" },
-        conceptEn: "Narcissistic love uses the other to confirm the self. When they stop reflecting us flatteringly, the 'love' collapses.",
-        plainEn: "Plain Explanation: If they only count when they like you back, you are not seeing them. You are using them to feel good about yourself—like checking a shop window for your own face.",
-        plainCn: {
-          tc: "白話解析：對方只在喜歡你時才重要，你看見的不是這個人。你是在用他們確認自己還行——像在櫥窗裡找自己的臉。",
-          sc: "白话解析：对方只在喜欢你时才重要，你看见的不是这个人。你是在用他们确认自己还行——像在橱窗里找自己的脸。"
+        "num": "01",
+        "titleEn": "Treat Emotional Pain as Real Pain",
+        "titleCn": {
+          "tc": "正視心理痛楚如同身體創傷",
+          "sc": "正视心理痛楚如同身体创伤"
+        },
+        "conceptEn": "Brain imaging studies reveal that romantic rejection activates the exact same neural regions associated with physical pain and addiction withdrawal.",
+        "plainEn": "Plain Explanation: Your brain reacts to a breakup like a physical injury or drug withdrawal, so stop dismissing your distress as weakness and treat it with genuine care.",
+        "plainCn": {
+          "tc": "白話解析：大腦對失戀的反應與身體受傷或戒斷毒癮無異，別再責怪自己軟弱，請像對待真實傷口一樣認真照料這份痛楚。",
+          "sc": "白话解析：大脑对失恋的反应与身体受伤或戒断毒瘾无异，别再责怪自己软弱，请像对待真实伤口一样认真照料这份痛楚。"
         }
       },
       {
-        num: "03",
-        titleEn: "Care, Responsibility, Respect, Knowledge",
-        titleCn: { tc: "照料、責任、尊重、認識", sc: "照料、责任、尊重、认识" },
-        conceptEn: "Fromm's four elements are active: wanting them well, answering for our effect on them, allowing their otherness, and actually inquiring who they are.",
-        plainEn: "Plain Explanation: A reply is care. Running their whole evening is not. Respect means they get to like what they like, and rest how they rest.",
-        plainCn: { tc: "白話解析：回應是照料。把對方一整晚接管過去，不是。尊重是對方可以有自己的喜好、自己的休息。", sc: "白话解析：回应是照料。把对方一整晚接管过去，不是。尊重是对方可以有自己的喜好、自己的休息。" }
+        "num": "02",
+        "titleEn": "Interrupt the Rumination Loop",
+        "titleCn": {
+          "tc": "打斷反芻思維的惡性循環",
+          "sc": "打断反刍思维的恶性循环"
+        },
+        "conceptEn": "Replaying breakup scenes or searching for hidden reasons in a relationship's end is not productive insight; it repeatedly reopens the psychological wound.",
+        "plainEn": "Plain Explanation: Overanalyzing why it ended does not bring closure; it just keeps picking at the scab and prevents your mind from moving forward.",
+        "plainCn": {
+          "tc": "白話解析：反覆推敲分手的細節並不會帶來真正的釋懷，那只會不斷揭開結痂的傷口，讓你困在原地無法前行。",
+          "sc": "白话解析：反复推敲分手的细节并不会带来真正的释怀，那只会不断揭开结痂的伤口，让你困在原地无法前行。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "Enforce No Contact as a Cast",
+        "titleCn": {
+          "tc": "以「零聯繫」作為保護傷口的石膏",
+          "sc": "以“零联系”作为保护伤口的石膏"
+        },
+        "conceptEn": "Checking an ex's social media or sending casual messages delivers micro-doses of dopamine that reset the withdrawal clock and stall emotional recovery.",
+        "plainEn": "Plain Explanation: Treat strict no-contact—especially on social media—like a plaster cast on a broken bone that keeps the injury still enough to knit back together.",
+        "plainCn": {
+          "tc": "白話解析：把徹底斷聯——尤其是停止偷看對方的社群動態——當作骨折時打上的石膏，唯有完全隔離刺激，傷口才能安靜癒合。",
+          "sc": "白话解析：把彻底断联——尤其是停止偷看对方的社交动态——当作骨折时打上的石膏，唯有完全隔离刺激，伤口才能安静愈合。"
+        }
       }
     ],
-    extraHighlights: [
+    "extraHighlights": [
       {
-        num: "04",
-        titleEn: "Brotherly Love as the Base",
-        titleCn: { tc: "博愛是底座", sc: "博爱是底座" },
-        conceptEn: "Romantic intensity, Fromm warns, that cannot extend basic human solidarity becomes a private cult of two—and often a cruel one.",
-        plainEn: "Plain Explanation: Romance can look fine while you still cut a friend down at the table. How you treat people who cannot advance you is the test of the art.",
-        plainCn: {
-          tc: "白話解析：戀情可以看起來很好，你仍可以在飯桌上貶低一個朋友。你怎麼對待幫不上你忙的人，才是這門技藝的考試。",
-          sc: "白话解析：恋情可以看起来很好，你仍可以在饭桌上贬低一个朋友。你怎么对待帮不上你忙的人，才是这门技艺的考试。"
+        "num": "04",
+        "titleEn": "Dismantle the Museum of an Ex",
+        "titleCn": {
+          "tc": "拆除心中的「前任博物館」",
+          "sc": "拆除心中的“前任博物馆”"
+        },
+        "conceptEn": "Heartbreak triggers a cognitive bias that edits out a former partner's flaws while spotlighting only cherished memories, creating a false myth of perfection.",
+        "plainEn": "Plain Explanation: Write a balanced list of your ex's real flaws and the ways the relationship failed you so you stop worshipping an idealized illusion.",
+        "plainCn": {
+          "tc": "白話解析：失戀會讓人自動濾掉對方的缺點，只記得美好片段；試著列出一份客觀的缺點清單，打破你親手打造的完美幻象。",
+          "sc": "白话解析：失恋会让人自动滤掉对方的缺点，只记得美好片段；试着列出一份客观的缺点清单，打破你亲手打造的完美幻象。"
         }
       },
       {
-        num: "05",
-        titleEn: "Self-Love Is Not Selfishness",
-        titleCn: { tc: "自愛不是自私", sc: "自爱不是自私" },
-        conceptEn: "Fromm separates selfishness (using others as fuel) from self-love (a rootedness that makes giving possible).",
-        plainEn: "Plain Explanation: An empty jug cannot pour. Ordinary care for yourself—food, rest, a life—is how you still have anyone to look at with a full face.",
-        plainCn: {
-          tc: "白話解析：空罐子倒不出水。普通地照料自己——飯、歇、一點自己的生活——你才還有一張完整的臉去看人。",
-          sc: "白话解析：空罐子倒不出水。普通地照料自己——饭、歇、一点自己的生活——你才还有一张完整的脸去看人。"
+        "num": "05",
+        "titleEn": "Repair the Loss of Self",
+        "titleCn": {
+          "tc": "修補被剝離的自我認同",
+          "sc": "修补被剥离的自我认同"
+        },
+        "conceptEn": "Long-term intimacy intertwines two identities; when a relationship ends, people often suffer a sudden shrinkage in their sense of who they are.",
+        "plainEn": "Plain Explanation: Reconnect with old hobbies, personal values, and independent friendships that existed before the relationship to reclaim your full identity.",
+        "plainCn": {
+          "tc": "白話解析：親密關係會讓兩個人的生活高度重疊，分手後常讓人覺得失去了一部分自己；重拾過去的興趣與獨立社交圈，找回完整的自我。",
+          "sc": "白话解析：亲密关系会让两个人的生活高度重叠，分手后常让人觉得失去了一部分自己；重拾过去的兴趣与独立社交圈，找回完整的自我。"
         }
       },
       {
-        num: "06",
-        titleEn: "The Marketing Character",
-        titleCn: { tc: "市場性格", sc: "市场性格" },
-        conceptEn: "A culture that treats personality as a product to be sold trains us to date as brands, then feel unloved when the campaign ends.",
-        plainEn: "Plain Explanation: A huge smile meant only so they pick you again is a shop window, not a gift. A real yes and a real no are what you actually give.",
-        plainCn: {
-          tc: "白話解析：只為再被選一次而堆出來的笑，是櫥窗，不是給予。真的願意、真的不行，才是你拿出來的東西。",
-          sc: "白话解析：只为再被选一次而堆出来的笑，是橱窗，不是给予。真的愿意、真的不行，才是你拿出来的东西。"
+        "num": "06",
+        "titleEn": "Apply Physical First Aid to the Body",
+        "titleCn": {
+          "tc": "用生理照護穩定情緒風暴",
+          "sc": "用生理照护稳定情绪风暴"
+        },
+        "conceptEn": "Acute grief floods the nervous system with stress hormones, disrupting sleep, appetite, and immune function, which in turn weakens emotional resilience.",
+        "plainEn": "Plain Explanation: When your mind is overwhelmed, anchor your recovery in basic physical routines—regular sleep, movement, and nourishing meals.",
+        "plainCn": {
+          "tc": "白話解析：劇烈的心碎會引發壓力荷爾蒙飆升，摧毀睡眠與食慾；當大腦陷入混亂時，先透過規律作息、運動與好好吃飯來穩住身體。",
+          "sc": "白话解析：剧烈的心碎会引发压力荷尔蒙飙升，摧毁睡眠与食欲；当大脑陷入混乱时，先通过规律作息、运动与好好吃饭来稳住身体。"
         }
       },
       {
-        num: "07",
-        titleEn: "Knowledge Is Asking, Not Surveillance",
-        titleCn: { tc: "認識是問，不是監視", sc: "认识是问，不是监视" },
-        conceptEn: "To know someone is to inquire and to listen through time; checking a phone for verdicts is the opposite of knowledge.",
-        plainEn: "Plain Explanation: Ask, then listen. Opening their messages to catch them is hunting a verdict, not knowing them.",
-        plainCn: { tc: "白話解析：問，然後聽。翻消息去抓把柄，是在找判決，不是認識這個人。", sc: "白话解析：问，然后听。翻消息去抓把柄，是在找判决，不是认识这个人。" }
+        "num": "07",
+        "titleEn": "Navigate Unexpected Grief Waves",
+        "titleCn": {
+          "tc": "接納突如其來的哀傷浪潮",
+          "sc": "接纳突如其来的哀伤浪潮"
+        },
+        "conceptEn": "Emotional recovery is non-linear; sensory triggers like a song or street corner can summon sudden grief long after you feel mostly healed.",
+        "plainEn": "Plain Explanation: A sudden wave of sadness weeks or months later does not mean you are back at square one—it is just a passing weather system.",
+        "plainCn": {
+          "tc": "白話解析：康復從來不是一條直線，幾個月後因一首歌或一個街角而突然難過，並不代表你退回原點，那只是短暫路過的情緒陣雨。",
+          "sc": "白话解析：康复从来不是一条直线，几个月后因一首歌或一个街角而突然难过，并不代表你退回原点，那只是短暂路过的情绪阵雨。"
+        }
       },
       {
-        num: "08",
-        titleEn: "Practice When No One Is Choosing You",
-        titleCn: { tc: "沒人挑選你時也練習", sc: "没人挑选你时也练习" },
-        conceptEn: "Because love is an orientation toward life, Fromm insists it can be practiced in solitude, friendship, and work—not only after a match.",
-        plainEn: "Plain Explanation: Do one caring action before the warm mood arrives. Waiting for the weather first is how the art never starts.",
-        plainCn: { tc: "白話解析：先做一件照料的事，不必等心裡先熱。等天氣再開始，這門技藝往往開始不了。", sc: "白话解析：先做一件照料的事，不必等心里先热。等天气再开始，这门技艺往往开始不了。" }
+        "num": "08",
+        "titleEn": "Love Again Without Erasing the Past",
+        "titleCn": {
+          "tc": "帶著記憶重新去愛",
+          "sc": "带着记忆重新去爱"
+        },
+        "conceptEn": "True closure is not forgetting someone existed, but integrating the chapter into your life story without letting it dictate your future.",
+        "plainEn": "Plain Explanation: Healing means the memory loses its sharp sting so you can carry the lessons forward and open your heart again without fear.",
+        "plainCn": {
+          "tc": "白話解析：真正的痊癒不是強迫自己遺忘，而是讓這段回憶不再刺痛，帶著從中學到的智慧，毫無包袱地再次敞開心扉。",
+          "sc": "白话解析：真正的痊愈不是强迫自己遗忘，而是让这段回忆不再刺痛，带着从中学到的智慧，毫无包袱地再次敞开心扉。"
+        }
       }
     ],
-    easternResonance: {
-      quote: { tc: "「愛是了解。若不了解而愛，可能會傷害我們所愛的人。」", sc: "“爱是了解。若不了解而爱，可能会伤害我们所爱的人。”" },
-      source: { tc: "——一行禪師《愛的修行》（當代佛教，正念與愛語）", sc: "——一行禅师《爱的修行》（当代佛教，正念与爱语）" },
-      commentary: {
-        tc: "一行禪師把愛說成了解與正念的言語，幾乎是弗洛姆「認識」的東方兄弟：先看見，才配說愛。櫥窗式的挑選、把人當鏡子，都是還沒了解就佔有。技藝從問與聽開始，星期二也可以練。",
-        sc: "一行禅师把爱说成了解与正念的言语，几乎是弗洛姆“认识”的东方兄弟：先看见，才配说爱。橱窗式的挑选、把人当镜子，都是还没了解就占有。技艺从问与听开始，星期二也可以练。"
+    "easternResonance": {
+      "quote": {
+        "tc": "「人生若只如初見，何事秋風悲畫扇。」",
+        "sc": "“人生若只如初见，何事秋风悲画扇。”"
+      },
+      "source": {
+        "tc": "—— 納蘭性德〈木蘭詞·擬古決絕詞柬友〉",
+        "sc": "—— 纳兰性德〈木兰词·拟古决绝词柬友〉"
+      },
+      "commentary": {
+        "tc": "納蘭性德筆下的「若只如初見」，道盡了心碎者最深的執念——總想將關係停格在最美好的瞬間。溫奇的心理急救提醒我們，唯有放下對初見的過度美化，才能走出秋風悲扇的困局。",
+        "sc": "纳兰性德笔下的“若只如初见”，道尽了心碎者最深的执念——总想将关系停格在最美好的瞬间。温奇的心理急救提醒我们，唯有放下对初见的过度美化，才能走出秋风悲扇的困局。"
       }
     },
-    actionPromptEn: "Do one act of care today before you feel in the mood—a message that asks a real question, a repaired small slight, or twenty minutes of undistracted presence. Note what you did, not how it was received.",
-    actionPromptCn: {
-      tc: "今天在心情還沒熱起來之前，做一件照料：問一個真問題、修好一件小事、或二十分鐘不受干擾地在場。記下你做了什麼，不必記下對方怎麼收。",
-      sc: "今天在心情还没热起来之前，做一件照料：问一个真问题、修好一件小事、或二十分钟不受干扰地在场。记下你做了什么，不必记下对方怎么收。"
+    "actionPromptEn": "For the next 24 hours, do not open their profile, check their status, or revisit old messages.",
+    "actionPromptCn": {
+      "tc": "在接下來的二十四小時內，不要點開對方的社群主頁、查看動態或翻閱舊訊息。",
+      "sc": "在接下来的二十四小时内，不要点开对方的社交主页、查看动态或翻阅旧消息。"
+    }
+  },
+  {
+    "id": "how-to-not-die-alone",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
+    },
+    "categoryFilter": "DATING, CHOICE & MODERN ROMANCE",
+    "categoryEn": "DATING, CHOICE & MODERN ROMANCE",
+    "categoryCn": {
+      "tc": "約會心理、擇偶與現代親密 /",
+      "sc": "约会心理、择偶与现代亲密 /"
+    },
+    "durationEn": "DURATION: 6 MIN",
+    "durationCn": {
+      "tc": "時間：6分鐘",
+      "sc": "时间：6分钟"
+    },
+    "themeEn": "THEME: THE SPARK MYTH",
+    "themeCn": {
+      "tc": "主題：火花迷思",
+      "sc": "主题：火花迷思"
+    },
+    "titleLinesEn": [
+      "HOW TO NOT",
+      "DIE ALONE"
+    ],
+    "titleFlatEn": "How to Not Die Alone",
+    "titleCn": {
+      "tc": "別一個人終老",
+      "sc": "科学恋爱指南"
+    },
+    "authorLine": "Logan Ury (2021)",
+    "quoteEn": "“Great relationships aren’t discovered—they’re built through intentional choices and consistent care.”",
+    "quoteCn": {
+      "tc": "“美好的親密關係不是靠運氣撞見的，而是透過有意識的選擇與持續的經營建立起來的。”",
+      "sc": "“美好的亲密关系不是靠运气撞见的，而是通过有意识的选择与持续的经营建立起来的。”"
+    },
+    "leadEn": "Behavioral scientist and dating coach Logan Ury applies decision science to modern romance, showing why intuitive instincts often sabotage long-term love.",
+    "leadCn": {
+      "tc": "行為科學家與約會教練蘿根·尤里把決策科學帶進現代戀愛，指出我們最直覺的擇偶本能，往往正在破壞長期親密。",
+      "sc": "行为科学家与约会教练洛根·尤里把决策科学带进现代恋爱，指出我们最直觉的择偶本能，往往正在破坏长期亲密。"
+    },
+    "thesisEn": "Romantic success is rarely a matter of luck or instant chemistry; it is a skill that improves when we overcome cognitive biases, prioritize character over checklists, and make deliberate decisions. Logan Ury shows how maximizers chase a theoretical perfect match until regret sets in, while swipe abundance numbs attention. The spark that feels like destiny is often only nervous-system novelty. Lasting love is built by people who treat dating as a series of conscious choices rather than a search for lightning.",
+    "thesisCn": {
+      "tc": "感情很少靠運氣或瞬間化學反應成功；它是一種可以透過克服認知偏誤、重視品格勝過條件清單，並做出有意識決定來精進的能力。尤里指出，最大化者會把理論上的完美對象追到後悔為止，滑動文化的過剩選擇則讓人對真實的人麻木。那些感覺像命運的火花，往往只是神經系統對新鮮感的興奮。長久的愛，是把約會當成一連串清醒選擇的人慢慢建成的。",
+      "sc": "感情很少靠运气或瞬间化学反应成功；它是一种可以通过克服认知偏误、重视品格胜过条件清单，并做出有意识决定来精进的能力。尤里指出，最大化者会把理论上的完美对象追到后悔为止，滑动文化的过剩选择则让人对真实的人麻木。那些感觉像命运的火花，往往只是神经系统对新鲜感的兴奋。长久的爱，是把约会当成一连串清醒选择的人慢慢建成的。"
+    },
+    "highlights": [
+      {
+        "num": "01",
+        "titleEn": "Maximizer vs. Satisficer",
+        "titleCn": {
+          "tc": "最大化者與滿足者",
+          "sc": "最大化者与满足者"
+        },
+        "conceptEn": "Maximizers exhaust themselves searching for the single best partner and frequently regret their choices, while satisficers set clear core standards and commit happily once someone meets them.",
+        "plainEn": "Plain Explanation: Chasing theoretical perfection keeps you perpetually dissatisfied, whereas choosing a genuinely good partner and investing in the bond creates lasting happiness.",
+        "plainCn": {
+          "tc": "白話解析：無止盡地追求理論上的完美只會讓人永遠不滿足；設定好核心底線，遇到契合的人就果斷投入經營，反而能收穫長久的幸福。",
+          "sc": "白话解析：无止尽地追求理论上的完美只会让人永远不满足；设定好核心底线，遇到契合的人就果断投入经营，反而能收获长久的幸福。"
+        }
+      },
+      {
+        "num": "02",
+        "titleEn": "The Spark Is a Poor Scout",
+        "titleCn": {
+          "tc": "心動火花並不可靠",
+          "sc": "心动火花并不可靠"
+        },
+        "conceptEn": "The spark myth tricks daters into mistaking nervous system anxiety or novelty for deep compatibility. Slow-burn attraction often signals emotional safety and sustainable affection.",
+        "plainEn": "Plain Explanation: Instant fireworks usually reflect unpredictability rather than true partnership potential, so give calm, steady connections room to grow.",
+        "plainCn": {
+          "tc": "白話解析：一見鍾情的強烈火花往往只是不安感或新鮮感作祟，並不代表真正適合；給那些相處起來平靜踏實的對象多一點時間，感情反而更容易長久。",
+          "sc": "白话解析：一见钟情的强烈火花往往只是不安感或新鲜感作祟，并不代表真正适合；给那些相处起来平静踏实的对象多一点时间，感情反而更容易长久。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "Abundance Numbs Choice",
+        "titleCn": {
+          "tc": "過度選擇讓人麻木",
+          "sc": "过度选择让人麻木"
+        },
+        "conceptEn": "Swipe culture creates an illusion of endless romantic options, which triggers choice overload and encourages treating people as disposable profiles rather than complex humans.",
+        "plainEn": "Plain Explanation: Having hundreds of matches makes it harder to focus on any single person, so intentionally limiting your active conversations leads to better judgment.",
+        "plainCn": {
+          "tc": "白話解析：交友軟體帶來的海量選擇會讓人陷入決策疲勞，容易把人當成可隨時替換的商品；刻意減少同時聊天的對象數量，才能真正看清一個人。",
+          "sc": "白话解析：交友软件带来的海量选择会让人陷入决策疲劳，容易把人当成可随时替换的商品；刻意减少同时聊天的对象数量，才能真正看清一个人。"
+        }
+      }
+    ],
+    "extraHighlights": [
+      {
+        "num": "04",
+        "titleEn": "Reveal, Don’t Perform",
+        "titleCn": {
+          "tc": "真誠展現而非刻意表演",
+          "sc": "真诚展现而非刻意表演"
+        },
+        "conceptEn": "Treating early dates like job interviews wastes energy on impression management instead of assessing mutual fit. Vulnerability and genuine curiosity build real rapport far faster than rehearsed charm.",
+        "plainEn": "Plain Explanation: Stop trying to win approval with a polished persona and focus instead on how you actually feel around the other person.",
+        "plainCn": {
+          "tc": "白話解析：別把約會當成求職面試，拼命展現完美人設只會讓人疲憊；卸下防備、保持真誠的好奇心，去感受彼此相處時的真實狀態更重要。",
+          "sc": "白话解析：别把约会当成求职面试，拼命展现完美人设只会让人疲惫；卸下防备、保持真诚的好奇心，去感受彼此相处时的真实状态更重要。"
+        }
+      },
+      {
+        "num": "05",
+        "titleEn": "Disposition Over Resume",
+        "titleCn": {
+          "tc": "重視性格勝過履歷",
+          "sc": "重视性格胜过履历"
+        },
+        "conceptEn": "External credentials like height, income, or prestigious degrees predict very little about daily relationship satisfaction. Emotional stability, kindness, and how someone handles conflict matter far more.",
+        "plainEn": "Plain Explanation: Choose a partner based on how they treat you during ordinary or stressful moments rather than how impressive they look on paper.",
+        "plainCn": {
+          "tc": "白話解析：身高、收入或學歷等外在條件，並不能決定日常相處是否快樂；情緒穩定、善良以及面對衝突時的態度，才是維繫感情的關鍵。",
+          "sc": "白话解析：身高、收入或学历等外在条件，并不能决定日常相处是否快乐；情绪稳定、善良以及面对冲突时的态度，才是维系感情的关键。"
+        }
+      },
+      {
+        "num": "06",
+        "titleEn": "Work on the Picker",
+        "titleCn": {
+          "tc": "先調整自己的擇偶眼光",
+          "sc": "先调整自己的择偶眼光"
+        },
+        "conceptEn": "Repeating the same painful relationship cycles usually points to blind spots in your own attachment patterns and attraction triggers rather than sheer bad luck.",
+        "plainEn": "Plain Explanation: If you keep ending up with unavailable partners, examine what draws you to them instead of simply blaming the dating pool.",
+        "plainCn": {
+          "tc": "白話解析：如果在感情中總是重蹈覆轍，問題往往不在於運氣不好，而在於自身的依附模式與盲點；先看清自己為何總被特定類型吸引，才能打破循環。",
+          "sc": "白话解析：如果在感情中总是重蹈覆辙，问题往往不在于运气不好，而在于自身的依附模式与盲点；先看清自己为何总被特定类型吸引，才能打破循环。"
+        }
+      },
+      {
+        "num": "07",
+        "titleEn": "Slow Is Data",
+        "titleCn": {
+          "tc": "放慢腳步才能看清全貌",
+          "sc": "放慢脚步才能看清全貌"
+        },
+        "conceptEn": "Rushing into exclusivity or cohabitation lets infatuation obscure important differences in values, finances, and communication styles. Pacing a relationship gives time for real character to emerge.",
+        "plainEn": "Plain Explanation: Taking your time allows you to observe how a partner behaves across different seasons of life before making major commitments.",
+        "plainCn": {
+          "tc": "白話解析：太快確立關係或同居，容易讓熱戀期的濾鏡掩蓋價值觀與溝通習慣的差異；適度放慢節奏，才能在各種生活情境中觀察對方的真實品格。",
+          "sc": "白话解析：太快确立关系或同居，容易让热恋期的滤镜掩盖价值观与沟通习惯的差异；适度放慢节奏，才能在各种生活情境中观察对方的真实品格。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Singlehood as a Workshop",
+        "titleCn": {
+          "tc": "把單身當作自我修煉場",
+          "sc": "把单身当作自我修炼场"
+        },
+        "conceptEn": "Being single is not a waiting room before real life begins; it is an active training ground to practice communication, boundary-setting, and emotional self-regulation.",
+        "plainEn": "Plain Explanation: Build the habits of a great partner right now in your friendships and daily routines instead of waiting for romance to fix your life.",
+        "plainCn": {
+          "tc": "白話解析：單身不是人生正式開始前的候車室，而是練習溝通、設立界線與情緒管理的最佳訓練場；現在就活出理想伴侶的樣子，而不是等愛情來拯救自己。",
+          "sc": "白话解析：单身不是人生正式开始前的候车室，而是练习沟通、设立界线与情绪管理的最佳训练场；现在就活出理想伴侣的样子，而不是等爱情来拯救自己。"
+        }
+      }
+    ],
+    "easternResonance": {
+      "quote": {
+        "tc": "「婚姻像一座圍城，城外的人想衝進去，城裡的人想逃出來。」",
+        "sc": "“婚姻像一座围城，城外的人想冲进去，城里的人想逃出来。”"
+      },
+      "source": {
+        "tc": "—— 錢鍾書《圍城》",
+        "sc": "—— 钱钟书《围城》"
+      },
+      "commentary": {
+        "tc": "錢鍾書筆下的「圍城」道破了人們對親密關係的浪漫幻想與現實落差。這與羅根·尤里打破「心動迷思」的觀點不謀而合：若只憑一時衝動或外在光環盲目入城，終究會陷入幻滅；唯有看清自我盲點、以清醒與務實之心經營，圍城才能成為安穩的家園。",
+        "sc": "钱钟书笔下的“围城”道破了人们对亲密关系的浪漫幻想与现实落差。这与罗根·尤里打破“心动迷思”的观点不谋而合：若只凭一时冲动或外在光环盲目入城，终究会陷入幻灭；唯有看清自我盲点、以清醒与务实之心经营，围城才能成为安稳的家园。"
+      }
+    },
+    "actionPromptEn": "Replace two surface-level checklist items on your dating criteria with two core character traits—such as kindness under stress or emotional consistency—and commit to giving a calm, steady connection a second date.",
+    "actionPromptCn": {
+      "tc": "將你擇偶清單上的兩個外在條件，替換成兩個核心性格特質（例如壓力下的善良或情緒穩定度），並承諾給一位相處起來平靜踏實的對象第二次約會的機會。",
+      "sc": "将你择偶清单上的两个外在条件，替换成两个核心性格特质（例如压力下的善良或情绪稳定度），并承诺给一位相处起来平静踏实的对象第二次约会的机会。"
+    }
+  },
+  {
+    "id": "the-art-of-loving",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
+    },
+    "categoryFilter": "PHILOSOPHY, SOCIOLOGY & SPIRITUALITY OF LOVE",
+    "categoryEn": "PHILOSOPHY, SOCIOLOGY & SPIRITUALITY OF LOVE",
+    "categoryCn": {
+      "tc": "愛的哲學、社會學與靈性 /",
+      "sc": "爱的哲学、社会学与灵性 /"
+    },
+    "durationEn": "DURATION: 7 MIN",
+    "durationCn": {
+      "tc": "時間：7分鐘",
+      "sc": "时间：7分钟"
+    },
+    "themeEn": "THEME: PRACTICE",
+    "themeCn": {
+      "tc": "主題：修習與實踐",
+      "sc": "主题：修习与实践"
+    },
+    "titleLinesEn": [
+      "THE ART",
+      "OF LOVING"
+    ],
+    "titleFlatEn": "The Art of Loving",
+    "titleCn": {
+      "tc": "愛的藝術",
+      "sc": "爱的艺术"
+    },
+    "authorLine": "Erich Fromm (1956)",
+    "quoteEn": "“Love is an activity, not a passive affect.”",
+    "quoteCn": {
+      "tc": "“愛是一種主動的行動，而非被動的情感。”",
+      "sc": "“爱是一种主动的行动，而非被动的情感。”"
+    },
+    "leadEn": "Most people treat love as a stroke of luck—waiting to fall into it rather than learning how to stand in it.",
+    "leadCn": {
+      "tc": "多數人把愛當成一場幸運：等待墜入其中，卻不肯學習如何站穩。",
+      "sc": "多数人把爱当成一场幸运：等待坠入其中，却不肯学习如何站稳。"
+    },
+    "thesisEn": "In this landmark 1956 work, psychoanalyst Erich Fromm dismantles modern romantic illusions and reframes love as a rigorous discipline of care, responsibility, respect, and knowledge. Love is not a sensation we passively wait to be struck by, but an active art that demands deliberate mastery. We obsess over becoming lovable, he argues, while neglecting the daily practice of loving another person as they actually are. Without that practice, infatuation remains a mirror, and loneliness returns as soon as the glow fades.",
+    "thesisCn": {
+      "tc": "在這部一九五六年的經典裡，精神分析學家艾瑞克·佛洛姆拆解現代浪漫迷思，把愛重新寫成照顧、責任、尊重與認識的嚴謹修習。愛不是被動等待被擊中的感覺，而是一門必須刻意精通的主動藝術。我們執著於讓自己變得可愛，卻忽略每天去愛眼前這個真實的人。沒有這份練習，熱戀只是一面鏡子，光亮一褪，孤獨就會回來。",
+      "sc": "在这部一九五六年的经典里，精神分析学家埃里希·弗洛姆拆解现代浪漫迷思，把爱重新写成照顾、责任、尊重与认识的严谨修习。爱不是被动等待被击中的感觉，而是一门必须刻意精通的主动艺术。我们执着于让自己变得可爱，却忽略每天去爱眼前这个真实的人。没有这份练习，热恋只是一面镜子，光亮一褪，孤独就会回来。"
+    },
+    "highlights": [
+      {
+        "num": "01",
+        "titleEn": "Love Is an Art That Requires Theory and Practice",
+        "titleCn": {
+          "tc": "愛是一門需要理論與實踐的藝術",
+          "sc": "爱是一门需要理论与实践的艺术"
+        },
+        "conceptEn": "People obsess over being lovable rather than developing the capacity to love, ignoring that mastering love—like music or medicine—demands dedicated study, patience, and daily practice.",
+        "plainEn": "Plain Explanation: You would never expect to play a violin concerto without years of scales and study, yet we expect to master relationships purely on instinct and luck.",
+        "plainCn": {
+          "tc": "白話解析：你不會指望沒練過音階就能拉出小提琴協奏曲，但我們卻總以為靠直覺與運氣就能經營好一段感情。",
+          "sc": "白话解析：你不会指望没练过音阶就能拉出小提琴协奏曲，但我们却总以为靠直觉与运气就能经营好一段感情。"
+        }
+      },
+      {
+        "num": "02",
+        "titleEn": "Falling in Love Is a Mirror, Not the Person",
+        "titleCn": {
+          "tc": "墜入愛河照見的是鏡像，而非真實的人",
+          "sc": "坠入爱河照见的是镜像，而非真实的人"
+        },
+        "conceptEn": "Initial infatuation mistakes the sudden collapse of loneliness and projected fantasy for genuine love, confusing the intoxicating reflection of one's own desires with knowing another human being.",
+        "plainEn": "Plain Explanation: Early romance feels electric because you are projecting your ideal fantasy onto a stranger; real love only begins after that illusion fades and you see who is actually standing there.",
+        "plainCn": {
+          "tc": "白話解析：熱戀之所以令人著迷，往往是因為你把理想的幻影投射在陌生人身上；真正的愛，是在濾鏡褪去、看清眼前真實的人之後才開始。",
+          "sc": "白话解析：热恋之所以令人着迷，往往是因为你把理想的幻影投射在陌生人身上；真正的爱，是在滤镜褪去、看清眼前真实的人之后才开始。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "The Four Core Elements of Mature Love",
+        "titleCn": {
+          "tc": "成熟之愛的四大核心要素",
+          "sc": "成熟之爱的四大核心要素"
+        },
+        "conceptEn": "Fromm defines all forms of productive love through four interdependent pillars: active care for the other's growth, voluntary responsibility to respond, respect for their autonomy, and objective knowledge.",
+        "plainEn": "Plain Explanation: Loving someone means actively helping them flourish, showing up when they need you, letting them be themselves without control, and truly understanding their inner world.",
+        "plainCn": {
+          "tc": "白話解析：愛一個人，就是主動促成對方的成長、在需要時願意回應、不加控制地尊重對方的獨立性，並真正理解對方的內心世界。",
+          "sc": "白话解析：爱一个人，就是主动促成对方的成长、在需要时愿意回应、不加控制地尊重对方的独立性，并真正理解对方的内心世界。"
+        }
+      }
+    ],
+    "extraHighlights": [
+      {
+        "num": "04",
+        "titleEn": "Brotherly Love Is the Foundation of All Love",
+        "titleCn": {
+          "tc": "博愛是一切愛的根基",
+          "sc": "博爱是一切爱的根基"
+        },
+        "conceptEn": "Exclusive romantic attachment without universal solidarity toward humanity is merely expanded egotism; genuine love begins with recognizing shared human vulnerability across all people.",
+        "plainEn": "Plain Explanation: If you only care about your partner and treat strangers with indifference or cruelty, you are not really loving—you are just forming a two-person selfishness club.",
+        "plainCn": {
+          "tc": "白話解析：如果你只關心伴侶，對陌生人卻冷漠刻薄，那並不是真正的愛，而只是兩個人組成的自私小圈子。",
+          "sc": "白话解析：如果你只关心伴侣，对陌生人却冷漠刻薄，那并不是真正的爱，而只是两个人组成的自私小圈子。"
+        }
+      },
+      {
+        "num": "05",
+        "titleEn": "Self-Love Is the Opposite of Selfishness",
+        "titleCn": {
+          "tc": "自愛與自私截然相反",
+          "sc": "自爱与自私截然相反"
+        },
+        "conceptEn": "Selfishness stems from inner emptiness and self-hatred, driving compulsive grasping, whereas authentic self-love affirms one's own dignity and makes genuine care for others possible.",
+        "plainEn": "Plain Explanation: Selfish people actually dislike themselves and constantly try to fill an empty hole inside; you cannot genuinely respect or care for someone else if you treat yourself like an enemy.",
+        "plainCn": {
+          "tc": "白話解析：自私的人其實並不喜歡自己，總想從外界抓取來填補內心的空洞；如果你把自己當成敵人，就不可能真正尊重或照顧別人。",
+          "sc": "白话解析：自私的人其实并不喜欢自己，总想从外界抓取来填补内心的空洞；如果你把自己当成敌人，就不可能真正尊重或照顾别人。"
+        }
+      },
+      {
+        "num": "06",
+        "titleEn": "The Marketing Character Turns Love Into a Transaction",
+        "titleCn": {
+          "tc": "市場人格將愛變成一場交易",
+          "sc": "市场人格将爱变成一场交易"
+        },
+        "conceptEn": "Capitalist consumer culture conditions people to treat personality as a commodity and romance as an exchange of equal market value rather than an unconditional human encounter.",
+        "plainEn": "Plain Explanation: Modern dating often feels like shopping—we polish our resume of traits and look for the highest-value partner we can afford instead of building a real bond.",
+        "plainCn": {
+          "tc": "白話解析：現代戀愛常像在逛商場，我們精心包裝自己的條件，只想換取能力範圍內「性價比最高」的伴侶，而非建立真實的情感連結。",
+          "sc": "白话解析：现代恋爱常像在逛商场，我们精心包装自己的条件，只想换取能力范围内“性价比最高”的伴侣，而非建立真实的情感连结。"
+        }
+      },
+      {
+        "num": "07",
+        "titleEn": "Knowledge Means Curious Asking, Not Surveillance",
+        "titleCn": {
+          "tc": "認識是出於好奇的傾聽，而非監控",
+          "sc": "认识是出于好奇的倾听，而非监控"
+        },
+        "conceptEn": "True knowledge in love penetrates beyond surface appearances through empathy and patient inquiry, never through possessive control, interrogation, or dissecting the other like an object.",
+        "plainEn": "Plain Explanation: Knowing your partner is not about checking their phone or predicting their flaws—it means staying curious about who they are becoming and listening without defensiveness.",
+        "plainCn": {
+          "tc": "白話解析：了解伴侶不是靠查手機或抓把柄，而是對對方正在成為怎樣的人保持真誠的好奇，並放下防備去傾聽。",
+          "sc": "白话解析：了解伴侣不是靠查手机或抓把柄，而是对对方正在成为怎样的人保持真诚的好奇，并放下防备去倾听。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Practice Loving Even When No One Is Choosing You",
+        "titleCn": {
+          "tc": "在無人選擇你時依然練習去愛",
+          "sc": "在无人选择你时依然练习去爱"
+        },
+        "conceptEn": "Because love is an inner orientation and character strength rather than a reaction to a specific object, solitude becomes the primary training ground for discipline, concentration, and patience.",
+        "plainEn": "Plain Explanation: You do not need a romantic partner to practice love; learning to be present, patient, and attentive when you are single is what builds the capacity to love well later.",
+        "plainCn": {
+          "tc": "白話解析：你不需要等到有伴侶才開始練習愛；在單身時學會專注、耐心與關懷生活，正是培養未來去愛的能力。",
+          "sc": "白话解析：你不需要等到有伴侣才开始练习爱；在单身时学会专注、耐心与关怀生活，正是培养未来去爱的能力。"
+        }
+      }
+    ],
+    "easternResonance": {
+      "quote": {
+        "tc": "「你必須以對方能感到自由的方式去愛。愛就是理解；沒有理解，愛就不是真正的愛。」",
+        "sc": "“你必须以对方能感到自由的方式去爱。爱就是理解；没有理解，爱就不是真正的爱。”"
+      },
+      "source": {
+        "tc": "—— 一行禪師（Thích Nhất Hạnh），《真愛：喚醒幸福的藝術》",
+        "sc": "—— 一行禅师（Thích Nhất Hạnh），《真爱：唤醒幸福的艺术》"
+      },
+      "commentary": {
+        "tc": "佛洛姆所說的「尊重與認識」，在一行禪師的佛法智慧中化為深切的「理解與給出空間」。東西方兩位思想家在此交會：愛不是佔有或情緒的依附，而是看清對方真實的苦樂，並讓對方在你的愛裡依然保有完整的自己。",
+        "sc": "弗洛姆所说的“尊重与认识”，在一行禅师的佛法智慧中化为深切的“理解与给出空间”。东西方两位思想家在此交会：爱不是占有或情绪的依附，而是看清对方真实的苦乐，并让对方在你的爱里依然保有完整的自己。"
+      }
+    },
+    "actionPromptEn": "Choose one person in your life today—a partner, friend, or family member—and practice active knowledge by asking one open, unhurried question about their inner world, listening completely without offering advice or shifting the focus back to yourself.",
+    "actionPromptCn": {
+      "tc": "今天選擇生命中的一個人——伴侶、朋友或家人——練習「主動的認識」：向對方提出一個不急躁、開放式的問題，全神貫注地傾聽對方的內心世界，不急著給建議，也不把話題拉回自己身上。",
+      "sc": "今天选择生命中的一个人——伴侣、朋友或家人——练习“主动的认识”：向对方提出一个不急躁、开放式的问题，全神贯注地倾听对方的内心世界，不急着给建议，也不把话题拉回自己身上。"
+    }
+  },
+  {
+    "id": "hold-me-tight",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
+    },
+    "categoryFilter": "ATTACHMENT & BONDING SCIENCE",
+    "categoryEn": "ATTACHMENT & BONDING SCIENCE",
+    "categoryCn": {
+      "tc": "依附理論與親密連結 /",
+      "sc": "依恋理论与亲密连接 /"
+    },
+    "durationEn": "DURATION: 5 MIN",
+    "durationCn": {
+      "tc": "時間：5分鐘",
+      "sc": "时间：5分钟"
+    },
+    "themeEn": "THEME: ATTACHMENT",
+    "themeCn": {
+      "tc": "主題：依附與連結",
+      "sc": "主题：依恋与连接"
+    },
+    "titleLinesEn": [
+      "HOLD ME",
+      "TIGHT"
+    ],
+    "titleFlatEn": "Hold Me Tight",
+    "titleCn": {
+      "tc": "抱緊我",
+      "sc": "抱紧我"
+    },
+    "authorLine": "Sue Johnson (2008)",
+    "quoteEn": "“Love is not the icing on the cake of life. It is a basic primary need, like oxygen or water.”",
+    "quoteCn": {
+      "tc": "“愛不是生命蛋糕上的糖霜，而是像氧氣與水一樣的基本生理需求。”",
+      "sc": "“爱不是生命蛋糕上的糖霜，而是像氧气与水一样的基本生理需求。”"
+    },
+    "leadEn": "Beneath every loud domestic argument lies a quiet, terrified question: if I call out for you in the dark, will you come?",
+    "leadCn": {
+      "tc": "每一次激烈的居家爭吵之下，都藏著一個安靜而驚恐的提問：如果我在黑暗中呼喚你，你會來嗎？",
+      "sc": "每一次激烈的居家争吵之下，都藏着一个安静而惊恐的提问：如果我在黑暗中呼唤你，你会来吗？"
+    },
+    "thesisEn": "Drawing on decades of clinical research in Emotionally Focused Therapy, Sue Johnson reframes romantic distress not as a failure of communication skills, but as an attachment crisis. We are wired to depend on a chosen few for emotional survival. When that connection feels threatened, our nervous systems sound an alarm that often disguises longing as anger or withdrawal. By learning to recognize these panic signals, couples can replace defensive choreography with direct emotional reach.",
+    "thesisCn": {
+      "tc": "心理學家蘇·強森透過「情緒取向治療」的臨床研究指出，伴侶間的痛苦往往不是溝通技巧的匱乏，而是一場「依附危機」。人類天生需要依賴少數重要他人來獲得情感生存的確定感。當這份連結受到威脅，神經系統便會拉響警報，將渴望偽裝成憤怒或退縮。唯有辨識這份恐慌，我們才能放下防衛，重新向彼此伸出雙手。",
+      "sc": "心理学家苏·约翰逊通过“情绪取向治疗”的临床研究指出，伴侣间的痛苦往往不是沟通技巧的匮乏，而是一场“依恋危机”。人类天生需要依赖少数重要他人来获得情感生存的确定感。当这份连接受到威胁，神经系统便会拉响警报，将渴望伪装成愤怒或退缩。唯有辨识这份恐慌，我们才能放下防卫，重新向彼此伸出双手。"
+    },
+    "highlights": [
+      {
+        "num": "01",
+        "titleEn": "The A.R.E. Question",
+        "titleCn": {
+          "tc": "依附的核心提問",
+          "sc": "依恋的核心提问"
+        },
+        "conceptEn": "Most recurring relationship conflicts are covert protests asking whether a partner is Accessible, Responsive, and Emotionally Engaged. Until we hear the attachment plea beneath the complaint, logical problem-solving remains futile.",
+        "plainEn": "Plain Explanation: When your partner complains that you never put your phone down at dinner, they rarely care about screen time; they are quietly asking if they still matter more than the glowing rectangle in your hand.",
+        "plainCn": {
+          "tc": "白話解析：當伴侶抱怨你吃飯時總是滑手機，他們在意的往往不是螢幕時間，而是在試探「我在你心中是否還比手裡那塊發光的玻璃更重要」。",
+          "sc": "白话解析：当伴侣抱怨你吃饭时总是看手机，他们在意的往往不是屏幕时间，而是在试探“我在你心中是否还比手里那块发光的玻璃更重要”。"
+        }
+      },
+      {
+        "num": "02",
+        "titleEn": "The Three Demon Dialogues",
+        "titleCn": {
+          "tc": "三種魔鬼對話模式",
+          "sc": "三种魔鬼对话模式"
+        },
+        "conceptEn": "Distressed couples fall into self-reinforcing traps—Find the Bad Guy, the Protest Polka, and Freeze and Flee—where each person's self-protection triggers the other's deepest fear. The enemy is the cycle itself, never the partner.",
+        "plainEn": "Plain Explanation: Picture a dance where one person steps forward to poke for a reaction and the other steps backward into silence—the faster one chases, the faster the other retreats, leaving both exhausted on opposite sides of the room.",
+        "plainCn": {
+          "tc": "白話解析：想像一場雙人舞，一方越是急切地追問索求，另一方就越是退縮進沉默的殼裡；追得越緊，逃得越快，最後兩人都精疲力竭地站在房間兩端。",
+          "sc": "白话解析：想象一场双人舞，一方越是急切地追问索求，另一方就越是退缩进沉默的壳里；追得越紧，逃得越快，最后两人都精疲力竭地站在房间两端。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "Hold Me Tight Conversations",
+        "titleCn": {
+          "tc": "抱緊我對話練習",
+          "sc": "抱紧我对话练习"
+        },
+        "conceptEn": "Lasting security emerges when partners step out of reactive armor to share primary vulnerabilities—fear, loneliness, and the need for reassurance—while the listener stays present to comfort rather than fix.",
+        "plainEn": "Plain Explanation: Instead of saying “You are always cold and distant,” you risk saying “When you go quiet, I feel small and terrified that I am losing you”—giving your partner a hand to hold instead of a wall to climb.",
+        "plainCn": {
+          "tc": "白話解析：與其指責「你總是這麼冷漠疏離」，不如冒險說出「當你安靜下來時，我覺得自己很渺小，好怕正在失去你」——這會遞給對方一隻可以握住的手，而不是一堵高牆。",
+          "sc": "白话解析：与其指责“你总是这么冷漠疏离”，不如冒险说出“当你安静下来时，我觉得自己很渺小，好怕正在失去你”——这会递给对方一只可以握住的手，而不是一堵高墙。"
+        }
+      }
+    ],
+    "extraHighlights": [
+      {
+        "num": "04",
+        "titleEn": "Finding the Raw Spots",
+        "titleCn": {
+          "tc": "辨識彼此的敏感痛點",
+          "sc": "辨识彼此的敏感痛点"
+        },
+        "conceptEn": "Raw spots are emotional bruises left by past abandonment or neglect that flare up suddenly in present interactions. Naming these tender areas helps couples recognize when an outsized reaction belongs to an old wound.",
+        "plainEn": "Plain Explanation: If a slight change in your partner's tone makes you feel instantly worthless, you have likely bumped an old bruise—naming that tender spot stops you from mistaking a minor bump for a deliberate attack.",
+        "plainCn": {
+          "tc": "白話解析：如果伴侶語氣的一點微妙變化就讓你瞬間覺得自己一文不值，這通常是碰到了舊傷；認出這塊淤青，能讓你不再把無心的碰撞當成蓄意攻擊。",
+          "sc": "白话解析：如果伴侣语气的一点微妙变化就让你瞬间觉得自己一文不值，这通常是碰到了旧伤；认出这块淤青，能让你不再把无心的碰撞当成蓄意攻击。"
+        }
+      },
+      {
+        "num": "05",
+        "titleEn": "Attachment Panic in the Body",
+        "titleCn": {
+          "tc": "身體裡的依附恐慌",
+          "sc": "身体里的依恋恐慌"
+        },
+        "conceptEn": "Perceived emotional isolation activates the same neural alarm centers as physical danger, flooding the body with stress hormones. Understanding this physiological hijack fosters patience when logic temporarily goes offline.",
+        "plainEn": "Plain Explanation: When your partner feels emotionally unreachable, your brain treats it like being stranded alone in the wilderness—your heart races not because you are irrational, but because your survival system thinks you are in peril.",
+        "plainCn": {
+          "tc": "白話解析：當感覺伴侶在情感上觸不可及時，大腦會將其視為獨自受困荒野；你心跳加速並非因為不理智，而是生存本能以為你正處於險境。",
+          "sc": "白话解析：当感觉伴侣在情感上触不可及时，大脑会将其视为独自受困荒野；你心跳加速并非因为不理智，而是生存本能以为你正处于险境。"
+        }
+      },
+      {
+        "num": "06",
+        "titleEn": "Rewriting the Rocky Moments",
+        "titleCn": {
+          "tc": "重寫衝突的艱難時刻",
+          "sc": "重写冲突的艰难时刻"
+        },
+        "conceptEn": "After the storm passes, revisiting a fight together in slow motion allows partners to trace where each person got scared and missed the other's cue. Repairing the rupture builds deeper trust than never fighting at all.",
+        "plainEn": "Plain Explanation: Think of it as watching game tape together the next morning with a cup of coffee—not to assign blame, but to spot the exact second both of you got spooked and started speaking in armor.",
+        "plainCn": {
+          "tc": "白話解析：這就像隔天早晨端著咖啡一起重看比賽錄影——不是為了追究誰犯規，而是找出兩個人在那一秒同時受驚、並各自穿上盔甲的瞬間。",
+          "sc": "白话解析：这就像隔天早晨端着咖啡一起重看比赛录像——不是为了追究谁犯规，而是找出两个人在那一秒同时受惊、并各自穿上盔甲的瞬间。"
+        }
+      },
+      {
+        "num": "07",
+        "titleEn": "Forgiving Attachment Injuries",
+        "titleCn": {
+          "tc": "修復依附創傷與寬恕",
+          "sc": "修复依恋创伤与宽恕"
+        },
+        "conceptEn": "An attachment injury occurs when one partner fails to show up during a moment of acute vulnerability, shattering basic trust. Healing requires the injuring partner to witness the pain fully without defensiveness.",
+        "plainEn": "Plain Explanation: You cannot rush past a broken promise by saying “That was months ago”; the wound only closes when the person who was absent sits beside the hurt and truly takes in how lonely that moment felt.",
+        "plainCn": {
+          "tc": "白話解析：你無法用一句「那都過去好幾個月了」來跨越失約的傷痕；唯有當初缺席的那個人願意不加辯解地坐下來，真正體會對方當時有多孤單，傷口才會癒合。",
+          "sc": "白话解析：你无法用一句“那都过去好几个月了”来跨越失约的伤痕；唯有当初缺席的那个人愿意不加辩解地坐下来，真正体会对方当时有多孤单，伤口才会愈合。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Safe Haven and Secure Base",
+        "titleCn": {
+          "tc": "避風港與安全基地",
+          "sc": "避风港与安全基地"
+        },
+        "conceptEn": "Paradoxically, healthy adult dependency is what makes genuine independence possible. Knowing we have a reliable harbor to return to gives us the courage to take risks and explore the wider world.",
+        "plainEn": "Plain Explanation: Just like a toddler who runs off to explore the playground only because they can glance back and see a parent on the bench, adults grow braver in life when they know someone has their back at home.",
+        "plainCn": {
+          "tc": "白話解析：就像幼兒只有在回頭能看見長椅上的父母時，才敢放膽去探索遊樂場；成年人也唯有確信身後有人接住自己，才能在廣闊的世界裡勇敢前行。",
+          "sc": "白话解析：就像幼儿只有在回头能看见长椅上的父母时，才敢放胆去探索游乐场；成年人也唯有确信身后有人接住自己，才能在广阔的世界里勇敢前行。"
+        }
+      }
+    ],
+    "easternResonance": {
+      "quote": {
+        "tc": "「患者是在『自由而受保護的空間』裡，才敢把自己的世界表現出來。」",
+        "sc": "“患者是在自由而受保护的空间里，才敢把自己的世界表现出来。”"
+      },
+      "source": {
+        "tc": "—— 河合隼雄〈箱庭療法〉（其對箱庭臨床的經典界定）",
+        "sc": "—— 河合隼雄〈箱庭疗法〉（其对箱庭临床的经典界定）"
+      },
+      "commentary": {
+        "tc": "河合隼雄把療癒的關鍵放在一個「自由而受保護」的容器裡：人不是被分析才敞開，而是被穩穩承接才敢說出心底的物語。這與蘇·強森的安全依附基地彼此呼應——親密關係要成為那隻箱子，讓恐懼與需要可以安全地被看見，而不是被評判或修理。",
+        "sc": "河合隼雄把疗愈的关键放在一个“自由而受保护”的容器里：人不是被分析才敞开，而是被稳稳承接才敢说出心底的故事。这与苏·约翰逊的安全依恋基地彼此呼应——亲密关系要成为那只箱子，让恐惧与需要可以安全地被看见，而不是被评判或修理。"
+      }
+    },
+    "actionPromptEn": "Tonight, recall one minor moment this week when you felt slightly disconnected from your partner. Spend five minutes sharing the soft emotion underneath your reaction—such as feeling lonely, unsure, or needing reassurance—without using the word “you” to blame.",
+    "actionPromptCn": {
+      "tc": "今晚，回想本週一個讓你感到與伴侶有些疏離的小瞬間。花五分鐘，不用「你」字開頭去指責，試著向對方坦露你反應底下那份柔軟的情緒——例如「那時我有點孤單，很需要確認你還在」。",
+      "sc": "今晚，回想本周一个让你感到与伴侣有些疏离的小瞬间。花五分钟，不用“你”字开头去指责，试着向对方坦露你反应底下那份柔软的情绪——例如“那时我有点孤单，很需要确认你还在”。"
+    }
+  },
+  {
+    "id": "nonviolent-communication",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
+    },
+    "categoryFilter": "COMMUNICATION, CONFLICT & REPAIR",
+    "categoryEn": "COMMUNICATION, CONFLICT & REPAIR",
+    "categoryCn": {
+      "tc": "溝通藝術、衝突與修復 /",
+      "sc": "沟通艺术、冲突与修复 /"
+    },
+    "durationEn": "DURATION: 5 MIN",
+    "durationCn": {
+      "tc": "時間：5分鐘",
+      "sc": "时间：5分钟"
+    },
+    "themeEn": "THEME: EMPATHIC SPEECH",
+    "themeCn": {
+      "tc": "主題：同理與非暴力溝通",
+      "sc": "主题：同理与非暴力沟通"
+    },
+    "titleLinesEn": [
+      "NONVIOLENT",
+      "COMMUNICATION"
+    ],
+    "titleFlatEn": "Nonviolent Communication",
+    "titleCn": {
+      "tc": "非暴力溝通",
+      "sc": "非暴力沟通"
+    },
+    "authorLine": "Marshall B. Rosenberg (1999)",
+    "quoteEn": "“All violence is the result of people tricking themselves into believing that their pain derives from other people and that consequently those people deserve to be punished.”",
+    "quoteCn": {
+      "tc": "“所有的暴力，都源於人們誤以為自己的痛苦是由他人造成的，進而認定那些人應該受到懲罰。”",
+      "sc": "“所有的暴力，都源于人们误以为自己的痛苦是由他人造成的，进而认定那些人应该受到惩罚。”"
+    },
+    "leadEn": "Every harsh criticism we hurl at someone we love is, at its core, a tragic and clumsy expression of an unmet human need.",
+    "leadCn": {
+      "tc": "我們向所愛之人拋出的每一句嚴厲批評，歸根究底，都是一個未被滿足的需求所發出的笨拙哀鳴。",
+      "sc": "我们向所爱之人抛出的每一句严厉批评，归根结底，都是一个未被满足的需求所发出的笨拙哀鸣。"
+    },
+    "thesisEn": "Psychologist Marshall Rosenberg argues that everyday habits of moralistic judgment, blame, and comparison quietly erode intimacy long before physical conflict ever begins. Through a four-part discipline—Observation, Feeling, Need, and Request—we learn to separate raw reality from our harsh interpretations. When we speak from vulnerable needs rather than righteousness, defensive walls soften into genuine mutual care.",
+    "thesisCn": {
+      "tc": "心理學家馬歇爾·盧森堡指出，日常語言中習慣性的道德評判、指責與比較，早在肢體衝突發生前便已悄然侵蝕親密關係。透過「觀察、感受、需要、請求」四個步驟，我們學會將客觀事實與主觀臆斷剝離。當我們不再站在道德高地上審判，而是誠實說出內在的需要，對立的高牆便會鬆動為真實的彼此關懷。",
+      "sc": "心理学家马歇尔·卢森堡指出，日常语言中习惯性的道德评判、指责与比较，早在肢体冲突发生前便已悄然侵蚀亲密关系。通过“观察、感受、需要、请求”四个步骤，我们学会将客观事实与主观臆断剥离。当我们不再站在道德高地上审判，而是诚实说出内在的需要，对立的高墙便会松动为真实的彼此关怀。"
+    },
+    "highlights": [
+      {
+        "num": "01",
+        "titleEn": "Observation Without Evaluation",
+        "titleCn": {
+          "tc": "區分觀察與評論",
+          "sc": "区分观察与评论"
+        },
+        "conceptEn": "Combining observation with evaluation makes people hear criticism and immediately resist. Describing specific actions as a camera would record them creates a shared ground where listening becomes possible.",
+        "plainEn": "Plain Explanation: Saying “You are completely irresponsible with money” invites a courtroom defense; saying “We spent three hundred dollars over our budget this month” invites a calm look at the receipts.",
+        "plainCn": {
+          "tc": "白話解析：說「你花錢完全不負責任」會立刻引發對方的法庭式辯護；而說「我們這個月的開支超出了預算三千元」，則能讓兩個人平靜地坐下來一起看帳單。",
+          "sc": "白话解析：说“你花钱完全不负责任”会立刻引发对方的法庭式辩护；而说“我们这个月的开支超出了预算三千元”，则能让两个人平静地坐下来一起看账单。"
+        }
+      },
+      {
+        "num": "02",
+        "titleEn": "Feelings vs. Disguised Thoughts",
+        "titleCn": {
+          "tc": "辨識真實感受與想法",
+          "sc": "辨识真实感受与想法"
+        },
+        "conceptEn": "Words like “abandoned,” “ignored,” or “manipulated” describe how we interpret someone else's behavior rather than our own inner state. Naming pure emotions like scared, lonely, or overwhelmed keeps ownership of our experience.",
+        "plainEn": "Plain Explanation: When you say “I feel unappreciated,” you are actually sneaking an accusation into a feeling word; saying “I feel tired and sad” shares your heart without putting the other person on trial.",
+        "plainCn": {
+          "tc": "白話解析：當你說「我覺得不被重視」時，其實是把對他人的指控偷偷塞進了感受裡；而說「我感到很疲憊、有些失落」，則是在不審判對方的情況下敞開內心。",
+          "sc": "白话解析：当你说“我觉得不被重视”时，其实是把对他人的指控偷偷塞进了感受里；而说“我感到很疲惫、有些失落”，则是在不审判对方的情况下敞开内心。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "Needs as the Living Root",
+        "titleCn": {
+          "tc": "看見感受背後的需要",
+          "sc": "看见感受背后的需要"
+        },
+        "conceptEn": "Other people's actions may trigger our feelings, but they are never the root cause; our own unmet needs are. Connecting anger or hurt to universal human needs—such as rest, respect, or closeness—restores personal agency.",
+        "plainEn": "Plain Explanation: A partner arriving late is just the spark; the fire comes from your deep need for reliability and consideration—owning that need turns blame into a clear signal of what matters to you.",
+        "plainCn": {
+          "tc": "白話解析：伴侶遲到只是火星，真正點燃情緒的是你內心對「被體貼」與「可信賴感」的渴望；認領這份需要，能把指責轉化為清晰的心意表達。",
+          "sc": "白话解析：伴侣迟到只是火星，真正点燃情绪的是你内心对“被体贴”与“可信赖感”的渴望；认领这份需要，能把指责转化为清晰的心意表达。"
+        }
+      }
+    ],
+    "extraHighlights": [
+      {
+        "num": "04",
+        "titleEn": "Requests vs. Demands",
+        "titleCn": {
+          "tc": "提出請求而非命令",
+          "sc": "提出请求而非命令"
+        },
+        "conceptEn": "Clear, positive, doable requests tell a partner what would enrich our life right now. The true test of a request versus a demand lies in how we respond when the other person says no.",
+        "plainEn": "Plain Explanation: If a “no” is met with guilt-tripping or cold silence, the request was actually a command in polite clothing; a genuine request leaves room for the other person's needs too.",
+        "plainCn": {
+          "tc": "白話解析：如果對方說「不」之後，換來的是冷戰或情緒勒索，那句請求其實只是穿著禮貌外衣的命令；真正的請求，會為對方的難處留出空間。",
+          "sc": "白话解析：如果对方说“不”之后，换来的是冷战或情绪勒索，那句请求其实只是穿着礼貌外衣的命令；真正的请求，会为对方的难处留出空间。"
+        }
+      },
+      {
+        "num": "05",
+        "titleEn": "Giving From the Heart",
+        "titleCn": {
+          "tc": "出於真心而非義務的付出",
+          "sc": "出于真心而非义务的付出"
+        },
+        "conceptEn": "Compliance driven by fear, guilt, or duty breeds quiet resentment that eventually poisons intimacy. Relationships flourish when both people give solely out of the joy of contributing to each other's well-being.",
+        "plainEn": "Plain Explanation: Cooking dinner out of quiet obligation leaves a bitter aftertaste at the table, whereas doing less—but doing it freely—keeps affection clean and unburdened.",
+        "plainCn": {
+          "tc": "白話解析：帶著委屈與義務感勉強準備的晚餐，端上桌時難免帶著苦澀；少做一點，但只做心甘情願的部分，反而能讓愛意保持清澈無負擔。",
+          "sc": "白话解析：带着委屈与义务感勉强准备的晚餐，端上桌时难免带着苦涩；少做一点，但只做心甘情愿的部分，反而能让爱意保持清澈无负担。"
+        }
+      },
+      {
+        "num": "06",
+        "titleEn": "Empathy Before Education",
+        "titleCn": {
+          "tc": "先給予同理再講道理",
+          "sc": "先给予同理再讲道理"
+        },
+        "conceptEn": "When someone is hurting, offering unsolicited advice, reassurance, or correction blocks real connection. Silently sensing what they are feeling and needing allows their emotional storm to subside naturally.",
+        "plainEn": "Plain Explanation: When your partner is venting about a brutal day at work, jumping in with “Here is how you should handle your boss” feels like being pushed away; sitting in the mud with them for two minutes heals far faster.",
+        "plainCn": {
+          "tc": "白話解析：當伴侶傾訴工作上的委屈時，急著給出「你應該這樣應對老闆」的建議，只會讓人覺得被推開；陪他們在泥濘裡安靜坐兩分鐘，療癒反而來得更快。",
+          "sc": "白话解析：当伴侣倾诉工作上的委屈时，急着给出“你应该这样应对老板”的建议，只会让人觉得被推开；陪他们在泥泞里安静坐两分钟，疗愈反而来得更快。"
+        }
+      },
+      {
+        "num": "07",
+        "titleEn": "Self-Compassion Over Self-Judgment",
+        "titleCn": {
+          "tc": "以自我同理取代自我苛責",
+          "sc": "以自我同理取代自我苛责"
+        },
+        "conceptEn": "Internalized violence shows up whenever we beat ourselves up with “shoulds” after making a mistake. Translating self-hatred into mourning what we wished we had done differently frees energy for genuine repair.",
+        "plainEn": "Plain Explanation: Calling yourself a terrible partner after losing your temper traps you in shame; asking “What was I desperately needing when I snapped?” opens the door to doing better tomorrow.",
+        "plainCn": {
+          "tc": "白話解析：發完脾氣後罵自己「真是個糟糕的伴侶」，只會把人困在羞愧裡；轉而問自己「我剛才失控時，內心究竟渴望什麼」，才能打開明天做得更好的門。",
+          "sc": "白话解析：发完脾气后骂自己“真是个糟糕的伴侣”，只会把人困在羞愧里；转而问自己“我刚才失控时，内心究竟渴望什么”，才能打开明天做得更好的门。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Translating Enemy Images",
+        "titleCn": {
+          "tc": "轉譯心中的敵人畫像",
+          "sc": "转译心中的敌人画像"
+        },
+        "conceptEn": "Labels like “selfish” or “controlling” freeze a human being into a caricature. Listening through “giraffe ears” means hearing every sharp attack from a partner as a tragic cry for a need they cannot yet articulate.",
+        "plainEn": "Plain Explanation: When someone snaps “You never listen to me,” you can choose to hear an insult—or translate it silently as “I am scared my voice doesn't count here,” which immediately lowers your own heart rate.",
+        "plainCn": {
+          "tc": "白話解析：當對方脫口而出「你從來不聽我說話」，你可以選擇聽到一句人身攻擊——也可以在心裡將它翻譯成「我很害怕自己的聲音在這裡沒有份量」，你的心跳瞬間就會平靜下來。",
+          "sc": "白话解析：当对方脱口而出“你从来不听我说话”，你可以选择听到一句人身攻击——也可以在心里将它翻译成“我很害怕自己的声音在这里没有分量”，你的心跳瞬间就会平静下来。"
+        }
+      }
+    ],
+    "easternResonance": {
+      "quote": {
+        "tc": "「慈悲沒有敵人，智慧不起煩惱。」",
+        "sc": "“慈悲没有敌人，智慧不起烦恼。”"
+      },
+      "source": {
+        "tc": "—— 聖嚴法師（法鼓山弘法核心理念）",
+        "sc": "—— 圣严法师（法鼓山弘法核心理念）"
+      },
+      "commentary": {
+        "tc": "聖嚴法師把慈悲說成一種沒有敵人的心：不是把對方說贏，而是先看見苦。這與盧森堡的長頸鹿語言同一方向——尖銳的指責背後，幾乎總是一個尚未被翻譯出來的需要。先軟化內在的敵我圖像，話才有機會被聽見。",
+        "sc": "圣严法师把慈悲说成一种没有敌人的心：不是把对方说赢，而是先看见苦。这与卢森堡的长颈鹿语言同一方向——尖锐的指责背后，几乎总是一个尚未被翻译出来的需要。先软化内在的敌我图像，话才有机会被听见。"
+      }
+    },
+    "actionPromptEn": "Think of one mild irritation you felt with someone close to you in the last twenty-four hours. Write down or silently rehearse it in four plain sentences: what you observed without judgment, how you felt, what core need was stirred, and one small, concrete request you could make today.",
+    "actionPromptCn": {
+      "tc": "回想過去二十四小時內，親近之人讓你感到有些煩躁的一件小事。試著用四句平實的話在心裡練習表達：不帶評價地描述你看見的事實、你的真實感受、被觸動的核心需要，以及今天可以提出的一個具體小請求。",
+      "sc": "回想过去二十四小时内，亲近之人让你感到有些烦躁的一件小事。试着用四句平实的话在心里练习表达：不带评价地描述你看见的事实、你的真实感受、被触动的核心需要，以及今天可以提出的一个具体小请求。"
+    }
+  },
+  {
+    "id": "come-as-you-are",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
+    },
+    "categoryFilter": "SEX, DESIRE & EROTICISM",
+    "categoryEn": "SEX, DESIRE & EROTICISM",
+    "categoryCn": {
+      "tc": "性愛、慾望與情慾美學 /",
+      "sc": "性爱、欲望与情欲美学 /"
+    },
+    "durationEn": "DURATION: 5 MIN",
+    "durationCn": {
+      "tc": "時間：5分鐘",
+      "sc": "时间：5分钟"
+    },
+    "themeEn": "THEME: RESPONSIVE DESIRE",
+    "themeCn": {
+      "tc": "主題：回應式慾望",
+      "sc": "主题：回应式欲望"
+    },
+    "titleLinesEn": [
+      "COME AS",
+      "YOU ARE"
+    ],
+    "titleFlatEn": "Come as You Are",
+    "titleCn": {
+      "tc": "愉悅的科學",
+      "sc": "愉悦的科学"
+    },
+    "authorLine": "Emily Nagoski (2015)",
+    "quoteEn": "“You are not broken. You have all the same parts as everyone else, just organized differently.”",
+    "quoteCn": {
+      "tc": "“你並沒有壞掉。你擁有與其他人完全相同的構造，只是排列組合的方式不同而已。”",
+      "sc": "“你并没有坏掉。你拥有与其他人完全相同的构造，只是排列组合的方式不同而已。”"
+    },
+    "leadEn": "Desire is rarely a spontaneous lightning strike; more often, it is a quiet garden that blooms only when the weeds of stress are cleared.",
+    "leadCn": {
+      "tc": "情慾很少是一道憑空劈下的閃電，它更像一座安靜的花園，唯有先除盡壓力的雜草，才會悄然綻放。",
+      "sc": "情欲很少是一道凭空劈下的闪电，它更像一座安静的花园，唯有先除尽压力的杂草，才会悄然绽放。"
+    },
+    "thesisEn": "Emily Nagoski dismantles decades of cultural anxiety surrounding female sexuality through rigorous affective neuroscience. Rather than treating low desire as a biological defect, we learn that eroticism operates via dual neural mechanisms that constantly scan our environment for safety and trust. When we stop measuring intimacy by rigid performance benchmarks and instead tend to the emotional context around us, pleasure becomes accessible on our own natural terms.",
+    "thesisCn": {
+      "tc": "艾蜜莉·納高斯基以神經科學破除社會對女性情慾的迷思。我們不再將低慾望視為生理缺陷，而是理解親密感由大腦的雙重控制系統主導，時刻偵測著安全與信任。當我們放下對高潮表現的焦慮，轉而悉心照料關係中的情緒語境，愉悅便會自然發生。",
+      "sc": "艾米莉·纳戈斯基以神经科学破除社会对女性情欲的迷思。我们不再将低欲望视为生理缺陷，而是理解亲密感由大脑的双重控制系统主导，时刻侦测着安全与信任。当我们放下对高潮表现的焦虑，转而悉心照料关系中的情绪语境，愉悦便会自然发生。"
+    },
+    "highlights": [
+      {
+        "num": "01",
+        "titleEn": "The Dual Control Model",
+        "titleCn": {
+          "tc": "雙重控制模型：油門與煞車",
+          "sc": "双重控制模型：油门与刹车"
+        },
+        "conceptEn": "Sexual response relies on two independent neural systems: an excitation mechanism that notices erotic cues and an inhibition mechanism that scans for threat. Often, a stalled libido is not a weak accelerator, but a foot pressed firmly on the brake.",
+        "plainEn": "Plain Explanation: Trying to turn yourself on while exhausted or anxious is like flooring a car's gas pedal with the emergency brake pulled up—you first have to release the brake.",
+        "plainCn": {
+          "tc": "白話解析：在疲憊或焦慮時強迫自己進入狀態，就像拉著手煞車猛踩油門；你需要的不是更用力的刺激，而是先鬆開那隻踩住煞車的腳。",
+          "sc": "白话解析：在疲惫或焦虑时强迫自己进入状态，就像拉着手刹车猛踩油门；你需要的不是更用力的刺激，而是先松开那只踩住刹车的脚。"
+        }
+      },
+      {
+        "num": "02",
+        "titleEn": "Spontaneous vs. Responsive Desire",
+        "titleCn": {
+          "tc": "自發式與回應式慾望",
+          "sc": "自发式与回应式欲望"
+        },
+        "conceptEn": "While spontaneous desire emerges out of nowhere prior to physical touch, responsive desire awakens only after sensual context and safety are established. Both patterns are entirely healthy expressions of human eroticism.",
+        "plainEn": "Plain Explanation: You do not need to feel hungry before sitting down at a beautifully set dinner table; sometimes the aroma of the first course is what wakes up your appetite.",
+        "plainCn": {
+          "tc": "白話解析：你不需要在坐上餐桌前就餓得發慌，有時是第一道菜的香氣與氛圍，才慢慢喚醒了你的食慾，這在親密關係中同樣自然。",
+          "sc": "白话解析：你不需要在坐上餐桌前就饿得发慌，有时是第一道菜的香气与氛围，才慢慢唤醒了你的食欲，这在亲密关系中同样自然。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "Context Is the True Aphrodisiac",
+        "titleCn": {
+          "tc": "語境才是最好的催情劑",
+          "sc": "语境才是最好的催情剂"
+        },
+        "conceptEn": "The identical physical touch can feel deeply erotic in a relaxed, trusted setting and deeply intrusive under stress or resentment. The brain evaluates the surrounding emotional climate before granting permission for pleasure.",
+        "plainEn": "Plain Explanation: A gentle hand on your shoulder feels romantic during a quiet Sunday morning, yet irritating while you are rushing to pay overdue bills.",
+        "plainCn": {
+          "tc": "白話解析：同樣一隻輕撫肩膀的手，在慵懶的週日早晨是浪漫的邀請，在你正為帳單焦頭爛額時卻只會讓人感到煩躁。",
+          "sc": "白话解析：同样一只轻抚肩膀的手，在慵懒的周日早晨是浪漫的邀请，在你正为账单焦头烂额时却只会让人感到烦躁。"
+        }
+      }
+    ],
+    "extraHighlights": [
+      {
+        "num": "04",
+        "titleEn": "Arousal Non-Concordance",
+        "titleCn": {
+          "tc": "生理喚起與心理慾望的非一致性",
+          "sc": "生理唤起与心理欲望的非一致性"
+        },
+        "conceptEn": "Genital blood flow and subjective emotional desire frequently operate on separate tracks. Physical lubrication or erection does not automatically signify consent or longing, just as physical dryness does not mean an absence of love.",
+        "plainEn": "Plain Explanation: Your body reacting to touch while your mind feels distant is like tearing up while chopping onions—it is a physical reflex, not necessarily an emotional confession.",
+        "plainCn": {
+          "tc": "白話解析：身體對觸碰產生反應但心裡卻毫無波瀾，就像切洋蔥時流眼淚一樣，那只是神經系統的反射，不代表內心真正的渴望。",
+          "sc": "白话解析：身体对触碰产生反应但心里却毫无波澜，就像切洋葱时流眼泪一样，那只是神经系统的反射，不代表内心真正的渴望。"
+        }
+      },
+      {
+        "num": "05",
+        "titleEn": "Completing the Stress Cycle",
+        "titleCn": {
+          "tc": "完成壓力反應循環",
+          "sc": "完成压力反应循环"
+        },
+        "conceptEn": "Resolving a practical stressor does not automatically clear the stress hormones circulating in the nervous system. We must physically signal safety to our bodies before our erotic brakes can disengage.",
+        "plainEn": "Plain Explanation: Closing your work laptop ends the meeting, yet your body still thinks a bear is chasing you until you shake it off through movement, breath, or a long embrace.",
+        "plainCn": {
+          "tc": "白話解析：闔上電腦不代表身體已經下班，在透過運動、深呼吸或一個長長的擁抱向神經系統傳遞「安全了」的訊號前，身體仍處於備戰狀態。",
+          "sc": "白话解析：合上电脑不代表身体已经下班，在通过运动、深呼吸或一个长长的拥抱向神经系统传递“安全了”的信号前，身体仍处于备战状态。"
+        }
+      },
+      {
+        "num": "06",
+        "titleEn": "Pleasure as the True Metric",
+        "titleCn": {
+          "tc": "以愉悅而非表現作為度量",
+          "sc": "以愉悦而非表现作为度量"
+        },
+        "conceptEn": "When orgasm is treated as a mandatory finish line, intimacy becomes a high-stakes exam rather than a shared exploration. Shifting the goal from achievement to mutual pleasure dissolves performance anxiety.",
+        "plainEn": "Plain Explanation: Approaching intimacy solely to reach a climax is like taking a scenic coastal drive while staring only at the GPS arrival time.",
+        "plainCn": {
+          "tc": "白話解析：把高潮當成必須達標的終點線，就像在最美的海岸公路上自駕時，眼睛卻死盯著導航上的預計抵達時間。",
+          "sc": "白话解析：把高潮当成必须达标的终点线，就像在最美的海岸公路上自驾时，眼睛却死盯着导航上的预计抵达时间。"
+        }
+      },
+      {
+        "num": "07",
+        "titleEn": "The Cultural Brake of Should",
+        "titleCn": {
+          "tc": "「應該」所帶來的文化煞車",
+          "sc": "“应该”所带来的文化刹车"
+        },
+        "conceptEn": "Internalized scripts about body image, frequency, and morality act as invisible psychological brakes. Unlearning inherited shame frees the nervous system to experience curiosity instead of self-judgment.",
+        "plainEn": "Plain Explanation: Bringing rigid rules about how your body ought to look or respond into the bedroom is like inviting a strict school principal to sit at the foot of your bed.",
+        "plainCn": {
+          "tc": "白話解析：帶著對身材與表現的種種「應該」走進臥室，就像請了一位嚴厲的教導主任坐在床尾打分數，任誰都無法真正放鬆。",
+          "sc": "白话解析：带着对身材与表现的种种“应该”走进卧室，就像请了一位严厉的教导主任坐在床尾打分数，任谁都无法真正放松。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Dropping the Spectator",
+        "titleCn": {
+          "tc": "放下自我審視的旁觀者",
+          "sc": "放下自我审视的旁观者"
+        },
+        "conceptEn": "Spectatoring occurs when we mentally step outside our bodies to monitor how we look or perform during intimacy. Returning attention to raw physical sensation restores presence and connection.",
+        "plainEn": "Plain Explanation: Watching yourself from the ceiling during an intimate moment pulls you out of the music; gently bring your focus back to the warmth of skin and breath.",
+        "plainCn": {
+          "tc": "白話解析：在親密時刻分神去想自己看起來美不美，就像在聽音樂會時忙著替自己打燈光；試著把注意力拉回皮膚的溫度與呼吸上。",
+          "sc": "白话解析：在亲密时刻分神去想自己看起来美不美，就像在听音乐会时忙着替自己打灯光；试着把注意力拉回皮肤的温度与呼吸上。"
+        }
+      }
+    ],
+    "easternResonance": {
+      "quote": {
+        "tc": "「性愛在本質上是一種快樂原則，而不是一種生育原則或道德原則。」",
+        "sc": "“性爱在本质上是一种快乐原则，而不是一种生育原则或道德原则。”"
+      },
+      "source": {
+        "tc": "—— 李銀河《性的問題》",
+        "sc": "—— 李银河《性的问题》"
+      },
+      "commentary": {
+        "tc": "社會學家李銀河在華語語境中率先將「快樂原則」從傳統道德與繁衍的重負中剝離出來。這與納高斯基的科學觀察遙相呼應：當親密不再是一場背負義務的考核，身體才有餘裕回到愉悅本身。",
+        "sc": "社会学家李银河在华语语境中率先将“快乐原则”从传统道德与繁衍的重负中剥离出来。这与纳戈斯基的科学观察遥相呼应：当亲密不再是一场背负义务的考核，身体才有余裕回到愉悦本身。"
+      }
+    },
+    "actionPromptEn": "Tonight, take ten minutes before bed to complete your stress cycle—stretch slowly, breathe deeply, or share a twenty-second silent hug with your partner without expecting anything to follow.",
+    "actionPromptCn": {
+      "tc": "今晚睡前花十分鐘完成你的壓力循環——緩慢伸展、深呼吸，或與伴侶進行一個二十秒的靜默擁抱，不帶任何後續期待。",
+      "sc": "今晚睡前花十分钟完成你的压力循环——缓慢伸展、深呼吸，或与伴侣进行一个二十秒的静默拥抱，不带任何后续期待。"
+    }
+  },
+  {
+    "id": "codependent-no-more",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
+    },
+    "categoryFilter": "BOUNDARIES, CODEPENDENCY & SELFHOOD",
+    "categoryEn": "BOUNDARIES, CODEPENDENCY & SELFHOOD",
+    "categoryCn": {
+      "tc": "關係界線、共生依賴與自我 /",
+      "sc": "关系界线、共生依赖与自我 /"
+    },
+    "durationEn": "DURATION: 5 MIN",
+    "durationCn": {
+      "tc": "時間：5分鐘",
+      "sc": "时间：5分钟"
+    },
+    "themeEn": "THEME: LOVING DETACHMENT",
+    "themeCn": {
+      "tc": "主題：帶著愛的抽離",
+      "sc": "主题：带着爱的抽离"
+    },
+    "titleLinesEn": [
+      "CODEPENDENT",
+      "NO MORE"
+    ],
+    "titleFlatEn": "Codependent No More",
+    "titleCn": {
+      "tc": "遠離共生依賴",
+      "sc": "远离共生依赖"
+    },
+    "authorLine": "Melody Beattie (1986)",
+    "quoteEn": "“The only person you can now or ever change is yourself. The only person that it is your business to control is yourself.”",
+    "quoteCn": {
+      "tc": "“你現在能改變、也永遠只能改變的人，是你自己。你有權管理的，也只有你自己。”",
+      "sc": "“你现在能改变、也永远只能改变的人，是你自己。你有权管理的，也只有你自己。”"
+    },
+    "leadEn": "True devotion begins the moment we stop managing another person's storms and finally step inside to tend our own house.",
+    "leadCn": {
+      "tc": "真正的深愛始於我們不再替他人收拾風暴，終於走進自己內心的屋簷，安頓好自己的靈魂。",
+      "sc": "真正的深爱始于我们不再替他人收拾风暴，终于走进自己内心的屋檐，安顿好自己的灵魂。"
+    },
+    "thesisEn": "Melody Beattie exposes the quiet pathology hidden inside chronic self-sacrifice: what looks like boundless generosity is often an anxious attempt to control someone else's behavior. When we fuse our emotional equilibrium with a partner's moods or crises, we erode both our autonomy and theirs. Healing asks us to practice loving detachment—allowing adults to own their consequences while we reclaim responsibility for our own peace.",
+    "thesisCn": {
+      "tc": "梅樂迪·碧蒂揭示了過度犧牲背後隱蔽的心理機制：看似無私的照料，往往是試圖控制他人的焦慮表現。當我們把情緒安穩綁定在伴侶的喜怒與危機上，雙方的獨立性都會被吞噬。真正的修復在於練習「帶著愛的抽離」，讓成年人為自己的選擇負責，而我們則收回對自我平靜的主導權。",
+      "sc": "梅勒迪·比蒂揭示了过度牺牲背后隐蔽的心理机制：看似无私的照料，往往是试图控制他人的焦虑表现。当我们把情绪安稳绑定在伴侣的喜怒与危机上，双方的独立性都会被吞噬。真正的修复在于练习“带着爱的抽离”，让成年人为自己的选择负责，而我们则收回对自我平静的主导权。"
+    },
+    "highlights": [
+      {
+        "num": "01",
+        "titleEn": "Caretaking as Disguised Control",
+        "titleCn": {
+          "tc": "偽裝成照料的控制",
+          "sc": "伪装成照料的控制"
+        },
+        "conceptEn": "Codependent caretaking goes beyond compassionate support; it steps in to solve problems another adult never asked us to fix, breeding silent resentment when our unrequested sacrifices go unrewarded.",
+        "plainEn": "Plain Explanation: Constantly grabbing the steering wheel from the passenger seat does not make you a helpful co-pilot; it exhausts you and prevents the driver from learning the road.",
+        "plainCn": {
+          "tc": "白話解析：坐在副駕駛座卻總想伸手搶方向盤，並不是體貼的領航員；這只會讓你精疲力竭，也讓駕駛永遠學不會自己看路。",
+          "sc": "白话解析：坐在副驾驶座却总想伸手抢方向盘，并不是体贴的领航员；这只会让你精疲力竭，也让驾驶永远学不会自己看路。"
+        }
+      },
+      {
+        "num": "02",
+        "titleEn": "Detachment with Love",
+        "titleCn": {
+          "tc": "帶著愛的抽離",
+          "sc": "带着爱的抽离"
+        },
+        "conceptEn": "Detachment does not mean cold abandonment or hostility. It means releasing emotional entanglement with someone else's chaos so we can remain warm, grounded, and clear-headed beside them.",
+        "plainEn": "Plain Explanation: Standing safely on the riverbank while throwing a rope to a friend is love; jumping into the rapids so you both drown is enmeshment.",
+        "plainCn": {
+          "tc": "白話解析：穩穩站在岸邊向落水的朋友拋出救生繩是愛；不顧一切跳進激流與對方一起沉沒，則是失去界線的共生糾纏。",
+          "sc": "白话解析：稳稳站在岸边向落水的朋友抛出救生绳是爱；不顾一切跳进激流与对方一起沉没，则是失去界线的共生纠缠。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "The Three C's of Reality",
+        "titleCn": {
+          "tc": "清醒的三個不：非我所致、不可控、不可治",
+          "sc": "清醒的三个不：非我所致、不可控、不可治"
+        },
+        "conceptEn": "We did not cause another adult's emotional wounds, we cannot control their choices, and we cannot cure their habits through sheer devotion. Accepting these limits liberates us from omnipotent guilt.",
+        "plainEn": "Plain Explanation: You cannot digest someone else's meal for them, nor can your perfection heal another person's refusal to look inward.",
+        "plainCn": {
+          "tc": "白話解析：你無法替別人消化他吃下的食物，同樣地，你再怎麼完美與隱忍，也無法治癒另一個成年人不願自我成長的選擇。",
+          "sc": "白话解析：你无法替别人消化他吃下的食物，同样地，你再怎么完美与隐忍，也无法治愈另一个成年人不愿自我成长的选择。"
+        }
+      }
+    ],
+    "extraHighlights": [
+      {
+        "num": "04",
+        "titleEn": "Exiting the Drama Triangle",
+        "titleCn": {
+          "tc": "走出拯救者—迫害者—受害者三角",
+          "sc": "走出拯救者—迫害者—受害者三角"
+        },
+        "conceptEn": "When we compulsively rescue others from natural consequences, we inevitably grow bitter, turning into persecutors before collapsing into exhausted victims. Stepping off the triangle ends the cycle.",
+        "plainEn": "Plain Explanation: Volunteering to stay up all night doing your partner's work, only to slam cabinets in anger the next morning, traps both of you in a script nobody enjoys.",
+        "plainCn": {
+          "tc": "白話解析：主動熬夜替伴侶收拾爛攤子，隔天早上卻委屈地摔門抱怨，這種循環會把兩人都困在誰也不快樂的劇本裡。",
+          "sc": "白话解析：主动熬夜替伴侣收拾烂摊子，隔天早上却委屈地摔门抱怨，这种循环会把两人都困在谁也不快乐的剧本里。"
+        }
+      },
+      {
+        "num": "05",
+        "titleEn": "Reclaiming a Lost Self",
+        "titleCn": {
+          "tc": "找回遺失的自我聲音",
+          "sc": "找回遗失的自我声音"
+        },
+        "conceptEn": "Years of hyper-vigilance toward others' needs numb our own preferences. Recovery begins with asking simple, honest questions about what we actually feel, want, and enjoy.",
+        "plainEn": "Plain Explanation: If you always ask what everyone else wants for dinner until you no longer know your own favorite dish, start by ordering solely for yourself once a week.",
+        "plainCn": {
+          "tc": "白話解析：如果你習慣了永遠先問別人晚餐想吃什麼，久而久之連自己愛吃什麼都忘了，試著每週至少為自己單獨點一次菜。",
+          "sc": "白话解析：如果你习惯了永远先问别人晚餐想吃什么，久而久之连自己爱吃什么都忘了，试着每周至少为自己单独点一次菜。"
+        }
+      },
+      {
+        "num": "06",
+        "titleEn": "Surrendering Outcome Control",
+        "titleCn": {
+          "tc": "放下對結果的執念",
+          "sc": "放下对结果的执念"
+        },
+        "conceptEn": "Hyper-managing every detail of a relationship is an illusion of safety that breeds chronic anxiety. Surrendering control allows life and people to unfold authentically rather than under surveillance.",
+        "plainEn": "Plain Explanation: Constantly digging up a planted seed to check if it has sprouted destroys the roots; sometimes love means watering the soil and stepping back.",
+        "plainCn": {
+          "tc": "白話解析：每隔十分鐘就把剛種下的種子挖出來看有沒有發芽，只會傷到根系；有時愛意味著澆完水後，安心退後一步。",
+          "sc": "白话解析：每隔十分钟就把刚种下的种子挖出来看有没有发芽，只会伤到根系；有时爱意味着浇完水后，安心退后一步。"
+        }
+      },
+      {
+        "num": "07",
+        "titleEn": "Saying No Without Collapsing into Guilt",
+        "titleCn": {
+          "tc": "不帶內疚地說「不」",
+          "sc": "不带内疚地说“不”"
+        },
+        "conceptEn": "A boundary is not an act of aggression; it is an honest statement of where we end and another person begins. Tolerating someone else's temporary disappointment is essential to authentic integrity.",
+        "plainEn": "Plain Explanation: Saying no to a favor that drains you is like closing your front door at night—it is not an insult to the neighborhood, just basic care for your home.",
+        "plainCn": {
+          "tc": "白話解析：拒絕一個會耗盡你的請求，就像夜晚關上自家大門一樣——這不是對鄰居的冒犯，而是守護家園最基本的常識。",
+          "sc": "白话解析：拒绝一个会耗尽你的请求，就像夜晚关上自家大门一样——这不是对邻居的冒犯，而是守护家园最基本的常识。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Self-Care as Relational Integrity",
+        "titleCn": {
+          "tc": "自我照料是真實之愛的基石",
+          "sc": "自我照料是真实之爱的基石"
+        },
+        "conceptEn": "Prioritizing our physical, emotional, and spiritual well-being is not narcissism; it ensures that whatever affection we offer others comes from abundance rather than depletion.",
+        "plainEn": "Plain Explanation: Pouring from an empty pitcher only leaves scratches on the glass; tending to your own rest ensures your generosity is genuine.",
+        "plainCn": {
+          "tc": "白話解析：試圖從空水壺裡倒水，只會刮傷杯底；先把自己蓄滿水，你給出的每一份溫柔才不會帶著隱秘的索求。",
+          "sc": "白话解析：试图从空水壶里倒水，只会刮伤杯底；先把自己蓄满水，你给出的每一份温柔才不会带着隐秘的索求。"
+        }
+      }
+    ],
+    "easternResonance": {
+      "quote": {
+        "tc": "「所謂自立，並不是不依賴任何人，而是擁有足夠多的依賴對象。」",
+        "sc": "“所谓自立，并不是不依赖任何人，而是拥有足够多的依赖对象。”"
+      },
+      "source": {
+        "tc": "—— 上野千鶴子《一個人的老後》",
+        "sc": "—— 上野千鹤子《一个人的老后》"
+      },
+      "commentary": {
+        "tc": "上野千鶴子點破孤立與共生的陷阱：把所有情感寄託在單一伴侶身上，關係就會變成令人窒息的牢籠。多元支點與清楚的界線，讓人既能靠近，也不必靠控制來換安全感。",
+        "sc": "上野千鹤子点破孤立与共生的陷阱：把所有情感寄托在单一伴侣身上，关系就会变成令人窒息的牢笼。多元支点与清楚的边界，让人既能靠近，也不必靠控制来换安全感。"
+      }
+    },
+    "actionPromptEn": "Notice one urge today to fix, remind, or rescue an adult in your life who did not ask for help—pause for three breaths, keep your hands to yourself, and ask what you need for your own calm right now.",
+    "actionPromptCn": {
+      "tc": "今天留意一次你想替某個未曾求助的成年人收拾殘局、提醒或拯救的衝動——停下來深呼吸三次，管好自己的雙手，轉而問問自己此刻需要什麼來獲得平靜。",
+      "sc": "今天留意一次你想替某个未曾求助的成年人收拾残局、提醒或拯救的冲动——停下来深呼吸三次，管好自己的双手，转而问问自己此刻需要什么来获得平静。"
+    }
+  },
+  {
+    "id": "body-keeps-the-score",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
+    },
+    "categoryFilter": "TRAUMA, INNER CHILD & EMOTIONAL SAFETY",
+    "categoryEn": "TRAUMA, INNER CHILD & EMOTIONAL SAFETY",
+    "categoryCn": {
+      "tc": "創傷療癒、內在小孩與安全感 /",
+      "sc": "创伤疗愈、内在小孩与安全感 /"
+    },
+    "durationEn": "DURATION: 5 MIN",
+    "durationCn": {
+      "tc": "時間：5分鐘",
+      "sc": "时间：5分钟"
+    },
+    "themeEn": "THEME: SOMATIC SAFETY",
+    "themeCn": {
+      "tc": "主題：身體安全感",
+      "sc": "主题：身体安全感"
+    },
+    "titleLinesEn": [
+      "THE BODY KEEPS",
+      "THE SCORE"
+    ],
+    "titleFlatEn": "The Body Keeps the Score",
+    "titleCn": {
+      "tc": "身體從未忘記",
+      "sc": "身体从未忘记"
+    },
+    "authorLine": "Bessel van der Kolk (2014)",
+    "quoteEn": "“Being able to feel safe with other people is probably the most important aspect of mental health.”",
+    "quoteCn": {
+      "tc": "“能夠在他人身邊感到安全，或許是心理健康中最重要的一環。”",
+      "sc": "“能够在他人身边感到安全，或许是心理健康中最重要的一环。”"
+    },
+    "leadEn": "Long after the mind convinces itself the danger has passed, the nervous system continues to keep the ledger.",
+    "leadCn": {
+      "tc": "當理智早已說服自己危險過去，神經系統依然在暗處替我們記帳。",
+      "sc": "当理智早已说服自己危险过去，神经系统依然在暗处替我们记账。"
+    },
+    "thesisEn": "Relational trauma does not merely live as a memory we can edit through insight; it physically reorganizes the brain and body's alarm systems. In intimacy, our oldest wounds often surface as sudden bracing, emotional numbness, or fierce overreaction. True healing asks us to move beyond insight alone, cultivating somatic safety and steady co-regulation so our bodies finally learn that the present moment is habitable.",
+    "thesisCn": {
+      "tc": "關係中的創傷並不只是能靠道理說通的往事，它會實質改寫大腦與神經系統的警報機制。在親密關係裡，舊傷常化作莫名的緊繃與麻木；真正的療癒需要透過身體安全感與彼此的穩定陪伴，讓身體確認此刻已不再危險。",
+      "sc": "关系中的创伤并不只是能靠道理说通的往事，它会实质改写大脑与神经系统的警报机制。在亲密关系里，旧伤常化作莫名的紧绷与麻木；真正的疗愈需要透过身体安全感与彼此的稳定陪伴，让身体确认此刻已不再危险。"
+    },
+    "highlights": [
+      {
+        "num": "01",
+        "titleEn": "The Body Remembers What Words Cannot",
+        "titleCn": {
+          "tc": "身體記住了語言無法訴說的事",
+          "sc": "身体记住了语言无法诉说的事"
+        },
+        "conceptEn": "Trauma bypasses the rational, verbal centers of the brain and embeds itself directly into visceral sensations and muscle tension. Even when we cannot narrate what hurt us, our posture and breath still carry the imprint.",
+        "plainEn": "Plain Explanation: Think of a smoke alarm that keeps blaring long after the toast has stopped burning; your logic knows the kitchen is clear, yet your chest still tightens at the faintest smell of heat.",
+        "plainCn": {
+          "tc": "白話解析：就像烤焦麵包的煙霧早已散去，煙霧警報器卻還在尖叫；你的大腦知道廚房很安全，但只要聞到一點熱氣，胸口還是會本能地收緊。",
+          "sc": "白话解析：就像烤焦面包的烟雾早已散去，烟雾警报器却还在尖叫；你的大脑知道厨房很安全，但只要闻到一点热气，胸口还是会本能地收紧。"
+        }
+      },
+      {
+        "num": "02",
+        "titleEn": "Safety With Others as the Foundation",
+        "titleCn": {
+          "tc": "在他人身邊感到安全是療癒的基石",
+          "sc": "在他人身边感到安全是疗愈的基石"
+        },
+        "conceptEn": "Because attachment wounds are forged in relationships, lasting repair requires experiencing reliable warmth with another human being. Mutual attunement calms the survival brain far more effectively than solitary willpower.",
+        "plainEn": "Plain Explanation: You cannot learn to swim solely by reading a manual on dry land; at some point, you need calm water and a steady hand beside you to trust that you will not sink.",
+        "plainCn": {
+          "tc": "白話解析：人無法只靠在陸地上讀說明書學會游泳；你終究需要一片平靜的水域，以及身旁一雙穩妥的手，身體才會相信自己不會沉下去。",
+          "sc": "白话解析：人无法只靠在陆地上读说明书学会游泳；你终究需要一片平静的水域，以及身旁一双稳妥的手，身体才会相信自己不会沉下去。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "Beyond Talk: Bottom-Up Healing",
+        "titleCn": {
+          "tc": "超越純粹談話：由下而上的身體路徑",
+          "sc": "超越纯粹谈话：由下而上的身体路径"
+        },
+        "conceptEn": "Top-down analysis helps us understand why we react, yet it rarely stops a panic response mid-flight. Bottom-up practices like breathwork, rhythm, yoga, and EMDR speak directly to the nervous system in its native physical language.",
+        "plainEn": "Plain Explanation: When a startled horse is bolting, lecturing it about traffic rules will not slow it down; you have to gently hold the reins and match its breathing until its heartbeat settles.",
+        "plainCn": {
+          "tc": "白話解析：當一匹受驚的馬正在狂奔時，對牠講解交通規則是沒用的；你必須先輕柔地握住韁繩、調整呼吸節奏，等牠的心跳慢下來。",
+          "sc": "白话解析：当一匹受惊的马正在狂奔时，对它讲解交通规则是没用的；你必须先轻柔地握住缰绳、调整呼吸节奏，等它的心跳慢下来。"
+        }
+      }
+    ],
+    "extraHighlights": [
+      {
+        "num": "04",
+        "titleEn": "Hypervigilance in Intimacy",
+        "titleCn": {
+          "tc": "親密關係裡的過度警覺",
+          "sc": "亲密关系里的过度警觉"
+        },
+        "conceptEn": "A sensitized nervous system scans a partner's sigh, silence, or micro-expression as a prelude to abandonment. What looks like controlling or anxious behavior is often an exhausted body trying to prevent a familiar ambush.",
+        "plainEn": "Plain Explanation: Imagine sitting in a cozy living room while wearing full riot gear; you are technically safe on the sofa, yet every creak of the floorboards feels like an incoming threat.",
+        "plainCn": {
+          "tc": "白話解析：就像穿著全套防暴裝備坐在自家客廳沙發上；明明身處安全之中，但地板發出的每一聲輕響，都讓你以為有危險正在逼近。",
+          "sc": "白话解析：就像穿着全套防暴装备坐在自家客厅沙发上；明明身处安全之中，但地板发出的每一声轻响，都让你以为有危险正在逼近。"
+        }
+      },
+      {
+        "num": "05",
+        "titleEn": "Numbing and the Shutdown of Desire",
+        "titleCn": {
+          "tc": "情緒麻木與渴望的關閉",
+          "sc": "情绪麻木与渴望的关闭"
+        },
+        "conceptEn": "When fighting or fleeing feels impossible, the body pulls an emergency brake called immobilization, dimming both pain and pleasure. This protective numbness can make partners feel distant, detached, or unable to receive affection.",
+        "plainEn": "Plain Explanation: When too many appliances run at once, a house trips its main circuit breaker to prevent a fire; emotional shutdown is your nervous system cutting the power so you do not burn out.",
+        "plainCn": {
+          "tc": "白話解析：當屋裡同時開啟太多電器，總開關會自動跳閘以防走火；情緒麻木正是神經系統為了保護你徹底崩潰，而暫時切斷了電源。",
+          "sc": "白话解析：当屋里同时开启太多电器，总开关会自动跳闸以防走火；情绪麻木正是神经系统为了保护你彻底崩溃，而暂时切断了电源。"
+        }
+      },
+      {
+        "num": "06",
+        "titleEn": "Borrowing a Calm Nervous System",
+        "titleCn": {
+          "tc": "向伴侶借用平靜的神經系統",
+          "sc": "向伴侣借用平静的神经系统"
+        },
+        "conceptEn": "Human nervous systems constantly tune to one another through vocal tone, eye contact, and physical presence. Co-regulation allows one partner's grounded steadiness to anchor the other during moments of emotional flooding.",
+        "plainEn": "Plain Explanation: Place two pendulums on the same wooden beam and they eventually swing in unison; sitting quietly beside a steady partner lets your racing pulse borrow their slower rhythm.",
+        "plainCn": {
+          "tc": "白話解析：把兩個鐘擺放在同一根木樑上，它們最終會同步擺動；安靜地坐在情緒穩定的伴侶身旁，能讓你急促的脈搏借用對方的平緩節奏。",
+          "sc": "白话解析：把两个钟摆放在同一根木梁上，它们最终会同步摆动；安静地坐在情绪稳定的伴侣身旁，能让你急促的脉搏借用对方的平缓节奏。"
+        }
+      },
+      {
+        "num": "07",
+        "titleEn": "Befriending the Inner Child in the Body",
+        "titleCn": {
+          "tc": "安撫身體裡那個仍在退縮的內在小孩",
+          "sc": "安抚身体里那个仍在退缩的内在小孩"
+        },
+        "conceptEn": "Our inner child is not merely a metaphor, but the younger physiological state that still flinches when criticized or ignored. Healing begins when our adult self meets those raw bodily sensations with curiosity rather than shame.",
+        "plainEn": "Plain Explanation: When a frightened child hides under a table, scolding them for being irrational only makes them curl up tighter; kneeling down with a soft voice is what invites them out.",
+        "plainCn": {
+          "tc": "白話解析：當受驚的孩子躲在桌子底下時，責罵他「太不理智」只會讓他蜷縮得更緊；唯有蹲下身用溫柔的聲音說話，他才願意走出來。",
+          "sc": "白话解析：当受惊的孩子躲在桌子底下时，责骂他“太不理智”只会让他蜷缩得更紧；唯有蹲下身用温柔的声音说话，他才愿意走出来。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Reclaiming Agency in the Present",
+        "titleCn": {
+          "tc": "在當下重新取回身體的主導權",
+          "sc": "在当下重新取回身体的主导权"
+        },
+        "conceptEn": "Trauma thrives on helplessness—the feeling of being trapped without options. Restoring small, deliberate physical choices in daily life teaches the nervous system that we now have boundaries and the power to act.",
+        "plainEn": "Plain Explanation: Realizing the bedroom door is unlocked and you can step outside for fresh air whenever you wish immediately changes how small the room feels.",
+        "plainCn": {
+          "tc": "白話解析：當你發現房門其實沒有上鎖，隨時都能推門出去透氣時，這間屋子帶給你的壓迫感便會瞬間消散。",
+          "sc": "白话解析：当你发现房门其实没有上锁，随时都能推门出去透气时，这间屋子带给你的压迫感便会瞬间消散。"
+        }
+      }
+    ],
+    "easternResonance": {
+      "quote": {
+        "tc": "「恬惔虛無，真氣從之，精神內守，病安從來。」",
+        "sc": "“恬惔虚无，真气从之，精神内守，病安从来。”"
+      },
+      "source": {
+        "tc": "—— 《黃帝內經·素問·上古天真論》",
+        "sc": "—— 《黄帝内经·素问·上古天真论》"
+      },
+      "commentary": {
+        "tc": "《黃帝內經》早已看見情緒與肉身的連動：「思則氣結」，未消化的驚懼會化作氣血的瘀滯。書中的「精神內守」，與范德寇爾克所求的身心同調彼此呼應——當心神不再草木皆兵，而是安穩回到身體裡，修復才有餘地。",
+        "sc": "《黄帝内经》早已看见情绪与肉身的连动：“思则气结”，未消化的惊惧会化作气血的瘀滞。书中的“精神内守”，与范德科尔克所求的身心同调彼此呼应——当心神不再草木皆兵，而是安稳回到身体里，修复才有余地。"
+      }
+    },
+    "actionPromptEn": "Set a timer for three minutes today during a quiet moment. Place one hand over your sternum and one on your lower belly, lengthen your exhale so it lasts two seconds longer than your inhale, and silently name three solid objects in the room to remind your body where—and when—you are.",
+    "actionPromptCn": {
+      "tc": "今天找一個安靜的空檔設定三分鐘計時器，將一隻手輕放在胸口、另一隻手放在下腹。刻意讓吐氣比吸氣多出兩秒，同時在心裡默念眼前三件實體物品的名稱，溫柔地提醒身體你此刻身在何處、已然安全。",
+      "sc": "今天找一个安静的空档设定三分钟计时器，将一只手轻放在胸口、另一只手放在下腹。刻意让吐气比吸气多出两秒，同时在心里默念眼前三件实体物品的名称，温柔地提醒身体你此刻身在何处、已然安全。"
+    }
+  },
+  {
+    "id": "all-or-nothing-marriage",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
+    },
+    "categoryFilter": "LONG-TERM PARTNERSHIP & MARRIAGE",
+    "categoryEn": "LONG-TERM PARTNERSHIP & MARRIAGE",
+    "categoryCn": {
+      "tc": "長期伴侶關係與婚姻經營 /",
+      "sc": "长期伴侣关系与婚姻经营 /"
+    },
+    "durationEn": "DURATION: 5 MIN",
+    "durationCn": {
+      "tc": "時間：5分鐘",
+      "sc": "时间：5分钟"
+    },
+    "themeEn": "THEME: MARITAL ALTITUDE",
+    "themeCn": {
+      "tc": "主題：婚姻海拔",
+      "sc": "主题：婚姻海拔"
+    },
+    "titleLinesEn": [
+      "THE ALL-OR-NOTHING",
+      "MARRIAGE"
+    ],
+    "titleFlatEn": "The All-or-Nothing Marriage",
+    "titleCn": {
+      "tc": "全有或全無的婚姻",
+      "sc": "全有或全无的婚姻"
+    },
+    "authorLine": "Eli J. Finkel (2017)",
+    "quoteEn": "“The best marriages today are far better than the best marriages of yesteryear, while the average marriage is weaker.”",
+    "quoteCn": {
+      "tc": "“當代最美滿的婚姻遠勝於往昔最美滿的婚姻，但平均而言，現代婚姻卻變得更加脆弱。”",
+      "sc": "“当代最美满的婚姻远胜于往昔最美满的婚姻，但平均而言，现代婚姻却变得更加脆弱。”"
+    },
+    "leadEn": "We have turned marriage from a practical shelter against life's storms into a high-altitude expedition for self-actualization.",
+    "leadCn": {
+      "tc": "我們把婚姻從遮風避雨的實用屋簷，改造成了一場追求自我實現的高海拔攀登。",
+      "sc": "我们把婚姻从遮风避雨的实用屋檐，改造成了一场追求自我实现的高海拔攀登。"
+    },
+    "thesisEn": "Over the past century, we have steadily raised our expectations of marriage, asking a single partner to serve as co-parent, best friend, passionate lover, and muse for personal growth. While this shift enables unprecedented intimacy for couples who invest deeply, it starves relationships starved of time and attention. Sustaining modern love requires either deliberately supplying the oxygen of shared hours or wisely lowering our expectations to match reality.",
+    "thesisCn": {
+      "tc": "過去一世紀，我們不斷墊高對婚姻的期待，要求單一伴侶同時扮演最佳摯友、熱情愛人與自我實現的推手。這讓全心投入的伴侶得以觸及前所未有的親密，卻也讓缺乏時間灌溉的關係窒息。維繫當代婚姻，需要我們有意識地注入時間氧氣，或智慧地調校期待。",
+      "sc": "过去一世纪，我们不断垫高对婚姻的期待，要求单一伴侣同时扮演最佳挚友、热情爱人与自我实现的推手。这让全心投入的伴侣得以触及前所未有的亲密，却也让缺乏时间灌溉的关系窒息。维系当代婚姻，需要我们有意识地注入时间氧气，或智慧地调校期待。"
+    },
+    "highlights": [
+      {
+        "num": "01",
+        "titleEn": "Asking One Person to Be a Village",
+        "titleCn": {
+          "tc": "要求一個人成為一整座村莊",
+          "sc": "要求一个人成为一整座村庄"
+        },
+        "conceptEn": "In the suffocation model of marriage, we rely on one spouse to satisfy emotional, intellectual, and existential needs that were once distributed across extended family, neighbors, and community. When one person carries that entire load, disappointment becomes structural.",
+        "plainEn": "Plain Explanation: Imagine firing an entire orchestra—violinists, cellists, and percussion—and asking a single pianist to play the whole symphony alone; even a virtuoso will eventually run out of hands.",
+        "plainCn": {
+          "tc": "白話解析：就像解僱了整支交響樂團的小提琴、大提琴與打擊樂手，只留下一位鋼琴家獨自演奏整首交響曲；就算他琴藝再高超，終究會雙手不敷使用。",
+          "sc": "白话解析：就像解雇了整支交响乐团的小提琴、大提琴与打击乐手，只留下一位钢琴家独自演奏整首交响曲；就算他琴艺再高超，终究会双手不敷使用。"
+        }
+      },
+      {
+        "num": "02",
+        "titleEn": "Mount Maslow: Higher Altitude, Thinner Air",
+        "titleCn": {
+          "tc": "馬斯洛山峰：海拔越高，空氣越稀薄",
+          "sc": "马斯洛山峰：海拔越高，空气越稀薄"
+        },
+        "conceptEn": "Modern partnerships aim for the summit of Maslow's hierarchy—esteem and self-expression—rather than basic economic survival. The view from the peak is extraordinary, yet the thin air means marriages wither quickly without sufficient psychological resources.",
+        "plainEn": "Plain Explanation: A greenhouse orchid produces far more breathtaking blooms than a hardy dandelion, but leave it without mist and warmth for a week and it wilts long before the weed does.",
+        "plainCn": {
+          "tc": "白話解析：溫室裡的蘭花能開出比路邊蒲公英驚豔得多的花朵，但只要一週缺乏水氣與恆溫，它枯萎的速度也會遠比野草快得多。",
+          "sc": "白话解析：温室里的兰花能开出比路边蒲公英惊艳得多的花朵，但只要一周缺乏水气与恒温，它枯萎的速度也会远比野草快得多。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "Time and Attention as Oxygen",
+        "titleCn": {
+          "tc": "時間與專注力是婚姻的氧氣",
+          "sc": "时间与专注力是婚姻的氧气"
+        },
+        "conceptEn": "Self-expressive marriage cannot survive on leftover scraps of energy at the end of an exhausting workday. Deep mutual understanding requires unhurried presence, shared novelty, and genuine curiosity.",
+        "plainEn": "Plain Explanation: You cannot expect a sourdough starter to rise if you keep it locked in a cold refrigerator; warmth and regular feeding are non-negotiable for anything living to grow.",
+        "plainCn": {
+          "tc": "白話解析：你不能把酵母菌一直鎖在冰冷的冰箱裡，卻期待麵糰自己發酵膨脹；任何有生命的東西要成長，都需要穩定的溫度與定時餵養。",
+          "sc": "白话解析：你不能把酵母菌一直锁在冰冷的冰箱里，却期待面团自己发酵膨胀；任何有生命的东西要成长，都需要稳定的温度与定时喂养。"
+        }
+      }
+    ],
+    "extraHighlights": [
+      {
+        "num": "04",
+        "titleEn": "Lovehacks for Low-Bandwidth Seasons",
+        "titleCn": {
+          "tc": "低電量時期的微小關係保養術",
+          "sc": "低电量时期的微小关系保养术"
+        },
+        "conceptEn": "During demanding chapters—such as raising infants or weathering career upheaval—couples can preserve goodwill through brief, targeted habits. Writing from a neutral third-party perspective during conflict or practicing small daily gratitude resets emotional friction.",
+        "plainEn": "Plain Explanation: When you are too busy to cook a three-course dinner, keeping healthy snacks in the pantry prevents everyone from snapping at each other out of sheer hunger.",
+        "plainCn": {
+          "tc": "白話解析：當你們忙到沒時間煮一頓三菜一湯的晚餐時，在儲藏室裡備好幾樣健康點心，就能避免兩個人因為餓過頭而互相發脾氣。",
+          "sc": "白话解析：当你们忙到没时间煮一顿三菜一汤的晚餐时，在储藏室里备好几样健康点心，就能避免两个人因为饿过头而互相发脾气。"
+        }
+      },
+      {
+        "num": "05",
+        "titleEn": "Going All-In vs. Strategic Recalibration",
+        "titleCn": {
+          "tc": "全力投入或策略性調降期待",
+          "sc": "全力投入或策略性调降期待"
+        },
+        "conceptEn": "Resentment flourishes in the gap between sky-high expectations and minimal investment. Couples thrive when they align the two—either carving out real time to climb the summit together or consciously agreeing to camp comfortably at base camp for a season.",
+        "plainEn": "Plain Explanation: Buying a sports car is wonderful if you have the budget for premium fuel and maintenance; otherwise, driving a reliable sedan brings far more peace of mind than resenting the repair bills.",
+        "plainCn": {
+          "tc": "白話解析：如果你有預算負擔高級汽油與保養費，開跑車當然很過癮；否則，開一輛穩當的房車，遠比每天對著帳單生悶氣來得舒心。",
+          "sc": "白话解析：如果你有预算负担高级汽油与保养费，开跑车当然很过瘾；否则，开一辆稳当的房车，远比每天对着账单生闷气来得舒心。"
+        }
+      },
+      {
+        "num": "06",
+        "titleEn": "From Institution to Self-Expression",
+        "titleCn": {
+          "tc": "從制度盟約到自我表達的演變",
+          "sc": "从制度盟约到自我表达的演变"
+        },
+        "conceptEn": "Marriage evolved from an economic and social institution into a companionate bond, and finally into an arena for personal authenticity. Recognizing this historical shift frees us from feeling defective when modern partnership feels demanding.",
+        "plainEn": "Plain Explanation: Our grandparents used marriage as a sturdy wooden boat to cross a river; we have redesigned it as a sailboat meant to catch the wind and explore open waters.",
+        "plainCn": {
+          "tc": "白話解析：祖父母輩把婚姻當作渡河用的堅固木船，只求平穩靠岸；而我們把婚姻改造成了帆船，既想乘風破浪，又渴望探索遠方的海域。",
+          "sc": "白话解析：祖父母辈把婚姻当作渡河用的坚固木船，只求平稳靠岸；而我们把婚姻改造成了帆船，既想乘风破浪，又渴望探索远方的海域。"
+        }
+      },
+      {
+        "num": "07",
+        "titleEn": "Outsourcing Needs Without Guilt",
+        "titleCn": {
+          "tc": "坦然將部分需求交給婚姻之外的世界",
+          "sc": "坦然将部分需求交给婚姻之外的世界"
+        },
+        "conceptEn": "Relieving pressure on a marriage often means building a richer ecosystem of friendships, mentors, and creative communities. Letting friends share our niche passions allows us to return to our partner refreshed rather than demanding.",
+        "plainEn": "Plain Explanation: Enjoying a quiet espresso with a book-loving friend does not betray your partner; it ensures you do not force your spouse to read novels they genuinely dislike.",
+        "plainCn": {
+          "tc": "白話解析：和愛看書的朋友喝杯咖啡聊小說，並不是對伴侶的背叛；這反而讓你不必勉強對方去讀一本他根本不感興趣的書。",
+          "sc": "白话解析：和爱看书的朋友喝杯咖啡聊小说，并不是对伴侣的背叛；这反而让你不必勉强对方去读一本他根本不感兴趣的书。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Investing Where the Relationship Lives",
+        "titleCn": {
+          "tc": "把力氣花在關係真正呼吸的地方",
+          "sc": "把力气花在关系真正呼吸的地方"
+        },
+        "conceptEn": "High-altitude marriages are sustained not by grand annual gestures, but by protecting small rituals of play, shared curiosity, and unhurried conversation. Treating a partner's evolving inner life as a mystery still worth discovering keeps the bond alive.",
+        "plainEn": "Plain Explanation: Checking the weather forecast once a year does not keep a garden green; watering the roots for five minutes every evening is what keeps the leaves glossy.",
+        "plainCn": {
+          "tc": "白話解析：一年只看一次氣象預報並不能讓花園常青；每天傍晚花五分鐘替根部澆水，葉片才會一直保持翠綠光澤。",
+          "sc": "白话解析：一年只看一次气象预报并不能让花园常青；每天傍晚花五分钟替根部浇水，叶片才会一直保持翠绿光泽。"
+        }
+      }
+    ],
+    "easternResonance": {
+      "quote": {
+        "tc": "「除了把事情做完的高尚藝術，還有把事情擱下的高尚藝術。人生的智慧，在於刪去那些非必要的東西。」",
+        "sc": "“除了把事情做完的高尚艺术，还有把事情搁下的高尚艺术。人生的智慧，在于删去那些非必要的东西。”"
+      },
+      "source": {
+        "tc": "—— 林語堂《生活的藝術》",
+        "sc": "—— 林语堂《生活的艺术》"
+      },
+      "commentary": {
+        "tc": "林語堂崇尚近乎人情的閒適與節制，提醒我們莫把生活逼向緊繃的極致。當代婚姻之所以容易在「全有或全無」之間窒息，正是因為忘了刪去非必要的期待——允許伴侶並肩取暖，也保有各自不必互相填滿的空間。",
+        "sc": "林语堂崇尚近乎人情的闲适与节制，提醒我们莫把生活逼向紧绷的极致。当代婚姻之所以容易在“全有或全无”之间窒息，正是因为忘了删去非必要的期待——允许伴侣并肩取暖，也保有各自不必互相填满的空间。"
+      }
+    },
+    "actionPromptEn": "Spend ten minutes tonight reviewing your current season together with your partner. Name one expectation you can temporarily set down this month and one small, realistic ritual—like a fifteen-minute screen-free walk—that you both have the bandwidth to protect.",
+    "actionPromptCn": {
+      "tc": "今晚花十分鐘和伴侶一起盤點你們當下的生活狀態。說出一項這個月可以暫時放下的高標準期待，再約定一個彼此真正有餘力守護的小儀式，比如每天十五分鐘不看手機的散步。",
+      "sc": "今晚花十分钟和伴侣一起盘点你们当下的生活状态。说出一项这个月可以暂时放下的高标准期待，再约定一个彼此真正有余力守护的小仪式，比如每天十五分钟不看手机的散步。"
+    }
+  },
+  {
+    "id": "not-just-friends",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
+    },
+    "categoryFilter": "INFIDELITY, TRUST & BETRAYAL RECOVERY",
+    "categoryEn": "INFIDELITY, TRUST & BETRAYAL RECOVERY",
+    "categoryCn": {
+      "tc": "背叛修復、信任重建與忠誠 /",
+      "sc": "背叛修复、信任重建与忠诚 /"
+    },
+    "durationEn": "DURATION: 5 MIN",
+    "durationCn": {
+      "tc": "時間：5分鐘",
+      "sc": "时间：5分钟"
+    },
+    "themeEn": "THEME: WALLS AND WINDOWS",
+    "themeCn": {
+      "tc": "主題：牆與窗",
+      "sc": "主题：墙与窗"
+    },
+    "titleLinesEn": [
+      "NOT JUST",
+      "FRIENDS"
+    ],
+    "titleFlatEn": "NOT \"Just Friends\"",
+    "titleCn": {
+      "tc": "不只是朋友",
+      "sc": "不只是朋友"
+    },
+    "authorLine": "Shirley P. Glass (2003)",
+    "quoteEn": "“When a friend knows more about your marriage than a spouse knows about your friendship, you have already reversed the healthy position of walls and windows.”",
+    "quoteCn": {
+      "tc": "“當一位朋友對你的婚姻所知，多過配偶對這段友誼所知，牆與窗的健康位置就已經被反轉了。”",
+      "sc": "“当一位朋友对你的婚姻所知，多过配偶对这段友谊所知，墙与窗的健康位置就已经被反转了。”"
+    },
+    "leadEn": "Betrayal rarely arrives as a stranger; it grows quietly inside the careless hospitality we offer to outsiders.",
+    "leadCn": {
+      "tc": "背叛很少以陌生人的面貌降臨，它在我們對外人敞開的漫不經心中悄然滋長。",
+      "sc": "背叛很少以陌生人的面貌降临，它在我们对外人敞开的漫不经心中悄然滋长。"
+    },
+    "thesisEn": "Emotional affairs often begin innocently, through shared confidences and workplace intimacies that quietly erode the partnership at home. Invisible boundaries slip when we share our vulnerabilities with an outsider while sealing off our inner lives from our spouse. Rebuilding trust requires a deliberate architectural shift: constructing protective walls around the outside connection while opening the windows of honesty back inside the home.",
+    "thesisCn": {
+      "tc": "情感外遇通常始於無辜的分享與職場親密感，它們悄然侵蝕了家中的伴侶關係。當我們向外人吐露脆弱卻對配偶封閉內心，無形的界線便開始失守。重建信任需要刻意的結構轉變：在外部連結周圍築牆，同時重新打開家中誠實的窗戶。",
+      "sc": "情感出轨通常始于无辜的分享与职场亲密感，它们悄然侵蚀了家中的伴侣关系。当我们将脆弱吐露给外人却对配偶封闭内心，无形的边界便开始失守。重建信任需要刻意的结构转变：在外部连接周围筑墙，同时重新打开家中诚实的窗户。"
+    },
+    "highlights": [
+      {
+        "num": "01",
+        "titleEn": "Reversing Walls and Windows",
+        "titleCn": {
+          "tc": "牆與窗的反轉",
+          "sc": "墙与窗的反转"
+        },
+        "conceptEn": "Healthy relationships keep protective walls toward the outside world and clear windows of vulnerability toward each other. Infidelity reverses this architecture, opening intimacy to an outsider while closing it at home.",
+        "plainEn": "Plain Explanation: Imagine your relationship as a house. Keeping windows open to your partner lets light in, while walls keep intruders out. An emotional affair means closing the blinds on your spouse and throwing open the living-room window to a stranger passing by.",
+        "plainCn": {
+          "tc": "白話解析：把親密關係想像成一棟房子。對伴侶敞開窗戶讓光線照進來，同時用牆壁把外人隔絕在外。情感外遇意味著對配偶拉上百葉窗，卻向路過的陌生人敞開客廳的窗戶。",
+          "sc": "白话解析：把亲密关系想象成一栋房子。对伴侣敞开窗户让光线照进来，同时用墙壁把外人隔绝在外。情感出轨意味着对配偶拉上百叶窗，却向路过的陌生人敞开客厅的窗户。"
+        }
+      },
+      {
+        "num": "02",
+        "titleEn": "The Myth of Just Friends",
+        "titleCn": {
+          "tc": "「只是朋友」的迷思",
+          "sc": "“只是朋友”的迷思"
+        },
+        "conceptEn": "Believing that platonic bonds are inherently safe blinds us to the gradual accumulation of shared secrets and physiological attachment. The slope is slippery precisely because it feels innocent at every step.",
+        "plainEn": "Plain Explanation: It is like walking on thin ice during an early thaw; each shared private joke feels weightless until the surface suddenly cracks beneath you both.",
+        "plainCn": {
+          "tc": "白話解析：這就像在初春薄冰上行走；每一個私密的玩笑都感覺輕盈無害，直到冰面突然在你們腳下碎裂。",
+          "sc": "白话解析：这就像在初春薄冰上行走；每一个私密的玩笑都感觉轻盈无害，直到冰面突然在你们脚下碎裂。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "Secrecy as the True Betrayal",
+        "titleCn": {
+          "tc": "祕密作為真正的背叛",
+          "sc": "秘密作为真正的背叛"
+        },
+        "conceptEn": "The moment you actively conceal a relationship from your partner, the dynamic shifts from innocent connection to covert attachment. Secrecy, more than any single kiss, is what relocates loyalty.",
+        "plainEn": "Plain Explanation: Friendship thrives in the sunlight of shared knowledge; if you would hesitate to tell your partner about the conversation, secrecy has already taken root.",
+        "plainCn": {
+          "tc": "白話解析：友誼在共享知情的陽光下成長；如果你向伴侶提起這段對話時會感到猶豫，祕密就已經扎根了。",
+          "sc": "白话解析：友谊在共享知情的阳光下成长；如果你向伴侣提起这段对话时会感到犹豫，秘密就已经扎根了。"
+        }
+      }
+    ],
+    "extraHighlights": [
+      {
+        "num": "04",
+        "titleEn": "Workplace and Online Danger Zones",
+        "titleCn": {
+          "tc": "職場與線上危險地帶",
+          "sc": "职场与线上危险地带"
+        },
+        "conceptEn": "Modern professional and digital spaces provide endless opportunities for simulated intimacy under the guise of convenience. Shared deadlines and late-night messages create greenhouse conditions for attachment.",
+        "plainEn": "Plain Explanation: Late-night messaging apps and collaborative projects act like greenhouse conditions, turning casual office rapport into high-intensity emotional dependencies.",
+        "plainCn": {
+          "tc": "白話解析：深夜的通訊軟體和合作專案就像溫室環境，將隨意的辦公室情誼轉化為高強度的情感依賴。",
+          "sc": "白话解析：深夜的通讯软件和合作项目就像温室环境，将随意的办公室情谊转化为高强度的情感依赖。"
+        }
+      },
+      {
+        "num": "05",
+        "titleEn": "The Comparison Trap",
+        "titleCn": {
+          "tc": "比較陷阱",
+          "sc": "比较陷阱"
+        },
+        "conceptEn": "Comparing the idealized, tension-free persona of an affair partner against the mundane exhaustion of a long-term spouse creates a false dichotomy. One relationship is all play; the other carries the bills.",
+        "plainEn": "Plain Explanation: It is the equivalent of comparing a vacation romance to paying electric bills in November; one is designed entirely for leisure while the other carries the weight of reality.",
+        "plainCn": {
+          "tc": "白話解析：這相當於把度假豔遇與十一月繳交電費進行比較；一個完全是為了休閒而存在，另一個則承載著現實的重量。",
+          "sc": "白话解析：这相当于把度假艳遇与十一月缴纳电费进行比较；一个完全是为了休闲而存在，另一个则承载着现实的重量。"
+        }
+      },
+      {
+        "num": "06",
+        "titleEn": "Extramarital Confidants",
+        "titleCn": {
+          "tc": "婚外知己",
+          "sc": "婚外知己"
+        },
+        "conceptEn": "Sourcing emotional validation from outside the marriage drains the relational bank account that belongs inside the partnership. Forbidden topics become the secret furniture of another room.",
+        "plainEn": "Plain Explanation: Siphoning your deepest fears and joys to an outsider is like sending your household income to a secret offshore account instead of paying your joint mortgage.",
+        "plainCn": {
+          "tc": "白話解析：把內心最深處的恐懼與喜悅傾訴給外人，就像把家用收入匯入神祕的海外帳戶，而不是拿去繳交共同房貸。",
+          "sc": "白话解析：把内心最深处的恐惧与喜悦倾诉给外人，就像把家用收入汇入神秘的海外账户，而不是拿去缴纳共同房贷。"
+        }
+      },
+      {
+        "num": "07",
+        "titleEn": "Reversing Architecture in Recovery",
+        "titleCn": {
+          "tc": "修復中的結構逆轉",
+          "sc": "修复中的结构逆转"
+        },
+        "conceptEn": "Healing demands total transparency, dismantling secrecy, and proving through sustained, predictable actions that the outside door is locked. The window must face home again.",
+        "plainEn": "Plain Explanation: Rebuilding trust is like turning the lights back on in a darkened house after a break-in; every corner must be visible until safety feels normal again.",
+        "plainCn": {
+          "tc": "白話解析：重建信任就像在發生闖入事件後重新打開黑暗屋子裡的燈；每個角落都必須清晰可見，直到安全感再次成為常態。",
+          "sc": "白话解析：重建信任就像在发生闯入事件后重新打开黑暗屋子里的灯；每个角落都必须清晰可见，直到安全感再次成为常态。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Rebuilding Without Voyeurism",
+        "titleCn": {
+          "tc": "不帶窺探欲的重建",
+          "sc": "不带窥探欲的重建"
+        },
+        "conceptEn": "The betrayed partner needs answers without sinking into obsessive surveillance, moving from compulsive inquiry toward authentic security. Transparency is not the same as endless interrogation.",
+        "plainEn": "Plain Explanation: Constantly checking your partner's phone is like scratching a healing wound; it satisfies an immediate itch while ensuring the scar never truly closes.",
+        "plainCn": {
+          "tc": "白話解析：不斷檢查伴侶的手機就像抓撓癒合中的傷口；它滿足了當下的發癢感，卻確保了傷口永遠無法真正結痂癒合。",
+          "sc": "白话解析：不断检查伴侣的手机就像抓挠愈合中的伤口；它满足了当下的发痒感，却确保了伤口永远无法真正结痂愈合。"
+        }
+      }
+    ],
+    "easternResonance": {
+      "quote": {
+        "tc": "「我與王國祥相知數十載，彼此守望相助，患難與共。」",
+        "sc": "“我与王国祥相知数十载，彼此守望相助，患难与共。”"
+      },
+      "source": {
+        "tc": "—— 白先勇《樹猶如此——紀念亡友王國祥君》",
+        "sc": "—— 白先勇《树犹如此——纪念亡友王国祥君》"
+      },
+      "commentary": {
+        "tc": "白先勇把最深的情感留在兩人共同抵禦風雨的日常裡，而不是交給一個更方便傾訴的外人。這與格拉斯「牆與窗」的倫理彼此呼應：真正的忠誠，是把脆弱的窗戶朝向伴侶，把牆壁留給外界。",
+        "sc": "白先勇把最深的情感留在两人共同抵御风雨的日常里，而不是交给一个更方便倾诉的外人。这与格拉斯“墙与窗”的伦理彼此呼应：真正的忠诚，是把脆弱的窗户朝向伴侣，把墙壁留给外界。"
+      }
+    },
+    "actionPromptEn": "Review your daily communications today: identify one conversation or thought you kept hidden from your partner, and reflect on what boundary needs adjusting.",
+    "actionPromptCn": {
+      "tc": "檢視你今天的日常交流：找出一個你對伴侶有所保留的對話或想法，並反思需要調整哪道界線。",
+      "sc": "检视你今天的日常交流：找出一个你对伴侣有所保留的对话或想法，并反思需要调整哪道边界。"
+    }
+  },
+  {
+    "id": "year-of-magical-thinking",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
+    },
+    "categoryFilter": "HEARTBREAK, GRIEF & LETTING GO",
+    "categoryEn": "HEARTBREAK, GRIEF & LETTING GO",
+    "categoryCn": {
+      "tc": "心碎療癒、哀傷與放手 /",
+      "sc": "心碎疗愈、哀伤与放手 /"
+    },
+    "durationEn": "DURATION: 5 MIN",
+    "durationCn": {
+      "tc": "時間：5分鐘",
+      "sc": "时间：5分钟"
+    },
+    "themeEn": "THEME: MAGICAL GRIEF",
+    "themeCn": {
+      "tc": "主題：哀傷與奇想",
+      "sc": "主题：哀伤与奇想"
+    },
+    "titleLinesEn": [
+      "THE YEAR OF",
+      "MAGICAL THINKING"
+    ],
+    "titleFlatEn": "The Year of Magical Thinking",
+    "titleCn": {
+      "tc": "奇想之年",
+      "sc": "奇想之年"
+    },
+    "authorLine": "Joan Didion (2005)",
+    "quoteEn": "“Life changes in the instant. The ordinary instant.”",
+    "quoteCn": {
+      "tc": "“生活在轉瞬間改變。在那個平凡無奇的瞬間。”",
+      "sc": "“生活在转瞬间改变。在那个平凡无奇的瞬间。”"
+    },
+    "leadEn": "Grief does not unfold in neat, predictable stages; it shatters our illusions of control in a single ordinary breath.",
+    "leadCn": {
+      "tc": "哀傷並非循規蹈矩地按部就班；它在一個平凡的呼吸之間，就粉碎了我們對掌控感的幻覺。",
+      "sc": "哀伤并非循规蹈矩地按部就班；它在一个平凡的呼吸之间，就粉碎了我们对掌控感的幻觉。"
+    },
+    "thesisEn": "When sudden loss upends our world, the mind rebels against finality through magical bargains and desperate loops of memory. Joan Didion's chronicle exposes how grief disrupts cognition, turning ordinary objects into shrines and medical facts into puzzles we hope to solve backward. We explore the distinction between intellectually knowing someone is gone and actually believing it in our bones.",
+    "thesisCn": {
+      "tc": "當突如其來的失落顛覆了我們的世界，心智便透過奇想的協議與記憶迴圈來對抗終局。瓊·狄迪恩的紀實揭示哀傷如何擾亂認知，將日常物件化作神殿，將醫療事實化作企圖逆轉的謎題。理智上知道某人離去，與骨子裡真正相信，中間隔著一整年。",
+      "sc": "当突如其来的失落颠覆了我们的世界，心智便通过奇想的协议与记忆循环来对抗终局。琼·狄迪恩的纪实揭示哀伤如何扰乱认知，将日常物件化作神殿，将医疗事实化作企图逆转的谜题。理智上知道某人离去，与骨子里真正相信，中间隔着一整年。"
+    },
+    "highlights": [
+      {
+        "num": "01",
+        "titleEn": "Life Changes in the Ordinary Instant",
+        "titleCn": {
+          "tc": "平凡瞬間裡的命運翻轉",
+          "sc": "平凡瞬间里的命运翻转"
+        },
+        "conceptEn": "Catastrophe rarely announces itself with drama; it arrives while we are buttering toast or setting down a glass. The ordinary instant is where love's architecture can collapse.",
+        "plainEn": "Plain Explanation: It is like driving down a familiar highway on a clear Tuesday afternoon when a sinkhole suddenly opens beneath your tires without warning.",
+        "plainCn": {
+          "tc": "白話解析：這就像在某個晴朗的星期二午後行駛於熟悉的公路上，毫無預警地，一個天坑突然在你的車輪底下裂開。",
+          "sc": "白话解析：这就像在某个晴朗的星期二下午行驶于熟悉的公路上，毫无预警地，一个天坑突然在你的车轮底下裂开。"
+        }
+      },
+      {
+        "num": "02",
+        "titleEn": "Magical Thinking and Bargains",
+        "titleCn": {
+          "tc": "奇想思維與心靈協議",
+          "sc": "奇想思维与心灵协议"
+        },
+        "conceptEn": "The grieving intellect creates secret conditions, believing that if we think correctly or refuse to discard shoes, the dead might still return. Magical thinking is not stupidity; it is the mind's last attempt to keep a door ajar.",
+        "plainEn": "Plain Explanation: Keeping your late partner's shoes because they might need them upon coming back is like holding an umbrella indoors, hoping your desperate gesture can somehow rewrite the weather.",
+        "plainCn": {
+          "tc": "白話解析：留著已故伴侶的鞋子因為他們回來時可能穿得到，就像在室內撐傘，企圖用絕望的舉動重寫天氣。",
+          "sc": "白话解析：留着已故伴侣的鞋子因为他们回来时可能穿得到，就像在室内撑伞，企图用绝望的举动重写天气。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "Grief as a Place Not a Stage",
+        "titleCn": {
+          "tc": "作為境地的哀傷而非階段",
+          "sc": "作为境地的哀伤而非阶段"
+        },
+        "conceptEn": "Mourning is not a linear checklist to be completed; it is an unfamiliar landscape where we must temporarily dwell and rebuild endurance. You do not graduate from grief; you learn its weather.",
+        "plainEn": "Plain Explanation: Grief is not a staircase you climb until you reach the top; it is more like an expansive wilderness where the weather shifts without warning.",
+        "plainCn": {
+          "tc": "白話解析：哀傷不是一條你爬到頂端的階梯；它更像是一片無垠的荒野，裡頭的天氣會毫無預警地轉變。",
+          "sc": "白话解析：哀伤不是一条你爬到顶端的阶梯；它更像是一片无垠的荒野，里头的天气会毫无预警地转变。"
+        }
+      }
+    ],
+    "extraHighlights": [
+      {
+        "num": "04",
+        "titleEn": "The Vortex of Memory",
+        "titleCn": {
+          "tc": "記憶的漩渦",
+          "sc": "记忆的漩涡"
+        },
+        "conceptEn": "Certain triggers drag us instantly back to specific flashpoints in the past, making time fold in upon itself without mercy. Didion called these sudden collapses of the present a vortex.",
+        "plainEn": "Plain Explanation: Hearing a random song or walking past a restaurant can instantly pull you underwater, as if the past five minutes never happened at all.",
+        "plainCn": {
+          "tc": "白話解析：聽到一首隨機的歌曲或走過一家餐館，能瞬間把你拉進水底，彷彿過去五分鐘根本不曾發生過。",
+          "sc": "白话解析：听到一首随机的歌曲或走过一家餐馆，能瞬间把你拉进水底，仿佛过去五分钟根本不曾发生过。"
+        }
+      },
+      {
+        "num": "05",
+        "titleEn": "Knowing Versus Believing",
+        "titleCn": {
+          "tc": "知道與相信的鴻溝",
+          "sc": "知道与相信的鸿沟"
+        },
+        "conceptEn": "The mind can recite medical certificates while deep down refusing to accept that the physical reality of the beloved has ended. Knowledge arrives years before belief.",
+        "plainEn": "Plain Explanation: It is like reading the expiration date on a carton of milk twice because your brain simply refuses to process that the milk is completely gone.",
+        "plainCn": {
+          "tc": "白話解析：這就像反覆讀著牛奶紙盒上的有效期限，因為你的大腦單純拒絕接受牛奶已經完全沒了的事實。",
+          "sc": "白话解析：这就像反复读着牛奶纸盒上的有效期限，因为你的大脑单纯拒绝接受牛奶已经完全没了的事实。"
+        }
+      },
+      {
+        "num": "06",
+        "titleEn": "The Body of Grief",
+        "titleCn": {
+          "tc": "哀傷的身體化反應",
+          "sc": "哀伤的身体化反应"
+        },
+        "conceptEn": "Grief is somatic: it manifests as physical exhaustion, insomnia, wandering focus, and a profound ache inside the cellular architecture. The body keeps this score too.",
+        "plainEn": "Plain Explanation: Grief weighs down your limbs like concrete; your body reacts to emotional devastation as if you have just survived a severe physical wreck.",
+        "plainCn": {
+          "tc": "白話解析：哀傷像水泥一樣把你的四肢往下拖；你的身體對情感上的毀滅作出的反應，就像你剛經歷了一場嚴重的肉體車禍。",
+          "sc": "白话解析：哀伤像水泥一样把你的四肢往下拖；你的身体对情感上的毁灭作出的反应，就像你刚经历了一场严重的肉体车祸。"
+        }
+      },
+      {
+        "num": "07",
+        "titleEn": "Keeping the Dead Alive",
+        "titleCn": {
+          "tc": "讓逝者在心中存活",
+          "sc": "让逝者在心中存活"
+        },
+        "conceptEn": "We preserve interior conversations with those we lost because letting go of the internal dialogue feels equivalent to a second abandonment. Objects and habits become the last remaining grammar of togetherness.",
+        "plainEn": "Plain Explanation: Continuing to talk out loud to someone who is gone is like keeping a candle lit in an empty room, offering warmth to a presence that still lives in your habits.",
+        "plainCn": {
+          "tc": "白話解析：繼續對著離去的人大聲說話，就像在空房間裡點著一根蠟燭，為那個仍然活在你習慣中的存在提供一絲溫暖。",
+          "sc": "白话解析：继续对着离去的人大声说话，就像在空房间里点着一根蜡烛，为那个仍然活在你习惯中的存在提供一丝温暖。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Mourning and the Return",
+        "titleCn": {
+          "tc": "哀悼與重返世界",
+          "sc": "哀悼与重返世界"
+        },
+        "conceptEn": "Eventually, mourning requires accepting the unalterable absence, stepping back into a fractured world without losing our tenderness. Return is not recovery; it is learning to walk with a changed body.",
+        "plainEn": "Plain Explanation: It is like learning to walk with a permanent limp; the landscape looks entirely different, yet you slowly find the strength to cross the street again.",
+        "plainCn": {
+          "tc": "白話解析：這就像學著帶著永久的跛態走路；風景看起來截然不同，但你終於慢慢找回了再次過馬路的力氣。",
+          "sc": "白话解析：这就像学着带着永久的跛态走路；风景看起来截然不同，但你终于慢慢找回了再次过马路的力气。"
+        }
+      }
+    ],
+    "easternResonance": {
+      "quote": {
+        "tc": "「十年生死兩茫茫，不思量，自難忘。」",
+        "sc": "“十年生死两茫茫，不思量，自难忘。”"
+      },
+      "source": {
+        "tc": "—— 蘇軾〈江城子·乙卯正月二十日夜記夢〉",
+        "sc": "—— 苏轼〈江城子·乙卯正月二十日夜记梦〉"
+      },
+      "commentary": {
+        "tc": "蘇軾在夢中見到亡妻，那種「縱使相逢應不識」的悲涼，道出了失去至親後最深沉的無力感。哀傷不是遺忘，而是學著在巨大的空缺中，把刻骨的記憶安放於日常的呼吸之間——這正是狄迪恩所謂的奇想：心智不肯立刻相信人已離去。",
+        "sc": "苏轼在梦中见到亡妻，那种“纵使相逢应不识”的悲凉，道出了失去至亲后最深沉的无力感。哀伤不是遗忘，而是学着在巨大的空缺中，把刻骨的记忆安放于日常的呼吸之间——这正是狄迪恩所谓的奇想：心智不肯立刻相信人已离去。"
+      }
+    },
+    "actionPromptEn": "Spend five minutes writing a short, unfiltered letter to someone or something you have lost, acknowledging one thing you are still struggling to release.",
+    "actionPromptCn": {
+      "tc": "花五分鐘時間，寫下一封給某個你所失去的人或事物的未過濾短信，承認一件你仍在掙扎著放下的事。",
+      "sc": "花五分钟时间，写下一封给某个你所失去的人或事物的未过滤短信，承认一件你仍在挣扎着放下的事。"
+    }
+  },
+  {
+    "id": "modern-romance",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
+    },
+    "categoryFilter": "DATING, CHOICE & MODERN ROMANCE",
+    "categoryEn": "DATING, CHOICE & MODERN ROMANCE",
+    "categoryCn": {
+      "tc": "約會心理、擇偶與現代親密 /",
+      "sc": "约会心理、择偶与现代亲密 /"
+    },
+    "durationEn": "DURATION: 5 MIN",
+    "durationCn": {
+      "tc": "時間：5分鐘",
+      "sc": "时间：5分钟"
+    },
+    "themeEn": "THEME: ENDLESS CHOICE",
+    "themeCn": {
+      "tc": "主題：尋覓與選擇",
+      "sc": "主题：寻觅与选择"
+    },
+    "titleLinesEn": [
+      "MODERN",
+      "ROMANCE"
+    ],
+    "titleFlatEn": "Modern Romance",
+    "titleCn": {
+      "tc": "現代羅曼史",
+      "sc": "现代罗曼史"
+    },
+    "authorLine": "Aziz Ansari & Eric Klinenberg (2015)",
+    "quoteEn": "“Today, people marry later than ever and spend years of their lives on a quest to find the perfect person, a soul mate.”",
+    "quoteCn": {
+      "tc": "“如今人們結婚更晚，並把生命中好幾年花在尋找那個完美的人——靈魂伴侶。”",
+      "sc": "“如今人们结婚更晚，并把生命中好几年花在寻找那个完美的人——灵魂伴侣。”"
+    },
+    "leadEn": "Endless digital options have turned courtship into an exhaustive hunt for perfection.",
+    "leadCn": {
+      "tc": "無窮的數位選項已將求愛變成一場對完美的疲憊追尋。",
+      "sc": "无穷的数字选项已将求爱变成一场对完美的疲惫追寻。"
+    },
+    "thesisEn": "We often mistake the ability to browse millions of potential partners for a higher chance of finding a lifelong match. By treating human connections as endlessly upgradeable commodities, we risk postponing real commitment indefinitely. Examining how technology transforms courtship allows us to recognize that lasting intimacy requires abandoning the illusion of a flawless alternative and choosing to invest in someone real.",
+    "thesisCn": {
+      "tc": "我們常將瀏覽數百萬潛在伴侶的能力，誤認為是找到終身伴侶機率的提升。當我們把人際連結視為可無限升級的商品時，便冒著無限期延遲真實承諾的風險。審視科技如何改變求愛過程，能讓我們明白，持久的親密關係需要捨棄完美替代品的幻覺，並選擇投入在真實的彼此身上。",
+      "sc": "我们常将浏览数百万潜在伴侣的能力，误认为是找到终身伴侣机率的提升。当我们把人际连结视为可无限升级的商品时，便冒着无限期延迟真实承诺的风险。审视科技如何改变求爱过程，能让我们明白，持久的亲密关系需要舍弃完美替代品的幻觉，并选择投入在真实的彼此身上。"
+    },
+    "highlights": [
+      {
+        "num": "01",
+        "titleEn": "The Paradox of Endless Romantic Choice",
+        "titleCn": {
+          "tc": "無盡浪漫選擇的悖論",
+          "sc": "无尽浪漫选择的悖论"
+        },
+        "conceptEn": "When the market offers infinite alternatives, the psychological cost of settling rises sharply, leaving us perpetually waiting for someone slightly better. More options do not guarantee more satisfaction.",
+        "plainEn": "Plain Explanation: Having a massive catalog of options makes us act like picky shoppers browsing an online store, forgetting that humans cannot be returned.",
+        "plainCn": {
+          "tc": "白話解析：擁有龐大的選項清單會讓我們像挑剔的網購族，卻忘了人類無法享有七天鑑賞期無條件退貨。",
+          "sc": "白话解析：拥有庞大的选项清单会让我们像挑剔的网购族，却忘了人类无法享有七天鉴赏期无条件退货。"
+        }
+      },
+      {
+        "num": "02",
+        "titleEn": "Texting as the New Courtship",
+        "titleCn": {
+          "tc": "簡訊作為新型態的求愛",
+          "sc": "短信作为新型态的求爱"
+        },
+        "conceptEn": "Digital messaging compresses tone and nuance into asynchronous bubbles, turning simple logistical coordination into high-stakes psychological chess. The delay itself becomes a verdict.",
+        "plainEn": "Plain Explanation: Waiting hours to decode a punctuation mark in a text message replaces the warmth of hearing someone stumble over their words in person.",
+        "plainCn": {
+          "tc": "白話解析：花幾小時去解讀簡訊裡的標點符號，取代了聽見某人當面結結巴巴說話時的真實溫度。",
+          "sc": "白话解析：花几小时去解读短信里的标点符号，取代了听见某人当面结结巴巴说话时的真实温度。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "Searching for Soulmates in a Searchable Sea",
+        "titleCn": {
+          "tc": "在可搜尋的汪洋中尋找靈魂伴侶",
+          "sc": "在可搜寻的汪洋中寻找灵魂伴侣"
+        },
+        "conceptEn": "We search for a pre-packaged soulmate rather than building mutual compatibility through messy, patient negotiation of shared lives. Discovery has replaced craft.",
+        "plainEn": "Plain Explanation: Treating partner selection like a filterable restaurant app blinds us to the fact that real partnership is a craft built over time.",
+        "plainCn": {
+          "tc": "白話解析：把挑伴侶當成使用可篩選的餐廳軟體，會讓我們忽略真正的夥伴關係是透過時間琢磨出來的手藝。",
+          "sc": "白话解析：把挑伴侣当成使用可筛选的餐厅软件，会让我们忽略真正的伙伴关系是透过时间琢磨出来的手艺。"
+        }
+      }
+    ],
+    "extraHighlights": [
+      {
+        "num": "04",
+        "titleEn": "What Older Generations Had That We Lost",
+        "titleCn": {
+          "tc": "上一代擁有而我們失去的結構",
+          "sc": "上一代拥有而我们失去的结构"
+        },
+        "conceptEn": "Slowing down courtship used to be enforced by social geography rather than personal discipline, naturally reducing the paralysis of choice. Nearby was once enough.",
+        "plainEn": "Plain Explanation: Limited options and localized social circles in the past forced people to commit and make things work instead of swiping away.",
+        "plainCn": {
+          "tc": "白話解析：過去受限於地理與社交圈，人們被迫去承諾並把關係經營下去，而不是隨手往右滑換掉對方。",
+          "sc": "白话解析：过去受限于地理与社交圈，人们被迫去承诺并把关系经营下去，而不是随手往右滑换掉对方。"
+        }
+      },
+      {
+        "num": "05",
+        "titleEn": "The Fear of Settling vs. The Cost of Hunting",
+        "titleCn": {
+          "tc": "害怕妥協與無止境尋找的代價",
+          "sc": "害怕妥协与无止境寻找的代价"
+        },
+        "conceptEn": "The terror of premature closure makes us blind to the quiet richness of ordinary, steady companionship that deepens with shared history. Hunting has a hidden bill.",
+        "plainEn": "Plain Explanation: Fearing we might miss out on a flashier match stops us from building a deep, steady fire with someone right in front of us.",
+        "plainCn": {
+          "tc": "白話解析：害怕錯過更閃亮的光點，使我們錯失了和眼前人慢慢煨熱、共同建立厚實陪伴的機會。",
+          "sc": "白话解析：害怕错过更闪亮的光点，使我们错失了和眼前人慢慢煨热、共同建立厚实陪伴的机会。"
+        }
+      },
+      {
+        "num": "06",
+        "titleEn": "Cross-Cultural Courtship Lessons",
+        "titleCn": {
+          "tc": "跨文化的求愛啟示",
+          "sc": "跨文化的求爱启示"
+        },
+        "conceptEn": "Global urban centers reveal that algorithmic dating culture is a universal modern experiment with distinct regional adaptations. Tokyo, Buenos Aires, and Paris all wrestle with the same phone.",
+        "plainEn": "Plain Explanation: From Tokyo to Buenos Aires, people grapple with the same digital loneliness despite entirely different local traditions.",
+        "plainCn": {
+          "tc": "白話解析：從東京到布宜諾斯艾利斯，儘管在地傳統大相逕庭，人們卻同樣掙扎於演算法帶來的數位孤獨感。",
+          "sc": "白话解析：从东京到布宜诺斯艾利斯，尽管在地传统大相径庭，人们却同样挣扎于算法带来的数字孤独感。"
+        }
+      },
+      {
+        "num": "07",
+        "titleEn": "From Browsing to Actually Meeting",
+        "titleCn": {
+          "tc": "從螢幕瀏覽到真實相會",
+          "sc": "从屏幕浏览到真实相会"
+        },
+        "conceptEn": "Digital profiles create a false sense of intimacy before a single word has been spoken in person, setting impossible standards for real dates. The movie in your head rarely survives the first coffee.",
+        "plainEn": "Plain Explanation: Texting for weeks builds an imaginary movie version of someone in your head that a real human being can never survive meeting.",
+        "plainCn": {
+          "tc": "白話解析：用文字聊天數週會在腦海中建立一個完美的虛擬主角，導致真實的真人見面往往難以達到幻想標準。",
+          "sc": "白话解析：用文字聊天数周会在脑海中建立一个完美的虚拟主角，导致真实的真人见面往往难以达到幻想标准。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Good Enough as a Mature Romantic Skill",
+        "titleCn": {
+          "tc": "將「夠好」視為成熟的親密能力",
+          "sc": "将“够好”视为成熟的亲密能力"
+        },
+        "conceptEn": "Recognizing that compatibility is constructed rather than discovered allows us to embrace satisficing over an exhausting, perpetual hunt. Good enough, tended over years, becomes extraordinary.",
+        "plainEn": "Plain Explanation: Real maturity is realizing that choosing a solid partner and growing together beats looking for a mythical unicorn forever.",
+        "plainCn": {
+          "tc": "白話解析：真正的成熟是明白選定一位踏實的夥伴並共同成長，遠勝過永遠在尋找那隻神話中的獨角獸。",
+          "sc": "白话解析：真正的成熟是明白选定一位踏实的伙伴并共同成长，远胜过永远在寻找那只神话中的独角兽。"
+        }
+      }
+    ],
+    "easternResonance": {
+      "quote": {
+        "tc": "「真正讓你喜歡一個人的，往往是喜歡跟他在一起時的自己。」",
+        "sc": "“真正让你喜欢一个人的，往往是喜欢跟他在一起时的自己。”"
+      },
+      "source": {
+        "tc": "—— 蔡康永（關於喜歡與相處的著名判斷）",
+        "sc": "—— 蔡康永（关于喜欢与相处的著名判断）"
+      },
+      "commentary": {
+        "tc": "數位擇偶常把人當成可篩選的規格。蔡康永把問題轉回來：你喜歡的，往往是那個人讓你成為的自己。這與安薩里、克里南伯格的社會學觀察彼此呼應——停止無盡瀏覽之後，親密才開始成為一場實作，而不只是一場搜尋。",
+        "sc": "数字择偶常把人当成可筛选的规格。蔡康永把问题转回来：你喜欢的，往往是那个人让你成为的自己。这与安萨里、克里南伯格的社会学观察彼此呼应——停止无尽浏览之后，亲密才开始成为一场实作，而不只是一场搜寻。"
+      }
+    },
+    "actionPromptEn": "Audit your messaging habits today: pick one conversation you have been stalling on and schedule an actual face-to-face meeting or a voice call.",
+    "actionPromptCn": {
+      "tc": "今天審視你的訊息習慣：挑一個你一直拖延回覆的對話，直接約個見面或通話。",
+      "sc": "今天审视你的讯息习惯：挑一个你一直拖延回复的对话，直接约个见面或通话。"
+    }
+  },
+  {
+    "id": "all-about-love",
+    "isDailyFree": false,
+    "topLabelEn": "ARCHIVE EDITION",
+    "topLabelCn": {
+      "tc": "典藏書目",
+      "sc": "典藏书目"
+    },
+    "categoryFilter": "PHILOSOPHY, SOCIOLOGY & SPIRITUALITY OF LOVE",
+    "categoryEn": "PHILOSOPHY, SOCIOLOGY & SPIRITUALITY OF LOVE",
+    "categoryCn": {
+      "tc": "愛的哲學、社會學與靈性 /",
+      "sc": "爱的哲学、社会学与灵性 /"
+    },
+    "durationEn": "DURATION: 5 MIN",
+    "durationCn": {
+      "tc": "時間：5分鐘",
+      "sc": "时间：5分钟"
+    },
+    "themeEn": "THEME: LOVE ETHICS",
+    "themeCn": {
+      "tc": "主題：實踐與正義",
+      "sc": "主题：实践与正义"
+    },
+    "titleLinesEn": [
+      "ALL ABOUT",
+      "LOVE"
+    ],
+    "titleFlatEn": "All About Love",
+    "titleCn": {
+      "tc": "關於愛的一切",
+      "sc": "关于爱的一切"
+    },
+    "authorLine": "bell hooks (2000)",
+    "quoteEn": "“To truly love we must learn to mix various ingredients—care, affection, recognition, respect, commitment, and trust, as well as honest and open communication.”",
+    "quoteCn": {
+      "tc": "“要真正地去愛，我們必須學會混合各種成分——關懷、情感、認可、尊重、承諾、信任，以及坦誠而開放的溝通。”",
+      "sc": "“要真正地去爱，我们必须学会混合各种成分——关怀、情感、认可、尊重、承诺、信任，以及坦诚而开放的沟通。”"
+    },
+    "leadEn": "Love is not merely a passing emotion, but an intentional daily practice of care and justice.",
+    "leadCn": {
+      "tc": "愛絕不僅是一種稍縱即逝的情感，而是刻意且日常的關懷與正義實踐。",
+      "sc": "爱绝不仅是一种稍纵即逝的情感，而是刻意且日常的关怀与正义实践。"
+    },
+    "thesisEn": "We live in a culture that bombards us with romantic fantasies while offering very little guidance on what love actually requires. Redefining love as an intentional will to nurture spiritual growth transforms it from a passive feeling into an active ethical stance. When we strip away patriarchal notions of domination and replace them with mutual care, honesty, and respect, love becomes the foundation for both personal healing and community.",
+    "thesisCn": {
+      "tc": "我們身處的文化充斥著浪漫幻想，卻鮮少提供關於愛實際需要的指引。將愛重新定義為滋養靈性成長的刻意意志，能把它從被動的情感轉化為積極的倫理立場。當我們剝除父權的支配觀念，並以相互關懷、誠實與尊重取而代之時，愛便成為個人療癒與共同生活的基石。",
+      "sc": "我们身处的文化充斥着浪漫幻想，却鲜少提供关于爱实际需要的指引。将爱重新定义为滋养灵性成长的刻意意志，能把它从被动的情感转化为积极的伦理立场。当我们剥除父权的支配观念，并以相互关怀、诚实与尊重取而代之时，爱便成为个人疗愈与共同生活的基石。"
+    },
+    "highlights": [
+      {
+        "num": "01",
+        "titleEn": "Love as Will and Practice, Not Mere Feeling",
+        "titleCn": {
+          "tc": "作為意志與實踐的愛，而非單純感覺",
+          "sc": "作为意志与实践的爱，而非单纯感觉"
+        },
+        "conceptEn": "By defining love as the will to extend oneself for spiritual growth, we accept that love is proven through consistent actions rather than passive emotion. Feeling infatuation is not the same as choosing to love.",
+        "plainEn": "Plain Explanation: Saying you love someone while causing them harm is a contradiction; true love requires deliberate, daily labor.",
+        "plainCn": {
+          "tc": "白話解析：嘴裡說愛卻同時傷害對方是個矛盾；真正的愛需要刻意且日復一日的付出力氣。",
+          "sc": "白话解析：嘴里说爱却同时伤害对方是个矛盾；真正的爱需要刻意且日复一日的付出力气。"
+        }
+      },
+      {
+        "num": "02",
+        "titleEn": "No Love Without Justice",
+        "titleCn": {
+          "tc": "沒有正義便沒有愛",
+          "sc": "没有正义便没有爱"
+        },
+        "conceptEn": "Love cannot coexist with domination, control, or emotional abuse, because oppression fundamentally destroys the safety required for intimacy. Hooks is blunt: where there is abuse, there is no love.",
+        "plainEn": "Plain Explanation: Where there is fear, domination, and coercion, love cannot breathe. Safety and mutual respect are non-negotiable prerequisites.",
+        "plainCn": {
+          "tc": "白話解析：在充滿恐懼、支配與脅迫的地方，愛無法呼吸。安全感與相互尊重是不可妥協的先決條件。",
+          "sc": "白话解析：在充满恐惧、支配与胁迫的地方，爱无法呼吸。安全感与相互尊重是不可妥协的先决条件。"
+        }
+      },
+      {
+        "num": "03",
+        "titleEn": "The Ingredients of Love",
+        "titleCn": {
+          "tc": "愛的組成元素",
+          "sc": "爱的组成元素"
+        },
+        "conceptEn": "Care, respect, recognition, commitment, trust, and open communication must be consciously blended together to sustain long-term connection. Missing one ingredient collapses the whole recipe.",
+        "plainEn": "Plain Explanation: Just like baking, love needs precise ingredients; missing respect or trust will cause the whole relationship to collapse.",
+        "plainCn": {
+          "tc": "白話解析：就像烘焙一樣，愛需要精確的配料；少了尊重或信任，整段關係的架構就會垮台。",
+          "sc": "白话解析：就像烘焙一样，爱需要精确的配料；少了尊重或信任，整段关系的架构就会垮台。"
+        }
+      }
+    ],
+    "extraHighlights": [
+      {
+        "num": "04",
+        "titleEn": "Better Schooled in Romance Than in Love",
+        "titleCn": {
+          "tc": "我們受過浪漫教育，卻缺乏愛的教育",
+          "sc": "我们受过浪漫教育，却缺乏爱的教育"
+        },
+        "conceptEn": "Pop culture teaches us how to fall head over heels, but remains silent on how to sustain, repair, and mature through relational conflict. We know the soundtrack; we do not know the work.",
+        "plainEn": "Plain Explanation: Movies focus entirely on the thrilling beginning, leaving us completely unequipped for the hard work of staying together.",
+        "plainCn": {
+          "tc": "白話解析：電影全神貫注於讓人盲目的開端，卻對如何維持、修補並在衝突中成長隻字不提。",
+          "sc": "白话解析：电影全神贯注于让人盲目的开端，却对如何维持、修补并在冲突中成长只字不提。"
+        }
+      },
+      {
+        "num": "05",
+        "titleEn": "Patriarchy and the Male Wound Around Love",
+        "titleCn": {
+          "tc": "父權體制與男性的愛之創傷",
+          "sc": "父权体制与男性的爱之创伤"
+        },
+        "conceptEn": "Patriarchal conditioning teaches boys that emotional detachment and control are strength, systematically blocking their capacity to give and receive care. Everyone pays this bill.",
+        "plainEn": "Plain Explanation: Society tells men that feelings are weakness, cutting them off from the very vulnerability required to truly love.",
+        "plainCn": {
+          "tc": "白話解析：社會告訴男性情感是種軟弱，切斷了他們展現真實脆弱、進而真正去愛的能力。",
+          "sc": "白话解析：社会告诉男性情感是种软弱，切断了他们展现真实脆弱、进而真正去爱的能力。"
+        }
+      },
+      {
+        "num": "06",
+        "titleEn": "Self-Love as the Root",
+        "titleCn": {
+          "tc": "以自愛為深根",
+          "sc": "以自爱为深根"
+        },
+        "conceptEn": "True self-love involves knowing ourselves, accepting our flaws, and actively nurturing our own spiritual growth before trying to love others. It is not vanity; it is the soil.",
+        "plainEn": "Plain Explanation: You cannot hand out water from an empty well. Learning to cherish yourself is the foundation for loving anyone else.",
+        "plainCn": {
+          "tc": "白話解析：枯竭的水井無法滋潤他人。學會珍視並接納自己，是一切對外去愛的基石。",
+          "sc": "白话解析：枯竭的水井无法滋润他人。学会珍视并接纳自己，是一切对外去爱的基石。"
+        }
+      },
+      {
+        "num": "07",
+        "titleEn": "Community and the Village of Love",
+        "titleCn": {
+          "tc": "社群與愛的村落",
+          "sc": "社群与爱的村落"
+        },
+        "conceptEn": "Love must extend beyond the nuclear couple into communal bonds, creating a collective web of support that holds individuals through hardship. One person cannot be a village.",
+        "plainEn": "Plain Explanation: Relying entirely on one romantic partner puts an impossible weight on them; we need a wider community of care.",
+        "plainCn": {
+          "tc": "白話解析：把所有期待全壓在一個浪漫伴侶身上會把對方壓垮；我們需要更廣闊的社群網絡共同分擔關懷。",
+          "sc": "白话解析：把所有期待全压在一个浪漫伴侣身上会把对方压垮；我们需要更广阔的社群网络共同分担关怀。"
+        }
+      },
+      {
+        "num": "08",
+        "titleEn": "Choosing Love as a Daily Act",
+        "titleCn": {
+          "tc": "將愛選為日常的親密行動",
+          "sc": "将爱选为日常的亲密行动"
+        },
+        "conceptEn": "Every time we choose compassion, honesty, and justice over control, we actively resist a culture built on domination and isolation. Love is a decision repeated in small hours.",
+        "plainEn": "Plain Explanation: Choosing to be loving and fair in your daily interactions is a quiet rebellion against a harsh, cynical world.",
+        "plainCn": {
+          "tc": "白話解析：在日常互動中選擇慈悲、誠實與公平，是對這個冷漠世界最溫柔的反叛。",
+          "sc": "白话解析：在日常互动中选择慈悲、诚实与公平，是对这个冷漠世界最温柔的反叛。"
+        }
+      }
+    ],
+    "easternResonance": {
+      "quote": {
+        "tc": "「愛欲是一種與他者的關係，它位於成就、表現與能力之外。」",
+        "sc": "“爱欲是一种与他者的关系，它位于成就、表现与能力之外。”"
+      },
+      "source": {
+        "tc": "—— 韓炳哲《愛欲之死》",
+        "sc": "—— 韩炳哲《爱欲之死》"
+      },
+      "commentary": {
+        "tc": "韓炳哲指出，當代把愛實證化為一種享受公式，他者便消失了。這與貝爾·胡克斯的洞見彼此呼應：愛不是現成的快樂消費，而是向對方的異質性敞開，並在承擔中被轉化。沒有正義與他者，就只剩下支配。",
+        "sc": "韩炳哲指出，当代把爱实证化为一种享受公式，他者便消失了。这与贝尔·胡克斯的洞见彼此呼应：爱不是现成的快乐消费，而是向对方的异质性敞开，并在承担中被转化。没有正义与他者，就只剩下支配。"
+      }
+    },
+    "actionPromptEn": "Identify one area in your relationships today where you have used control or fear instead of honest care, and replace it with a transparent, vulnerable conversation.",
+    "actionPromptCn": {
+      "tc": "找出你目前關係中，曾以控制或恐懼代替真誠關懷的一個地方，試著用坦白而脆弱的對話來取代它。",
+      "sc": "找出你目前关系中，曾以控制或恐惧代替真诚关怀的一个地方，试着用坦白而脆弱的对话来取代它。"
     }
   }
 ];
